@@ -1,0 +1,9 @@
+digraph "include/Small/Core" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bccf9de9576cfd43a752576f669ec707 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Small" fontname="Helvetica", fontsize="10", URL="dir_bccf9de9576cfd43a752576f669ec707.html"]
+  dir_28fb12f25184f93ef1999017e259726d [shape=box, label="Core", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_28fb12f25184f93ef1999017e259726d.html"];
+  }
+}

@@ -84,12 +84,65 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">SmallGameLibrary Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><p>A C++17 small game library relying on <a href="https://www.sfml-dev.org">SFML</a> 2.5.x, trying to abstract heavy work (settings up an application, scene management, scripting system, networking...)</p>
+<h1>Organization of an application</h1>
+<p>An <code>Application</code> will handle the window and scenes (through the <code>SceneManager</code>).</p>
+<p>User scenes must inherit from <code><a class="el" href="d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></code>, as in the following example:</p>
+<div class="fragment"><div class="line"><span class="keyword">class </span>MyScene : <span class="keyword">public</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div>
+<div class="line">{</div>
+<div class="line"><span class="keyword">public</span>:</div>
+<div class="line">    <span class="comment">// the identifier is a must-have argument, needed to identify a scene</span></div>
+<div class="line">    MyScene(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">int</span> test_argument) :</div>
+<div class="line">        <a class="code" href="d5/d52/namespacesgl.html">sgl</a>::Scene(id),</div>
+<div class="line">        m_argument(test_argument), m_octagon(80.f, 8)</div>
+<div class="line">    {</div>
+<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;MyScene::MyScene()&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"></div>
+<div class="line">        m_octagon.setFillColor(sf::Color::Green);</div>
+<div class="line">        m_octagon.setPosition(100, 100);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html#a4ac4f6c969852c41ee029af4e8795410">onEvent</a>(<span class="keyword">const</span> sf::Event&amp; event)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (event.type == sf::Event::KeyPressed)</div>
+<div class="line">            std::cout &lt;&lt; <span class="stringliteral">&quot;key pressed&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html#a0019a6978bfb09dd5aed4871b6087cf3">onUpdate</a>(<span class="keyword">const</span> sf::Time, <a class="code" href="de/dd2/classsgl_1_1SceneManager.html">sgl::SceneManager</a>&amp; scm)</div>
+<div class="line">    {}</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html#a51b78c80326e4b32063579ac7d6f1a96">onRender</a>(sf::RenderTarget&amp; screen)</div>
+<div class="line">    {</div>
+<div class="line">        screen.draw(m_octagon);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html#a3e67bd331054a59dd4876658a6c4f2bc">onQuit</a>()</div>
+<div class="line">    {}</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">private</span>:</div>
+<div class="line">    <span class="keywordtype">int</span> m_argument;</div>
+<div class="line">    sf::CircleShape m_octagon;</div>
+<div class="line">};</div>
+</div><!-- fragment --><p>The methods <code>onXXX</code> can be not implemented, by default they won't do anything.</p>
+<p>The call order is:</p><ul>
+<li>constructor</li>
+<li>game loop<ul>
+<li>event</li>
+<li>update</li>
+<li>render</li>
+</ul>
+</li>
+<li>quit <hr/>
+</li>
+</ul>
+<p>Each scene has a <code>State</code> handled by the <code>SceneManager</code>, default state is <code>Stopped</code> (not rendered, not updated).</p>
+<p>Only one scene at a time can be in <code>Running</code> state, it will be the first one to be rendered and updated, then the <code>Idle</code> scenes will be rendered and updated. This is useful to implement a widgets layer for example. Scenes can be manually stopped (if you don't want to run your inventory and your fighting system at the same time, since both will receive events). </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 6 2020 09:59:23 for SmallGameLibrary by
+    <li class="footer">Generated on Mon Apr 6 2020 15:37:21 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -3,6 +3,7 @@ digraph "sgl::Application"
  // INTERACTIVE_SVG=YES
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
   Node1 [label="sgl::Application",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_sceneManager" ,fontname="Helvetica"];
   Node2 [label="sgl::SceneManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd2/classsgl_1_1SceneManager.html",tooltip="Scene manager, in charge of creating, handling and destroying scenes. "];
@@ -19,4 +20,18 @@ digraph "sgl::Application"
   Node8 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::unique_ptr\<\l sgl::Scene \> \>" ,fontname="Helvetica"];
   Node8 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
   Node7 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_profiler" ,fontname="Helvetica"];
+  Node9 [label="sgl::internal::Profiler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d13/classsgl_1_1internal_1_1Profiler.html",tooltip="Profiler used to display the time spent in each section of the application. "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _entries" ,fontname="Helvetica"];
+  Node10 [label="std::array\< sgl::internal\l::Profiler::Entry, _bufferSize \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node11 [label="sgl::internal::Profiler\l::Entry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html"];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _stages" ,fontname="Helvetica"];
+  Node12 [label="std::array\< sgl::internal\l::Profiler::Scope, _StageCount \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node13 [label="sgl::internal::Profiler\l::Scope",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html"];
+  Node14 -> Node12 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< sgl::internal::Profiler\l::Scope, _StageCount \>" ,fontname="Helvetica"];
+  Node14 [label="std::array\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
+  Node7 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node14 -> Node10 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< sgl::internal::Profiler\l::Entry, _bufferSize \>" ,fontname="Helvetica"];
 }

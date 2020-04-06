@@ -8,7 +8,9 @@ digraph "include/Small" {
     graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bccf9de9576cfd43a752576f669ec707.html"];
     dir_bccf9de9576cfd43a752576f669ec707 [shape=plaintext label="Small"];
     dir_28fb12f25184f93ef1999017e259726d [shape=box label="Core" color="black" fillcolor="white" style="filled" URL="dir_28fb12f25184f93ef1999017e259726d.html"];
+    dir_7f4e8556346902d5437514d20633b51f [shape=box label="Debug" color="black" fillcolor="white" style="filled" URL="dir_7f4e8556346902d5437514d20633b51f.html"];
   }
   }
   dir_bccf9de9576cfd43a752576f669ec707->dir_28fb12f25184f93ef1999017e259726d [headlabel="1", labeldistance=1.5 headhref="dir_000001_000002.html"];
+  dir_28fb12f25184f93ef1999017e259726d->dir_7f4e8556346902d5437514d20633b51f [headlabel="1", labeldistance=1.5 headhref="dir_000002_000003.html"];
 }

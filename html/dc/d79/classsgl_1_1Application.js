@@ -14,10 +14,9 @@ var classsgl_1_1Application =
     [ "setVSync", "dc/d79/classsgl_1_1Application.html#a5a7016f3c36634ba05028294df3f1ed5", null ],
     [ "m_clock", "dc/d79/classsgl_1_1Application.html#a477319eb78fe738e56df1931223d9429", null ],
     [ "m_debugKey", "dc/d79/classsgl_1_1Application.html#afc499fe37945c274033580ba7a7e70ce", null ],
-    [ "m_sampleRate", "dc/d79/classsgl_1_1Application.html#a8c92b6f2229f084c7380be8442b4cf3a", null ],
+    [ "m_profiler", "dc/d79/classsgl_1_1Application.html#ae6283086d429f12cae8d73bd269fd4ba", null ],
     [ "m_sceneManager", "dc/d79/classsgl_1_1Application.html#ab74babf7a68a0478b38650e99dcb0438", null ],
     [ "m_screen", "dc/d79/classsgl_1_1Application.html#a43e672f2bd8f0f7f15aa23e245fe3d86", null ],
     [ "m_showDebug", "dc/d79/classsgl_1_1Application.html#ab49ff572b0ffeca21aa2ea0cc25c4f4a", null ],
-    [ "m_time", "dc/d79/classsgl_1_1Application.html#a8fa701bbd6e9f651bd0689448fce2f34", null ],
     [ "m_wireframe", "dc/d79/classsgl_1_1Application.html#a68cef8842504087c1c0fc0f60b7afeab", null ]
 ];

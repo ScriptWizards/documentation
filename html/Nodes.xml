@@ -18,6 +18,10 @@
             <Path>d5/d52/namespacesgl.html</Path>
             <Subnodes>
              <Node>
+              <Name>internal</Name>
+              <Path>d4/d3b/namespacesgl_1_1internal.html</Path>
+             </Node>
+             <Node>
               <Name>Style</Name>
               <Path>db/dd7/namespacesgl_1_1Style.html</Path>
              </Node>
@@ -32,6 +36,10 @@
            <Node>
             <Name>All</Name>
             <Path>namespacemembers.html</Path>
+           </Node>
+           <Node>
+            <Name>Functions</Name>
+            <Path>namespacemembers_func.html</Path>
            </Node>
            <Node>
             <Name>Variables</Name>
@@ -57,6 +65,167 @@
             <Name>sgl</Name>
             <Path>d5/d52/namespacesgl.html</Path>
             <Subnodes>
+             <Node>
+              <Name>internal</Name>
+              <Path>d4/d3b/namespacesgl_1_1internal.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Profiler</Name>
+                <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Entry</Name>
+                  <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>_frameEnd</Name>
+                    <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                    <Anchor>a57d2492d0980a823fd1a2c21a11ee347</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_frameStart</Name>
+                    <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                    <Anchor>a4448c4c10e9564541a7c6da7ddc261f1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_stages</Name>
+                    <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                    <Anchor>acaf2a5f12c73ebee3622a1c8c1c25870</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Scope</Name>
+                  <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>_end</Name>
+                    <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                    <Anchor>ab196fedebf4c4fa4b8473c7469db3f5c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_finalized</Name>
+                    <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                    <Anchor>ad1b84bc620b1e88c8bbd052885d9c74d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_level</Name>
+                    <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                    <Anchor>a5fae569d9b59fa3a4fd62a827771b449</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_start</Name>
+                    <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                    <Anchor>aca34cb8ac57ed19e9e4fc3c5f6dfb225</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Stage</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>a3abd355979ddcc6265957aa08f23099e</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>Input</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea5e5d30080d6e96ef8c9539743e50dacb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Update</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099eae6b21a6116fa82af185ea705decf2271</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Plot</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea4583eeca4792d006e609deffcc828c1b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>NewFrame</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099eab344107222843a11660a98c9f5a92a15</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DebugWindow</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea21beeb8a7815125ee6fa9bb9229f976f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ProfilerWindow</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea2390bd3b95ec05b727c6e95070ff629c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ImGuiRender</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea7cb6fbf818d5c33a34a7386b32ffb186</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SFML</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea975b77f6281fc397f8f620269fcbc212</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SwapWindow</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea376bc1698465c96eb52f86c520061e70</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Rendering</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099eab70dd8a11353227568dc4d25a6ee45c0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_StageCount</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Anchor>a3abd355979ddcc6265957aa08f23099ea1c16095d46c6f6436b98b1359a1db1f0</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Begin</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>a9dcf36866bd36eeb9b8d75a8577500ed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>End</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>ac16da545dac041a53aa8c569ad50ed1f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Frame</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>a119c9440476999a98ec6c0fecdde98d9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetCurrentEntryIndex</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>ab17d115b2974cdaf7bc5d12a983e06d8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_bufferSize</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>a31145831a434790377cada3ec50bd689</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_currentEntry</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>a3771b344b41b49674cceecd9d17e79c8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_currentLevel</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>ac69dea5e786cefd82a7a3456651a9400</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_entries</Name>
+                  <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                  <Anchor>a42379cfde6b0dc0e70397f719b32b5ff</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>Application</Name>
               <Path>dc/d79/classsgl_1_1Application.html</Path>
@@ -132,9 +301,9 @@
                 <Anchor>afc499fe37945c274033580ba7a7e70ce</Anchor>
                </Node>
                <Node>
-                <Name>m_sampleRate</Name>
+                <Name>m_profiler</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
-                <Anchor>a8c92b6f2229f084c7380be8442b4cf3a</Anchor>
+                <Anchor>ae6283086d429f12cae8d73bd269fd4ba</Anchor>
                </Node>
                <Node>
                 <Name>m_sceneManager</Name>
@@ -150,11 +319,6 @@
                 <Name>m_showDebug</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
                 <Anchor>ab49ff572b0ffeca21aa2ea0cc25c4f4a</Anchor>
-               </Node>
-               <Node>
-                <Name>m_time</Name>
-                <Path>dc/d79/classsgl_1_1Application.html</Path>
-                <Anchor>a8fa701bbd6e9f651bd0689448fce2f34</Anchor>
                </Node>
                <Node>
                 <Name>m_wireframe</Name>
@@ -341,6 +505,52 @@
                </Node>
               </Subnodes>
              </Node>
+             <Node>
+              <Name>SharedLibrary</Name>
+              <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>SharedLibrary</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>a99bc0213d0cfa4bdcd015631e6568e12</Anchor>
+               </Node>
+               <Node>
+                <Name>SharedLibrary</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>acd1c72d0e43e56ad84319d9deb16f1b0</Anchor>
+               </Node>
+               <Node>
+                <Name>~SharedLibrary</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>a6b4e1b2be2ea885c1a1d9a0493a1c88a</Anchor>
+               </Node>
+               <Node>
+                <Name>get</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>a5762db12584436608b9dbe6194ed7216</Anchor>
+               </Node>
+               <Node>
+                <Name>load</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>aefc3ca51f5a6bc06a989676e80f02063</Anchor>
+               </Node>
+               <Node>
+                <Name>unload</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>a531dd1894025f71e17461987527e18b8</Anchor>
+               </Node>
+               <Node>
+                <Name>m_loaded</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>a041d8ae308c51ba7d2c70bbc44d1a681</Anchor>
+               </Node>
+               <Node>
+                <Name>m_path</Name>
+                <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                <Anchor>aa9b1dcd9627b8d056edea1428821c9ee</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
             </Subnodes>
            </Node>
           </Subnodes>
@@ -364,6 +574,14 @@
            <Node>
             <Name>Variables</Name>
             <Path>functions_vars.html</Path>
+           </Node>
+           <Node>
+            <Name>Enumerations</Name>
+            <Path>functions_enum.html</Path>
+           </Node>
+           <Node>
+            <Name>Enumerator</Name>
+            <Path>functions_eval.html</Path>
            </Node>
            <Node>
             <Name>Related Functions</Name>
@@ -513,9 +731,9 @@
                       <Anchor>afc499fe37945c274033580ba7a7e70ce</Anchor>
                      </Node>
                      <Node>
-                      <Name>m_sampleRate</Name>
+                      <Name>m_profiler</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
-                      <Anchor>a8c92b6f2229f084c7380be8442b4cf3a</Anchor>
+                      <Anchor>ae6283086d429f12cae8d73bd269fd4ba</Anchor>
                      </Node>
                      <Node>
                       <Name>m_sceneManager</Name>
@@ -531,11 +749,6 @@
                       <Name>m_showDebug</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
                       <Anchor>ab49ff572b0ffeca21aa2ea0cc25c4f4a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>m_time</Name>
-                      <Path>dc/d79/classsgl_1_1Application.html</Path>
-                      <Anchor>a8fa701bbd6e9f651bd0689448fce2f34</Anchor>
                      </Node>
                      <Node>
                       <Name>m_wireframe</Name>
@@ -740,8 +953,288 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>Debug</Name>
+                <Path>dir_7f4e8556346902d5437514d20633b51f.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Profiler.hpp</Name>
+                  <Path>dc/dbc/Profiler_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Profiler</Name>
+                    <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Entry</Name>
+                      <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>_frameEnd</Name>
+                        <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                        <Anchor>a57d2492d0980a823fd1a2c21a11ee347</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_frameStart</Name>
+                        <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                        <Anchor>a4448c4c10e9564541a7c6da7ddc261f1</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_stages</Name>
+                        <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                        <Anchor>acaf2a5f12c73ebee3622a1c8c1c25870</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>Scope</Name>
+                      <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>_end</Name>
+                        <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                        <Anchor>ab196fedebf4c4fa4b8473c7469db3f5c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_finalized</Name>
+                        <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                        <Anchor>ad1b84bc620b1e88c8bbd052885d9c74d</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_level</Name>
+                        <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                        <Anchor>a5fae569d9b59fa3a4fd62a827771b449</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_start</Name>
+                        <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                        <Anchor>aca34cb8ac57ed19e9e4fc3c5f6dfb225</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>Stage</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>a3abd355979ddcc6265957aa08f23099e</Anchor>
+                      <Subnodes>
+                       <Node>
+                        <Name>Input</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea5e5d30080d6e96ef8c9539743e50dacb</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Update</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099eae6b21a6116fa82af185ea705decf2271</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Plot</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea4583eeca4792d006e609deffcc828c1b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>NewFrame</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099eab344107222843a11660a98c9f5a92a15</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DebugWindow</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea21beeb8a7815125ee6fa9bb9229f976f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ProfilerWindow</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea2390bd3b95ec05b727c6e95070ff629c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ImGuiRender</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea7cb6fbf818d5c33a34a7386b32ffb186</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>SFML</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea975b77f6281fc397f8f620269fcbc212</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>SwapWindow</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea376bc1698465c96eb52f86c520061e70</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Rendering</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099eab70dd8a11353227568dc4d25a6ee45c0</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_StageCount</Name>
+                        <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                        <Anchor>a3abd355979ddcc6265957aa08f23099ea1c16095d46c6f6436b98b1359a1db1f0</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>Begin</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>a9dcf36866bd36eeb9b8d75a8577500ed</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>End</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>ac16da545dac041a53aa8c569ad50ed1f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Frame</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>a119c9440476999a98ec6c0fecdde98d9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GetCurrentEntryIndex</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>ab17d115b2974cdaf7bc5d12a983e06d8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_bufferSize</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>a31145831a434790377cada3ec50bd689</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_currentEntry</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>a3771b344b41b49674cceecd9d17e79c8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_currentLevel</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>ac69dea5e786cefd82a7a3456651a9400</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_entries</Name>
+                      <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+                      <Anchor>a42379cfde6b0dc0e70397f719b32b5ff</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Scope</Name>
+                    <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>_end</Name>
+                      <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                      <Anchor>ab196fedebf4c4fa4b8473c7469db3f5c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_finalized</Name>
+                      <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                      <Anchor>ad1b84bc620b1e88c8bbd052885d9c74d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_level</Name>
+                      <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                      <Anchor>a5fae569d9b59fa3a4fd62a827771b449</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_start</Name>
+                      <Path>d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html</Path>
+                      <Anchor>aca34cb8ac57ed19e9e4fc3c5f6dfb225</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Entry</Name>
+                    <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>_frameEnd</Name>
+                      <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                      <Anchor>a57d2492d0980a823fd1a2c21a11ee347</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_frameStart</Name>
+                      <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                      <Anchor>a4448c4c10e9564541a7c6da7ddc261f1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_stages</Name>
+                      <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+                      <Anchor>acaf2a5f12c73ebee3622a1c8c1c25870</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>ProfilerValueGetter</Name>
+                    <Path>dc/dbc/Profiler_8hpp.html</Path>
+                    <Anchor>ae8155845a8f6a943ddec320671f83f4d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>stageNames</Name>
+                    <Path>dc/dbc/Profiler_8hpp.html</Path>
+                    <Anchor>ad6ea3c95963c52605a471fac59b2cf67</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>All.hpp</Name>
                 <Path>da/d41/All_8hpp.html</Path>
+               </Node>
+               <Node>
+                <Name>Platform.hpp</Name>
+                <Path>d5/d40/Platform_8hpp.html</Path>
+               </Node>
+               <Node>
+                <Name>SharedLibrary.hpp</Name>
+                <Path>d4/da5/SharedLibrary_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>SharedLibrary</Name>
+                  <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>SharedLibrary</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>a99bc0213d0cfa4bdcd015631e6568e12</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SharedLibrary</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>acd1c72d0e43e56ad84319d9deb16f1b0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~SharedLibrary</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>a6b4e1b2be2ea885c1a1d9a0493a1c88a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>get</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>a5762db12584436608b9dbe6194ed7216</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>load</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>aefc3ca51f5a6bc06a989676e80f02063</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>unload</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>a531dd1894025f71e17461987527e18b8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>m_loaded</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>a041d8ae308c51ba7d2c70bbc44d1a681</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>m_path</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Anchor>aa9b1dcd9627b8d056edea1428821c9ee</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>

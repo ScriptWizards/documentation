@@ -40,5 +40,22 @@ digraph "include/Small/All.hpp"
   Node10 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node15 [label="SceneManager.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node2 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node16 [label="Application.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 [label="Small/Debug/Profiler.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dbc/Profiler_8hpp.html",tooltip="Profiler from https://github.com/bwrsandman/imgui-flame-graph/ (example/main.cpp), updated for the project needs. "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="array",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="chrono",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="imgui/imgui_widget\l_flamegraph.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Application.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Small/SharedLibrary.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da5/SharedLibrary_8hpp.html",tooltip="Utility to easily load shared libraries and retrieve their functions. "];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Small/Platform.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d40/Platform_8hpp.html"];
+  Node21 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="system_error",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node21 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }

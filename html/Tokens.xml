@@ -828,6 +828,114 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sgl::Graphics</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>sgl::Graphics</Scope>
+    </TokenIdentifier>
+    <Path>d7/d05/namespacesgl_1_1Graphics.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Graphics::Tilemap</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Abstract>A tilemap wrapper. </Abstract>
+    <DeclaredIn>Tilemap.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Tilemap</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>a87f76c6d5ac216923c79ce184d7c247b</Anchor>
+    <Abstract>Construct a new Tilemap object. </Abstract>
+    <DeclaredIn>Tilemap.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>build</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>a40bbae17c696d71afb50e07064fe7605</Anchor>
+    <Abstract>Build the vertex array from the tileset and. </Abstract>
+    <DeclaredIn>Tilemap.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>update</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>ad77d98dfb72173ac537cc062ae970829</Anchor>
+    <Abstract>Update a tile in the vertex array. </Abstract>
+    <DeclaredIn>Tilemap.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>a71fa3f3c8efbe595acae3618db028d23</Anchor>
+    <Abstract>Function in charge of drawing our vertex array, using the SFML API. </Abstract>
+    <DeclaredIn>Tilemap.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_mapSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>a586c26eb100ff4d6a9f77d3f2d86c149</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_tileSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>ab1e3d1f73d26d34560fbc340390c2144</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_vertices</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>a64cfaec194b432c5b08c6c191a2afe78</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_tileset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>a9b0ce7c8a6f6c457bfb82b16a3ba2771</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::internal</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>

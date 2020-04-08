@@ -1,5 +1,6 @@
 var namespacesgl =
 [
+    [ "Graphics", "d7/d05/namespacesgl_1_1Graphics.html", "d7/d05/namespacesgl_1_1Graphics" ],
     [ "internal", "d4/d3b/namespacesgl_1_1internal.html", "d4/d3b/namespacesgl_1_1internal" ],
     [ "Application", "dc/d79/classsgl_1_1Application.html", "dc/d79/classsgl_1_1Application" ],
     [ "Scene", "d8/dcf/classsgl_1_1Scene.html", "d8/dcf/classsgl_1_1Scene" ],

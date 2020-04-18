@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('db/de8/Scene_8hpp_source.html','../../
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * @file Scene.hpp</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * @author Alexandre Plateau (lexplt.dev@gmail.com)</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * @brief The base scene class and the scene states are defined here</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * @version 0.1</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * @version 0.2</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * @date 2020-04-05</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * </span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * @copyright Copyright (c) 2020</span></div>
@@ -124,7 +124,7 @@ $(document).ready(function(){initNavTree('db/de8/Scene_8hpp_source.html','../../
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">    /**</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">     * @brief </span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">     * @brief Base class which every user scene must derive from</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">     * </span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">     */</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html">   39</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d8/dcf/classsgl_1_1Scene.html">Scene</a></div>
@@ -155,49 +155,49 @@ $(document).ready(function(){initNavTree('db/de8/Scene_8hpp_source.html','../../
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">         * @brief Scene updating method, called after having handled the events</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">         * </span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">         * @param dt </span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">         * @param scm The scene manager itself, to be able to change the current scene</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a0019a6978bfb09dd5aed4871b6087cf3">onUpdate</a>(<span class="keyword">const</span> sf::Time dt, <a class="code" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a>&amp; scm);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">         * @brief Rendering method, called after having updated the scene</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">         * @param screen </span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a51b78c80326e4b32063579ac7d6f1a96">onRender</a>(sf::RenderTarget&amp; screen);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">         * @brief Method called when the application is closing</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a3e67bd331054a59dd4876658a6c4f2bc">onQuit</a>();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">         * @brief Set the State object</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">         * @param state </span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a6ecd24659182031862918822f91bdfe9">setState</a>(<a class="code" href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bf">State</a> state);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">         * @brief Get the Id of the scene</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">         * @return const int </span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#af351df3300db7d62ab1bf135d6901f42">getId</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">         * @brief Get the State of the scene</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">         * @return const State </span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code" href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bf">State</a> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a48073e29649b4b85d5d63e44b66a983f">getState</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html#a284464b0561a6f2915f04b0245b987f0">  105</a></span>&#160;        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html#a998f7fb269b92ee39c1ca20d39cbf1a0">  108</a></span>&#160;        <a class="code" href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bf">State</a> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a998f7fb269b92ee39c1ca20d39cbf1a0">m_state</a>;   <span class="comment">//&lt; The state of the scene (running, idle, stopped)</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html#a1b75aebba6aa314751706cc970f3cb8f">  109</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a1b75aebba6aa314751706cc970f3cb8f">m_id</a>;  <span class="comment">//&lt; The unique identifier of the scene</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#aecd66edbd1e2e42c5e131f7d4f652cbc">onUpdate</a>(<span class="keyword">const</span> sf::Time dt);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">         * @brief Rendering method, called after having updated the scene</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">         * @param screen </span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a51b78c80326e4b32063579ac7d6f1a96">onRender</a>(sf::RenderTarget&amp; screen);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">         * @brief Method called when the application is closing</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a3e67bd331054a59dd4876658a6c4f2bc">onQuit</a>();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">         * @brief Set the State object</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">         * @param state </span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#ac9f2b38849bc95bfc92b8b601fd9d8b3">setState</a>(<a class="code" href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bf">State</a> state) <span class="keyword">final</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">         * @brief Get the Id of the scene</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">         * @return const int </span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keyword">inline</span> <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a92c487f7d03a9414204dc444cb5ecad1">getId</a>() <span class="keyword">const</span> <span class="keyword">final</span>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">         * @brief Get the State of the scene</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">         * @return const State </span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keyword">inline</span> <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bf">State</a> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#ae24bdf34dbc8d5fa698ab51c013652c6">getState</a>() <span class="keyword">const</span> <span class="keyword">final</span>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html#a284464b0561a6f2915f04b0245b987f0">  104</a></span>&#160;        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html#a998f7fb269b92ee39c1ca20d39cbf1a0">  107</a></span>&#160;        <a class="code" href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bf">State</a> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a998f7fb269b92ee39c1ca20d39cbf1a0">m_state</a>;   <span class="comment">//&lt; The state of the scene (running, idle, stopped)</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html#a1b75aebba6aa314751706cc970f3cb8f">  108</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a1b75aebba6aa314751706cc970f3cb8f">m_id</a>;  <span class="comment">//&lt; The unique identifier of the scene</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../d8/dcf/classsgl_1_1Scene.html#a19c7ee884fa72d1d83ea5ced893aebfc">  109</a></span>&#160;        <a class="code" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a>* <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html#a19c7ee884fa72d1d83ea5ced893aebfc">m_sceneManager</a>;  <span class="comment">//&lt; The SceneManager to be able to change active scene</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    };</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
@@ -206,29 +206,30 @@ $(document).ready(function(){initNavTree('db/de8/Scene_8hpp_source.html','../../
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="namespacesgl_html_a8483720809e42bf8802280383c24f7bfa5bda814c4aedb126839228f1a3d92f09"><div class="ttname"><a href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bfa5bda814c4aedb126839228f1a3d92f09">sgl::State::Running</a></div></div>
 <div class="ttc" id="classsgl_1_1Scene_html_a51b78c80326e4b32063579ac7d6f1a96"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a51b78c80326e4b32063579ac7d6f1a96">sgl::Scene::onRender</a></div><div class="ttdeci">virtual void onRender(sf::RenderTarget &amp;screen)</div><div class="ttdoc">Rendering method, called after having updated the scene. </div></div>
-<div class="ttc" id="classsgl_1_1Scene_html_a1b75aebba6aa314751706cc970f3cb8f"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a1b75aebba6aa314751706cc970f3cb8f">sgl::Scene::m_id</a></div><div class="ttdeci">const int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00109">Scene.hpp:109</a></div></div>
-<div class="ttc" id="classsgl_1_1Scene_html_a48073e29649b4b85d5d63e44b66a983f"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a48073e29649b4b85d5d63e44b66a983f">sgl::Scene::getState</a></div><div class="ttdeci">const State getState() const </div><div class="ttdoc">Get the State of the scene. </div></div>
+<div class="ttc" id="classsgl_1_1Scene_html_a1b75aebba6aa314751706cc970f3cb8f"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a1b75aebba6aa314751706cc970f3cb8f">sgl::Scene::m_id</a></div><div class="ttdeci">const int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00108">Scene.hpp:108</a></div></div>
 <div class="ttc" id="namespacesgl_html_a8483720809e42bf8802280383c24f7bfac23e2b09ebe6bf4cb5e2a9abe85c0be2"><div class="ttname"><a href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bfac23e2b09ebe6bf4cb5e2a9abe85c0be2">sgl::State::Stopped</a></div></div>
 <div class="ttc" id="namespacesgl_html_a8483720809e42bf8802280383c24f7bfae599161956d626eda4cb0a5ffb85271c"><div class="ttname"><a href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bfae599161956d626eda4cb0a5ffb85271c">sgl::State::Idle</a></div></div>
+<div class="ttc" id="classsgl_1_1Scene_html_ae24bdf34dbc8d5fa698ab51c013652c6"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#ae24bdf34dbc8d5fa698ab51c013652c6">sgl::Scene::getState</a></div><div class="ttdeci">virtual const State getState() const final</div><div class="ttdoc">Get the State of the scene. </div></div>
 <div class="ttc" id="classsgl_1_1Scene_html_adb94929fad76ae55deb0169f68fa5a54"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#adb94929fad76ae55deb0169f68fa5a54">sgl::Scene::Scene</a></div><div class="ttdeci">Scene(int id)</div><div class="ttdoc">Construct a new Scene object. </div></div>
 <div class="ttc" id="namespacesgl_html_a8483720809e42bf8802280383c24f7bf"><div class="ttname"><a href="../../d5/d52/namespacesgl.html#a8483720809e42bf8802280383c24f7bf">sgl::State</a></div><div class="ttdeci">State</div><div class="ttdoc">Describe the current state of a scene. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00028">Scene.hpp:28</a></div></div>
-<div class="ttc" id="namespacesgl_html"><div class="ttname"><a href="../../d5/d52/namespacesgl.html">sgl</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3c/Application_8hpp_source.html#l00025">Application.hpp:25</a></div></div>
+<div class="ttc" id="namespacesgl_html"><div class="ttname"><a href="../../d5/d52/namespacesgl.html">sgl</a></div><div class="ttdoc">Base namespace for the library. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d41/All_8hpp_source.html#l00019">All.hpp:19</a></div></div>
+<div class="ttc" id="classsgl_1_1Scene_html_a92c487f7d03a9414204dc444cb5ecad1"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a92c487f7d03a9414204dc444cb5ecad1">sgl::Scene::getId</a></div><div class="ttdeci">virtual const int getId() const final</div><div class="ttdoc">Get the Id of the scene. </div></div>
 <div class="ttc" id="classsgl_1_1Scene_html_a4ac4f6c969852c41ee029af4e8795410"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a4ac4f6c969852c41ee029af4e8795410">sgl::Scene::onEvent</a></div><div class="ttdeci">virtual void onEvent(const sf::Event &amp;event)</div><div class="ttdoc">Event handling method. </div></div>
-<div class="ttc" id="classsgl_1_1Scene_html_af351df3300db7d62ab1bf135d6901f42"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#af351df3300db7d62ab1bf135d6901f42">sgl::Scene::getId</a></div><div class="ttdeci">const int getId() const </div><div class="ttdoc">Get the Id of the scene. </div></div>
-<div class="ttc" id="classsgl_1_1Scene_html_a6ecd24659182031862918822f91bdfe9"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a6ecd24659182031862918822f91bdfe9">sgl::Scene::setState</a></div><div class="ttdeci">virtual void setState(State state)</div><div class="ttdoc">Set the State object. </div></div>
 <div class="ttc" id="classsgl_1_1SceneManager_html"><div class="ttname"><a href="../../de/dd2/classsgl_1_1SceneManager.html">sgl::SceneManager</a></div><div class="ttdoc">Scene manager, in charge of creating, handling and destroying scenes. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d74/SceneManager_8hpp_source.html#l00028">SceneManager.hpp:28</a></div></div>
 <div class="ttc" id="classsgl_1_1Scene_html_a2726b4d82036204b68fb6749bb882bd5"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a2726b4d82036204b68fb6749bb882bd5">sgl::Scene::~Scene</a></div><div class="ttdeci">virtual ~Scene()</div><div class="ttdoc">Destroy the Scene object. </div></div>
-<div class="ttc" id="classsgl_1_1Scene_html_a0019a6978bfb09dd5aed4871b6087cf3"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a0019a6978bfb09dd5aed4871b6087cf3">sgl::Scene::onUpdate</a></div><div class="ttdeci">virtual void onUpdate(const sf::Time dt, SceneManager &amp;scm)</div><div class="ttdoc">Scene updating method, called after having handled the events. </div></div>
-<div class="ttc" id="classsgl_1_1Scene_html"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00039">Scene.hpp:39</a></div></div>
-<div class="ttc" id="classsgl_1_1Scene_html_a998f7fb269b92ee39c1ca20d39cbf1a0"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a998f7fb269b92ee39c1ca20d39cbf1a0">sgl::Scene::m_state</a></div><div class="ttdeci">State m_state</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00108">Scene.hpp:108</a></div></div>
+<div class="ttc" id="classsgl_1_1Scene_html_ac9f2b38849bc95bfc92b8b601fd9d8b3"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#ac9f2b38849bc95bfc92b8b601fd9d8b3">sgl::Scene::setState</a></div><div class="ttdeci">virtual void setState(State state) final</div><div class="ttdoc">Set the State object. </div></div>
+<div class="ttc" id="classsgl_1_1Scene_html"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div><div class="ttdoc">Base class which every user scene must derive from. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00039">Scene.hpp:39</a></div></div>
+<div class="ttc" id="classsgl_1_1Scene_html_a998f7fb269b92ee39c1ca20d39cbf1a0"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a998f7fb269b92ee39c1ca20d39cbf1a0">sgl::Scene::m_state</a></div><div class="ttdeci">State m_state</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00107">Scene.hpp:107</a></div></div>
 <div class="ttc" id="classsgl_1_1Scene_html_a3e67bd331054a59dd4876658a6c4f2bc"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a3e67bd331054a59dd4876658a6c4f2bc">sgl::Scene::onQuit</a></div><div class="ttdeci">virtual void onQuit()</div><div class="ttdoc">Method called when the application is closing. </div></div>
+<div class="ttc" id="classsgl_1_1Scene_html_a19c7ee884fa72d1d83ea5ced893aebfc"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a19c7ee884fa72d1d83ea5ced893aebfc">sgl::Scene::m_sceneManager</a></div><div class="ttdeci">SceneManager * m_sceneManager</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00109">Scene.hpp:109</a></div></div>
+<div class="ttc" id="classsgl_1_1Scene_html_aecd66edbd1e2e42c5e131f7d4f652cbc"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#aecd66edbd1e2e42c5e131f7d4f652cbc">sgl::Scene::onUpdate</a></div><div class="ttdeci">virtual void onUpdate(const sf::Time dt)</div><div class="ttdoc">Scene updating method, called after having handled the events. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_8e4a18c814930dece8feb93b1f20a8ba.html">include</a></li><li class="navelem"><a class="el" href="../../dir_bccf9de9576cfd43a752576f669ec707.html">Small</a></li><li class="navelem"><a class="el" href="../../dir_28fb12f25184f93ef1999017e259726d.html">Core</a></li><li class="navelem"><a class="el" href="../../db/de8/Scene_8hpp.html">Scene.hpp</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 17:23:46 for SmallGameLibrary by
+    <li class="footer">Generated on Sat Apr 18 2020 21:37:36 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

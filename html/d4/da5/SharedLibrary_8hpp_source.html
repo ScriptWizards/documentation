@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>SmallGameLibrary: include/Small/SharedLibrary.hpp Source File</title>
+<title>SmallGameLibrary: include/Small/System/SharedLibrary.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('d4/da5/SharedLibrary_8hpp_source.html'
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef sgl_sharedlibrary</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define sgl_sharedlibrary</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/d40/Platform_8hpp.html">Small/Platform.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/d40/Platform_8hpp.html">Small/System/Platform.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#if defined(SGL_SYS_WINDOWS)</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">    #include &lt;Windows.h&gt;</span></div>
@@ -207,21 +207,21 @@ $(document).ready(function(){initNavTree('d4/da5/SharedLibrary_8hpp_source.html'
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#endif  // ge_core_plugin_hpp</span></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_a531dd1894025f71e17461987527e18b8"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a531dd1894025f71e17461987527e18b8">sgl::SharedLibrary::unload</a></div><div class="ttdeci">void unload()</div><div class="ttdoc">Unload the shared library. </div></div>
-<div class="ttc" id="namespacesgl_html"><div class="ttname"><a href="../../d5/d52/namespacesgl.html">sgl</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3c/Application_8hpp_source.html#l00025">Application.hpp:25</a></div></div>
+<div class="ttc" id="namespacesgl_html"><div class="ttname"><a href="../../d5/d52/namespacesgl.html">sgl</a></div><div class="ttdoc">Base namespace for the library. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d41/All_8hpp_source.html#l00019">All.hpp:19</a></div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_a041d8ae308c51ba7d2c70bbc44d1a681"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a041d8ae308c51ba7d2c70bbc44d1a681">sgl::SharedLibrary::m_loaded</a></div><div class="ttdeci">bool m_loaded</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00113">SharedLibrary.hpp:113</a></div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_aefc3ca51f5a6bc06a989676e80f02063"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#aefc3ca51f5a6bc06a989676e80f02063">sgl::SharedLibrary::load</a></div><div class="ttdeci">void load(const std::string &amp;path)</div><div class="ttdoc">Load a shared library from its path. </div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_a99bc0213d0cfa4bdcd015631e6568e12"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a99bc0213d0cfa4bdcd015631e6568e12">sgl::SharedLibrary::SharedLibrary</a></div><div class="ttdeci">SharedLibrary()</div><div class="ttdoc">Construct a new empty Shared Library object. </div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_a6b4e1b2be2ea885c1a1d9a0493a1c88a"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a6b4e1b2be2ea885c1a1d9a0493a1c88a">sgl::SharedLibrary::~SharedLibrary</a></div><div class="ttdeci">~SharedLibrary()</div><div class="ttdoc">Destroy the Shared Library object. </div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_aa9b1dcd9627b8d056edea1428821c9ee"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#aa9b1dcd9627b8d056edea1428821c9ee">sgl::SharedLibrary::m_path</a></div><div class="ttdeci">std::string m_path</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00112">SharedLibrary.hpp:112</a></div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html">sgl::SharedLibrary</a></div><div class="ttdoc">Class to load / unload shared library on Windows, Linux, MacOS and Android. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00035">SharedLibrary.hpp:35</a></div></div>
-<div class="ttc" id="Platform_8hpp_html"><div class="ttname"><a href="../../d5/d40/Platform_8hpp.html">Platform.hpp</a></div></div>
+<div class="ttc" id="Platform_8hpp_html"><div class="ttname"><a href="../../d5/d40/Platform_8hpp.html">Platform.hpp</a></div><div class="ttdoc">Defines to identify the running operating system. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_8e4a18c814930dece8feb93b1f20a8ba.html">include</a></li><li class="navelem"><a class="el" href="../../dir_bccf9de9576cfd43a752576f669ec707.html">Small</a></li><li class="navelem"><a class="el" href="../../d4/da5/SharedLibrary_8hpp.html">SharedLibrary.hpp</a></li>
-    <li class="footer">Generated on Wed Apr 8 2020 17:23:46 for SmallGameLibrary by
+    <li class="navelem"><a class="el" href="../../dir_8e4a18c814930dece8feb93b1f20a8ba.html">include</a></li><li class="navelem"><a class="el" href="../../dir_bccf9de9576cfd43a752576f669ec707.html">Small</a></li><li class="navelem"><a class="el" href="../../dir_ee49f823e1d6d52dedd8522691ce7cb9.html">System</a></li><li class="navelem"><a class="el" href="../../d4/da5/SharedLibrary_8hpp.html">SharedLibrary.hpp</a></li>
+    <li class="footer">Generated on Sat Apr 18 2020 21:37:36 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

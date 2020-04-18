@@ -75,6 +75,7 @@
       <Scope>sgl</Scope>
     </TokenIdentifier>
     <Path>d5/d52/namespacesgl.html</Path>
+    <Abstract>Base namespace for the library. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -339,6 +340,7 @@
       <Scope>sgl::Scene</Scope>
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Abstract>Base class which every user scene must derive from. </Abstract>
     <DeclaredIn>Scene.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -385,7 +387,7 @@
       <Scope>sgl::Scene</Scope>
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-    <Anchor>a0019a6978bfb09dd5aed4871b6087cf3</Anchor>
+    <Anchor>aecd66edbd1e2e42c5e131f7d4f652cbc</Anchor>
     <Abstract>Scene updating method, called after having handled the events. </Abstract>
     <DeclaredIn>Scene.hpp</DeclaredIn>
   </Token>
@@ -421,7 +423,7 @@
       <Scope>sgl::Scene</Scope>
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-    <Anchor>a6ecd24659182031862918822f91bdfe9</Anchor>
+    <Anchor>ac9f2b38849bc95bfc92b8b601fd9d8b3</Anchor>
     <Abstract>Set the State object. </Abstract>
     <DeclaredIn>Scene.hpp</DeclaredIn>
   </Token>
@@ -433,7 +435,7 @@
       <Scope>sgl::Scene</Scope>
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-    <Anchor>af351df3300db7d62ab1bf135d6901f42</Anchor>
+    <Anchor>a92c487f7d03a9414204dc444cb5ecad1</Anchor>
     <Abstract>Get the Id of the scene. </Abstract>
     <DeclaredIn>Scene.hpp</DeclaredIn>
   </Token>
@@ -445,7 +447,7 @@
       <Scope>sgl::Scene</Scope>
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-    <Anchor>a48073e29649b4b85d5d63e44b66a983f</Anchor>
+    <Anchor>ae24bdf34dbc8d5fa698ab51c013652c6</Anchor>
     <Abstract>Get the State of the scene. </Abstract>
     <DeclaredIn>Scene.hpp</DeclaredIn>
   </Token>
@@ -468,6 +470,16 @@
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
     <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_sceneManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -828,12 +840,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sgl::Core</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>sgl::Core</Scope>
+    </TokenIdentifier>
+    <Path>d2/d53/namespacesgl_1_1Core.html</Path>
+    <Abstract>Contain all the code related to the core of the library. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::Graphics</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
       <Scope>sgl::Graphics</Scope>
     </TokenIdentifier>
     <Path>d7/d05/namespacesgl_1_1Graphics.html</Path>
+    <Abstract>Contain all the code related to graphics and rendering. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -854,7 +877,7 @@
       <Scope>sgl::Graphics::Tilemap</Scope>
     </TokenIdentifier>
     <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-    <Anchor>a87f76c6d5ac216923c79ce184d7c247b</Anchor>
+    <Anchor>affc6d54751d48bb57e9c0046bbbb7a10</Anchor>
     <Abstract>Construct a new Tilemap object. </Abstract>
     <DeclaredIn>Tilemap.hpp</DeclaredIn>
   </Token>
@@ -867,7 +890,19 @@
     </TokenIdentifier>
     <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
     <Anchor>a40bbae17c696d71afb50e07064fe7605</Anchor>
-    <Abstract>Build the vertex array from the tileset and. </Abstract>
+    <Abstract>Build the vertex array from the tileset. </Abstract>
+    <DeclaredIn>Tilemap.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>use</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Tilemap</Scope>
+    </TokenIdentifier>
+    <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+    <Anchor>a58130c09df3bef59b83967def67da7cd</Anchor>
+    <Abstract>Use a new texture. </Abstract>
     <DeclaredIn>Tilemap.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -878,7 +913,7 @@
       <Scope>sgl::Graphics::Tilemap</Scope>
     </TokenIdentifier>
     <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-    <Anchor>ad77d98dfb72173ac537cc062ae970829</Anchor>
+    <Anchor>a261c5085a6c6bc937c27b52f3f453e88</Anchor>
     <Abstract>Update a tile in the vertex array. </Abstract>
     <DeclaredIn>Tilemap.hpp</DeclaredIn>
   </Token>
@@ -902,7 +937,7 @@
       <Scope>sgl::Graphics::Tilemap</Scope>
     </TokenIdentifier>
     <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-    <Anchor>a586c26eb100ff4d6a9f77d3f2d86c149</Anchor>
+    <Anchor>acc4a84f070ace0719375f87d59e998db</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -912,7 +947,7 @@
       <Scope>sgl::Graphics::Tilemap</Scope>
     </TokenIdentifier>
     <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-    <Anchor>ab1e3d1f73d26d34560fbc340390c2144</Anchor>
+    <Anchor>aff5b6fe8354520e6540ca0e452f88986</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -936,12 +971,272 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sgl::Graphics::TileView</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Abstract>Wrapper around sf::View to manipule views using tiles coordinates. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TileView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a4e76859f5a545a53a75b118206295c0c</Anchor>
+    <Abstract>Construct a new Tile View object. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TileView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a8f475296a6ffaef4673fec49e065b12a</Anchor>
+    <Abstract>Construct a new Tile View object. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>use</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a0972a8259abd7866eab9ca8a6f3b780a</Anchor>
+    <Abstract>Activate the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setTileSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a8dc8d231c9ac61e4727ca2be3b042351</Anchor>
+    <Abstract>Set the size of a tile. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setCenter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>aaa1593c14514d3f333051e81b171ef97</Anchor>
+    <Abstract>Set the center of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setCenterPx</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>ae079dd2edadbc8c3056f0aede4f25663</Anchor>
+    <Abstract>Set the center of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a7ef27f508dc1805e9e6f8a9552a17a52</Anchor>
+    <Abstract>Set the size of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setSizePx</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>ae54fa32d1e34f14a4dd7b8d311cc0beb</Anchor>
+    <Abstract>Set the size of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setRotation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>af6b053a69000a5626be023581cdd66c5</Anchor>
+    <Abstract>Set the absolute orientation of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>abed62e7acac0f13840dec8ecc4b1b1ab</Anchor>
+    <Abstract>Move the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>movePx</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a374bf62ab400b9b2fc305abbb815df1d</Anchor>
+    <Abstract>Move the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a97486efa2b538064a458498bf5112cda</Anchor>
+    <Abstract>Rotate the view relatively to its current orientation. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>zoom</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>ae97f79064634c1d764def37aa879676c</Anchor>
+    <Abstract>Resize the view rectangle relatively to its current size. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getRotation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>ad89805d519ab1967fcebf147b050cf0b</Anchor>
+    <Abstract>Get the current orientation of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getCenter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a8f2614c4f8aecb75f6906f263ca19963</Anchor>
+    <Abstract>Get the center of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getCenterPx</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>ae95bb77cec8923bca61d741d6141d426</Anchor>
+    <Abstract>Get the center of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a1f59438ee6a0d7cbb6fffa84e9a90b07</Anchor>
+    <Abstract>Get the size of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getSizePx</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>aab70e38b2390c445f49e1446f85bc699</Anchor>
+    <Abstract>Get the sizee of the view. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTileSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>aada8c8f6ad73732bdb11e8928060e20d</Anchor>
+    <Abstract>Get the size of a tile. </Abstract>
+    <DeclaredIn>TileView.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_view</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a0797d2039091a2dc112c979779b09f67</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_tileSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::TileView</Scope>
+    </TokenIdentifier>
+    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+    <Anchor>a872b573f857d25908f14e24344f5ef99</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::internal</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
       <Scope>sgl::internal</Scope>
     </TokenIdentifier>
     <Path>d4/d3b/namespacesgl_1_1internal.html</Path>
+    <Abstract>Contain internal code, which shouldn&amp;#39;t be directly used by the end user. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1263,12 +1558,290 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sgl::Scenes</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>sgl::Scenes</Scope>
+    </TokenIdentifier>
+    <Path>d6/da9/namespacesgl_1_1Scenes.html</Path>
+    <Abstract>Contain specialized scenes to simplify the developer work. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Scenes::Zone</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Abstract>A scene handling zones and transitions on a tilemap. </Abstract>
+    <DeclaredIn>Zone.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Zone</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>a18ded40ab598645d038dd444c0465ddf</Anchor>
+    <Abstract>Construct a new Zone scene. </Abstract>
+    <DeclaredIn>Zone.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Scene</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>adb94929fad76ae55deb0169f68fa5a54</Anchor>
+    <Abstract>Construct a new Scene object. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Scene</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a2726b4d82036204b68fb6749bb882bd5</Anchor>
+    <Abstract>Destroy the Scene object. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a4ac4f6c969852c41ee029af4e8795410</Anchor>
+    <Abstract>Event handling method. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>aecd66edbd1e2e42c5e131f7d4f652cbc</Anchor>
+    <Abstract>Scene updating method, called after having handled the events. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a51b78c80326e4b32063579ac7d6f1a96</Anchor>
+    <Abstract>Rendering method, called after having updated the scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onQuit</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a3e67bd331054a59dd4876658a6c4f2bc</Anchor>
+    <Abstract>Method called when the application is closing. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setState</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>ac9f2b38849bc95bfc92b8b601fd9d8b3</Anchor>
+    <Abstract>Set the State object. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getId</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a92c487f7d03a9414204dc444cb5ecad1</Anchor>
+    <Abstract>Get the Id of the scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getState</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>ae24bdf34dbc8d5fa698ab51c013652c6</Anchor>
+    <Abstract>Get the State of the scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getCurrentZone</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>a21f180ed254868ba9db609e0a9c0a7df</Anchor>
+    <Abstract>Get the current zone position in the map. </Abstract>
+    <DeclaredIn>Zone.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isZoneValid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>aa7a45a2f495115dc27de2300daac6c93</Anchor>
+    <Abstract>Check if a zone is in map bounds. </Abstract>
+    <DeclaredIn>Zone.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeZoneTransition</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>aeeca7f0409012e6e541d3074c7cce45f</Anchor>
+    <Abstract>Check if a zone transition is needed, if so, move the view accordingly. </Abstract>
+    <DeclaredIn>Zone.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_tileSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>a619c2abd5819600f2ef8676d1bfb31ba</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_zoneSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>af587f122d5c2c45a53728f14cee28092</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_mapSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>a2511e190454bf9d769200a536f3991db</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_view</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>a2f81347e070f5d05376cd07c97d5de5b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_currentZone</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>a43822572a6bdf456b19fd2f03b0d995c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a998f7fb269b92ee39c1ca20d39cbf1a0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_sceneManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_viewMovedByPx</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>ac59119ed6f9d2f199ef9055188ee6710</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_lastQuantityNeededToStopTransition</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::Zone</Scope>
+    </TokenIdentifier>
+    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+    <Anchor>ae95b2eeaf8767b886719227451cfe3df</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::Style</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
       <Scope>sgl::Style</Scope>
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
+    <Abstract>Contain constants related to the window style. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1313,5 +1886,1567 @@
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>a827edef81260acd5fd9795b75fb2c28c</Anchor>
     <DeclaredIn>Application.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Widgets</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>sgl::Widgets</Scope>
+    </TokenIdentifier>
+    <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
+    <Abstract>Contain all the base widget classes. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Text</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Widgets</Scope>
+    </TokenIdentifier>
+    <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
+    <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a9dffbf69ffba8bc38bc4e01abf4b1675</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Sprite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Widgets</Scope>
+    </TokenIdentifier>
+    <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
+    <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a51f2b7b14433aa22c67d1f4fc18943cd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Both</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Widgets</Scope>
+    </TokenIdentifier>
+    <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
+    <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a130c5b3473c57faa76e2a1c54e26f88e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Widgets::Base</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Abstract>Base class for all widgets. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a1d6bc01170e7541d1f541f37e7076859</Anchor>
+    <Abstract>Construct a new Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
+    <Abstract>Destroy the Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a5f5fc8bc20158f60ca060071002ed2e1</Anchor>
+    <Abstract>Update the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a1fe6936844b6f15f58431b0fccccb8be</Anchor>
+    <Abstract>Render the widget on screen. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a45ef336da61fa4c4576e4ac371f3cb75</Anchor>
+    <Abstract>Called when an event is received, calling the subfunctions corresponding to the event type...</Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onTextEntered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6a1e625e0f3be7148be9fc08aac6c823</Anchor>
+    <Abstract>Called when a text entered event is produced, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6c60b40a8f446d4307fd8013a4c8afd9</Anchor>
+    <Abstract>Called when a key is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af5882a4894c92024f97490630208939b</Anchor>
+    <Abstract>Called when a key is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseWheelScrolled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ae6fdd207902bde7461749b7c1c074b7a</Anchor>
+    <Abstract>Called when the mouse wheel is scrolled, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a772d83dc38b00e97904d4793cda0fe9c</Anchor>
+    <Abstract>Called when a mouse button is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0fd2014106ecd89428acc286343e6ae6</Anchor>
+    <Abstract>Called when a mouse button is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getLocalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Abstract>Get the local bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getGlobalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Abstract>Get the global bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setListenToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
+    <Abstract>Activate a widget event listener or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isListeningToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a50b24dc3e3f8f0f93b311e44a1c7c0b2</Anchor>
+    <Abstract>Return a boolean telling if the widget is listening to events. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hasFocus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0b803daa1a82bfcf6adb0fe7c11d02f9</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
+    <Abstract>Set the style of the object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0371e2c84c9b47bdc9daeea2290f0f32</Anchor>
+    <Abstract>Get the style of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setPosition</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
+    <Abstract>Set the relative position of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw_</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
+    <Abstract>Function in charge of drawing our widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_focused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_listening</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_rect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_parent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_style</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Widgets::Button</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Abstract>Basic button widget. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Callback_t</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a1a30d3f308ae78396ed1408f5b561053</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Button</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a5df8a4a3fc440a2fb6dd8545935aa24e</Anchor>
+    <Abstract>Construct a new Button widget. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Button</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a0db8f961166a68cc102422fff7d47499</Anchor>
+    <Abstract>Destroy the Button widget. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setCallback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>abb1de83c1422630adf523d251ea715fc</Anchor>
+    <Abstract>Set the function to be called when we click on the button. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>text</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a72c76d48f5d8ebcf470b6f60887a09f0</Anchor>
+    <Abstract>Return a reference to the sf::Text held, to modify it. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sprite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>ab11d8c3510d6fbdf456d4f8b678bea8c</Anchor>
+    <Abstract>Return a reference to the sf::Sprite held, to modify it. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shape</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a0c30fd6f3f391baad5327b5b5d0d568e</Anchor>
+    <Abstract>Return a reference to the sf::RectangleShape used as a background when in text-only mode...</Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a842b4d1fb90bc440ed73a85fec8105c7</Anchor>
+    <Abstract>Render the widget on screen. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a339812149261a3b3de0c786f18f25b42</Anchor>
+    <Abstract>Called when a mouse button is pressed, on focus. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a6786055101d43108daff67f0927b2e8b</Anchor>
+    <Abstract>Called when a mouse button is released, on focus. </Abstract>
+    <DeclaredIn>Button.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a1d6bc01170e7541d1f541f37e7076859</Anchor>
+    <Abstract>Construct a new Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
+    <Abstract>Destroy the Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a5f5fc8bc20158f60ca060071002ed2e1</Anchor>
+    <Abstract>Update the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a45ef336da61fa4c4576e4ac371f3cb75</Anchor>
+    <Abstract>Called when an event is received, calling the subfunctions corresponding to the event type...</Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onTextEntered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6a1e625e0f3be7148be9fc08aac6c823</Anchor>
+    <Abstract>Called when a text entered event is produced, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6c60b40a8f446d4307fd8013a4c8afd9</Anchor>
+    <Abstract>Called when a key is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af5882a4894c92024f97490630208939b</Anchor>
+    <Abstract>Called when a key is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseWheelScrolled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ae6fdd207902bde7461749b7c1c074b7a</Anchor>
+    <Abstract>Called when the mouse wheel is scrolled, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getLocalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Abstract>Get the local bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getGlobalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Abstract>Get the global bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setListenToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
+    <Abstract>Activate a widget event listener or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isListeningToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a50b24dc3e3f8f0f93b311e44a1c7c0b2</Anchor>
+    <Abstract>Return a boolean telling if the widget is listening to events. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hasFocus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0b803daa1a82bfcf6adb0fe7c11d02f9</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
+    <Abstract>Set the style of the object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0371e2c84c9b47bdc9daeea2290f0f32</Anchor>
+    <Abstract>Get the style of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setPosition</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
+    <Abstract>Set the relative position of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw_</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
+    <Abstract>Function in charge of drawing our widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_text</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>ac35e31f374b24dc00aa045fa4d1503c8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_click</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a4397b320e36cb3943300f213873361f5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_callback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Button</Scope>
+    </TokenIdentifier>
+    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+    <Anchor>a752269ac38c251bb35e92bb4f40eb706</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_focused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_listening</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_rect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_parent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_style</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Widgets::Label</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Widgets::Label</Scope>
+    </TokenIdentifier>
+    <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+    <Abstract>Basic label widget, doesn&amp;#39;t listen to events by default. </Abstract>
+    <DeclaredIn>Label.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Label</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Label</Scope>
+    </TokenIdentifier>
+    <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+    <Anchor>a6bc3bc5379331562569cc2d790cc9b18</Anchor>
+    <Abstract>Construct a new Label widget. </Abstract>
+    <DeclaredIn>Label.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Label</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Label</Scope>
+    </TokenIdentifier>
+    <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+    <Anchor>a4163ce72e5ec4a9830c0b8e589dbbb1b</Anchor>
+    <Abstract>Destroy the Label widget. </Abstract>
+    <DeclaredIn>Label.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>text</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Label</Scope>
+    </TokenIdentifier>
+    <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+    <Anchor>a8ca80d61e7a8d143b5a76f21e9daa1ca</Anchor>
+    <Abstract>Return a reference to the sf::Text held, to modify it. </Abstract>
+    <DeclaredIn>Label.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Label</Scope>
+    </TokenIdentifier>
+    <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+    <Anchor>a2bee24112d606fa531d4133b63cebce5</Anchor>
+    <Abstract>Render the widget on screen. </Abstract>
+    <DeclaredIn>Label.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a1d6bc01170e7541d1f541f37e7076859</Anchor>
+    <Abstract>Construct a new Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
+    <Abstract>Destroy the Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a5f5fc8bc20158f60ca060071002ed2e1</Anchor>
+    <Abstract>Update the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a45ef336da61fa4c4576e4ac371f3cb75</Anchor>
+    <Abstract>Called when an event is received, calling the subfunctions corresponding to the event type...</Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onTextEntered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6a1e625e0f3be7148be9fc08aac6c823</Anchor>
+    <Abstract>Called when a text entered event is produced, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6c60b40a8f446d4307fd8013a4c8afd9</Anchor>
+    <Abstract>Called when a key is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af5882a4894c92024f97490630208939b</Anchor>
+    <Abstract>Called when a key is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseWheelScrolled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ae6fdd207902bde7461749b7c1c074b7a</Anchor>
+    <Abstract>Called when the mouse wheel is scrolled, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a772d83dc38b00e97904d4793cda0fe9c</Anchor>
+    <Abstract>Called when a mouse button is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0fd2014106ecd89428acc286343e6ae6</Anchor>
+    <Abstract>Called when a mouse button is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getLocalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Abstract>Get the local bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getGlobalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Abstract>Get the global bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setListenToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
+    <Abstract>Activate a widget event listener or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isListeningToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a50b24dc3e3f8f0f93b311e44a1c7c0b2</Anchor>
+    <Abstract>Return a boolean telling if the widget is listening to events. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hasFocus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0b803daa1a82bfcf6adb0fe7c11d02f9</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
+    <Abstract>Set the style of the object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0371e2c84c9b47bdc9daeea2290f0f32</Anchor>
+    <Abstract>Get the style of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setPosition</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
+    <Abstract>Set the relative position of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw_</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
+    <Abstract>Function in charge of drawing our widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_text</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Label</Scope>
+    </TokenIdentifier>
+    <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+    <Anchor>a5548274ff375629408da79a8856a2799</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_focused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_listening</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_rect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_parent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_style</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Widgets::Layout</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Abstract>A collection of widgets working together, graphically united. </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>ab66227b1e9670d843cc7f0f8bde29d7f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Layout</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>a1ebdad7966bea3f28b9442dd74e77ea1</Anchor>
+    <Abstract>Construct a new Layout object. </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Layout</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>a27c07486810a2593972c2f0f7b38c1c9</Anchor>
+    <Abstract>Destroy the Layout object. </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>a3b084a8a7df799ef2fe2541bc502610a</Anchor>
+    <Abstract>Update the layout and its children. </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>a7d1310aacd06829afb1508a25d29233e</Anchor>
+    <Abstract>Called when an event is received, dispatching the event to all the children corresponding to the even...</Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
+    <Abstract>Return a pointer to a child widget by its identifer. </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>a2c5fd67fd2230d1da430081d7ccee60f</Anchor>
+    <Abstract>Create a new widget in place and attach it to the layout. </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw_</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>ad2b4f2d6428b8c5c41ec5d5e26353a50</Anchor>
+    <Abstract>Function in charge of drawing our widget, using the SFML API. </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a1d6bc01170e7541d1f541f37e7076859</Anchor>
+    <Abstract>Construct a new Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
+    <Abstract>Destroy the Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a1fe6936844b6f15f58431b0fccccb8be</Anchor>
+    <Abstract>Render the widget on screen. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onTextEntered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6a1e625e0f3be7148be9fc08aac6c823</Anchor>
+    <Abstract>Called when a text entered event is produced, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6c60b40a8f446d4307fd8013a4c8afd9</Anchor>
+    <Abstract>Called when a key is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af5882a4894c92024f97490630208939b</Anchor>
+    <Abstract>Called when a key is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseWheelScrolled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ae6fdd207902bde7461749b7c1c074b7a</Anchor>
+    <Abstract>Called when the mouse wheel is scrolled, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a772d83dc38b00e97904d4793cda0fe9c</Anchor>
+    <Abstract>Called when a mouse button is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0fd2014106ecd89428acc286343e6ae6</Anchor>
+    <Abstract>Called when a mouse button is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getLocalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Abstract>Get the local bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getGlobalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Abstract>Get the global bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setListenToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
+    <Abstract>Activate a widget event listener or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isListeningToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a50b24dc3e3f8f0f93b311e44a1c7c0b2</Anchor>
+    <Abstract>Return a boolean telling if the widget is listening to events. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hasFocus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0b803daa1a82bfcf6adb0fe7c11d02f9</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
+    <Abstract>Set the style of the object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0371e2c84c9b47bdc9daeea2290f0f32</Anchor>
+    <Abstract>Get the style of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setPosition</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
+    <Abstract>Set the relative position of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>a7341f05ed805c3fcf51af9b8b2d65229</Anchor>
+    <Abstract>To be able to draw the layout using the SFML API : </Abstract>
+    <DeclaredIn>Layout.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Layout</Scope>
+    </TokenIdentifier>
+    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+    <Anchor>add2ec5c1cf1aca0edb3839e430e4e976</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_focused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_listening</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_rect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_parent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_style</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
   </Token>
 </Tokens>

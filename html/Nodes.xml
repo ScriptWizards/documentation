@@ -18,6 +18,10 @@
             <Path>d5/d52/namespacesgl.html</Path>
             <Subnodes>
              <Node>
+              <Name>Core</Name>
+              <Path>d2/d53/namespacesgl_1_1Core.html</Path>
+             </Node>
+             <Node>
               <Name>Graphics</Name>
               <Path>d7/d05/namespacesgl_1_1Graphics.html</Path>
              </Node>
@@ -26,8 +30,16 @@
               <Path>d4/d3b/namespacesgl_1_1internal.html</Path>
              </Node>
              <Node>
+              <Name>Scenes</Name>
+              <Path>d6/da9/namespacesgl_1_1Scenes.html</Path>
+             </Node>
+             <Node>
               <Name>Style</Name>
               <Path>db/dd7/namespacesgl_1_1Style.html</Path>
+             </Node>
+             <Node>
+              <Name>Widgets</Name>
+              <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -80,7 +92,7 @@
                  <Node>
                   <Name>Tilemap</Name>
                   <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                  <Anchor>a87f76c6d5ac216923c79ce184d7c247b</Anchor>
+                  <Anchor>affc6d54751d48bb57e9c0046bbbb7a10</Anchor>
                  </Node>
                  <Node>
                   <Name>build</Name>
@@ -95,12 +107,17 @@
                  <Node>
                   <Name>update</Name>
                   <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                  <Anchor>ad77d98dfb72173ac537cc062ae970829</Anchor>
+                  <Anchor>a261c5085a6c6bc937c27b52f3f453e88</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>use</Name>
+                  <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+                  <Anchor>a58130c09df3bef59b83967def67da7cd</Anchor>
                  </Node>
                  <Node>
                   <Name>m_mapSize</Name>
                   <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                  <Anchor>a586c26eb100ff4d6a9f77d3f2d86c149</Anchor>
+                  <Anchor>acc4a84f070ace0719375f87d59e998db</Anchor>
                  </Node>
                  <Node>
                   <Name>m_tileset</Name>
@@ -110,12 +127,123 @@
                  <Node>
                   <Name>m_tileSize</Name>
                   <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                  <Anchor>ab1e3d1f73d26d34560fbc340390c2144</Anchor>
+                  <Anchor>aff5b6fe8354520e6540ca0e452f88986</Anchor>
                  </Node>
                  <Node>
                   <Name>m_vertices</Name>
                   <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
                   <Anchor>a64cfaec194b432c5b08c6c191a2afe78</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TileView</Name>
+                <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>TileView</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a4e76859f5a545a53a75b118206295c0c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>TileView</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a8f475296a6ffaef4673fec49e065b12a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getCenter</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a8f2614c4f8aecb75f6906f263ca19963</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getCenterPx</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>ae95bb77cec8923bca61d741d6141d426</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getRotation</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>ad89805d519ab1967fcebf147b050cf0b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getSize</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a1f59438ee6a0d7cbb6fffa84e9a90b07</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getSizePx</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>aab70e38b2390c445f49e1446f85bc699</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getTileSize</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>aada8c8f6ad73732bdb11e8928060e20d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>move</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>abed62e7acac0f13840dec8ecc4b1b1ab</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>movePx</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a374bf62ab400b9b2fc305abbb815df1d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rotate</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a97486efa2b538064a458498bf5112cda</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setCenter</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>aaa1593c14514d3f333051e81b171ef97</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setCenterPx</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>ae079dd2edadbc8c3056f0aede4f25663</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setRotation</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>af6b053a69000a5626be023581cdd66c5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setSize</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a7ef27f508dc1805e9e6f8a9552a17a52</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setSizePx</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>ae54fa32d1e34f14a4dd7b8d311cc0beb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setTileSize</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a8dc8d231c9ac61e4727ca2be3b042351</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>use</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a0972a8259abd7866eab9ca8a6f3b780a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>zoom</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>ae97f79064634c1d764def37aa879676c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_tileSize</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a872b573f857d25908f14e24344f5ef99</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_view</Name>
+                  <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                  <Anchor>a0797d2039091a2dc112c979779b09f67</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -283,6 +411,388 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Scenes</Name>
+              <Path>d6/da9/namespacesgl_1_1Scenes.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Zone</Name>
+                <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Zone</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>a18ded40ab598645d038dd444c0465ddf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getCurrentZone</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>a21f180ed254868ba9db609e0a9c0a7df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isZoneValid</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>aa7a45a2f495115dc27de2300daac6c93</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>makeZoneTransition</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>aeeca7f0409012e6e541d3074c7cce45f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_currentZone</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>a43822572a6bdf456b19fd2f03b0d995c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_lastQuantityNeededToStopTransition</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>ae95b2eeaf8767b886719227451cfe3df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_mapSize</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>a2511e190454bf9d769200a536f3991db</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_tileSize</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>a619c2abd5819600f2ef8676d1bfb31ba</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_view</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>a2f81347e070f5d05376cd07c97d5de5b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_viewMovedByPx</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>ac59119ed6f9d2f199ef9055188ee6710</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_zoneSize</Name>
+                  <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                  <Anchor>af587f122d5c2c45a53728f14cee28092</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Widgets</Name>
+              <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Base</Name>
+                <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Ptr</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Base</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a1d6bc01170e7541d1f541f37e7076859</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Base</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>draw_</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getGlobalBounds</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getLocalBounds</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getStyle</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a0371e2c84c9b47bdc9daeea2290f0f32</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>hasFocus</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a0b803daa1a82bfcf6adb0fe7c11d02f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isListeningToEvents</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a50b24dc3e3f8f0f93b311e44a1c7c0b2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onEvent</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a45ef336da61fa4c4576e4ac371f3cb75</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onKeyPressed</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a6c60b40a8f446d4307fd8013a4c8afd9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onKeyReleased</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>af5882a4894c92024f97490630208939b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onMouseButtonPressed</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a772d83dc38b00e97904d4793cda0fe9c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onMouseButtonReleased</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a0fd2014106ecd89428acc286343e6ae6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onMouseWheelScrolled</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>ae6fdd207902bde7461749b7c1c074b7a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a1fe6936844b6f15f58431b0fccccb8be</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onTextEntered</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a6a1e625e0f3be7148be9fc08aac6c823</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onUpdate</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a5f5fc8bc20158f60ca060071002ed2e1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setListenToEvents</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setPosition</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setStyle</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_focused</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_id</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_listening</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_parent</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_rect</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_style</Name>
+                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                  <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Button</Name>
+                <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Callback_t</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a1a30d3f308ae78396ed1408f5b561053</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Button</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a5df8a4a3fc440a2fb6dd8545935aa24e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Button</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a0db8f961166a68cc102422fff7d47499</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onMouseButtonPressed</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a339812149261a3b3de0c786f18f25b42</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onMouseButtonReleased</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a6786055101d43108daff67f0927b2e8b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a842b4d1fb90bc440ed73a85fec8105c7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setCallback</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>abb1de83c1422630adf523d251ea715fc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>shape</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a0c30fd6f3f391baad5327b5b5d0d568e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sprite</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>ab11d8c3510d6fbdf456d4f8b678bea8c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>text</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a72c76d48f5d8ebcf470b6f60887a09f0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_callback</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a752269ac38c251bb35e92bb4f40eb706</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_click</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a4397b320e36cb3943300f213873361f5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_shape</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a8e394afdb92f218e5d8d7252812dc74d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_sprite</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>a16fe734ea1ca137101bc121a9b7f491b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_text</Name>
+                  <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                  <Anchor>ac35e31f374b24dc00aa045fa4d1503c8</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Label</Name>
+                <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Label</Name>
+                  <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                  <Anchor>a6bc3bc5379331562569cc2d790cc9b18</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Label</Name>
+                  <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                  <Anchor>a4163ce72e5ec4a9830c0b8e589dbbb1b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                  <Anchor>a2bee24112d606fa531d4133b63cebce5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>text</Name>
+                  <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                  <Anchor>a8ca80d61e7a8d143b5a76f21e9daa1ca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_text</Name>
+                  <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                  <Anchor>a5548274ff375629408da79a8856a2799</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Layout</Name>
+                <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Ptr</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>ab66227b1e9670d843cc7f0f8bde29d7f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Layout</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>a1ebdad7966bea3f28b9442dd74e77ea1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Layout</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>a27c07486810a2593972c2f0f7b38c1c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>attach</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>a2c5fd67fd2230d1da430081d7ccee60f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>draw</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>a7341f05ed805c3fcf51af9b8b2d65229</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>draw_</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>ad2b4f2d6428b8c5c41ec5d5e26353a50</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onEvent</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>a7d1310aacd06829afb1508a25d29233e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onUpdate</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>a3b084a8a7df799ef2fe2541bc502610a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_children</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>add2ec5c1cf1aca0edb3839e430e4e976</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Application</Name>
               <Path>dc/d79/classsgl_1_1Application.html</Path>
               <Subnodes>
@@ -400,12 +910,12 @@
                <Node>
                 <Name>getId</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                <Anchor>af351df3300db7d62ab1bf135d6901f42</Anchor>
+                <Anchor>a92c487f7d03a9414204dc444cb5ecad1</Anchor>
                </Node>
                <Node>
                 <Name>getState</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                <Anchor>a48073e29649b4b85d5d63e44b66a983f</Anchor>
+                <Anchor>ae24bdf34dbc8d5fa698ab51c013652c6</Anchor>
                </Node>
                <Node>
                 <Name>onEvent</Name>
@@ -425,12 +935,12 @@
                <Node>
                 <Name>onUpdate</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                <Anchor>a0019a6978bfb09dd5aed4871b6087cf3</Anchor>
+                <Anchor>aecd66edbd1e2e42c5e131f7d4f652cbc</Anchor>
                </Node>
                <Node>
                 <Name>setState</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                <Anchor>a6ecd24659182031862918822f91bdfe9</Anchor>
+                <Anchor>ac9f2b38849bc95bfc92b8b601fd9d8b3</Anchor>
                </Node>
                <Node>
                 <Name>SceneManager</Name>
@@ -441,6 +951,11 @@
                 <Name>m_id</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                 <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
+               </Node>
+               <Node>
+                <Name>m_sceneManager</Name>
+                <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
                </Node>
                <Node>
                 <Name>m_state</Name>
@@ -631,6 +1146,10 @@
               <Name>sgl::Graphics::Tilemap</Name>
               <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
              </Node>
+             <Node>
+              <Name>sgl::Widgets::Layout</Name>
+              <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -644,6 +1163,12 @@
            <Node>
             <Name>sgl::Scene</Name>
             <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>sgl::Scenes::Zone</Name>
+              <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>sgl::SceneManager</Name>
@@ -662,12 +1187,34 @@
             <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
            </Node>
            <Node>
+            <Name>sgl::Graphics::TileView</Name>
+            <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+           </Node>
+           <Node>
             <Name>Transformable</Name>
             <Path></Path>
             <Subnodes>
              <Node>
               <Name>sgl::Graphics::Tilemap</Name>
               <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+             </Node>
+             <Node>
+              <Name>sgl::Widgets::Base</Name>
+              <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>sgl::Widgets::Button</Name>
+                <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+               </Node>
+               <Node>
+                <Name>sgl::Widgets::Label</Name>
+                <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+               </Node>
+               <Node>
+                <Name>sgl::Widgets::Layout</Name>
+                <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -688,6 +1235,10 @@
            <Node>
             <Name>Variables</Name>
             <Path>functions_vars.html</Path>
+           </Node>
+           <Node>
+            <Name>Typedefs</Name>
+            <Path>functions_type.html</Path>
            </Node>
            <Node>
             <Name>Enumerations</Name>
@@ -914,12 +1465,12 @@
                      <Node>
                       <Name>getId</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                      <Anchor>af351df3300db7d62ab1bf135d6901f42</Anchor>
+                      <Anchor>a92c487f7d03a9414204dc444cb5ecad1</Anchor>
                      </Node>
                      <Node>
                       <Name>getState</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                      <Anchor>a48073e29649b4b85d5d63e44b66a983f</Anchor>
+                      <Anchor>ae24bdf34dbc8d5fa698ab51c013652c6</Anchor>
                      </Node>
                      <Node>
                       <Name>onEvent</Name>
@@ -939,12 +1490,12 @@
                      <Node>
                       <Name>onUpdate</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                      <Anchor>a0019a6978bfb09dd5aed4871b6087cf3</Anchor>
+                      <Anchor>aecd66edbd1e2e42c5e131f7d4f652cbc</Anchor>
                      </Node>
                      <Node>
                       <Name>setState</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                      <Anchor>a6ecd24659182031862918822f91bdfe9</Anchor>
+                      <Anchor>ac9f2b38849bc95bfc92b8b601fd9d8b3</Anchor>
                      </Node>
                      <Node>
                       <Name>SceneManager</Name>
@@ -955,6 +1506,11 @@
                       <Name>m_id</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                       <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_sceneManager</Name>
+                      <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                      <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
                      </Node>
                      <Node>
                       <Name>m_state</Name>
@@ -1305,7 +1861,7 @@
                      <Node>
                       <Name>Tilemap</Name>
                       <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                      <Anchor>a87f76c6d5ac216923c79ce184d7c247b</Anchor>
+                      <Anchor>affc6d54751d48bb57e9c0046bbbb7a10</Anchor>
                      </Node>
                      <Node>
                       <Name>build</Name>
@@ -1320,12 +1876,17 @@
                      <Node>
                       <Name>update</Name>
                       <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                      <Anchor>ad77d98dfb72173ac537cc062ae970829</Anchor>
+                      <Anchor>a261c5085a6c6bc937c27b52f3f453e88</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>use</Name>
+                      <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+                      <Anchor>a58130c09df3bef59b83967def67da7cd</Anchor>
                      </Node>
                      <Node>
                       <Name>m_mapSize</Name>
                       <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                      <Anchor>a586c26eb100ff4d6a9f77d3f2d86c149</Anchor>
+                      <Anchor>acc4a84f070ace0719375f87d59e998db</Anchor>
                      </Node>
                      <Node>
                       <Name>m_tileset</Name>
@@ -1335,7 +1896,7 @@
                      <Node>
                       <Name>m_tileSize</Name>
                       <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-                      <Anchor>ab1e3d1f73d26d34560fbc340390c2144</Anchor>
+                      <Anchor>aff5b6fe8354520e6540ca0e452f88986</Anchor>
                      </Node>
                      <Node>
                       <Name>m_vertices</Name>
@@ -1346,6 +1907,627 @@
                    </Node>
                   </Subnodes>
                  </Node>
+                 <Node>
+                  <Name>TileView.hpp</Name>
+                  <Path>d8/d67/TileView_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>TileView</Name>
+                    <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>TileView</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a4e76859f5a545a53a75b118206295c0c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>TileView</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a8f475296a6ffaef4673fec49e065b12a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getCenter</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a8f2614c4f8aecb75f6906f263ca19963</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getCenterPx</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>ae95bb77cec8923bca61d741d6141d426</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getRotation</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>ad89805d519ab1967fcebf147b050cf0b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getSize</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a1f59438ee6a0d7cbb6fffa84e9a90b07</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getSizePx</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>aab70e38b2390c445f49e1446f85bc699</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getTileSize</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>aada8c8f6ad73732bdb11e8928060e20d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>move</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>abed62e7acac0f13840dec8ecc4b1b1ab</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>movePx</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a374bf62ab400b9b2fc305abbb815df1d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rotate</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a97486efa2b538064a458498bf5112cda</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setCenter</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>aaa1593c14514d3f333051e81b171ef97</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setCenterPx</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>ae079dd2edadbc8c3056f0aede4f25663</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setRotation</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>af6b053a69000a5626be023581cdd66c5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setSize</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a7ef27f508dc1805e9e6f8a9552a17a52</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setSizePx</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>ae54fa32d1e34f14a4dd7b8d311cc0beb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setTileSize</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a8dc8d231c9ac61e4727ca2be3b042351</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>use</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a0972a8259abd7866eab9ca8a6f3b780a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>zoom</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>ae97f79064634c1d764def37aa879676c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_tileSize</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a872b573f857d25908f14e24344f5ef99</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_view</Name>
+                      <Path>d2/d2a/classsgl_1_1Graphics_1_1TileView.html</Path>
+                      <Anchor>a0797d2039091a2dc112c979779b09f67</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Scenes</Name>
+                <Path>dir_08a504847c5d5d11f9a6f924aa83786a.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Zone.hpp</Name>
+                  <Path>d2/d50/Zone_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Zone</Name>
+                    <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Zone</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>a18ded40ab598645d038dd444c0465ddf</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getCurrentZone</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>a21f180ed254868ba9db609e0a9c0a7df</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>isZoneValid</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>aa7a45a2f495115dc27de2300daac6c93</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeZoneTransition</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>aeeca7f0409012e6e541d3074c7cce45f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_currentZone</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>a43822572a6bdf456b19fd2f03b0d995c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_lastQuantityNeededToStopTransition</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>ae95b2eeaf8767b886719227451cfe3df</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_mapSize</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>a2511e190454bf9d769200a536f3991db</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_tileSize</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>a619c2abd5819600f2ef8676d1bfb31ba</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_view</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>a2f81347e070f5d05376cd07c97d5de5b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_viewMovedByPx</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>ac59119ed6f9d2f199ef9055188ee6710</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_zoneSize</Name>
+                      <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+                      <Anchor>af587f122d5c2c45a53728f14cee28092</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>System</Name>
+                <Path>dir_ee49f823e1d6d52dedd8522691ce7cb9.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Platform.hpp</Name>
+                  <Path>d5/d40/Platform_8hpp.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>SharedLibrary.hpp</Name>
+                  <Path>d4/da5/SharedLibrary_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>SharedLibrary</Name>
+                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>SharedLibrary</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>a99bc0213d0cfa4bdcd015631e6568e12</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SharedLibrary</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>acd1c72d0e43e56ad84319d9deb16f1b0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~SharedLibrary</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>a6b4e1b2be2ea885c1a1d9a0493a1c88a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>get</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>a5762db12584436608b9dbe6194ed7216</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>load</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>aefc3ca51f5a6bc06a989676e80f02063</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>unload</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>a531dd1894025f71e17461987527e18b8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_loaded</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>a041d8ae308c51ba7d2c70bbc44d1a681</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_path</Name>
+                      <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
+                      <Anchor>aa9b1dcd9627b8d056edea1428821c9ee</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Widgets</Name>
+                <Path>dir_db89475db93d8c9ea59250fb4006acd2.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Base.hpp</Name>
+                  <Path>d3/db2/Base_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Base</Name>
+                    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Ptr</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Base</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a1d6bc01170e7541d1f541f37e7076859</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Base</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>draw_</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getGlobalBounds</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getLocalBounds</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getStyle</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a0371e2c84c9b47bdc9daeea2290f0f32</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>hasFocus</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a0b803daa1a82bfcf6adb0fe7c11d02f9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>isListeningToEvents</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a50b24dc3e3f8f0f93b311e44a1c7c0b2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onEvent</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a45ef336da61fa4c4576e4ac371f3cb75</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onKeyPressed</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a6c60b40a8f446d4307fd8013a4c8afd9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onKeyReleased</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>af5882a4894c92024f97490630208939b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onMouseButtonPressed</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a772d83dc38b00e97904d4793cda0fe9c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onMouseButtonReleased</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a0fd2014106ecd89428acc286343e6ae6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onMouseWheelScrolled</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>ae6fdd207902bde7461749b7c1c074b7a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a1fe6936844b6f15f58431b0fccccb8be</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onTextEntered</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a6a1e625e0f3be7148be9fc08aac6c823</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onUpdate</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a5f5fc8bc20158f60ca060071002ed2e1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setListenToEvents</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setPosition</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setStyle</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_focused</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_id</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_listening</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_parent</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_rect</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_style</Name>
+                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+                      <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Style</Name>
+                    <Path>d3/db2/Base_8hpp.html</Path>
+                    <Anchor>aa0ab1955ff08799d8ec6655df2877fc2</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>Text</Name>
+                      <Path>d3/db2/Base_8hpp.html</Path>
+                      <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a9dffbf69ffba8bc38bc4e01abf4b1675</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Sprite</Name>
+                      <Path>d3/db2/Base_8hpp.html</Path>
+                      <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a51f2b7b14433aa22c67d1f4fc18943cd</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Both</Name>
+                      <Path>d3/db2/Base_8hpp.html</Path>
+                      <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a130c5b3473c57faa76e2a1c54e26f88e</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Button.hpp</Name>
+                  <Path>d4/db3/Button_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Button</Name>
+                    <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Callback_t</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a1a30d3f308ae78396ed1408f5b561053</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Button</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a5df8a4a3fc440a2fb6dd8545935aa24e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Button</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a0db8f961166a68cc102422fff7d47499</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onMouseButtonPressed</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a339812149261a3b3de0c786f18f25b42</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onMouseButtonReleased</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a6786055101d43108daff67f0927b2e8b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a842b4d1fb90bc440ed73a85fec8105c7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setCallback</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>abb1de83c1422630adf523d251ea715fc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>shape</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a0c30fd6f3f391baad5327b5b5d0d568e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sprite</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>ab11d8c3510d6fbdf456d4f8b678bea8c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>text</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a72c76d48f5d8ebcf470b6f60887a09f0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_callback</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a752269ac38c251bb35e92bb4f40eb706</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_click</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a4397b320e36cb3943300f213873361f5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_shape</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a8e394afdb92f218e5d8d7252812dc74d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_sprite</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>a16fe734ea1ca137101bc121a9b7f491b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_text</Name>
+                      <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+                      <Anchor>ac35e31f374b24dc00aa045fa4d1503c8</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CheckBox.hpp</Name>
+                  <Path>d5/d28/CheckBox_8hpp.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>Label.hpp</Name>
+                  <Path>da/d44/Label_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Label</Name>
+                    <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Label</Name>
+                      <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                      <Anchor>a6bc3bc5379331562569cc2d790cc9b18</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Label</Name>
+                      <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                      <Anchor>a4163ce72e5ec4a9830c0b8e589dbbb1b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                      <Anchor>a2bee24112d606fa531d4133b63cebce5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>text</Name>
+                      <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                      <Anchor>a8ca80d61e7a8d143b5a76f21e9daa1ca</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_text</Name>
+                      <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+                      <Anchor>a5548274ff375629408da79a8856a2799</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Layout.hpp</Name>
+                  <Path>d4/df9/Layout_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Layout</Name>
+                    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Ptr</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>ab66227b1e9670d843cc7f0f8bde29d7f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Layout</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>a1ebdad7966bea3f28b9442dd74e77ea1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Layout</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>a27c07486810a2593972c2f0f7b38c1c9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>attach</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>a2c5fd67fd2230d1da430081d7ccee60f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>draw</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>a7341f05ed805c3fcf51af9b8b2d65229</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>draw_</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>ad2b4f2d6428b8c5c41ec5d5e26353a50</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onEvent</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>a7d1310aacd06829afb1508a25d29233e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onUpdate</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>a3b084a8a7df799ef2fe2541bc502610a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator[]</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_children</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>add2ec5c1cf1aca0edb3839e430e4e976</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>TextBox.hpp</Name>
+                  <Path>d6/dc2/TextBox_8hpp.html</Path>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -1353,60 +2535,24 @@
                 <Path>da/d41/All_8hpp.html</Path>
                </Node>
                <Node>
-                <Name>Platform.hpp</Name>
-                <Path>d5/d40/Platform_8hpp.html</Path>
+                <Name>Core.hpp</Name>
+                <Path>d7/d38/Core_8hpp.html</Path>
                </Node>
                <Node>
-                <Name>SharedLibrary.hpp</Name>
-                <Path>d4/da5/SharedLibrary_8hpp.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>SharedLibrary</Name>
-                  <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>SharedLibrary</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>a99bc0213d0cfa4bdcd015631e6568e12</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SharedLibrary</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>acd1c72d0e43e56ad84319d9deb16f1b0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>~SharedLibrary</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>a6b4e1b2be2ea885c1a1d9a0493a1c88a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>get</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>a5762db12584436608b9dbe6194ed7216</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>load</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>aefc3ca51f5a6bc06a989676e80f02063</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>unload</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>a531dd1894025f71e17461987527e18b8</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>m_loaded</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>a041d8ae308c51ba7d2c70bbc44d1a681</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>m_path</Name>
-                    <Path>db/dd1/classsgl_1_1SharedLibrary.html</Path>
-                    <Anchor>aa9b1dcd9627b8d056edea1428821c9ee</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                </Subnodes>
+                <Name>Graphics.hpp</Name>
+                <Path>dc/da8/Graphics_8hpp.html</Path>
+               </Node>
+               <Node>
+                <Name>Scenes.hpp</Name>
+                <Path>d0/d00/Scenes_8hpp.html</Path>
+               </Node>
+               <Node>
+                <Name>System.hpp</Name>
+                <Path>d4/d25/System_8hpp.html</Path>
+               </Node>
+               <Node>
+                <Name>Widgets.hpp</Name>
+                <Path>d0/d27/Widgets_8hpp.html</Path>
                </Node>
               </Subnodes>
              </Node>

@@ -7,5 +7,7 @@ digraph "include/Small/Debug/Profiler.hpp"
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="include/Small/Core\l/Application.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d3c/Application_8hpp.html",tooltip="Define the application hosting the scenes for the game. "];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="include/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library. "];
+  Node3 [label="include/Small/Core.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d38/Core_8hpp.html",tooltip="Include all the files from the Core folder. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="include/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library. "];
 }

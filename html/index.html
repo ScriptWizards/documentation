@@ -88,7 +88,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <h1>Organization of an application</h1>
 <p>An <code>Application</code> will handle the window and scenes (through the <code>SceneManager</code>).</p>
 <h2>Creating a Scene</h2>
-<p>User scenes must inherit from <code><a class="el" href="d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></code>, as in the following example:</p>
+<p>User scenes must inherit from <code><a class="el" href="d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. ">sgl::Scene</a></code>, as in the following example:</p>
 <div class="fragment"><div class="line"><span class="keyword">class </span>MyScene : <span class="keyword">public</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div>
 <div class="line">{</div>
 <div class="line"><span class="keyword">public</span>:</div>
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="line">            std::cout &lt;&lt; <span class="stringliteral">&quot;key pressed&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html#a0019a6978bfb09dd5aed4871b6087cf3">onUpdate</a>(<span class="keyword">const</span> sf::Time, <a class="code" href="de/dd2/classsgl_1_1SceneManager.html">sgl::SceneManager</a>&amp; scm)</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html#aecd66edbd1e2e42c5e131f7d4f652cbc">onUpdate</a>(<span class="keyword">const</span> sf::Time dt)</div>
 <div class="line">    {}</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordtype">void</span> <a class="code" href="d8/dcf/classsgl_1_1Scene.html#a51b78c80326e4b32063579ac7d6f1a96">onRender</a>(sf::RenderTarget&amp; screen)</div>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 8 2020 17:23:47 for SmallGameLibrary by
+    <li class="footer">Generated on Sat Apr 18 2020 21:37:38 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

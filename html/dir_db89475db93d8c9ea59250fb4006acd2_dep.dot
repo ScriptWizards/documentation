@@ -1,0 +1,9 @@
+digraph "include/Small/Widgets" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bccf9de9576cfd43a752576f669ec707 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Small" fontname="Helvetica", fontsize="10", URL="dir_bccf9de9576cfd43a752576f669ec707.html"]
+  dir_db89475db93d8c9ea59250fb4006acd2 [shape=box, label="Widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_db89475db93d8c9ea59250fb4006acd2.html"];
+  }
+}

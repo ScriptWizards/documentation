@@ -15,7 +15,7 @@ digraph "include/Small/Core/Scene.hpp"
   Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="include/Small/Scenes\l/Zone.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d50/Zone_8hpp.html"];
+  Node6 [label="include/Small/Scenes\l/Zone.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d50/Zone_8hpp.html",tooltip="A specialized scene to handle zones and transitions on a tilemap. "];
   Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 [label="include/Small/Scenes.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d00/Scenes_8hpp.html",tooltip="Include all the files from the Scenes folder. "];
   Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

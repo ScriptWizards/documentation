@@ -1,0 +1,14 @@
+<map id="sgl::Application" name="sgl::Application">
+<area shape="rect" id="node2" href="$de/dd2/classsgl_1_1SceneManager.html" title="Scene manager, in charge of creating, handling and destroying scenes. " alt="" coords="871,215,1005,241"/>
+<area shape="rect" id="node5" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. " alt="" coords="1220,344,1304,371"/>
+<area shape="rect" id="node6" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="869,355,1007,381"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="161,352,275,379"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="313,293,452,320"/>
+<area shape="rect" id="node19" title="STL class. " alt="" coords="164,133,272,160"/>
+<area shape="rect" id="node11" href="$d3/dcc/structsgl_1_1Scripting_1_1Config.html" title="Host the scripting engine configuration. " alt="" coords="1516,43,1659,69"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="1222,32,1302,59"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="875,19,1001,61"/>
+<area shape="rect" id="node14" href="$d6/d13/classsgl_1_1internal_1_1Profiler.html" title="Profiler used to display the time spent in each section of the application. " alt="" coords="1519,96,1656,123"/>
+<area shape="rect" id="node16" href="$de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html" title="sgl::internal::Profiler\l::Entry" alt="" coords="869,137,1007,178"/>
+<area shape="rect" id="node18" href="$d2/d0d/structsgl_1_1internal_1_1Profiler_1_1Scope.html" title="sgl::internal::Profiler\l::Scope" alt="" coords="149,185,287,226"/>
+</map>

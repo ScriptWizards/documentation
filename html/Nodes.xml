@@ -22,6 +22,10 @@
               <Path>d2/d53/namespacesgl_1_1Core.html</Path>
              </Node>
              <Node>
+              <Name>GameObjects</Name>
+              <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+             </Node>
+             <Node>
               <Name>Graphics</Name>
               <Path>d7/d05/namespacesgl_1_1Graphics.html</Path>
              </Node>
@@ -34,8 +38,16 @@
               <Path>d6/da9/namespacesgl_1_1Scenes.html</Path>
              </Node>
              <Node>
+              <Name>Scripting</Name>
+              <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+             </Node>
+             <Node>
               <Name>Style</Name>
               <Path>db/dd7/namespacesgl_1_1Style.html</Path>
+             </Node>
+             <Node>
+              <Name>System</Name>
+              <Path>d5/dff/namespacesgl_1_1System.html</Path>
              </Node>
              <Node>
               <Name>Widgets</Name>
@@ -62,6 +74,10 @@
             <Path>namespacemembers_vars.html</Path>
            </Node>
            <Node>
+            <Name>Typedefs</Name>
+            <Path>namespacemembers_type.html</Path>
+           </Node>
+           <Node>
             <Name>Enumerations</Name>
             <Path>namespacemembers_enum.html</Path>
            </Node>
@@ -82,9 +98,436 @@
             <Path>d5/d52/namespacesgl.html</Path>
             <Subnodes>
              <Node>
+              <Name>GameObjects</Name>
+              <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Actor</Name>
+                <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Actor</Name>
+                  <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                  <Anchor>a845bcba66bd4343575da1344c513f2f7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Actor</Name>
+                  <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                  <Anchor>aadd9b3234fc4a6109b6538809180b189</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onEvent</Name>
+                  <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                  <Anchor>a5b928c1491ef14a374363c1cc3271e64</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                  <Anchor>a057520606f93835a8a91d05ab07da779</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onUpdate</Name>
+                  <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                  <Anchor>a8159d429102db37f81eb4d6a4df3cf2c</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Manager</Name>
+                <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Manager</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>a6e220e5d42e122835dc1c0f3351eaf81</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Manager</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>a477e741eea6578c7ef2a9d1f743bdb27</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>add</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>a53bfb6395020dcc5b0415197e2f12361</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>get</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>aa432835dfcc1d98599f388c5281d5e42</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>has</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>a2e4c3ae9153496a6628af15bccfeccbc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>a53b75c8ae3ed279f3f87a2772af52ac2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>a215ab4f7e9417681354657e1181ed2ae</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_container</Name>
+                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                  <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Graphics</Name>
               <Path>d7/d05/namespacesgl_1_1Graphics.html</Path>
               <Subnodes>
+               <Node>
+                <Name>AnimatedSprite</Name>
+                <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>AnimatedSprite</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a844dbff5ff217776546854adb28d1c69</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>draw</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a31d4800a45aae3f13897c05f9881efd0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getAnimation</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a8997c295b720ce4458886f3501421c99</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getGlobalBounds</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>ab3731776f0e9c63fbf94a41dce111498</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getLocalBounds</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>af28479cf8d79f438e9ba2b52ceabf6f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isEnd</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a10fa7cac1cd7039793e77302a29c8f19</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isLooped</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>ae8f4d3b28b524809ba213ded2fb294e7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isPlaying</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a3a4aac22436b59cffecac6d7370e1ba2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pause</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a81d22b16790bb27d695a153ea34076e1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>play</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a3a0ca4fdca1499ae4296ba4462eb28ca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>play</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a6ec1b3374f549eb340e4cb720bf1fc8d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setAnimation</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a052bad67fd596aee72e42e7ff7a987a7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setColor</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a0f96746dd7288e0fe12f759bb188b3cd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setFrame</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a1cc73082bd9ded317245ecd4643381d3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setLooped</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a2acfb1e3b0990fe920c07ab77d52a8ff</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>stop</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a557fc899b379ceb8fa0bd5da81427cf2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>update</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>ad85274d784aec25167da25a29c2a69c1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_animation</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a16ef9c714f56fc064fda999809143de6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_currentFrame</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a474d3891bbfbc7ab3aa4e964f4a80fa1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_currentTime</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a62f6e8d38831b4d8b5a8e988224840a9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_isLooped</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>aa9dee61d81d39406b2a8a4d931b8019d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_isPaused</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a3107df7d1e5274a15491cd662e235104</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_texture</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a44c263d080d49ffbc9a42be3cacbc06f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_vertices</Name>
+                  <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                  <Anchor>a53214cd26ea5b23410b745409f3554d5</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Animation</Name>
+                <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Animation</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>afecde905784cc17c07102ea889237841</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>addFrame</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a03e6cb10ec2e657b0a257d5966068a07</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getEnd</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a8e028af2959df7fc1b564df2e842c625</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getFrameTime</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a3ba39296c49464639db2e2bd2286b7d1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getSpriteSheet</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a0d21ab0b61cfe0e15c04a86ecdb65116</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>invertX</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>afafe1a6fde3294f1345878d4a5cd089d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isXInverted</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>ae11b0838190149fe667e82a617bc239b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a76be283a0cb595ea2fcda26d6d61d154</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setEnd</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>ae28ba1ab7f0b0e43837e3a4f49891531</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setFrameTime</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>aed128b23a179bb2882e2674d3e11ca72</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setSpriteSheet</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a7f1320c3c55ee381fe145f400f56b34c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>size</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a92aec2ee3c8d32a73ad101daae399c02</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_end</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a2dad4d9ff89f6a974924e9c9a72119ff</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_frames</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a827dd4946038f4b019c0605b419495a2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_frameTime</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>aae857811a745ab4d6952e291d8d1535d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_invertX</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>ab47f2522e209fd60650423698a8d9f7f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_texture</Name>
+                  <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                  <Anchor>a96cb225bd6003e7e2bf22d574123453f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>AnimationLoader</Name>
+                <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>AnimationLoader</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>a6620bbda983400ca9f984669a619eed5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>load</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>a67639b869514b32cca600f05c414afed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>aeeb4b44820348768d5697d988dcf081a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_animations</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>a2fca68fe095cebed1852c7cdd68bf2ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_config</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>a2e7917dc928d6ed4dc85b81c5d05efda</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_textureID</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>a371649d8fa6389caff321fc37487df4b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Node</Name>
+                <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Node</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Node</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>attach</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getTransform</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>move</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>move</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>ad6034097e1007a3a1f461d78ea3757e6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>render</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rotate</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rotate</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rotate</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scale</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scale</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scale</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scale</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_children</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_transform</Name>
+                  <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                  <Anchor>af183cc79bdd4384bfa61772ea931f669</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
                <Node>
                 <Name>Tilemap</Name>
                 <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
@@ -415,6 +858,62 @@
               <Path>d6/da9/namespacesgl_1_1Scenes.html</Path>
               <Subnodes>
                <Node>
+                <Name>ArkScene</Name>
+                <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ArkScene</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>a4144fdec2a2eda7cd1a2e7c7bf17a0c7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~ArkScene</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>a4baee7551d4f3a8eaf88836d9f1831d2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>init</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>a507826f538ae901693e1ff66d863cc31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onEvent</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>acc4219e085b1d3bef80ef5090d83a186</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onQuit</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>a609c587bff792b8bdc2a2a01069a6101</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>a7b907ef593d0d0fbfcd8cb1b107fbcb6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onUpdate</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>ac0a3f9b90ddf14a02676a20796c2fb32</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_scriptName</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>ad7dafd006b54fdf761ebd6430ed52c8c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_state</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>a5e64a51e1451d9da2e1add70e85e3eda</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_vm</Name>
+                  <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                  <Anchor>a7a65e12eb62339eaf96c72363250fe48</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>Zone</Name>
                 <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
                 <Subnodes>
@@ -478,6 +977,33 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Scripting</Name>
+              <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Config</Name>
+                <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>arkscriptLibDir</Name>
+                  <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                  <Anchor>a7581ad45b2b8db5b85e946ef49ae69ca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>compiledScriptsDir</Name>
+                  <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                  <Anchor>a018e72972f9b027515d13b84587242ed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scriptsDirectory</Name>
+                  <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                  <Anchor>ad0fad1dd8be4d187bfecc0a078b01ab2</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Widgets</Name>
               <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
               <Subnodes>
@@ -501,19 +1027,19 @@
                   <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
                  </Node>
                  <Node>
-                  <Name>draw_</Name>
+                  <Name>as</Name>
                   <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                  <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
+                  <Anchor>af3050c80e541e01f2fb2033eee64673c</Anchor>
                  </Node>
                  <Node>
                   <Name>getGlobalBounds</Name>
                   <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                  <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+                  <Anchor>a3b127910b7abc89cd36bb1c68210044e</Anchor>
                  </Node>
                  <Node>
                   <Name>getLocalBounds</Name>
                   <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                  <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+                  <Anchor>a2ca95977e3f2eaab0fc4137c68a7950d</Anchor>
                  </Node>
                  <Node>
                   <Name>getStyle</Name>
@@ -579,11 +1105,6 @@
                   <Name>setListenToEvents</Name>
                   <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
                   <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>setPosition</Name>
-                  <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                  <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
                  </Node>
                  <Node>
                   <Name>setStyle</Name>
@@ -664,12 +1185,12 @@
                  <Node>
                   <Name>shape</Name>
                   <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                  <Anchor>a0c30fd6f3f391baad5327b5b5d0d568e</Anchor>
+                  <Anchor>ac05c8135b44c624aaa4410381abd04ff</Anchor>
                  </Node>
                  <Node>
                   <Name>sprite</Name>
                   <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                  <Anchor>ab11d8c3510d6fbdf456d4f8b678bea8c</Anchor>
+                  <Anchor>a7e7980068d29a4ab3a2449c2caa54f34</Anchor>
                  </Node>
                  <Node>
                   <Name>text</Name>
@@ -689,17 +1210,48 @@
                  <Node>
                   <Name>m_shape</Name>
                   <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                  <Anchor>a8e394afdb92f218e5d8d7252812dc74d</Anchor>
+                  <Anchor>a154bc594a1c93363f398a18a25082acc</Anchor>
                  </Node>
                  <Node>
                   <Name>m_sprite</Name>
                   <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                  <Anchor>a16fe734ea1ca137101bc121a9b7f491b</Anchor>
+                  <Anchor>acaec88ae7b486b0c035d1d72568251ff</Anchor>
                  </Node>
                  <Node>
                   <Name>m_text</Name>
                   <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
                   <Anchor>ac35e31f374b24dc00aa045fa4d1503c8</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Image</Name>
+                <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Image</Name>
+                  <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                  <Anchor>a3ca0805721cec3bf1993f5199db7438e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Image</Name>
+                  <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                  <Anchor>a3accfc0123163f2220dcd059d4eb3eb2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                  <Anchor>a14aa6148522ec3ef85b987b19c43fa47</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sprite</Name>
+                  <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                  <Anchor>ad7da561c84dcbf6e436aaadb667f8c46</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_sprite</Name>
+                  <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                  <Anchor>acef0577800e19d16df0f827a62c06336</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -739,11 +1291,6 @@
                 <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>Ptr</Name>
-                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                  <Anchor>ab66227b1e9670d843cc7f0f8bde29d7f</Anchor>
-                 </Node>
-                 <Node>
                   <Name>Layout</Name>
                   <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                   <Anchor>a1ebdad7966bea3f28b9442dd74e77ea1</Anchor>
@@ -754,24 +1301,19 @@
                   <Anchor>a27c07486810a2593972c2f0f7b38c1c9</Anchor>
                  </Node>
                  <Node>
-                  <Name>attach</Name>
+                  <Name>add</Name>
                   <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                  <Anchor>a2c5fd67fd2230d1da430081d7ccee60f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>draw</Name>
-                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                  <Anchor>a7341f05ed805c3fcf51af9b8b2d65229</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>draw_</Name>
-                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                  <Anchor>ad2b4f2d6428b8c5c41ec5d5e26353a50</Anchor>
+                  <Anchor>a577b5dbac22174113cf9ca77f8e38c6b</Anchor>
                  </Node>
                  <Node>
                   <Name>onEvent</Name>
                   <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                   <Anchor>a7d1310aacd06829afb1508a25d29233e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                  <Anchor>a0221b41de8b635feb33cc1a44e7e70e8</Anchor>
                  </Node>
                  <Node>
                   <Name>onUpdate</Name>
@@ -782,11 +1324,6 @@
                   <Name>operator[]</Name>
                   <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                   <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_children</Name>
-                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                  <Anchor>add2ec5c1cf1aca0edb3839e430e4e976</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -810,6 +1347,11 @@
                 <Name>add</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
                 <Anchor>a2b8c8522bd186569e799f5a42cc0ef74</Anchor>
+               </Node>
+               <Node>
+                <Name>configureScriptingEngine</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>a850ad76892ca6227dda917c2ce12a563</Anchor>
                </Node>
                <Node>
                 <Name>onEvents</Name>
@@ -847,6 +1389,11 @@
                 <Anchor>ac777ee29fd2ab87f5aa14920c924cb48</Anchor>
                </Node>
                <Node>
+                <Name>setScripting</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>a61596a72e49b376dde9c371ff0b11d00</Anchor>
+               </Node>
+               <Node>
                 <Name>setTitle</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
                 <Anchor>a32e7ed5655e8cb95b76282aa3afdb200</Anchor>
@@ -882,9 +1429,29 @@
                 <Anchor>a43e672f2bd8f0f7f15aa23e245fe3d86</Anchor>
                </Node>
                <Node>
+                <Name>m_scriptingConfig</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>aa17b5037034f23b5a17fcab0350cd9a6</Anchor>
+               </Node>
+               <Node>
+                <Name>m_scriptingEnabled</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>a0a90df0f8ef7650cc3c157cebcfde1dd</Anchor>
+               </Node>
+               <Node>
                 <Name>m_showDebug</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
                 <Anchor>ab49ff572b0ffeca21aa2ea0cc25c4f4a</Anchor>
+               </Node>
+               <Node>
+                <Name>m_state</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>af03876abcce1c61c805bcac9dda5530a</Anchor>
+               </Node>
+               <Node>
+                <Name>m_vm</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>aae02692871a5ac505ac53b56c864a0c9</Anchor>
                </Node>
                <Node>
                 <Name>m_wireframe</Name>
@@ -918,6 +1485,11 @@
                 <Anchor>ae24bdf34dbc8d5fa698ab51c013652c6</Anchor>
                </Node>
                <Node>
+                <Name>init</Name>
+                <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                <Anchor>a1bd1770e622664946ca9cac10e7ad6bd</Anchor>
+               </Node>
+               <Node>
                 <Name>onEvent</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                 <Anchor>a4ac4f6c969852c41ee029af4e8795410</Anchor>
@@ -930,7 +1502,7 @@
                <Node>
                 <Name>onRender</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                <Anchor>a51b78c80326e4b32063579ac7d6f1a96</Anchor>
+                <Anchor>a3e7be05803537233e391ca232a3b1a45</Anchor>
                </Node>
                <Node>
                 <Name>onUpdate</Name>
@@ -989,6 +1561,11 @@
                 <Anchor>ab73920a66b9f398afa440b77cbc6a9c7</Anchor>
                </Node>
                <Node>
+                <Name>init</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>a38ee68abe0753dfe43a5c117338b83a2</Anchor>
+               </Node>
+               <Node>
                 <Name>onEvent</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>ab2bebc9a0571a387b590813d3d88f102</Anchor>
@@ -1032,6 +1609,11 @@
                 <Name>m_scenes</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>accaadd112d80ea2ea54b5a4ece73af34</Anchor>
+               </Node>
+               <Node>
+                <Name>m_transform</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1135,20 +1717,32 @@
           <Path>hierarchy.html</Path>
           <Subnodes>
            <Node>
+            <Name>sgl::Graphics::Animation</Name>
+            <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+           </Node>
+           <Node>
+            <Name>sgl::Graphics::AnimationLoader</Name>
+            <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+           </Node>
+           <Node>
             <Name>sgl::Application</Name>
             <Path>dc/d79/classsgl_1_1Application.html</Path>
+           </Node>
+           <Node>
+            <Name>sgl::Scripting::Config</Name>
+            <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
            </Node>
            <Node>
             <Name>Drawable</Name>
             <Path></Path>
             <Subnodes>
              <Node>
-              <Name>sgl::Graphics::Tilemap</Name>
-              <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+              <Name>sgl::Graphics::AnimatedSprite</Name>
+              <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
              </Node>
              <Node>
-              <Name>sgl::Widgets::Layout</Name>
-              <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+              <Name>sgl::Graphics::Tilemap</Name>
+              <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -1157,18 +1751,58 @@
             <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
            </Node>
            <Node>
-            <Name>sgl::internal::Profiler</Name>
-            <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
+            <Name>sgl::GameObjects::Manager&lt; T &gt;</Name>
+            <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
            </Node>
            <Node>
-            <Name>sgl::Scene</Name>
-            <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+            <Name>sgl::Graphics::Node</Name>
+            <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
             <Subnodes>
              <Node>
-              <Name>sgl::Scenes::Zone</Name>
-              <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+              <Name>sgl::GameObjects::Actor</Name>
+              <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+             </Node>
+             <Node>
+              <Name>sgl::Scene</Name>
+              <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>sgl::Scenes::ArkScene</Name>
+                <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+               </Node>
+               <Node>
+                <Name>sgl::Scenes::Zone</Name>
+                <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>sgl::Widgets::Base</Name>
+              <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>sgl::Widgets::Button</Name>
+                <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
+               </Node>
+               <Node>
+                <Name>sgl::Widgets::Image</Name>
+                <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+               </Node>
+               <Node>
+                <Name>sgl::Widgets::Label</Name>
+                <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
+               </Node>
+               <Node>
+                <Name>sgl::Widgets::Layout</Name>
+                <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>sgl::internal::Profiler</Name>
+            <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
            </Node>
            <Node>
             <Name>sgl::SceneManager</Name>
@@ -1195,26 +1829,12 @@
             <Path></Path>
             <Subnodes>
              <Node>
-              <Name>sgl::Graphics::Tilemap</Name>
-              <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+              <Name>sgl::Graphics::AnimatedSprite</Name>
+              <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
              </Node>
              <Node>
-              <Name>sgl::Widgets::Base</Name>
-              <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>sgl::Widgets::Button</Name>
-                <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-               </Node>
-               <Node>
-                <Name>sgl::Widgets::Label</Name>
-                <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
-               </Node>
-               <Node>
-                <Name>sgl::Widgets::Layout</Name>
-                <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-               </Node>
-              </Subnodes>
+              <Name>sgl::Graphics::Tilemap</Name>
+              <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -1227,6 +1847,96 @@
            <Node>
             <Name>All</Name>
             <Path>functions.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>_</Name>
+              <Path>functions.html</Path>
+             </Node>
+             <Node>
+              <Name>a</Name>
+              <Path>functions_a.html</Path>
+             </Node>
+             <Node>
+              <Name>b</Name>
+              <Path>functions_b.html</Path>
+             </Node>
+             <Node>
+              <Name>c</Name>
+              <Path>functions_c.html</Path>
+             </Node>
+             <Node>
+              <Name>d</Name>
+              <Path>functions_d.html</Path>
+             </Node>
+             <Node>
+              <Name>e</Name>
+              <Path>functions_e.html</Path>
+             </Node>
+             <Node>
+              <Name>f</Name>
+              <Path>functions_f.html</Path>
+             </Node>
+             <Node>
+              <Name>g</Name>
+              <Path>functions_g.html</Path>
+             </Node>
+             <Node>
+              <Name>h</Name>
+              <Path>functions_h.html</Path>
+             </Node>
+             <Node>
+              <Name>i</Name>
+              <Path>functions_i.html</Path>
+             </Node>
+             <Node>
+              <Name>l</Name>
+              <Path>functions_l.html</Path>
+             </Node>
+             <Node>
+              <Name>m</Name>
+              <Path>functions_m.html</Path>
+             </Node>
+             <Node>
+              <Name>n</Name>
+              <Path>functions_n.html</Path>
+             </Node>
+             <Node>
+              <Name>o</Name>
+              <Path>functions_o.html</Path>
+             </Node>
+             <Node>
+              <Name>p</Name>
+              <Path>functions_p.html</Path>
+             </Node>
+             <Node>
+              <Name>r</Name>
+              <Path>functions_r.html</Path>
+             </Node>
+             <Node>
+              <Name>s</Name>
+              <Path>functions_s.html</Path>
+             </Node>
+             <Node>
+              <Name>t</Name>
+              <Path>functions_t.html</Path>
+             </Node>
+             <Node>
+              <Name>u</Name>
+              <Path>functions_u.html</Path>
+             </Node>
+             <Node>
+              <Name>w</Name>
+              <Path>functions_w.html</Path>
+             </Node>
+             <Node>
+              <Name>z</Name>
+              <Path>functions_z.html</Path>
+             </Node>
+             <Node>
+              <Name>~</Name>
+              <Path>functions_~.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>Functions</Name>
@@ -1341,6 +2051,11 @@
                       <Anchor>a2b8c8522bd186569e799f5a42cc0ef74</Anchor>
                      </Node>
                      <Node>
+                      <Name>configureScriptingEngine</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>a850ad76892ca6227dda917c2ce12a563</Anchor>
+                     </Node>
+                     <Node>
                       <Name>onEvents</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
                       <Anchor>ab9ca35292b7e7bb6babd16fc5dd85b7a</Anchor>
@@ -1374,6 +2089,11 @@
                       <Name>setFPSLimit</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
                       <Anchor>ac777ee29fd2ab87f5aa14920c924cb48</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setScripting</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>a61596a72e49b376dde9c371ff0b11d00</Anchor>
                      </Node>
                      <Node>
                       <Name>setTitle</Name>
@@ -1411,9 +2131,29 @@
                       <Anchor>a43e672f2bd8f0f7f15aa23e245fe3d86</Anchor>
                      </Node>
                      <Node>
+                      <Name>m_scriptingConfig</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>aa17b5037034f23b5a17fcab0350cd9a6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_scriptingEnabled</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>a0a90df0f8ef7650cc3c157cebcfde1dd</Anchor>
+                     </Node>
+                     <Node>
                       <Name>m_showDebug</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
                       <Anchor>ab49ff572b0ffeca21aa2ea0cc25c4f4a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_state</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>af03876abcce1c61c805bcac9dda5530a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_vm</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>aae02692871a5ac505ac53b56c864a0c9</Anchor>
                      </Node>
                      <Node>
                       <Name>m_wireframe</Name>
@@ -1473,6 +2213,11 @@
                       <Anchor>ae24bdf34dbc8d5fa698ab51c013652c6</Anchor>
                      </Node>
                      <Node>
+                      <Name>init</Name>
+                      <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                      <Anchor>a1bd1770e622664946ca9cac10e7ad6bd</Anchor>
+                     </Node>
+                     <Node>
                       <Name>onEvent</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                       <Anchor>a4ac4f6c969852c41ee029af4e8795410</Anchor>
@@ -1485,7 +2230,7 @@
                      <Node>
                       <Name>onRender</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-                      <Anchor>a51b78c80326e4b32063579ac7d6f1a96</Anchor>
+                      <Anchor>a3e7be05803537233e391ca232a3b1a45</Anchor>
                      </Node>
                      <Node>
                       <Name>onUpdate</Name>
@@ -1572,6 +2317,11 @@
                       <Anchor>ab73920a66b9f398afa440b77cbc6a9c7</Anchor>
                      </Node>
                      <Node>
+                      <Name>init</Name>
+                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                      <Anchor>a38ee68abe0753dfe43a5c117338b83a2</Anchor>
+                     </Node>
+                     <Node>
                       <Name>onEvent</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>ab2bebc9a0571a387b590813d3d88f102</Anchor>
@@ -1615,6 +2365,11 @@
                       <Name>m_scenes</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>accaadd112d80ea2ea54b5a4ece73af34</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_transform</Name>
+                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                      <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -1847,9 +2602,495 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>GameObjects</Name>
+                <Path>dir_93a9b13fd1faea679b8404f52a1184a5.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Actor.hpp</Name>
+                  <Path>d3/d1b/Actor_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Actor</Name>
+                    <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Actor</Name>
+                      <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                      <Anchor>a845bcba66bd4343575da1344c513f2f7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Actor</Name>
+                      <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                      <Anchor>aadd9b3234fc4a6109b6538809180b189</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onEvent</Name>
+                      <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                      <Anchor>a5b928c1491ef14a374363c1cc3271e64</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                      <Anchor>a057520606f93835a8a91d05ab07da779</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onUpdate</Name>
+                      <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+                      <Anchor>a8159d429102db37f81eb4d6a4df3cf2c</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Manager.hpp</Name>
+                  <Path>d9/d54/Manager_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Manager</Name>
+                    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Manager</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>a6e220e5d42e122835dc1c0f3351eaf81</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Manager</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>a477e741eea6578c7ef2a9d1f743bdb27</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>add</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>a53bfb6395020dcc5b0415197e2f12361</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>get</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>aa432835dfcc1d98599f388c5281d5e42</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>has</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>a2e4c3ae9153496a6628af15bccfeccbc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator=</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>a53b75c8ae3ed279f3f87a2772af52ac2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator[]</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>a215ab4f7e9417681354657e1181ed2ae</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_container</Name>
+                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+                      <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>FontManager</Name>
+                    <Path>d9/d54/Manager_8hpp.html</Path>
+                    <Anchor>a938c7ab0ebc6891ce7eacc53db8bacf4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ImageManager</Name>
+                    <Path>d9/d54/Manager_8hpp.html</Path>
+                    <Anchor>a947b04a372d4a411f18b458c6ee6682b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ShaderManager</Name>
+                    <Path>d9/d54/Manager_8hpp.html</Path>
+                    <Anchor>ac7daf524e8d7e51bd2bf1e5f41510cb8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ShapeManager</Name>
+                    <Path>d9/d54/Manager_8hpp.html</Path>
+                    <Anchor>ad7c319c3f43f93f13b9a0346058ad90e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SpriteManager</Name>
+                    <Path>d9/d54/Manager_8hpp.html</Path>
+                    <Anchor>aaa0d065ffddb5c859d950cb0ffcddf54</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TextManager</Name>
+                    <Path>d9/d54/Manager_8hpp.html</Path>
+                    <Anchor>aa453e23e948af9782e6f321ed332472b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TextureManager</Name>
+                    <Path>d9/d54/Manager_8hpp.html</Path>
+                    <Anchor>ae487be50d6900a987b875c16f75ffdbe</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>Graphics</Name>
                 <Path>dir_1e32cf0ae7c9740a651d31fd7036c32f.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>Animation.hpp</Name>
+                  <Path>d0/d36/Animation_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Animation</Name>
+                    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Animation</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>afecde905784cc17c07102ea889237841</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>addFrame</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a03e6cb10ec2e657b0a257d5966068a07</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getEnd</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a8e028af2959df7fc1b564df2e842c625</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getFrameTime</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a3ba39296c49464639db2e2bd2286b7d1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getSpriteSheet</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a0d21ab0b61cfe0e15c04a86ecdb65116</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>invertX</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>afafe1a6fde3294f1345878d4a5cd089d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>isXInverted</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>ae11b0838190149fe667e82a617bc239b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator[]</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a76be283a0cb595ea2fcda26d6d61d154</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setEnd</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>ae28ba1ab7f0b0e43837e3a4f49891531</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setFrameTime</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>aed128b23a179bb2882e2674d3e11ca72</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setSpriteSheet</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a7f1320c3c55ee381fe145f400f56b34c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>size</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a92aec2ee3c8d32a73ad101daae399c02</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_end</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a2dad4d9ff89f6a974924e9c9a72119ff</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_frames</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a827dd4946038f4b019c0605b419495a2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_frameTime</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>aae857811a745ab4d6952e291d8d1535d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_invertX</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>ab47f2522e209fd60650423698a8d9f7f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_texture</Name>
+                      <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+                      <Anchor>a96cb225bd6003e7e2bf22d574123453f</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>AnimatedSprite</Name>
+                    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>AnimatedSprite</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a844dbff5ff217776546854adb28d1c69</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>draw</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a31d4800a45aae3f13897c05f9881efd0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getAnimation</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a8997c295b720ce4458886f3501421c99</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getGlobalBounds</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>ab3731776f0e9c63fbf94a41dce111498</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getLocalBounds</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>af28479cf8d79f438e9ba2b52ceabf6f9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>isEnd</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a10fa7cac1cd7039793e77302a29c8f19</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>isLooped</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>ae8f4d3b28b524809ba213ded2fb294e7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>isPlaying</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a3a4aac22436b59cffecac6d7370e1ba2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>pause</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a81d22b16790bb27d695a153ea34076e1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>play</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a3a0ca4fdca1499ae4296ba4462eb28ca</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>play</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a6ec1b3374f549eb340e4cb720bf1fc8d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setAnimation</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a052bad67fd596aee72e42e7ff7a987a7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setColor</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a0f96746dd7288e0fe12f759bb188b3cd</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setFrame</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a1cc73082bd9ded317245ecd4643381d3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setLooped</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a2acfb1e3b0990fe920c07ab77d52a8ff</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>stop</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a557fc899b379ceb8fa0bd5da81427cf2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>update</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>ad85274d784aec25167da25a29c2a69c1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_animation</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a16ef9c714f56fc064fda999809143de6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_currentFrame</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a474d3891bbfbc7ab3aa4e964f4a80fa1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_currentTime</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a62f6e8d38831b4d8b5a8e988224840a9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_isLooped</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>aa9dee61d81d39406b2a8a4d931b8019d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_isPaused</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a3107df7d1e5274a15491cd662e235104</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_texture</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a44c263d080d49ffbc9a42be3cacbc06f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_vertices</Name>
+                      <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+                      <Anchor>a53214cd26ea5b23410b745409f3554d5</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>AnimationLoader</Name>
+                    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>AnimationLoader</Name>
+                      <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                      <Anchor>a6620bbda983400ca9f984669a619eed5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>load</Name>
+                      <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                      <Anchor>a67639b869514b32cca600f05c414afed</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator[]</Name>
+                      <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                      <Anchor>aeeb4b44820348768d5697d988dcf081a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_animations</Name>
+                      <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                      <Anchor>a2fca68fe095cebed1852c7cdd68bf2ef</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_config</Name>
+                      <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                      <Anchor>a2e7917dc928d6ed4dc85b81c5d05efda</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_textureID</Name>
+                      <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                      <Anchor>a371649d8fa6389caff321fc37487df4b</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Node.hpp</Name>
+                  <Path>d7/dc6/Node_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Node</Name>
+                    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Node</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Node</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>attach</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getTransform</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>move</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>move</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>ad6034097e1007a3a1f461d78ea3757e6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>render</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rotate</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rotate</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rotate</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>scale</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>scale</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>scale</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>scale</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_children</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_transform</Name>
+                      <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+                      <Anchor>af183cc79bdd4384bfa61772ea931f669</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
                  <Node>
                   <Name>Tilemap.hpp</Name>
                   <Path>de/d4d/Tilemap_8hpp.html</Path>
@@ -2031,6 +3272,68 @@
                 <Path>dir_08a504847c5d5d11f9a6f924aa83786a.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>ArkScene.hpp</Name>
+                  <Path>de/de7/ArkScene_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>ArkScene</Name>
+                    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>ArkScene</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>a4144fdec2a2eda7cd1a2e7c7bf17a0c7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~ArkScene</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>a4baee7551d4f3a8eaf88836d9f1831d2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>init</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>a507826f538ae901693e1ff66d863cc31</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onEvent</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>acc4219e085b1d3bef80ef5090d83a186</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onQuit</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>a609c587bff792b8bdc2a2a01069a6101</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>a7b907ef593d0d0fbfcd8cb1b107fbcb6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onUpdate</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>ac0a3f9b90ddf14a02676a20796c2fb32</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_scriptName</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>ad7dafd006b54fdf761ebd6430ed52c8c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_state</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>a5e64a51e1451d9da2e1add70e85e3eda</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_vm</Name>
+                      <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+                      <Anchor>a7a65e12eb62339eaf96c72363250fe48</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
                   <Name>Zone.hpp</Name>
                   <Path>d2/d50/Zone_8hpp.html</Path>
                   <Subnodes>
@@ -2100,9 +3403,153 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>Scripting</Name>
+                <Path>dir_83b6773e5da43a082e3b0b578f795f5d.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Bindings.hpp</Name>
+                  <Path>d2/d12/Bindings_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>bindCore</Name>
+                    <Path>d2/d12/Bindings_8hpp.html</Path>
+                    <Anchor>a98a05fa8f25fc7cc320d3b90427125d9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>bindGraphics</Name>
+                    <Path>d2/d12/Bindings_8hpp.html</Path>
+                    <Anchor>a78cdea9e9dbcde5c4b142f259e959fb4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>bindScenes</Name>
+                    <Path>d2/d12/Bindings_8hpp.html</Path>
+                    <Anchor>aaf08f49274c949c016c4e4f16edd0883</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>bindSystem</Name>
+                    <Path>d2/d12/Bindings_8hpp.html</Path>
+                    <Anchor>a2737c07000d956818742a11adfd88749</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>bindWidgets</Name>
+                    <Path>d2/d12/Bindings_8hpp.html</Path>
+                    <Anchor>aace5438697a0a9ef4d96159235b67b23</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Config.hpp</Name>
+                  <Path>df/db4/Config_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Config</Name>
+                    <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>arkscriptLibDir</Name>
+                      <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                      <Anchor>a7581ad45b2b8db5b85e946ef49ae69ca</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>compiledScriptsDir</Name>
+                      <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                      <Anchor>a018e72972f9b027515d13b84587242ed</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>scriptsDirectory</Name>
+                      <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+                      <Anchor>ad0fad1dd8be4d187bfecc0a078b01ab2</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Engine.hpp</Name>
+                  <Path>d3/d48/Engine_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>compileAllScriptsIn</Name>
+                    <Path>d3/d48/Engine_8hpp.html</Path>
+                    <Anchor>a4bddb41fb85176b31aa0406a56336bc0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>compileScript</Name>
+                    <Path>d3/d48/Engine_8hpp.html</Path>
+                    <Anchor>a1f0c82820344ec0c817c732b2e9523a4</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>SFMLtoArk.hpp</Name>
+                  <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>sfEventType</Name>
+                    <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                    <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>TextEntered</Name>
+                      <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                      <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a8ed4d3c0783d6f909907e1592ffe47ac</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>KeyPressed</Name>
+                      <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                      <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3ac17e6984c1e5a887a49831beadee6bca</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>KeyReleased</Name>
+                      <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                      <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a4a77f07c8ad223b71ab4ce78a63841ab</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>MouseWheelScrolled</Name>
+                      <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                      <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a9787e93d7821ce61637e6f9f19ef955b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>MouseButtonPressed</Name>
+                      <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                      <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a7349f643d689997b7c54bf93e4095f5c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>MouseButtonReleased</Name>
+                      <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                      <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a7584c169de594c27f00084b93186fd7c</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>sfEventToArk</Name>
+                    <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                    <Anchor>a8a19be0c2ef77e39dafa5f175ea4e863</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>sfTimeToArk</Name>
+                    <Path>d8/d82/SFMLtoArk_8hpp.html</Path>
+                    <Anchor>a2b3a4e30addc7a4d3843c64b8b1af495</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>System</Name>
                 <Path>dir_ee49f823e1d6d52dedd8522691ce7cb9.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>FileSystem.hpp</Name>
+                  <Path>d2/dbb/FileSystem_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>listDir</Name>
+                    <Path>d2/dbb/FileSystem_8hpp.html</Path>
+                    <Anchor>abbdb542a1733fd21617fa401370e27e0</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
                  <Node>
                   <Name>Platform.hpp</Name>
                   <Path>d5/d40/Platform_8hpp.html</Path>
@@ -2189,19 +3636,19 @@
                       <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
                      </Node>
                      <Node>
-                      <Name>draw_</Name>
+                      <Name>as</Name>
                       <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                      <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
+                      <Anchor>af3050c80e541e01f2fb2033eee64673c</Anchor>
                      </Node>
                      <Node>
                       <Name>getGlobalBounds</Name>
                       <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                      <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+                      <Anchor>a3b127910b7abc89cd36bb1c68210044e</Anchor>
                      </Node>
                      <Node>
                       <Name>getLocalBounds</Name>
                       <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                      <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+                      <Anchor>a2ca95977e3f2eaab0fc4137c68a7950d</Anchor>
                      </Node>
                      <Node>
                       <Name>getStyle</Name>
@@ -2269,11 +3716,6 @@
                       <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
                      </Node>
                      <Node>
-                      <Name>setPosition</Name>
-                      <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-                      <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
-                     </Node>
-                     <Node>
                       <Name>setStyle</Name>
                       <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
                       <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
@@ -2332,6 +3774,11 @@
                      </Node>
                     </Subnodes>
                    </Node>
+                   <Node>
+                    <Name>make</Name>
+                    <Path>d3/db2/Base_8hpp.html</Path>
+                    <Anchor>a9a85429f68c5c677ae27ef3e242f1d5f</Anchor>
+                   </Node>
                   </Subnodes>
                  </Node>
                  <Node>
@@ -2380,12 +3827,12 @@
                      <Node>
                       <Name>shape</Name>
                       <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                      <Anchor>a0c30fd6f3f391baad5327b5b5d0d568e</Anchor>
+                      <Anchor>ac05c8135b44c624aaa4410381abd04ff</Anchor>
                      </Node>
                      <Node>
                       <Name>sprite</Name>
                       <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                      <Anchor>ab11d8c3510d6fbdf456d4f8b678bea8c</Anchor>
+                      <Anchor>a7e7980068d29a4ab3a2449c2caa54f34</Anchor>
                      </Node>
                      <Node>
                       <Name>text</Name>
@@ -2405,12 +3852,12 @@
                      <Node>
                       <Name>m_shape</Name>
                       <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                      <Anchor>a8e394afdb92f218e5d8d7252812dc74d</Anchor>
+                      <Anchor>a154bc594a1c93363f398a18a25082acc</Anchor>
                      </Node>
                      <Node>
                       <Name>m_sprite</Name>
                       <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                      <Anchor>a16fe734ea1ca137101bc121a9b7f491b</Anchor>
+                      <Anchor>acaec88ae7b486b0c035d1d72568251ff</Anchor>
                      </Node>
                      <Node>
                       <Name>m_text</Name>
@@ -2424,6 +3871,43 @@
                  <Node>
                   <Name>CheckBox.hpp</Name>
                   <Path>d5/d28/CheckBox_8hpp.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>Image.hpp</Name>
+                  <Path>d8/dde/Image_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Image</Name>
+                      <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                      <Anchor>a3ca0805721cec3bf1993f5199db7438e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Image</Name>
+                      <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                      <Anchor>a3accfc0123163f2220dcd059d4eb3eb2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                      <Anchor>a14aa6148522ec3ef85b987b19c43fa47</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sprite</Name>
+                      <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                      <Anchor>ad7da561c84dcbf6e436aaadb667f8c46</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_sprite</Name>
+                      <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+                      <Anchor>acef0577800e19d16df0f827a62c06336</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
                  </Node>
                  <Node>
                   <Name>Label.hpp</Name>
@@ -2471,11 +3955,6 @@
                     <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                     <Subnodes>
                      <Node>
-                      <Name>Ptr</Name>
-                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                      <Anchor>ab66227b1e9670d843cc7f0f8bde29d7f</Anchor>
-                     </Node>
-                     <Node>
                       <Name>Layout</Name>
                       <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                       <Anchor>a1ebdad7966bea3f28b9442dd74e77ea1</Anchor>
@@ -2486,24 +3965,19 @@
                       <Anchor>a27c07486810a2593972c2f0f7b38c1c9</Anchor>
                      </Node>
                      <Node>
-                      <Name>attach</Name>
+                      <Name>add</Name>
                       <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                      <Anchor>a2c5fd67fd2230d1da430081d7ccee60f</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>draw</Name>
-                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                      <Anchor>a7341f05ed805c3fcf51af9b8b2d65229</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>draw_</Name>
-                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                      <Anchor>ad2b4f2d6428b8c5c41ec5d5e26353a50</Anchor>
+                      <Anchor>a577b5dbac22174113cf9ca77f8e38c6b</Anchor>
                      </Node>
                      <Node>
                       <Name>onEvent</Name>
                       <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                       <Anchor>a7d1310aacd06829afb1508a25d29233e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
+                      <Anchor>a0221b41de8b635feb33cc1a44e7e70e8</Anchor>
                      </Node>
                      <Node>
                       <Name>onUpdate</Name>
@@ -2514,11 +3988,6 @@
                       <Name>operator[]</Name>
                       <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                       <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>m_children</Name>
-                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                      <Anchor>add2ec5c1cf1aca0edb3839e430e4e976</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -2539,12 +4008,20 @@
                 <Path>d7/d38/Core_8hpp.html</Path>
                </Node>
                <Node>
+                <Name>GameObjects.hpp</Name>
+                <Path>d2/da1/GameObjects_8hpp.html</Path>
+               </Node>
+               <Node>
                 <Name>Graphics.hpp</Name>
                 <Path>dc/da8/Graphics_8hpp.html</Path>
                </Node>
                <Node>
                 <Name>Scenes.hpp</Name>
                 <Path>d0/d00/Scenes_8hpp.html</Path>
+               </Node>
+               <Node>
+                <Name>Scripting.hpp</Name>
+                <Path>d3/dc8/Scripting_8hpp.html</Path>
                </Node>
                <Node>
                 <Name>System.hpp</Name>

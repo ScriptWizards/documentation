@@ -1,8 +1,10 @@
 var namespacesgl =
 [
+    [ "GameObjects", "d3/d34/namespacesgl_1_1GameObjects.html", "d3/d34/namespacesgl_1_1GameObjects" ],
     [ "Graphics", "d7/d05/namespacesgl_1_1Graphics.html", "d7/d05/namespacesgl_1_1Graphics" ],
     [ "internal", "d4/d3b/namespacesgl_1_1internal.html", "d4/d3b/namespacesgl_1_1internal" ],
     [ "Scenes", "d6/da9/namespacesgl_1_1Scenes.html", "d6/da9/namespacesgl_1_1Scenes" ],
+    [ "Scripting", "dc/d51/namespacesgl_1_1Scripting.html", "dc/d51/namespacesgl_1_1Scripting" ],
     [ "Widgets", "dd/dfe/namespacesgl_1_1Widgets.html", "dd/dfe/namespacesgl_1_1Widgets" ],
     [ "Application", "dc/d79/classsgl_1_1Application.html", "dc/d79/classsgl_1_1Application" ],
     [ "Scene", "d8/dcf/classsgl_1_1Scene.html", "d8/dcf/classsgl_1_1Scene" ],

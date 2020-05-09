@@ -13,5 +13,20 @@ digraph "include/Small/Core/Scene.hpp"
   Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node5 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="Scene.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 [label="Small/Scripting/Config.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/db4/Config_8hpp.html"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Small/Graphics/Node.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dc6/Node_8hpp.html",tooltip="A scene graph node. "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SFML/Graphics/RenderTarget.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SFML/Graphics/Transform.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SFML/System/Vector2.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="vector",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="memory",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Scene.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }

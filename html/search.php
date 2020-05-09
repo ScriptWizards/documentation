@@ -63,7 +63,7 @@ main();
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Apr 18 2020 22:46:26 for SmallGameLibrary by
+    <li class="footer">Generated on Sat May 9 2020 15:35:06 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

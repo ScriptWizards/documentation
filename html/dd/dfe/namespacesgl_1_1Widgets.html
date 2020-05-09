@@ -88,7 +88,8 @@ $(document).ready(function(){initNavTree('dd/dfe/namespacesgl_1_1Widgets.html','
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">sgl::Widgets Namespace Reference</div>  </div>
 </div><!--header-->
@@ -105,6 +106,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcd/classsgl_1_1Widgets_1_1Button.html">Button</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic button widget.  <a href="../../dd/dcd/classsgl_1_1Widgets_1_1Button.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/classsgl_1_1Widgets_1_1Image.html">Image</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic image widget.  <a href="../../d5/dd4/classsgl_1_1Widgets_1_1Image.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0f/classsgl_1_1Widgets_1_1Label.html">Label</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic label widget, doesn't listen to events by default.  <a href="../../d0/d0f/classsgl_1_1Widgets_1_1Label.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +124,13 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:aa0ab1955ff08799d8ec6655df2877fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Styling options for widgets.  <a href="../../dd/dfe/namespacesgl_1_1Widgets.html#aa0ab1955ff08799d8ec6655df2877fc2">More...</a><br /></td></tr>
 <tr class="separator:aa0ab1955ff08799d8ec6655df2877fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9a85429f68c5c677ae27ef3e242f1d5f"><td class="memTemplParams" colspan="2">template&lt;typename W , typename... Args&gt; </td></tr>
+<tr class="memitem:a9a85429f68c5c677ae27ef3e242f1d5f"><td class="memTemplItemLeft" align="right" valign="top">W&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dfe/namespacesgl_1_1Widgets.html#a9a85429f68c5c677ae27ef3e242f1d5f">make</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:a9a85429f68c5c677ae27ef3e242f1d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility to create widget out of the "layout" box.  <a href="#a9a85429f68c5c677ae27ef3e242f1d5f">More...</a><br /></td></tr>
+<tr class="separator:a9a85429f68c5c677ae27ef3e242f1d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contain all the base widget classes. </p>
@@ -145,14 +156,55 @@ Enumerations</h2></td></tr>
 <p>Styling options for widgets. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="aa0ab1955ff08799d8ec6655df2877fc2a9dffbf69ffba8bc38bc4e01abf4b1675"></a>Text&#160;</td><td class="fielddoc">
+<p>Display text only, if available (default) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="aa0ab1955ff08799d8ec6655df2877fc2a51f2b7b14433aa22c67d1f4fc18943cd"></a>Sprite&#160;</td><td class="fielddoc">
+<p>Display sprite only, if available. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="aa0ab1955ff08799d8ec6655df2877fc2a130c5b3473c57faa76e2a1c54e26f88e"></a>Both&#160;</td><td class="fielddoc">
+<p>Display both, first the sprite, then the text over it. </p>
 </td></tr>
 </table>
 
 <p>Definition at line <a class="el" href="../../d3/db2/Base_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d3/db2/Base_8hpp_source.html">Base.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a9a85429f68c5c677ae27ef3e242f1d5f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename W , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">W sgl::Widgets::make </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility to create widget out of the "layout" box. </p>
+<p>Useful when it comes to try something out without having to drop a layout and some heavy configuration code. Example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> button = sgl::Widgets::make&lt;sgl::Widgets::Button&gt;(sf::IntRect(12, 12, 48, 16));</div>
+</div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">W</td><td>The widget typename </td></tr>
+    <tr><td class="paramname">Args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>Arguments for the widget, appart from the automatic ones (id and parent) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>W </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d3/db2/Base_8hpp_source.html#l00219">219</a> of file <a class="el" href="../../d3/db2/Base_8hpp_source.html">Base.hpp</a>.</p>
 
 </div>
 </div>
@@ -162,7 +214,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d52/namespacesgl.html">sgl</a></li><li class="navelem"><a class="el" href="../../dd/dfe/namespacesgl_1_1Widgets.html">Widgets</a></li>
-    <li class="footer">Generated on Sat Apr 18 2020 22:46:21 for SmallGameLibrary by
+    <li class="footer">Generated on Sat May 9 2020 15:35:02 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

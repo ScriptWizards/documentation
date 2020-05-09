@@ -1,0 +1,6 @@
+<map id="include/Small/Graphics.hpp" name="include/Small/Graphics.hpp">
+<area shape="rect" id="node2" href="$de/d4d/Tilemap_8hpp.html" title="A tilemap wrapper, to render a lot of sprites in a single draw call. " alt="" coords="758,80,943,107"/>
+<area shape="rect" id="node9" href="$d8/d67/TileView_8hpp.html" title="Utility to build and manipulate views based on tiles. " alt="" coords="1235,80,1423,107"/>
+<area shape="rect" id="node11" href="$d0/d36/Animation_8hpp.html" title="Handling animated sprites. " alt="" coords="1473,80,1671,107"/>
+<area shape="rect" id="node19" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="2229,80,2400,107"/>
+</map>

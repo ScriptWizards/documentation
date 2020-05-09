@@ -15,4 +15,9 @@ digraph "include/Small/System.hpp"
   Node5 [label="system_error",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 [label="exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Small/System/FileSystem.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/dbb/FileSystem_8hpp.html",tooltip="Useful functionalities related to the filesystem. "];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vector",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }

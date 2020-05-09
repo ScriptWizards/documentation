@@ -5,6 +5,9 @@ var dir_db89475db93d8c9ea59250fb4006acd2 =
       [ "Button", "dd/dcd/classsgl_1_1Widgets_1_1Button.html", "dd/dcd/classsgl_1_1Widgets_1_1Button" ]
     ] ],
     [ "CheckBox.hpp", "d5/d28/CheckBox_8hpp.html", null ],
+    [ "Image.hpp", "d8/dde/Image_8hpp.html", [
+      [ "Image", "d5/dd4/classsgl_1_1Widgets_1_1Image.html", "d5/dd4/classsgl_1_1Widgets_1_1Image" ]
+    ] ],
     [ "Label.hpp", "da/d44/Label_8hpp.html", [
       [ "Label", "d0/d0f/classsgl_1_1Widgets_1_1Label.html", "d0/d0f/classsgl_1_1Widgets_1_1Label" ]
     ] ],

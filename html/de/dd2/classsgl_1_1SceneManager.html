@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('de/dd2/classsgl_1_1SceneManager.html',
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><!-- SVG 0 -->
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/dc1/classsgl_1_1SceneManager__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -130,6 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2362b32304fd18e0a5409998e9b4aa0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html#a2362b32304fd18e0a5409998e9b4aa0d">setCurrent</a> (int id)</td></tr>
 <tr class="memdesc:a2362b32304fd18e0a5409998e9b4aa0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Current scene.  <a href="#a2362b32304fd18e0a5409998e9b4aa0d">More...</a><br /></td></tr>
 <tr class="separator:a2362b32304fd18e0a5409998e9b4aa0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38ee68abe0753dfe43a5c117338b83a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html#a38ee68abe0753dfe43a5c117338b83a2">init</a> (const <a class="el" href="../../d3/dcc/structsgl_1_1Scripting_1_1Config.html">Scripting::Config</a> &amp;config)</td></tr>
+<tr class="memdesc:a38ee68abe0753dfe43a5c117338b83a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize needed scenes with scripting informations.  <a href="#a38ee68abe0753dfe43a5c117338b83a2">More...</a><br /></td></tr>
+<tr class="separator:a38ee68abe0753dfe43a5c117338b83a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2bebc9a0571a387b590813d3d88f102"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html#ab2bebc9a0571a387b590813d3d88f102">onEvent</a> (const sf::Event &amp;event)</td></tr>
 <tr class="memdesc:ab2bebc9a0571a387b590813d3d88f102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch the event to the active scenes.  <a href="#ab2bebc9a0571a387b590813d3d88f102">More...</a><br /></td></tr>
 <tr class="separator:ab2bebc9a0571a387b590813d3d88f102"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,11 +156,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:accaadd112d80ea2ea54b5a4ece73af34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73cc649084c69f0682cd8641e9315850"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html#a73cc649084c69f0682cd8641e9315850">m_current</a></td></tr>
 <tr class="separator:a73cc649084c69f0682cd8641e9315850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a2263d13b260da746721f37a793cd02"><td class="memItemLeft" align="right" valign="top">sf::Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html#a6a2263d13b260da746721f37a793cd02">m_transform</a></td></tr>
+<tr class="memdesc:a6a2263d13b260da746721f37a793cd02"><td class="mdescLeft">&#160;</td><td class="mdescRight">This transform never change, we just use it as a base when rendering.  <a href="#a6a2263d13b260da746721f37a793cd02">More...</a><br /></td></tr>
+<tr class="separator:a6a2263d13b260da746721f37a793cd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. ">Scene</a> manager, in charge of creating, handling and destroying scenes. </p>
 
-<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5367ad2476c49a91a39d86a4acb65ce9"></a>
 <div class="memitem">
@@ -234,11 +240,11 @@ template&lt;typename S , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int Identifier of the scene </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00115">115</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00125">125</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00125">m_scenes</a>.</p>
+<p>References <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00135">m_scenes</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00128">sgl::Application::add()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00160">sgl::Application::add()</a>.</p>
 
 </div>
 </div>
@@ -265,6 +271,31 @@ template&lt;typename S , typename... Args&gt; </div>
 
 <p>Return the identifier of the current scene. </p>
 <dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a38ee68abe0753dfe43a5c117338b83a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a>&amp; sgl::SceneManager::init </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dcc/structsgl_1_1Scripting_1_1Config.html">Scripting::Config</a> &amp;&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize needed scenes with scripting informations. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html" title="Scene manager, in charge of creating, handling and destroying scenes. ">SceneManager</a>&amp; </dd></dl>
 
 </div>
 </div>
@@ -465,7 +496,7 @@ false If the scene couldn't be found </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00126">126</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00136">136</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
 
 </div>
 </div>
@@ -487,9 +518,33 @@ false If the scene couldn't be found </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00125">125</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00135">135</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00115">add()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00125">add()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a2263d13b260da746721f37a793cd02"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Transform sgl::SceneManager::m_transform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This transform never change, we just use it as a base when rendering. </p>
+
+<p>Definition at line <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00137">137</a> of file <a class="el" href="../../df/d74/SceneManager_8hpp_source.html">SceneManager.hpp</a>.</p>
 
 </div>
 </div>
@@ -502,7 +557,7 @@ false If the scene couldn't be found </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d52/namespacesgl.html">sgl</a></li><li class="navelem"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a></li>
-    <li class="footer">Generated on Sat Apr 18 2020 22:46:19 for SmallGameLibrary by
+    <li class="footer">Generated on Sat May 9 2020 15:35:01 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -9,6 +9,7 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>abe06663d5f635fe0e01a7e4fa4d36f0d</Anchor>
+    <Abstract>The window will have a titlebar. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -20,6 +21,7 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>a4bd8b8e3a8af398696f0e6d0d5f94b7d</Anchor>
+    <Abstract>The window will be resizable. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -31,6 +33,7 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>ab4e96dd1fef9315d3224d1f3e0816349</Anchor>
+    <Abstract>The window will have a close button. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42,6 +45,7 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>a827edef81260acd5fd9795b75fb2c28c</Anchor>
+    <Abstract>The window will be in fullscren, can not be combined with others. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -69,6 +73,222 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FontManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>a938c7ab0ebc6891ce7eacc53db8bacf4</Anchor>
+    <Abstract>sf::Font ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ImageManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>a947b04a372d4a411f18b458c6ee6682b</Anchor>
+    <Abstract>sf::Image ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ShaderManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>ac7daf524e8d7e51bd2bf1e5f41510cb8</Anchor>
+    <Abstract>sf::Shader ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ShapeManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>ad7c319c3f43f93f13b9a0346058ad90e</Anchor>
+    <Abstract>sf::Shape ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SpriteManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>aaa0d065ffddb5c859d950cb0ffcddf54</Anchor>
+    <Abstract>sf::Sprite ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TextureManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>ae487be50d6900a987b875c16f75ffdbe</Anchor>
+    <Abstract>sf::Texture ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TextManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>aa453e23e948af9782e6f321ed332472b</Anchor>
+    <Abstract>sf::Text ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindCore</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a98a05fa8f25fc7cc320d3b90427125d9</Anchor>
+    <Abstract>Bind the Core module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindGraphics</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a78cdea9e9dbcde5c4b142f259e959fb4</Anchor>
+    <Abstract>Bind the Graphics module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindScenes</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>aaf08f49274c949c016c4e4f16edd0883</Anchor>
+    <Abstract>Bind the Scenes module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindSystem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a2737c07000d956818742a11adfd88749</Anchor>
+    <Abstract>Bind the System module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindWidgets</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>aace5438697a0a9ef4d96159235b67b23</Anchor>
+    <Abstract>Bind the Widgets module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>compileScript</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a1f0c82820344ec0c817c732b2e9523a4</Anchor>
+    <Abstract>Compile an ArkScript file to ArkScript bytecode. </Abstract>
+    <DeclaredIn>Engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>compileAllScriptsIn</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a4bddb41fb85176b31aa0406a56336bc0</Anchor>
+    <Abstract>Compile all scripts in a given directory, and put their output in another directory. </Abstract>
+    <DeclaredIn>Engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sfEventToArk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a8a19be0c2ef77e39dafa5f175ea4e863</Anchor>
+    <Abstract>Convert a sf::Event to an ArkScript value. </Abstract>
+    <DeclaredIn>SFMLtoArk.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sfTimeToArk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a2b3a4e30addc7a4d3843c64b8b1af495</Anchor>
+    <Abstract>Convert a sf::time to an ArkScript value. </Abstract>
+    <DeclaredIn>SFMLtoArk.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>listDir</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::System</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/namespacesgl_1_1System.html</Path>
+    <Anchor>abbdb542a1733fd21617fa401370e27e0</Anchor>
+    <Abstract>List all entries in a given directory. </Abstract>
+    <DeclaredIn>FileSystem.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Widgets</Scope>
+    </TokenIdentifier>
+    <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
+    <Anchor>a9a85429f68c5c677ae27ef3e242f1d5f</Anchor>
+    <Abstract>Utility to create widget out of the &quot;layout&quot; box. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -86,6 +306,7 @@
     </TokenIdentifier>
     <Path>d5/d52/namespacesgl.html</Path>
     <Anchor>a8483720809e42bf8802280383c24f7bfa5bda814c4aedb126839228f1a3d92f09</Anchor>
+    <Abstract>The scene is active and running. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -96,6 +317,7 @@
     </TokenIdentifier>
     <Path>d5/d52/namespacesgl.html</Path>
     <Anchor>a8483720809e42bf8802280383c24f7bfae599161956d626eda4cb0a5ffb85271c</Anchor>
+    <Abstract>The scene is rendered / updated / processing events after the running one. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -106,6 +328,7 @@
     </TokenIdentifier>
     <Path>d5/d52/namespacesgl.html</Path>
     <Anchor>a8483720809e42bf8802280383c24f7bfac23e2b09ebe6bf4cb5e2a9abe85c0be2</Anchor>
+    <Abstract>The scene isn&amp;#39;t rendered, updated, and doesn&amp;#39;t receive events. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -204,6 +427,30 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>setScripting</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>a61596a72e49b376dde9c371ff0b11d00</Anchor>
+    <Abstract>Enable or disable scripting. </Abstract>
+    <DeclaredIn>Application.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>configureScriptingEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>a850ad76892ca6227dda917c2ce12a563</Anchor>
+    <Abstract>Configure the scripting engine (doesn&amp;#39;t turn on the scripting) </Abstract>
+    <DeclaredIn>Application.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>add</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -294,6 +541,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>m_scriptingEnabled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>a0a90df0f8ef7650cc3c157cebcfde1dd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_scriptingConfig</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>aa17b5037034f23b5a17fcab0350cd9a6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>af03876abcce1c61c805bcac9dda5530a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_vm</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>aae02692871a5ac505ac53b56c864a0c9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>m_profiler</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -369,6 +656,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a1bd1770e622664946ca9cac10e7ad6bd</Anchor>
+    <Abstract>Initialize scripting data if needed. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>onEvent</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -399,7 +698,7 @@
       <Scope>sgl::Scene</Scope>
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-    <Anchor>a51b78c80326e4b32063579ac7d6f1a96</Anchor>
+    <Anchor>a3e7be05803537233e391ca232a3b1a45</Anchor>
     <Abstract>Rendering method, called after having updated the scene. </Abstract>
     <DeclaredIn>Scene.hpp</DeclaredIn>
   </Token>
@@ -453,6 +752,174 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>m_state</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -460,6 +927,7 @@
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
     <Anchor>a998f7fb269b92ee39c1ca20d39cbf1a0</Anchor>
+    <Abstract>The state of the scene (running, idle, stopped) </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -470,6 +938,7 @@
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
     <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
+    <Abstract>The unique identifier of the scene. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -480,6 +949,17 @@
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
     <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
+    <Abstract>The SceneManager to be able to change active scene. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -576,6 +1056,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::SceneManager</Scope>
+    </TokenIdentifier>
+    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+    <Anchor>a38ee68abe0753dfe43a5c117338b83a2</Anchor>
+    <Abstract>Initialize needed scenes with scripting informations. </Abstract>
+    <DeclaredIn>SceneManager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>onEvent</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -656,6 +1148,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>m_transform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::SceneManager</Scope>
+    </TokenIdentifier>
+    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+    <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
+    <Abstract>This transform never change, we just use it as a base when rendering. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::Settings</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -674,6 +1177,7 @@
     </TokenIdentifier>
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>a70c1cefd159b246f566cb2942f2e122f</Anchor>
+    <Abstract>Width of the window, in pixels. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -684,6 +1188,7 @@
     </TokenIdentifier>
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>ae0da836ce6bc349a0813036606b9c51d</Anchor>
+    <Abstract>Height of the window, in pixels. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -694,6 +1199,7 @@
     </TokenIdentifier>
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>a9992f0c2659dea537484b9ca2fb8dd40</Anchor>
+    <Abstract>Default mode for the window, titlebar, resizable and has a close button. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -704,6 +1210,7 @@
     </TokenIdentifier>
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>ab3ace63408a1ac000b3210ff8f69d4bb</Anchor>
+    <Abstract>By default, we request 32 bits per pixel. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -714,6 +1221,7 @@
     </TokenIdentifier>
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>a5f8fd971c422b79509d3aa1624c086d3</Anchor>
+    <Abstract>Depth buffer bits. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -724,6 +1232,7 @@
     </TokenIdentifier>
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>a16cb44cfad3fb54916e80533662d6b65</Anchor>
+    <Abstract>Stencil buffer bits. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -734,6 +1243,7 @@
     </TokenIdentifier>
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>a65b8c6dfc1b733b88dd2acb808657594</Anchor>
+    <Abstract>Anti aliasing level. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -850,6 +1360,453 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sgl::GameObjects</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Abstract>Contain all the code related to the game objects. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FontManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>a938c7ab0ebc6891ce7eacc53db8bacf4</Anchor>
+    <Abstract>sf::Font ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ImageManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>a947b04a372d4a411f18b458c6ee6682b</Anchor>
+    <Abstract>sf::Image ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ShaderManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>ac7daf524e8d7e51bd2bf1e5f41510cb8</Anchor>
+    <Abstract>sf::Shader ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ShapeManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>ad7c319c3f43f93f13b9a0346058ad90e</Anchor>
+    <Abstract>sf::Shape ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SpriteManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>aaa0d065ffddb5c859d950cb0ffcddf54</Anchor>
+    <Abstract>sf::Sprite ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TextureManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>ae487be50d6900a987b875c16f75ffdbe</Anchor>
+    <Abstract>sf::Texture ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TextManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects</Scope>
+    </TokenIdentifier>
+    <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
+    <Anchor>aa453e23e948af9782e6f321ed332472b</Anchor>
+    <Abstract>sf::Text ressource manager </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::GameObjects::Actor</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::GameObjects::Actor</Scope>
+    </TokenIdentifier>
+    <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+    <Abstract>A class to represent updatable, renderable and event receive entities. </Abstract>
+    <DeclaredIn>Actor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Actor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Actor</Scope>
+    </TokenIdentifier>
+    <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+    <Anchor>a845bcba66bd4343575da1344c513f2f7</Anchor>
+    <Abstract>Construct a new Actor object. </Abstract>
+    <DeclaredIn>Actor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Actor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Actor</Scope>
+    </TokenIdentifier>
+    <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+    <Anchor>aadd9b3234fc4a6109b6538809180b189</Anchor>
+    <Abstract>Destroy the Actor object. </Abstract>
+    <DeclaredIn>Actor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Actor</Scope>
+    </TokenIdentifier>
+    <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+    <Anchor>a5b928c1491ef14a374363c1cc3271e64</Anchor>
+    <Abstract>Event handling method. </Abstract>
+    <DeclaredIn>Actor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Actor</Scope>
+    </TokenIdentifier>
+    <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+    <Anchor>a8159d429102db37f81eb4d6a4df3cf2c</Anchor>
+    <Abstract>Scene updating method, called after having handled the events. </Abstract>
+    <DeclaredIn>Actor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Actor</Scope>
+    </TokenIdentifier>
+    <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+    <Anchor>a057520606f93835a8a91d05ab07da779</Anchor>
+    <Abstract>Rendering method of an object, to be implemented in subclasses. </Abstract>
+    <DeclaredIn>Actor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::GameObjects::Manager</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Abstract>Templated singleton to hold ressources throughout the lifetime of the program. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Manager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a6e220e5d42e122835dc1c0f3351eaf81</Anchor>
+    <Abstract>Constructor is deleted since this class is a singleton, thus shouldn&amp;#39;t be copied. ...</Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a53b75c8ae3ed279f3f87a2772af52ac2</Anchor>
+    <Abstract>Assignement operator is deleted since this class is a singleton, thus shouldn&amp;#39;t be copied...</Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>add</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a53bfb6395020dcc5b0415197e2f12361</Anchor>
+    <Abstract>Add an object in the container, with a given name. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>has</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a2e4c3ae9153496a6628af15bccfeccbc</Anchor>
+    <Abstract>Check if the container is holding with a value under a given name. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a215ab4f7e9417681354657e1181ed2ae</Anchor>
+    <Abstract>Return an element by its name. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>aa432835dfcc1d98599f388c5281d5e42</Anchor>
+    <Abstract>Get the instance of the singleton. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Manager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a477e741eea6578c7ef2a9d1f743bdb27</Anchor>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_container</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::Graphics</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -857,6 +1814,784 @@
     </TokenIdentifier>
     <Path>d7/d05/namespacesgl_1_1Graphics.html</Path>
     <Abstract>Contain all the code related to graphics and rendering. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Graphics::AnimatedSprite</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Abstract>Animated sprite based on the animation class. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AnimatedSprite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a844dbff5ff217776546854adb28d1c69</Anchor>
+    <Abstract>Construct a new Animated Sprite object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>update</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>ad85274d784aec25167da25a29c2a69c1</Anchor>
+    <Abstract>Update the sprite. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setAnimation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a052bad67fd596aee72e42e7ff7a987a7</Anchor>
+    <Abstract>Set the Animation object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>play</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a3a0ca4fdca1499ae4296ba4462eb28ca</Anchor>
+    <Abstract>Play animation. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>play</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a6ec1b3374f549eb340e4cb720bf1fc8d</Anchor>
+    <Abstract>Play given animation. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pause</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a81d22b16790bb27d695a153ea34076e1</Anchor>
+    <Abstract>Pause animation. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a557fc899b379ceb8fa0bd5da81427cf2</Anchor>
+    <Abstract>Stop animation. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setLooped</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a2acfb1e3b0990fe920c07ab77d52a8ff</Anchor>
+    <Abstract>Set looped. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setColor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a0f96746dd7288e0fe12f759bb188b3cd</Anchor>
+    <Abstract>Set the Color object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getAnimation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a8997c295b720ce4458886f3501421c99</Anchor>
+    <Abstract>Get the Animation object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getLocalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>af28479cf8d79f438e9ba2b52ceabf6f9</Anchor>
+    <Abstract>Get the Local Bounds object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getGlobalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>ab3731776f0e9c63fbf94a41dce111498</Anchor>
+    <Abstract>Get the Global Bounds object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isLooped</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>ae8f4d3b28b524809ba213ded2fb294e7</Anchor>
+    <Abstract>Is the animation looping? </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isPlaying</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a3a4aac22436b59cffecac6d7370e1ba2</Anchor>
+    <Abstract>Is the animation playing? </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setFrame</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a1cc73082bd9ded317245ecd4643381d3</Anchor>
+    <Abstract>Set the Frame object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isEnd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a10fa7cac1cd7039793e77302a29c8f19</Anchor>
+    <Abstract>Check if the end frame has been reached. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a31d4800a45aae3f13897c05f9881efd0</Anchor>
+    <Abstract>Draw the sprite using SFML API. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_animation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a16ef9c714f56fc064fda999809143de6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_currentTime</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a62f6e8d38831b4d8b5a8e988224840a9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_currentFrame</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a474d3891bbfbc7ab3aa4e964f4a80fa1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_isPaused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a3107df7d1e5274a15491cd662e235104</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_isLooped</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>aa9dee61d81d39406b2a8a4d931b8019d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_texture</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a44c263d080d49ffbc9a42be3cacbc06f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_vertices</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimatedSprite</Scope>
+    </TokenIdentifier>
+    <Path>d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html</Path>
+    <Anchor>a53214cd26ea5b23410b745409f3554d5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Graphics::Animation</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Abstract>Handling animated sprites. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Animation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>afecde905784cc17c07102ea889237841</Anchor>
+    <Abstract>Construct a new Animation object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addFrame</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a03e6cb10ec2e657b0a257d5966068a07</Anchor>
+    <Abstract>Add a new frame contained in a given rect of the texture. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setSpriteSheet</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a7f1320c3c55ee381fe145f400f56b34c</Anchor>
+    <Abstract>Set the Sprite Sheet object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getSpriteSheet</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a0d21ab0b61cfe0e15c04a86ecdb65116</Anchor>
+    <Abstract>Get the Sprite Sheet object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a92aec2ee3c8d32a73ad101daae399c02</Anchor>
+    <Abstract>Number of frames in the animation. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>invertX</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>afafe1a6fde3294f1345878d4a5cd089d</Anchor>
+    <Abstract>Invert frames on the x axis. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a76be283a0cb595ea2fcda26d6d61d154</Anchor>
+    <Abstract>Return a given frame of the animation. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isXInverted</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>ae11b0838190149fe667e82a617bc239b</Anchor>
+    <Abstract>Check if the X axis is inverted. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setEnd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>ae28ba1ab7f0b0e43837e3a4f49891531</Anchor>
+    <Abstract>Set the end frame number. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getEnd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a8e028af2959df7fc1b564df2e842c625</Anchor>
+    <Abstract>Get the end frame number. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setFrameTime</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>aed128b23a179bb2882e2674d3e11ca72</Anchor>
+    <Abstract>Set the Frame Time object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getFrameTime</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a3ba39296c49464639db2e2bd2286b7d1</Anchor>
+    <Abstract>Get the Frame Time object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_frames</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a827dd4946038f4b019c0605b419495a2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_texture</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a96cb225bd6003e7e2bf22d574123453f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_invertX</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>ab47f2522e209fd60650423698a8d9f7f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>a2dad4d9ff89f6a974924e9c9a72119ff</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_frameTime</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Animation</Scope>
+    </TokenIdentifier>
+    <Path>d0/db1/classsgl_1_1Graphics_1_1Animation.html</Path>
+    <Anchor>aae857811a745ab4d6952e291d8d1535d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Graphics::AnimationLoader</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Graphics::AnimationLoader</Scope>
+    </TokenIdentifier>
+    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+    <Abstract>Load an animated sprite and its animation from a TOML configuration file. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AnimationLoader</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimationLoader</Scope>
+    </TokenIdentifier>
+    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+    <Anchor>a6620bbda983400ca9f984669a619eed5</Anchor>
+    <Abstract>Construct a new Animation Loader object. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>load</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimationLoader</Scope>
+    </TokenIdentifier>
+    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+    <Anchor>a67639b869514b32cca600f05c414afed</Anchor>
+    <Abstract>Load the data from the TOML configuration file. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::AnimationLoader</Scope>
+    </TokenIdentifier>
+    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+    <Anchor>aeeb4b44820348768d5697d988dcf081a</Anchor>
+    <Abstract>Return a reference to an animation by its name. </Abstract>
+    <DeclaredIn>Animation.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_config</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimationLoader</Scope>
+    </TokenIdentifier>
+    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+    <Anchor>a2e7917dc928d6ed4dc85b81c5d05efda</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_animations</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimationLoader</Scope>
+    </TokenIdentifier>
+    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+    <Anchor>a2fca68fe095cebed1852c7cdd68bf2ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_textureID</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::AnimationLoader</Scope>
+    </TokenIdentifier>
+    <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+    <Anchor>a371649d8fa6389caff321fc37487df4b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Graphics::Node</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Abstract>Abstract base class for a scene graph node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad6034097e1007a3a1f461d78ea3757e6</Anchor>
+    <Abstract>Rendering method of an object, to be implemented in subclasses. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_transform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af183cc79bdd4384bfa61772ea931f669</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1568,6 +3303,414 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sgl::Scenes::ArkScene</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Abstract>Define a scene scriptable through ArkScript. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArkScene</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>a4144fdec2a2eda7cd1a2e7c7bf17a0c7</Anchor>
+    <Abstract>Construct a new Ark Scene object. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~ArkScene</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>a4baee7551d4f3a8eaf88836d9f1831d2</Anchor>
+    <Abstract>Destroy the Ark Scene object. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>a507826f538ae901693e1ff66d863cc31</Anchor>
+    <Abstract>Initialize scripting data. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>acc4219e085b1d3bef80ef5090d83a186</Anchor>
+    <Abstract>Event handling method. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>ac0a3f9b90ddf14a02676a20796c2fb32</Anchor>
+    <Abstract>Scene updating method, called after having handled the events. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>a7b907ef593d0d0fbfcd8cb1b107fbcb6</Anchor>
+    <Abstract>Rendering method, called after having updated the scene. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onQuit</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>a609c587bff792b8bdc2a2a01069a6101</Anchor>
+    <Abstract>Method called when the application is closing. </Abstract>
+    <DeclaredIn>ArkScene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Scene</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>adb94929fad76ae55deb0169f68fa5a54</Anchor>
+    <Abstract>Construct a new Scene object. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Scene</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a2726b4d82036204b68fb6749bb882bd5</Anchor>
+    <Abstract>Destroy the Scene object. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a3e7be05803537233e391ca232a3b1a45</Anchor>
+    <Abstract>Rendering method, called after having updated the scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setState</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>ac9f2b38849bc95bfc92b8b601fd9d8b3</Anchor>
+    <Abstract>Set the State object. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getId</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a92c487f7d03a9414204dc444cb5ecad1</Anchor>
+    <Abstract>Get the Id of the scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getState</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>ae24bdf34dbc8d5fa698ab51c013652c6</Anchor>
+    <Abstract>Get the State of the scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_scriptName</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>ad7dafd006b54fdf761ebd6430ed52c8c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>a5e64a51e1451d9da2e1add70e85e3eda</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_vm</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scenes::ArkScene</Scope>
+    </TokenIdentifier>
+    <Path>dc/d24/classsgl_1_1Scenes_1_1ArkScene.html</Path>
+    <Anchor>a7a65e12eb62339eaf96c72363250fe48</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a998f7fb269b92ee39c1ca20d39cbf1a0</Anchor>
+    <Abstract>The state of the scene (running, idle, stopped) </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
+    <Abstract>The unique identifier of the scene. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_sceneManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
+    <Abstract>The SceneManager to be able to change active scene. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::Scenes::Zone</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -1615,6 +3758,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a1bd1770e622664946ca9cac10e7ad6bd</Anchor>
+    <Abstract>Initialize scripting data if needed. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>onEvent</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1645,7 +3800,7 @@
       <Scope>sgl::Scene</Scope>
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
-    <Anchor>a51b78c80326e4b32063579ac7d6f1a96</Anchor>
+    <Anchor>a3e7be05803537233e391ca232a3b1a45</Anchor>
     <Abstract>Rendering method, called after having updated the scene. </Abstract>
     <DeclaredIn>Scene.hpp</DeclaredIn>
   </Token>
@@ -1699,6 +3854,174 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>getCurrentZone</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1742,6 +4065,7 @@
     </TokenIdentifier>
     <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
     <Anchor>a619c2abd5819600f2ef8676d1bfb31ba</Anchor>
+    <Abstract>Size of a tile, in pixels. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1752,6 +4076,7 @@
     </TokenIdentifier>
     <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
     <Anchor>af587f122d5c2c45a53728f14cee28092</Anchor>
+    <Abstract>Size of a zone, in tiles. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1762,6 +4087,7 @@
     </TokenIdentifier>
     <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
     <Anchor>a2511e190454bf9d769200a536f3991db</Anchor>
+    <Abstract>Size of the map, in zones. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1772,6 +4098,7 @@
     </TokenIdentifier>
     <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
     <Anchor>a2f81347e070f5d05376cd07c97d5de5b</Anchor>
+    <Abstract>View for the map, handling transitions between zones. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1782,6 +4109,7 @@
     </TokenIdentifier>
     <Path>d7/d29/classsgl_1_1Scenes_1_1Zone.html</Path>
     <Anchor>a43822572a6bdf456b19fd2f03b0d995c</Anchor>
+    <Abstract>The zone in which the player is currently. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1792,6 +4120,7 @@
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
     <Anchor>a998f7fb269b92ee39c1ca20d39cbf1a0</Anchor>
+    <Abstract>The state of the scene (running, idle, stopped) </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1802,6 +4131,7 @@
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
     <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
+    <Abstract>The unique identifier of the scene. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1812,6 +4142,17 @@
     </TokenIdentifier>
     <Path>d8/dcf/classsgl_1_1Scene.html</Path>
     <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
+    <Abstract>The SceneManager to be able to change active scene. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1835,6 +4176,228 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sgl::Scripting</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Abstract>Easing the developer work to deploy a scripting API in the scenes and application. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindCore</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a98a05fa8f25fc7cc320d3b90427125d9</Anchor>
+    <Abstract>Bind the Core module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindGraphics</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a78cdea9e9dbcde5c4b142f259e959fb4</Anchor>
+    <Abstract>Bind the Graphics module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindScenes</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>aaf08f49274c949c016c4e4f16edd0883</Anchor>
+    <Abstract>Bind the Scenes module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindSystem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a2737c07000d956818742a11adfd88749</Anchor>
+    <Abstract>Bind the System module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bindWidgets</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>aace5438697a0a9ef4d96159235b67b23</Anchor>
+    <Abstract>Bind the Widgets module of the library to ArkScript. </Abstract>
+    <DeclaredIn>Bindings.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>compileScript</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a1f0c82820344ec0c817c732b2e9523a4</Anchor>
+    <Abstract>Compile an ArkScript file to ArkScript bytecode. </Abstract>
+    <DeclaredIn>Engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>compileAllScriptsIn</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a4bddb41fb85176b31aa0406a56336bc0</Anchor>
+    <Abstract>Compile all scripts in a given directory, and put their output in another directory. </Abstract>
+    <DeclaredIn>Engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sfEventToArk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a8a19be0c2ef77e39dafa5f175ea4e863</Anchor>
+    <Abstract>Convert a sf::Event to an ArkScript value. </Abstract>
+    <DeclaredIn>SFMLtoArk.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sfTimeToArk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>a2b3a4e30addc7a4d3843c64b8b1af495</Anchor>
+    <Abstract>Convert a sf::time to an ArkScript value. </Abstract>
+    <DeclaredIn>SFMLtoArk.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TextEntered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a8ed4d3c0783d6f909907e1592ffe47ac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KeyPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3ac17e6984c1e5a887a49831beadee6bca</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KeyReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a4a77f07c8ad223b71ab4ce78a63841ab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MouseWheelScrolled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a9787e93d7821ce61637e6f9f19ef955b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MouseButtonPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a7349f643d689997b7c54bf93e4095f5c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MouseButtonReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>sgl::Scripting</Scope>
+    </TokenIdentifier>
+    <Path>dc/d51/namespacesgl_1_1Scripting.html</Path>
+    <Anchor>af4cc81ae2ba6501af4c3ee4acd0990a3a7584c169de594c27f00084b93186fd7c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Scripting::Config</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Scripting::Config</Scope>
+    </TokenIdentifier>
+    <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+    <Abstract>Host the scripting engine configuration. </Abstract>
+    <DeclaredIn>Config.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scriptsDirectory</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scripting::Config</Scope>
+    </TokenIdentifier>
+    <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+    <Anchor>ad0fad1dd8be4d187bfecc0a078b01ab2</Anchor>
+    <Abstract>Game scripts directory. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>compiledScriptsDir</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scripting::Config</Scope>
+    </TokenIdentifier>
+    <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+    <Anchor>a018e72972f9b027515d13b84587242ed</Anchor>
+    <Abstract>Directory where the compiled scripts should be put. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>arkscriptLibDir</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Scripting::Config</Scope>
+    </TokenIdentifier>
+    <Path>d3/dcc/structsgl_1_1Scripting_1_1Config.html</Path>
+    <Anchor>a7581ad45b2b8db5b85e946ef49ae69ca</Anchor>
+    <Abstract>Path to the ArkScript standard library. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sgl::Style</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -1852,6 +4415,7 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>abe06663d5f635fe0e01a7e4fa4d36f0d</Anchor>
+    <Abstract>The window will have a titlebar. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1863,6 +4427,7 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>a4bd8b8e3a8af398696f0e6d0d5f94b7d</Anchor>
+    <Abstract>The window will be resizable. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1874,6 +4439,7 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>ab4e96dd1fef9315d3224d1f3e0816349</Anchor>
+    <Abstract>The window will have a close button. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1885,7 +4451,30 @@
     </TokenIdentifier>
     <Path>db/dd7/namespacesgl_1_1Style.html</Path>
     <Anchor>a827edef81260acd5fd9795b75fb2c28c</Anchor>
+    <Abstract>The window will be in fullscren, can not be combined with others. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::System</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>sgl::System</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/namespacesgl_1_1System.html</Path>
+    <Abstract>Functions and classes to related to system programming. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>listDir</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::System</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/namespacesgl_1_1System.html</Path>
+    <Anchor>abbdb542a1733fd21617fa401370e27e0</Anchor>
+    <Abstract>List all entries in a given directory. </Abstract>
+    <DeclaredIn>FileSystem.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1899,6 +4488,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>make</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>sgl::Widgets</Scope>
+    </TokenIdentifier>
+    <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
+    <Anchor>a9a85429f68c5c677ae27ef3e242f1d5f</Anchor>
+    <Abstract>Utility to create widget out of the &quot;layout&quot; box. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Text</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -1906,6 +4507,7 @@
     </TokenIdentifier>
     <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
     <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a9dffbf69ffba8bc38bc4e01abf4b1675</Anchor>
+    <Abstract>Display text only, if available (default) </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1916,6 +4518,7 @@
     </TokenIdentifier>
     <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
     <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a51f2b7b14433aa22c67d1f4fc18943cd</Anchor>
+    <Abstract>Display sprite only, if available. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1926,6 +4529,7 @@
     </TokenIdentifier>
     <Path>dd/dfe/namespacesgl_1_1Widgets.html</Path>
     <Anchor>aa0ab1955ff08799d8ec6655df2877fc2a130c5b3473c57faa76e2a1c54e26f88e</Anchor>
+    <Abstract>Display both, first the sprite, then the text over it. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2088,7 +4692,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Anchor>a2ca95977e3f2eaab0fc4137c68a7950d</Anchor>
     <Abstract>Get the local bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -2100,7 +4704,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Anchor>a3b127910b7abc89cd36bb1c68210044e</Anchor>
     <Abstract>Get the global bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -2166,27 +4770,183 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>setPosition</Name>
+      <Name>as</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
-    <Abstract>Set the relative position of the widget. </Abstract>
+    <Anchor>af3050c80e541e01f2fb2033eee64673c</Anchor>
+    <Abstract>Return the widget as another type (should be a widget subclass) </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>draw_</Name>
+      <Name>Node</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>sgl::Widgets::Base</Scope>
+      <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
-    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
-    <Abstract>Function in charge of drawing our widget. </Abstract>
-    <DeclaredIn>Base.hpp</DeclaredIn>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2197,6 +4957,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+    <Abstract>Unique identifier for the widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2207,6 +4968,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2217,6 +4979,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+    <Abstract>Tell if a widget can receive events. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2227,6 +4990,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+    <Abstract>Rectangle in which the widget is. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2237,6 +5001,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+    <Abstract>Pointer to the parent widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2247,6 +5012,16 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2335,8 +5110,8 @@
       <Scope>sgl::Widgets::Button</Scope>
     </TokenIdentifier>
     <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-    <Anchor>ab11d8c3510d6fbdf456d4f8b678bea8c</Anchor>
-    <Abstract>Return a reference to the sf::Sprite held, to modify it. </Abstract>
+    <Anchor>a7e7980068d29a4ab3a2449c2caa54f34</Anchor>
+    <Abstract>Return a pointer to the sprite to set and modify it. </Abstract>
     <DeclaredIn>Button.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2347,8 +5122,8 @@
       <Scope>sgl::Widgets::Button</Scope>
     </TokenIdentifier>
     <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-    <Anchor>a0c30fd6f3f391baad5327b5b5d0d568e</Anchor>
-    <Abstract>Return a reference to the sf::RectangleShape used as a background when in text-only mode...</Abstract>
+    <Anchor>ac05c8135b44c624aaa4410381abd04ff</Anchor>
+    <Abstract>Return a pointer to the sprite to set and modify it. </Abstract>
     <DeclaredIn>Button.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2491,7 +5266,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Anchor>a2ca95977e3f2eaab0fc4137c68a7950d</Anchor>
     <Abstract>Get the local bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -2503,7 +5278,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Anchor>a3b127910b7abc89cd36bb1c68210044e</Anchor>
     <Abstract>Get the global bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -2569,27 +5344,183 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>setPosition</Name>
+      <Name>as</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
-    <Abstract>Set the relative position of the widget. </Abstract>
+    <Anchor>af3050c80e541e01f2fb2033eee64673c</Anchor>
+    <Abstract>Return the widget as another type (should be a widget subclass) </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>draw_</Name>
+      <Name>Node</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>sgl::Widgets::Base</Scope>
+      <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
-    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
-    <Abstract>Function in charge of drawing our widget. </Abstract>
-    <DeclaredIn>Base.hpp</DeclaredIn>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2600,6 +5531,7 @@
     </TokenIdentifier>
     <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
     <Anchor>ac35e31f374b24dc00aa045fa4d1503c8</Anchor>
+    <Abstract>Text for the button. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2610,6 +5542,7 @@
     </TokenIdentifier>
     <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
     <Anchor>a4397b320e36cb3943300f213873361f5</Anchor>
+    <Abstract>Is the button being clicked on? </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2620,6 +5553,7 @@
     </TokenIdentifier>
     <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
     <Anchor>a752269ac38c251bb35e92bb4f40eb706</Anchor>
+    <Abstract>Function to call when we click on the button. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2630,6 +5564,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+    <Abstract>Unique identifier for the widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2640,6 +5575,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2650,6 +5586,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+    <Abstract>Tell if a widget can receive events. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2660,6 +5597,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+    <Abstract>Rectangle in which the widget is. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2670,6 +5608,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+    <Abstract>Pointer to the parent widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2680,6 +5619,555 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Widgets::Image</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Widgets::Image</Scope>
+    </TokenIdentifier>
+    <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+    <Abstract>Basic image widget. </Abstract>
+    <DeclaredIn>Image.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Image</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Image</Scope>
+    </TokenIdentifier>
+    <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+    <Anchor>a3ca0805721cec3bf1993f5199db7438e</Anchor>
+    <Abstract>Construct a new Image widget. </Abstract>
+    <DeclaredIn>Image.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Image</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Image</Scope>
+    </TokenIdentifier>
+    <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+    <Anchor>a3accfc0123163f2220dcd059d4eb3eb2</Anchor>
+    <Abstract>Destroy the Image widget. </Abstract>
+    <DeclaredIn>Image.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sprite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Image</Scope>
+    </TokenIdentifier>
+    <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+    <Anchor>ad7da561c84dcbf6e436aaadb667f8c46</Anchor>
+    <Abstract>Return a pointer to the sprite to set and modify it. </Abstract>
+    <DeclaredIn>Image.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onRender</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Image</Scope>
+    </TokenIdentifier>
+    <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+    <Anchor>a14aa6148522ec3ef85b987b19c43fa47</Anchor>
+    <Abstract>Render the widget on screen. </Abstract>
+    <DeclaredIn>Image.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a1d6bc01170e7541d1f541f37e7076859</Anchor>
+    <Abstract>Construct a new Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Base</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
+    <Abstract>Destroy the Base widget object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onUpdate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a5f5fc8bc20158f60ca060071002ed2e1</Anchor>
+    <Abstract>Update the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a45ef336da61fa4c4576e4ac371f3cb75</Anchor>
+    <Abstract>Called when an event is received, calling the subfunctions corresponding to the event type...</Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onTextEntered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6a1e625e0f3be7148be9fc08aac6c823</Anchor>
+    <Abstract>Called when a text entered event is produced, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a6c60b40a8f446d4307fd8013a4c8afd9</Anchor>
+    <Abstract>Called when a key is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onKeyReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af5882a4894c92024f97490630208939b</Anchor>
+    <Abstract>Called when a key is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseWheelScrolled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ae6fdd207902bde7461749b7c1c074b7a</Anchor>
+    <Abstract>Called when the mouse wheel is scrolled, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonPressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a772d83dc38b00e97904d4793cda0fe9c</Anchor>
+    <Abstract>Called when a mouse button is pressed, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onMouseButtonReleased</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0fd2014106ecd89428acc286343e6ae6</Anchor>
+    <Abstract>Called when a mouse button is released, on focus. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getLocalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2ca95977e3f2eaab0fc4137c68a7950d</Anchor>
+    <Abstract>Get the local bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getGlobalBounds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a3b127910b7abc89cd36bb1c68210044e</Anchor>
+    <Abstract>Get the global bounding rectangle of the entity. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setListenToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a059a6df703b25552d4499f51c587daf5</Anchor>
+    <Abstract>Activate a widget event listener or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isListeningToEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a50b24dc3e3f8f0f93b311e44a1c7c0b2</Anchor>
+    <Abstract>Return a boolean telling if the widget is listening to events. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hasFocus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0b803daa1a82bfcf6adb0fe7c11d02f9</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>ac0074eef5c2a21968bd1cf57741f8bcc</Anchor>
+    <Abstract>Set the style of the object. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getStyle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a0371e2c84c9b47bdc9daeea2290f0f32</Anchor>
+    <Abstract>Get the style of the widget. </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>as</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>af3050c80e541e01f2fb2033eee64673c</Anchor>
+    <Abstract>Return the widget as another type (should be a widget subclass) </Abstract>
+    <DeclaredIn>Base.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_sprite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Image</Scope>
+    </TokenIdentifier>
+    <Path>d5/dd4/classsgl_1_1Widgets_1_1Image.html</Path>
+    <Anchor>acef0577800e19d16df0f827a62c06336</Anchor>
+    <Abstract>The image itself. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+    <Abstract>Unique identifier for the widget. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_focused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_listening</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+    <Abstract>Tell if a widget can receive events. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_rect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+    <Abstract>Rectangle in which the widget is. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_parent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+    <Abstract>Pointer to the parent widget. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_style</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2868,7 +6356,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Anchor>a2ca95977e3f2eaab0fc4137c68a7950d</Anchor>
     <Abstract>Get the local bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -2880,7 +6368,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Anchor>a3b127910b7abc89cd36bb1c68210044e</Anchor>
     <Abstract>Get the global bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -2946,27 +6434,183 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>setPosition</Name>
+      <Name>as</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
-    <Abstract>Set the relative position of the widget. </Abstract>
+    <Anchor>af3050c80e541e01f2fb2033eee64673c</Anchor>
+    <Abstract>Return the widget as another type (should be a widget subclass) </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>draw_</Name>
+      <Name>Node</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>sgl::Widgets::Base</Scope>
+      <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
-    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a4b378ba837da9818901fcea0e4693e25</Anchor>
-    <Abstract>Function in charge of drawing our widget. </Abstract>
-    <DeclaredIn>Base.hpp</DeclaredIn>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2977,6 +6621,7 @@
     </TokenIdentifier>
     <Path>d0/d0f/classsgl_1_1Widgets_1_1Label.html</Path>
     <Anchor>a5548274ff375629408da79a8856a2799</Anchor>
+    <Abstract>Text of the label. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2987,6 +6632,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+    <Abstract>Unique identifier for the widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2997,6 +6643,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3007,6 +6654,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+    <Abstract>Tell if a widget can receive events. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3017,6 +6665,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+    <Abstract>Rectangle in which the widget is. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3027,6 +6676,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+    <Abstract>Pointer to the parent widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3037,6 +6687,16 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3058,26 +6718,6 @@
     <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
     <Abstract>A collection of widgets working together, graphically united. </Abstract>
     <DeclaredIn>Layout.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Ptr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>sgl::Widgets::Layout</Scope>
-    </TokenIdentifier>
-    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-    <Anchor>ab66227b1e9670d843cc7f0f8bde29d7f</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Ptr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>sgl::Widgets::Base</Scope>
-    </TokenIdentifier>
-    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3141,26 +6781,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>attach</Name>
+      <Name>add</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::Widgets::Layout</Scope>
     </TokenIdentifier>
     <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-    <Anchor>a2c5fd67fd2230d1da430081d7ccee60f</Anchor>
-    <Abstract>Create a new widget in place and attach it to the layout. </Abstract>
+    <Anchor>a577b5dbac22174113cf9ca77f8e38c6b</Anchor>
+    <Abstract>Create a new widget in place and add it to the layout. </Abstract>
     <DeclaredIn>Layout.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>draw_</Name>
+      <Name>onRender</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::Widgets::Layout</Scope>
     </TokenIdentifier>
     <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-    <Anchor>ad2b4f2d6428b8c5c41ec5d5e26353a50</Anchor>
-    <Abstract>Function in charge of drawing our widget, using the SFML API. </Abstract>
+    <Anchor>a0221b41de8b635feb33cc1a44e7e70e8</Anchor>
+    <Abstract>Render the widget on screen. </Abstract>
     <DeclaredIn>Layout.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -3185,18 +6825,6 @@
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>aacee44a63ca12f98431de0e92c6f8990</Anchor>
     <Abstract>Destroy the Base widget object. </Abstract>
-    <DeclaredIn>Base.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>onRender</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>sgl::Widgets::Base</Scope>
-    </TokenIdentifier>
-    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a1fe6936844b6f15f58431b0fccccb8be</Anchor>
-    <Abstract>Render the widget on screen. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -3279,7 +6907,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a78835aafff1a388d54412a9ef4f2f4d2</Anchor>
+    <Anchor>a2ca95977e3f2eaab0fc4137c68a7950d</Anchor>
     <Abstract>Get the local bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -3291,7 +6919,7 @@
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>a583d938d6d7c9662fa518918dd8492aa</Anchor>
+    <Anchor>a3b127910b7abc89cd36bb1c68210044e</Anchor>
     <Abstract>Get the global bounding rectangle of the entity. </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
@@ -3357,37 +6985,193 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>setPosition</Name>
+      <Name>as</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::Widgets::Base</Scope>
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
-    <Anchor>af10de179e6bfe7a43dd6d9b750a9c3b4</Anchor>
-    <Abstract>Set the relative position of the widget. </Abstract>
+    <Anchor>af3050c80e541e01f2fb2033eee64673c</Anchor>
+    <Abstract>Return the widget as another type (should be a widget subclass) </Abstract>
     <DeclaredIn>Base.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>draw</Name>
+      <Name>Node</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>sgl::Widgets::Layout</Scope>
+      <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
-    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-    <Anchor>a7341f05ed805c3fcf51af9b8b2d65229</Anchor>
-    <Abstract>To be able to draw the layout using the SFML API : </Abstract>
-    <DeclaredIn>Layout.hpp</DeclaredIn>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a5b8a21d43ebe05b0d1f61c409caedbb8</Anchor>
+    <Abstract>Construct a new Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_children</Name>
+      <Name>~Node</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>sgl::Widgets::Layout</Scope>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
-    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-    <Anchor>add2ec5c1cf1aca0edb3839e430e4e976</Anchor>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4daae81f7a362a275b820f10707f7826</Anchor>
+    <Abstract>Destroy the Node object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a37c214a4800384402d05c05dc6b06475</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>move</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>afb4042968c7dd93c35682e89db615e57</Anchor>
+    <Abstract>Combine the current transform with a translation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aeb95e32e0526a6d7d67bafe3acb3fb64</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a63e1434f8c216ad57f57086afbafb010</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>ad56a4faea5973ae869a54a5a9f3180b0</Anchor>
+    <Abstract>Combine the current transform with a rotation. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>aa3f4eb394076010a18f266dea25af6fc</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a631b32ea03df96430845921e36312da4</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a8729753df690039b91dd4e38a41f4cfd</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a4e037d86636fa17468fc91a6d0403b5d</Anchor>
+    <Abstract>Combine the current transform with a scaling. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a730994aa3846165bf22dddab5e5c99c0</Anchor>
+    <Abstract>Get the Transform object. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attach</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Abstract>Attach a child node to this node. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>render</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a400d80a542d928c6bb3424e34ae4c58d</Anchor>
+    <Abstract>Render a node using the parent transform, then its children. </Abstract>
+    <DeclaredIn>Node.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::Widgets::Base</Scope>
+    </TokenIdentifier>
+    <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
+    <Anchor>a3aff537c3728d72e8b9e507e1c8146a0</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3398,6 +7182,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a332679a102a7db75269f65f0287ad4cb</Anchor>
+    <Abstract>Unique identifier for the widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3408,6 +7193,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2081faf6e5406308bbbe7f38db82ca4c</Anchor>
+    <Abstract>Tell if the widget is being focused or not. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3418,6 +7204,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>afd111346ef4716ebc4c2d006ffaa89d0</Anchor>
+    <Abstract>Tell if a widget can receive events. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3428,6 +7215,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>abf555327ffcb4261c6f64a4e3651474a</Anchor>
+    <Abstract>Rectangle in which the widget is. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3438,6 +7226,7 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a7a0904cd15b256e34c9d5a4f142760fc</Anchor>
+    <Abstract>Pointer to the parent widget. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3448,5 +7237,15 @@
     </TokenIdentifier>
     <Path>d3/dd0/classsgl_1_1Widgets_1_1Base.html</Path>
     <Anchor>a2c4e13eb70470bcd5557d2f74ecb06b7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_children</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Graphics::Node</Scope>
+    </TokenIdentifier>
+    <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
+    <Anchor>a7a5540ef447bd4f661c3e4f09589a9bf</Anchor>
   </Token>
 </Tokens>

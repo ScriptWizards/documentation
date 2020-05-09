@@ -1,0 +1,5 @@
+<map id="include/Small/System.hpp" name="include/Small/System.hpp">
+<area shape="rect" id="node2" href="$d5/d40/Platform_8hpp.html" title="Defines to identify the running operating system. " alt="" coords="5,155,187,181"/>
+<area shape="rect" id="node3" href="$d4/da5/SharedLibrary_8hpp.html" title="Utility to easily load shared libraries and retrieve their functions. " alt="" coords="153,80,367,107"/>
+<area shape="rect" id="node7" href="$d2/dbb/FileSystem_8hpp.html" title="Useful functionalities related to the filesystem. " alt="" coords="391,80,590,107"/>
+</map>

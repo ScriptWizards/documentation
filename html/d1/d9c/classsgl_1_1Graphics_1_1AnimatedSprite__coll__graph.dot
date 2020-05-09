@@ -1,0 +1,19 @@
+digraph "sgl::Graphics::AnimatedSprite"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="sgl::Graphics::AnimatedSprite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sf::Drawable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sf::Transformable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_animation" ,fontname="Helvetica"];
+  Node4 [label="sgl::Graphics::Animation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/db1/classsgl_1_1Graphics_1_1Animation.html",tooltip="Handling animated sprites. "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_frames" ,fontname="Helvetica"];
+  Node5 [label="std::vector\< sf::IntRect \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< sf::IntRect \>" ,fontname="Helvetica"];
+  Node6 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

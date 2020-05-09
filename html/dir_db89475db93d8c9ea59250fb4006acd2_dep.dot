@@ -6,4 +6,6 @@ digraph "include/Small/Widgets" {
     graph [ bgcolor="#ddddee", pencolor="black", label="Small" fontname="Helvetica", fontsize="10", URL="dir_bccf9de9576cfd43a752576f669ec707.html"]
   dir_db89475db93d8c9ea59250fb4006acd2 [shape=box, label="Widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_db89475db93d8c9ea59250fb4006acd2.html"];
   }
+  dir_1e32cf0ae7c9740a651d31fd7036c32f [shape=box label="Graphics" URL="dir_1e32cf0ae7c9740a651d31fd7036c32f.html"];
+  dir_db89475db93d8c9ea59250fb4006acd2->dir_1e32cf0ae7c9740a651d31fd7036c32f [headlabel="1", labeldistance=1.5 headhref="dir_000009_000005.html"];
 }

@@ -1,0 +1,6 @@
+<map id="include/Small/Graphics/TileView.hpp" name="include/Small/Graphics/TileView.hpp">
+<area shape="rect" id="node2" href="$dc/da8/Graphics_8hpp.html" title="Include all the files from the Graphics folder. " alt="" coords="5,184,187,211"/>
+<area shape="rect" id="node4" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="201,95,349,136"/>
+<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="124,259,268,285"/>
+<area shape="rect" id="node5" href="$d0/d00/Scenes_8hpp.html" title="Include all the files from the Scenes folder. " alt="" coords="211,184,384,211"/>
+</map>

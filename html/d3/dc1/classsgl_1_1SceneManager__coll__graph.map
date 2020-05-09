@@ -1,0 +1,6 @@
+<map id="sgl::SceneManager" name="sgl::SceneManager">
+<area shape="rect" id="node4" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. " alt="" coords="234,407,318,433"/>
+<area shape="rect" id="node5" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="227,303,365,329"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="137,95,250,121"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="344,147,483,173"/>
+</map>

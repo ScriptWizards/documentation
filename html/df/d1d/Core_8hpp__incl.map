@@ -1,0 +1,9 @@
+<map id="include/Small/Core.hpp" name="include/Small/Core.hpp">
+<area shape="rect" id="node2" href="$df/d3c/Application_8hpp.html" title="Define the application hosting the scenes for the game. " alt="" coords="1037,80,1216,107"/>
+<area shape="rect" id="node10" href="$df/d74/SceneManager_8hpp.html" title="Define the scene manager (creating, handling and destroying them) " alt="" coords="1619,155,1821,181"/>
+<area shape="rect" id="node13" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="1291,229,1443,256"/>
+<area shape="rect" id="node14" href="$df/db4/Config_8hpp.html" title="Small/Scripting/Config.hpp" alt="" coords="1071,304,1246,331"/>
+<area shape="rect" id="node21" href="$dc/dbc/Profiler_8hpp.html" title="Profiler from https://github.com/bwrsandman/imgui&#45;flame&#45;graph/ (example/main.cpp), updated for the project needs. " alt="" coords="179,155,344,181"/>
+<area shape="rect" id="node26" href="$d8/d82/SFMLtoArk_8hpp.html" title="Convert SFML values to ArkScript values. " alt="" coords="651,155,856,181"/>
+<area shape="rect" id="node15" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="1423,304,1593,331"/>
+</map>

@@ -106,84 +106,174 @@ $(document).ready(function(){initNavTree('d2/d50/Zone_8hpp_source.html','../../'
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/de8/Scene_8hpp.html">Small/Core/Scene.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/d67/TileView_8hpp.html">Small/Graphics/TileView.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d6/da9/namespacesgl_1_1Scenes.html">   18</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/da9/namespacesgl_1_1Scenes.html">sgl::Scenes</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/da9/namespacesgl_1_1Scenes.html">sgl::Scenes</a></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{<span class="comment"></span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">    /**</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">     * @brief A scene handling zones and transitions on a tilemap</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">     * </span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html">   24</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html">Zone</a> : <span class="keyword">public</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">public</span>:<span class="comment"></span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">         * @brief Construct a new Zone scene</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">         * @param id The identifier of the scene</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">         * @param tileSize The size of a (squared) tile, in pixels</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">         * @param zoneSize The size of a zone, in tiles</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">         * @param mapSize The size of the map, in zones</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a18ded40ab598645d038dd444c0465ddf">Zone</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">int</span> tileSize, <span class="keyword">const</span> sf::Vector2i&amp; zoneSize, <span class="keyword">const</span> sf::Vector2i&amp; mapSize);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a619c2abd5819600f2ef8676d1bfb31ba">   38</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a619c2abd5819600f2ef8676d1bfb31ba">m_tileSize</a>;            <span class="comment">//&lt; Size of a tile, in pixels</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#af587f122d5c2c45a53728f14cee28092">   39</a></span>&#160;        <span class="keyword">const</span> sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#af587f122d5c2c45a53728f14cee28092">m_zoneSize</a>;   <span class="comment">//&lt; Size of a zone, in tiles</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2511e190454bf9d769200a536f3991db">   40</a></span>&#160;        <span class="keyword">const</span> sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2511e190454bf9d769200a536f3991db">m_mapSize</a>;    <span class="comment">//&lt; Size of the map, in zones</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2f81347e070f5d05376cd07c97d5de5b">   41</a></span>&#160;        <a class="code" href="../../d2/d2a/classsgl_1_1Graphics_1_1TileView.html">sgl::Graphics::TileView</a> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2f81347e070f5d05376cd07c97d5de5b">m_view</a>;  <span class="comment">//&lt; View for the map, handling transitions between zones</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a43822572a6bdf456b19fd2f03b0d995c">   42</a></span>&#160;        sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a43822572a6bdf456b19fd2f03b0d995c">m_currentZone</a>;      <span class="comment">//&lt; The zone in which the player is currently</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">         * @brief Get the current zone position in the map</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">         * @param pos The position of the entity to retrieve the zone of</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">         * @param dx x offset (0 by default)</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">         * @param dy y offset (0 by default)</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">         * @return sf::Vector2i Zone position</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a21f180ed254868ba9db609e0a9c0a7df">getCurrentZone</a>(<span class="keyword">const</span> sf::Vector2f&amp; pos, <span class="keywordtype">float</span> dx=0.f, <span class="keywordtype">float</span> dy=0.f);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">         * @brief Check if a zone is in map bounds</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">         * @param zone The position of the zone</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">         * @return true If the zone is reachable</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">         * @return false Otherwise</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#aa7a45a2f495115dc27de2300daac6c93">isZoneValid</a>(<span class="keyword">const</span> sf::Vector2i&amp; zone);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">         * @brief Check if a zone transition is needed, if so, move the view accordingly</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">         * @details This was designed to be called from the `onUpdate` Scene method</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">         * @param pos Position of the entity which should trigger the zone transition, should be the player</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">         * @param dt Delta of time since last update</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">         * @param transitionSpeed Speed of the transition, in pixels per second (default: 32 pix/sec)</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">         * @return true If a transition is under progress</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">         * @return false Otherwise</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#aeeca7f0409012e6e541d3074c7cce45f">makeZoneTransition</a>(<span class="keyword">const</span> sf::Vector2f&amp; pos, <span class="keyword">const</span> sf::Time dt, <span class="keywordtype">int</span> transitionSpeed=32);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ac59119ed6f9d2f199ef9055188ee6710">   76</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ac59119ed6f9d2f199ef9055188ee6710">m_viewMovedByPx</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ae95b2eeaf8767b886719227451cfe3df">   77</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ae95b2eeaf8767b886719227451cfe3df">m_lastQuantityNeededToStopTransition</a>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    };</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a2f81347e070f5d05376cd07c97d5de5b"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2f81347e070f5d05376cd07c97d5de5b">sgl::Scenes::Zone::m_view</a></div><div class="ttdeci">sgl::Graphics::TileView m_view</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00041">Zone.hpp:41</a></div></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html">sgl::Scenes::Zone</a></div><div class="ttdoc">A scene handling zones and transitions on a tilemap. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00024">Zone.hpp:24</a></div></div>
-<div class="ttc" id="namespacesgl_1_1Scenes_html"><div class="ttname"><a href="../../d6/da9/namespacesgl_1_1Scenes.html">sgl::Scenes</a></div><div class="ttdoc">Contain specialized scenes to simplify the developer work. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00018">Zone.hpp:18</a></div></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_af587f122d5c2c45a53728f14cee28092"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#af587f122d5c2c45a53728f14cee28092">sgl::Scenes::Zone::m_zoneSize</a></div><div class="ttdeci">const sf::Vector2i m_zoneSize</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00039">Zone.hpp:39</a></div></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">     * @details Example of how to use:</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">     * @code</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">     * #include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">     * #include &lt;Small/Scenes/Zone.hpp&gt;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">     * #include &lt;Small/Graphics/Tilemap.hpp&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">     * #include &lt;Small/Graphics/TileView.hpp&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">     * #include &lt;SFML/Graphics.hpp&gt;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">     * #include &lt;array&gt;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">     * class Bis : public sgl::Scenes::Zone</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">     * {</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">     * public:</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">     *     Bis(int id) :</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">     *         // tile size = 16, zone size = (8, 8), map size = (2, 1)</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">     *         sgl::Scenes::Zone(id, 16, sf::Vector2i(8, 8), sf::Vector2i(2, 1)),</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">     *         //   total map size (tiles)     tile size (px)</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">     *         m_tilemap(sf::Vector2i(16, 16), 16),</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">     *         m_playerShape(sf::Vector2f(16, 16)),</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">     *         m_canMove(true)</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">     *     {</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">     *         m_tileset.loadFromFile(&quot;assets/tileset.png&quot;);</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">     *         m_tilemap.use(&amp;m_tileset);</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">     *        // build level</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">     *        m_level = {</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">     *            47,  46,  47,  35,  36,  36,  36,  37,  46,  45,  61,  47,  38,  42, 248,  39,</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">     *            63,  62,  63, 116, 116, 116, 116,  46,  45,  61,  45,  63,  38, 248,  43,  39,</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">     *            58,  58, 116,  16,  17,  17,  18,  62,  61,  45,  61,  47,  38, 248,  43,  39,</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">     *            33,  34, 116,  22, 241,  27,  23,  46,  45,  61,  45,  63,  38,  43,  43,  37,</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">     *            43,  43, 242,  19,  27,  27,  21,  62,  63,  62,  63,  32,  43,  42,  39,  46,</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">     *            42,  43,  34, 116,  19,  21, 116,  32,  33,  33,  33,  43, 248, 248,  39,  62,</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">     *            36,  43,  39,  58, 192, 192,  58,  35,  36,  36,  36,  36,  36,  43, 248,  34,</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">     *            58,  35,  37,  58,  58,  58,  58, 243,  58,  58,  58,  58,  58,  35,  36,  37</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">     *        };</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">     *        m_tilemap.build(m_level.data());</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">     *    }</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">     *    void onEvent(const sf::Event&amp; event)</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">     *    {</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">     *        if (event.type == sf::Event::KeyPressed &amp;&amp; m_canMove)</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">     *        {</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">     *            switch (event.key.code)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">     *            {</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">     *            case sf::Keyboard::Z:</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">     *                if (isZoneValid(getCurrentZone(m_playerShape.getPosition(), 0, -16)))</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">     *                    m_playerShape.move(0, -16);</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">     *                break;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">     *            case sf::Keyboard::Q:</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">     *                if (isZoneValid(getCurrentZone(m_playerShape.getPosition(), -16, 0)))</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">     *                    m_playerShape.move(-16, 0);</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">     *                break;</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">     *            case sf::Keyboard::S:</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">     *                if (isZoneValid(getCurrentZone(m_playerShape.getPosition(), 0, 16)))</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">     *                    m_playerShape.move(0, 16);</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">     *                break;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">     *            case sf::Keyboard::D:</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">     *                if (isZoneValid(getCurrentZone(m_playerShape.getPosition(), 16, 0)))</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">     *                    m_playerShape.move(16, 0);</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">     *                break;</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">     *            }</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">     *        }</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">     *    }</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">     *    void onUpdate(const sf::Time dt)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">     *    {</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">     *        m_canMove = !makeZoneTransition(m_playerShape.getPosition(), dt, 5 * m_tileSize);</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">     *    }</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">     *    void onRender(sf::RenderTarget&amp; screen)</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">     *    {</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">     *        m_view.use(screen);</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">     *        screen.draw(m_tilemap);</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">     *        screen.draw(m_playerShape);</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">     *    }</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">     * private:</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">     *     sf::Texture m_tileset;</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">     *     sgl::Graphics::Tilemap m_tilemap;</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">     *     sf::RectangleShape m_playerShape;</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">     *     bool m_canMove;</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">     *     std::array&lt;int, 16 * 8&gt; m_level;</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">     * };</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">     * @endcode</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">     * </span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html">  114</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html">Zone</a> : <span class="keyword">public</span> <a class="code" href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keyword">public</span>:<span class="comment"></span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">         * @brief Construct a new Zone scene</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">         * @param id The identifier of the scene</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">         * @param tileSize The size of a (squared) tile, in pixels</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">         * @param zoneSize The size of a zone, in tiles</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">         * @param mapSize The size of the map, in zones</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a18ded40ab598645d038dd444c0465ddf">Zone</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">int</span> tileSize, <span class="keyword">const</span> sf::Vector2i&amp; zoneSize, <span class="keyword">const</span> sf::Vector2i&amp; mapSize);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a619c2abd5819600f2ef8676d1bfb31ba">  128</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a619c2abd5819600f2ef8676d1bfb31ba">m_tileSize</a>;            <span class="comment">///&lt; Size of a tile, in pixels</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#af587f122d5c2c45a53728f14cee28092">  129</a></span>&#160;<span class="comment"></span>        <span class="keyword">const</span> sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#af587f122d5c2c45a53728f14cee28092">m_zoneSize</a>;   <span class="comment">///&lt; Size of a zone, in tiles</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2511e190454bf9d769200a536f3991db">  130</a></span>&#160;<span class="comment"></span>        <span class="keyword">const</span> sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2511e190454bf9d769200a536f3991db">m_mapSize</a>;    <span class="comment">///&lt; Size of the map, in zones</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2f81347e070f5d05376cd07c97d5de5b">  131</a></span>&#160;<span class="comment"></span>        <a class="code" href="../../d2/d2a/classsgl_1_1Graphics_1_1TileView.html">sgl::Graphics::TileView</a> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2f81347e070f5d05376cd07c97d5de5b">m_view</a>;  <span class="comment">///&lt; View for the map, handling transitions between zones</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a43822572a6bdf456b19fd2f03b0d995c">  132</a></span>&#160;<span class="comment"></span>        sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a43822572a6bdf456b19fd2f03b0d995c">m_currentZone</a>;      <span class="comment">///&lt; The zone in which the player is currently</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment"></span><span class="comment"></span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment">         * @brief Get the current zone position in the map</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment">         * @param pos The position of the entity to retrieve the zone of</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment">         * @param dx x offset (0 by default)</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">         * @param dy y offset (0 by default)</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">         * @return sf::Vector2i Zone position</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        sf::Vector2i <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a21f180ed254868ba9db609e0a9c0a7df">getCurrentZone</a>(<span class="keyword">const</span> sf::Vector2f&amp; pos, <span class="keywordtype">float</span> dx=0.f, <span class="keywordtype">float</span> dy=0.f);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment">         * @brief Check if a zone is in map bounds</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment">         * @param zone The position of the zone</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="comment">         * @return true If the zone is reachable</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">         * @return false Otherwise</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#aa7a45a2f495115dc27de2300daac6c93">isZoneValid</a>(<span class="keyword">const</span> sf::Vector2i&amp; zone);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">         * @brief Check if a zone transition is needed, if so, move the view accordingly</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="comment">         * @details This was designed to be called from the `onUpdate` Scene method</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">         * @param pos Position of the entity which should trigger the zone transition, should be the player</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="comment">         * @param dt Delta of time since last update</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment">         * @param transitionSpeed Speed of the transition, in pixels per second (default: 32 pix/sec)</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment">         * @return true If a transition is under progress</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment">         * @return false Otherwise</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#aeeca7f0409012e6e541d3074c7cce45f">makeZoneTransition</a>(<span class="keyword">const</span> sf::Vector2f&amp; pos, <span class="keyword">const</span> sf::Time dt, <span class="keywordtype">int</span> transitionSpeed=32);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00166"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ac59119ed6f9d2f199ef9055188ee6710">  166</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ac59119ed6f9d2f199ef9055188ee6710">m_viewMovedByPx</a>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ae95b2eeaf8767b886719227451cfe3df">  167</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ae95b2eeaf8767b886719227451cfe3df">m_lastQuantityNeededToStopTransition</a>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    };</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;}</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a2f81347e070f5d05376cd07c97d5de5b"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2f81347e070f5d05376cd07c97d5de5b">sgl::Scenes::Zone::m_view</a></div><div class="ttdeci">sgl::Graphics::TileView m_view</div><div class="ttdoc">View for the map, handling transitions between zones. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00131">Zone.hpp:131</a></div></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html">sgl::Scenes::Zone</a></div><div class="ttdoc">A scene handling zones and transitions on a tilemap. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00114">Zone.hpp:114</a></div></div>
+<div class="ttc" id="namespacesgl_1_1Scenes_html"><div class="ttname"><a href="../../d6/da9/namespacesgl_1_1Scenes.html">sgl::Scenes</a></div><div class="ttdoc">Contain specialized scenes to simplify the developer work. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/de7/ArkScene_8hpp_source.html#l00021">ArkScene.hpp:21</a></div></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_af587f122d5c2c45a53728f14cee28092"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#af587f122d5c2c45a53728f14cee28092">sgl::Scenes::Zone::m_zoneSize</a></div><div class="ttdeci">const sf::Vector2i m_zoneSize</div><div class="ttdoc">Size of a zone, in tiles. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00129">Zone.hpp:129</a></div></div>
 <div class="ttc" id="classsgl_1_1Graphics_1_1TileView_html"><div class="ttname"><a href="../../d2/d2a/classsgl_1_1Graphics_1_1TileView.html">sgl::Graphics::TileView</a></div><div class="ttdoc">Wrapper around sf::View to manipule views using tiles coordinates. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d67/TileView_8hpp_source.html#l00024">TileView.hpp:24</a></div></div>
 <div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_aeeca7f0409012e6e541d3074c7cce45f"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#aeeca7f0409012e6e541d3074c7cce45f">sgl::Scenes::Zone::makeZoneTransition</a></div><div class="ttdeci">bool makeZoneTransition(const sf::Vector2f &amp;pos, const sf::Time dt, int transitionSpeed=32)</div><div class="ttdoc">Check if a zone transition is needed, if so, move the view accordingly. </div></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a43822572a6bdf456b19fd2f03b0d995c"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a43822572a6bdf456b19fd2f03b0d995c">sgl::Scenes::Zone::m_currentZone</a></div><div class="ttdeci">sf::Vector2i m_currentZone</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00042">Zone.hpp:42</a></div></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a43822572a6bdf456b19fd2f03b0d995c"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a43822572a6bdf456b19fd2f03b0d995c">sgl::Scenes::Zone::m_currentZone</a></div><div class="ttdeci">sf::Vector2i m_currentZone</div><div class="ttdoc">The zone in which the player is currently. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00132">Zone.hpp:132</a></div></div>
 <div class="ttc" id="TileView_8hpp_html"><div class="ttname"><a href="../../d8/d67/TileView_8hpp.html">TileView.hpp</a></div><div class="ttdoc">Utility to build and manipulate views based on tiles. </div></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_ae95b2eeaf8767b886719227451cfe3df"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ae95b2eeaf8767b886719227451cfe3df">sgl::Scenes::Zone::m_lastQuantityNeededToStopTransition</a></div><div class="ttdeci">float m_lastQuantityNeededToStopTransition</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00077">Zone.hpp:77</a></div></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a619c2abd5819600f2ef8676d1bfb31ba"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a619c2abd5819600f2ef8676d1bfb31ba">sgl::Scenes::Zone::m_tileSize</a></div><div class="ttdeci">const int m_tileSize</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00038">Zone.hpp:38</a></div></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_ae95b2eeaf8767b886719227451cfe3df"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ae95b2eeaf8767b886719227451cfe3df">sgl::Scenes::Zone::m_lastQuantityNeededToStopTransition</a></div><div class="ttdeci">float m_lastQuantityNeededToStopTransition</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00167">Zone.hpp:167</a></div></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a619c2abd5819600f2ef8676d1bfb31ba"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a619c2abd5819600f2ef8676d1bfb31ba">sgl::Scenes::Zone::m_tileSize</a></div><div class="ttdeci">const int m_tileSize</div><div class="ttdoc">Size of a tile, in pixels. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00128">Zone.hpp:128</a></div></div>
 <div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a21f180ed254868ba9db609e0a9c0a7df"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a21f180ed254868ba9db609e0a9c0a7df">sgl::Scenes::Zone::getCurrentZone</a></div><div class="ttdeci">sf::Vector2i getCurrentZone(const sf::Vector2f &amp;pos, float dx=0.f, float dy=0.f)</div><div class="ttdoc">Get the current zone position in the map. </div></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_ac59119ed6f9d2f199ef9055188ee6710"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ac59119ed6f9d2f199ef9055188ee6710">sgl::Scenes::Zone::m_viewMovedByPx</a></div><div class="ttdeci">float m_viewMovedByPx</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00076">Zone.hpp:76</a></div></div>
-<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a2511e190454bf9d769200a536f3991db"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2511e190454bf9d769200a536f3991db">sgl::Scenes::Zone::m_mapSize</a></div><div class="ttdeci">const sf::Vector2i m_mapSize</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00040">Zone.hpp:40</a></div></div>
-<div class="ttc" id="classsgl_1_1Scene_html"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div><div class="ttdoc">Base class which every user scene must derive from. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00039">Scene.hpp:39</a></div></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_ac59119ed6f9d2f199ef9055188ee6710"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#ac59119ed6f9d2f199ef9055188ee6710">sgl::Scenes::Zone::m_viewMovedByPx</a></div><div class="ttdeci">float m_viewMovedByPx</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00166">Zone.hpp:166</a></div></div>
+<div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a2511e190454bf9d769200a536f3991db"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a2511e190454bf9d769200a536f3991db">sgl::Scenes::Zone::m_mapSize</a></div><div class="ttdeci">const sf::Vector2i m_mapSize</div><div class="ttdoc">Size of the map, in zones. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d50/Zone_8hpp_source.html#l00130">Zone.hpp:130</a></div></div>
+<div class="ttc" id="classsgl_1_1Scene_html"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div><div class="ttdoc">Base class which every user scene must derive from. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00041">Scene.hpp:41</a></div></div>
 <div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_aa7a45a2f495115dc27de2300daac6c93"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#aa7a45a2f495115dc27de2300daac6c93">sgl::Scenes::Zone::isZoneValid</a></div><div class="ttdeci">bool isZoneValid(const sf::Vector2i &amp;zone)</div><div class="ttdoc">Check if a zone is in map bounds. </div></div>
 <div class="ttc" id="Scene_8hpp_html"><div class="ttname"><a href="../../db/de8/Scene_8hpp.html">Scene.hpp</a></div><div class="ttdoc">The base scene class and the scene states are defined here. </div></div>
 <div class="ttc" id="classsgl_1_1Scenes_1_1Zone_html_a18ded40ab598645d038dd444c0465ddf"><div class="ttname"><a href="../../d7/d29/classsgl_1_1Scenes_1_1Zone.html#a18ded40ab598645d038dd444c0465ddf">sgl::Scenes::Zone::Zone</a></div><div class="ttdeci">Zone(int id, int tileSize, const sf::Vector2i &amp;zoneSize, const sf::Vector2i &amp;mapSize)</div><div class="ttdoc">Construct a new Zone scene. </div></div>
@@ -193,7 +283,7 @@ $(document).ready(function(){initNavTree('d2/d50/Zone_8hpp_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_8e4a18c814930dece8feb93b1f20a8ba.html">include</a></li><li class="navelem"><a class="el" href="../../dir_bccf9de9576cfd43a752576f669ec707.html">Small</a></li><li class="navelem"><a class="el" href="../../dir_08a504847c5d5d11f9a6f924aa83786a.html">Scenes</a></li><li class="navelem"><a class="el" href="../../d2/d50/Zone_8hpp.html">Zone.hpp</a></li>
-    <li class="footer">Generated on Sat Apr 18 2020 22:46:17 for SmallGameLibrary by
+    <li class="footer">Generated on Sat May 9 2020 15:34:58 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -1,0 +1,11 @@
+<map id="include/Small/Scripting/Config.hpp" name="include/Small/Scripting/Config.hpp">
+<area shape="rect" id="node2" href="$df/d3c/Application_8hpp.html" title="Define the application hosting the scenes for the game. " alt="" coords="5,273,136,315"/>
+<area shape="rect" id="node5" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="204,95,335,136"/>
+<area shape="rect" id="node6" href="$df/d74/SceneManager_8hpp.html" title="Define the scene manager (creating, handling and destroying them) " alt="" coords="48,184,187,225"/>
+<area shape="rect" id="node7" href="$de/de7/ArkScene_8hpp.html" title="Define a scene scriptable through ArkScript. " alt="" coords="434,184,582,225"/>
+<area shape="rect" id="node10" href="$d3/dc8/Scripting_8hpp.html" title="Include all the files from the Scripting folder. " alt="" coords="494,363,674,389"/>
+<area shape="rect" id="node3" href="$d7/d38/Core_8hpp.html" title="Include all the files from the Core folder. " alt="" coords="121,363,277,389"/>
+<area shape="rect" id="node4" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="348,437,492,464"/>
+<area shape="rect" id="node9" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="262,184,410,225"/>
+<area shape="rect" id="node8" href="$d0/d00/Scenes_8hpp.html" title="Include all the files from the Scenes folder. " alt="" coords="333,281,507,307"/>
+</map>

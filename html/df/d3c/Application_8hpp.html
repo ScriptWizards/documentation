@@ -100,18 +100,21 @@ $(document).ready(function(){initNavTree('df/d3c/Application_8hpp.html','../../'
 <code>#include &lt;SFML/Window/Event.hpp&gt;</code><br />
 <code>#include &lt;SFML/System/Clock.hpp&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;imgui/imgui.h&gt;</code><br />
-<code>#include &lt;imgui/imgui-SFML.h&gt;</code><br />
+<code>#include &lt;imgui.h&gt;</code><br />
+<code>#include &lt;imgui-SFML.h&gt;</code><br />
 <code>#include &lt;SFML/OpenGL.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/d74/SceneManager_8hpp_source.html">Small/Core/SceneManager.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dbc/Profiler_8hpp_source.html">Small/Debug/Profiler.hpp</a>&gt;</code><br />
+<code>#include &lt;Ark/Ark.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../df/db4/Config_8hpp_source.html">Small/Scripting/Config.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/d82/SFMLtoArk_8hpp_source.html">Small/Scripting/SFMLtoArk.hpp</a>&gt;</code><br />
 <code>#include &quot;Application.inl&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for Application.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><!-- SVG 0 -->
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d3f/Application_8hpp__incl.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -119,8 +122,7 @@ $(document).ready(function(){initNavTree('df/d3c/Application_8hpp.html','../../'
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><!-- SVG 1 -->
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dce/Application_8hpp__dep__incl.svg" width="167" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="../../df/d3c/Application_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -146,18 +148,22 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:abe06663d5f635fe0e01a7e4fa4d36f0d"><td class="memItemLeft" align="right" valign="top">constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd7/namespacesgl_1_1Style.html#abe06663d5f635fe0e01a7e4fa4d36f0d">sgl::Style::Titlebar</a> = sf::Style::Titlebar</td></tr>
+<tr class="memdesc:abe06663d5f635fe0e01a7e4fa4d36f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The window will have a titlebar.  <a href="#abe06663d5f635fe0e01a7e4fa4d36f0d">More...</a><br /></td></tr>
 <tr class="separator:abe06663d5f635fe0e01a7e4fa4d36f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bd8b8e3a8af398696f0e6d0d5f94b7d"><td class="memItemLeft" align="right" valign="top">constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd7/namespacesgl_1_1Style.html#a4bd8b8e3a8af398696f0e6d0d5f94b7d">sgl::Style::Resizable</a> = sf::Style::Resize</td></tr>
+<tr class="memdesc:a4bd8b8e3a8af398696f0e6d0d5f94b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The window will be resizable.  <a href="#a4bd8b8e3a8af398696f0e6d0d5f94b7d">More...</a><br /></td></tr>
 <tr class="separator:a4bd8b8e3a8af398696f0e6d0d5f94b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4e96dd1fef9315d3224d1f3e0816349"><td class="memItemLeft" align="right" valign="top">constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd7/namespacesgl_1_1Style.html#ab4e96dd1fef9315d3224d1f3e0816349">sgl::Style::Close</a> = sf::Style::Close</td></tr>
+<tr class="memdesc:ab4e96dd1fef9315d3224d1f3e0816349"><td class="mdescLeft">&#160;</td><td class="mdescRight">The window will have a close button.  <a href="#ab4e96dd1fef9315d3224d1f3e0816349">More...</a><br /></td></tr>
 <tr class="separator:ab4e96dd1fef9315d3224d1f3e0816349"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827edef81260acd5fd9795b75fb2c28c"><td class="memItemLeft" align="right" valign="top">constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd7/namespacesgl_1_1Style.html#a827edef81260acd5fd9795b75fb2c28c">sgl::Style::Fullscreen</a> = sf::Style::Fullscreen</td></tr>
+<tr class="memdesc:a827edef81260acd5fd9795b75fb2c28c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The window will be in fullscren, can not be combined with others.  <a href="#a827edef81260acd5fd9795b75fb2c28c">More...</a><br /></td></tr>
 <tr class="separator:a827edef81260acd5fd9795b75fb2c28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Define the application hosting the scenes for the game. </p>
 <dl class="section author"><dt>Author</dt><dd>Alexandre Plateau (<a href="#" onclick="location.href='mai'+'lto:'+'lex'+'pl'+'t.d'+'ev'+'@gm'+'ai'+'l.c'+'om'; return false;">lexpl<span style="display: none;">.nosp@m.</span>t.de<span style="display: none;">.nosp@m.</span>v@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a>) </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.2 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2020-04-05</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2020 </dd></dl>
 
@@ -168,7 +174,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_8e4a18c814930dece8feb93b1f20a8ba.html">include</a></li><li class="navelem"><a class="el" href="../../dir_bccf9de9576cfd43a752576f669ec707.html">Small</a></li><li class="navelem"><a class="el" href="../../dir_28fb12f25184f93ef1999017e259726d.html">Core</a></li><li class="navelem"><a class="el" href="../../df/d3c/Application_8hpp.html">Application.hpp</a></li>
-    <li class="footer">Generated on Sat Apr 18 2020 22:46:18 for SmallGameLibrary by
+    <li class="footer">Generated on Sat May 9 2020 15:34:59 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

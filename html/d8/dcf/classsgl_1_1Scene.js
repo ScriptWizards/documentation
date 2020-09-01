@@ -5,6 +5,7 @@ var classsgl_1_1Scene =
     [ "getId", "d8/dcf/classsgl_1_1Scene.html#a92c487f7d03a9414204dc444cb5ecad1", null ],
     [ "getState", "d8/dcf/classsgl_1_1Scene.html#ae24bdf34dbc8d5fa698ab51c013652c6", null ],
     [ "init", "d8/dcf/classsgl_1_1Scene.html#a1bd1770e622664946ca9cac10e7ad6bd", null ],
+    [ "onChange", "d8/dcf/classsgl_1_1Scene.html#a21f0a4ea400a61aea4b0730d02ad644e", null ],
     [ "onEvent", "d8/dcf/classsgl_1_1Scene.html#a4ac4f6c969852c41ee029af4e8795410", null ],
     [ "onQuit", "d8/dcf/classsgl_1_1Scene.html#a3e67bd331054a59dd4876658a6c4f2bc", null ],
     [ "onRender", "d8/dcf/classsgl_1_1Scene.html#a3e7be05803537233e391ca232a3b1a45", null ],

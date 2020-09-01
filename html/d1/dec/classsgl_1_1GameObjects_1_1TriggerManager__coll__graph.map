@@ -1,0 +1,8 @@
+<map id="sgl::GameObjects::TriggerManager" name="sgl::GameObjects::TriggerManager">
+<area shape="rect" id="node2" href="$de/dbb/classsgl_1_1GameObjects_1_1Manager.html" title="sgl::GameObjects::Manager\l\&lt; Trigger \&gt;" alt="" coords="1163,61,1348,103"/>
+<area shape="rect" id="node4" href="$d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html" title="A base trigger class to implement your own type of triggers. " alt="" coords="524,139,699,166"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="266,153,346,179"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="5,145,132,187"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="237,61,375,103"/>
+<area shape="rect" id="node10" href="$de/dbb/classsgl_1_1GameObjects_1_1Manager.html" title="Templated singleton to hold ressources throughout the lifetime of the program. " alt="" coords="823,33,1039,59"/>
+</map>

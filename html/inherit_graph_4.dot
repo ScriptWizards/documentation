@@ -4,5 +4,12 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="sgl::Graphics::Animation\lLoader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html",tooltip="Load an animated sprite and its animation from a TOML configuration file. "];
+  Node1 [label="Drawable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgl::Graphics::AnimatedSprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html",tooltip="Animated sprite based on the animation class. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgl::Graphics::Tilemap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d99/classsgl_1_1Graphics_1_1Tilemap.html",tooltip="A tilemap wrapper. "];
+  Node4 [label="Transformable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

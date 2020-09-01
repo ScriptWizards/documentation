@@ -31,5 +31,5 @@
 <area shape="rect" id="node66" href="$d3/d48/Engine_8hpp.html" title="Easing the use of ArkScript (compiling scripts ahead of time, loading them) " alt="" coords="2105,229,2283,256"/>
 <area shape="rect" id="node67" href="$d2/d12/Bindings_8hpp.html" title="Binding the small game library in ArkScript. " alt="" coords="2307,229,2497,256"/>
 <area shape="rect" id="node70" href="$d3/d1b/Actor_8hpp.html" title="Defines an actor class for your game, to represent a player or NPC for example. " alt="" coords="3333,304,3532,331"/>
-<area shape="rect" id="node71" href="$d9/d54/Manager_8hpp.html" title="Providing a basic ressource management throughout the lifetime of the program. " alt="" coords="3834,229,4053,256"/>
+<area shape="rect" id="node71" href="$d9/d54/Manager_8hpp.html" title="Small/GameObjects/Manager.hpp" alt="" coords="3834,229,4053,256"/>
 </map>

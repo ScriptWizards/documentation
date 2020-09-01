@@ -178,6 +178,119 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>Trigger</Name>
+                <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Callback_t</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>aac8fdf213aebd24c6222a3fcd4c094ab</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Trigger</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>a912e4ccc8e91f0f3b52b33749f8fd140</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Trigger</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>a86daf74825c089e420d37fd8aa7560b6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>as</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>ae02ce5e1f18b6576bd412eb30039c824</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getRepetitions</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>a20ecb14da6e1e31c87d0d5329e16ac07</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getTriggerType</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>a96e454fcefdde8f128a71849d030cb5b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator()</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>a9299b415f766ec8ab24dcda58c65c5c3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_action</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>ad4d5fd62547fbb98f559dd462f19a0be</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_active</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>a242ffdf49c6a03481e22bc0be84fc220</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_repetitions</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>ad0509dd6314f04fa5be391a2ec0b1e4b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_triggerType</Name>
+                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                  <Anchor>a7caa82ece6309b6f94b7f40e8c2f1682</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TriggerManager</Name>
+                <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Visitor_t</Name>
+                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                  <Anchor>a65a73d5dfcce1063dc7c5840873ac8e9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>addVisitor</Name>
+                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                  <Anchor>a3f805a6b24669dc5e754cdd314599fa4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>update</Name>
+                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                  <Anchor>af1422bd8cf04e3c6a41c171ca53c278a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>UpdateTrigger</Name>
+                <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>UpdateTrigger</Name>
+                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                  <Anchor>aebc47654f7687ee78a11c512c388808a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~UpdateTrigger</Name>
+                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                  <Anchor>a20e3f836007c56732c8c00650bc26a44</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>update</Name>
+                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                  <Anchor>ad70a9e19677c4692d5c663cc30137143</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_currentTime</Name>
+                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                  <Anchor>ae5df86bc9ab669e0d96afb6344c17f72</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_updateDelta</Name>
+                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                  <Anchor>aed858ffd6794bbc9a4c6640fd04f49d8</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -454,7 +567,7 @@
                  <Node>
                   <Name>attach</Name>
                   <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-                  <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+                  <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
                  </Node>
                  <Node>
                   <Name>getTransform</Name>
@@ -1303,7 +1416,7 @@
                  <Node>
                   <Name>add</Name>
                   <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                  <Anchor>a577b5dbac22174113cf9ca77f8e38c6b</Anchor>
+                  <Anchor>a5ce13c56ce9f6a37d355c1d3703cfae6</Anchor>
                  </Node>
                  <Node>
                   <Name>onEvent</Name>
@@ -1319,11 +1432,6 @@
                   <Name>onUpdate</Name>
                   <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                   <Anchor>a3b084a8a7df799ef2fe2541bc502610a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator[]</Name>
-                  <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                  <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1490,6 +1598,11 @@
                 <Anchor>a1bd1770e622664946ca9cac10e7ad6bd</Anchor>
                </Node>
                <Node>
+                <Name>onChange</Name>
+                <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                <Anchor>a21f0a4ea400a61aea4b0730d02ad644e</Anchor>
+               </Node>
+               <Node>
                 <Name>onEvent</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                 <Anchor>a4ac4f6c969852c41ee029af4e8795410</Anchor>
@@ -1598,7 +1711,7 @@
                <Node>
                 <Name>setCurrent</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a2362b32304fd18e0a5409998e9b4aa0d</Anchor>
+                <Anchor>a6a82770b286f523948d03f88e6ed4815</Anchor>
                </Node>
                <Node>
                 <Name>m_current</Name>
@@ -1755,6 +1868,16 @@
             <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
            </Node>
            <Node>
+            <Name>sgl::GameObjects::Manager&lt; Trigger &gt;</Name>
+            <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>sgl::GameObjects::TriggerManager</Name>
+              <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>sgl::Graphics::Node</Name>
             <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
             <Subnodes>
@@ -1835,6 +1958,16 @@
              <Node>
               <Name>sgl::Graphics::Tilemap</Name>
               <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>sgl::GameObjects::Trigger</Name>
+            <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>sgl::GameObjects::UpdateTrigger</Name>
+              <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -1923,6 +2056,10 @@
              <Node>
               <Name>u</Name>
               <Path>functions_u.html</Path>
+             </Node>
+             <Node>
+              <Name>v</Name>
+              <Path>functions_v.html</Path>
              </Node>
              <Node>
               <Name>w</Name>
@@ -2218,6 +2355,11 @@
                       <Anchor>a1bd1770e622664946ca9cac10e7ad6bd</Anchor>
                      </Node>
                      <Node>
+                      <Name>onChange</Name>
+                      <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                      <Anchor>a21f0a4ea400a61aea4b0730d02ad644e</Anchor>
+                     </Node>
+                     <Node>
                       <Name>onEvent</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                       <Anchor>a4ac4f6c969852c41ee029af4e8795410</Anchor>
@@ -2354,7 +2496,7 @@
                      <Node>
                       <Name>setCurrent</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a2362b32304fd18e0a5409998e9b4aa0d</Anchor>
+                      <Anchor>a6a82770b286f523948d03f88e6ed4815</Anchor>
                      </Node>
                      <Node>
                       <Name>m_current</Name>
@@ -2605,6 +2747,143 @@
                 <Name>GameObjects</Name>
                 <Path>dir_93a9b13fd1faea679b8404f52a1184a5.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>Triggers</Name>
+                  <Path>dir_a30cd426650ab6563d9cbd0dad44b31a.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Manager.hpp</Name>
+                    <Path>de/d53/Triggers_2Manager_8hpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>TriggerManager</Name>
+                      <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>Visitor_t</Name>
+                        <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                        <Anchor>a65a73d5dfcce1063dc7c5840873ac8e9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>addVisitor</Name>
+                        <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                        <Anchor>a3f805a6b24669dc5e754cdd314599fa4</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>update</Name>
+                        <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+                        <Anchor>af1422bd8cf04e3c6a41c171ca53c278a</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Trigger.hpp</Name>
+                    <Path>d2/d29/Trigger_8hpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Trigger</Name>
+                      <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>Callback_t</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>aac8fdf213aebd24c6222a3fcd4c094ab</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Trigger</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>a912e4ccc8e91f0f3b52b33749f8fd140</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~Trigger</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>a86daf74825c089e420d37fd8aa7560b6</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>as</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>ae02ce5e1f18b6576bd412eb30039c824</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getRepetitions</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>a20ecb14da6e1e31c87d0d5329e16ac07</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getTriggerType</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>a96e454fcefdde8f128a71849d030cb5b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>operator()</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>a9299b415f766ec8ab24dcda58c65c5c3</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>m_action</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>ad4d5fd62547fbb98f559dd462f19a0be</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>m_active</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>a242ffdf49c6a03481e22bc0be84fc220</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>m_repetitions</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>ad0509dd6314f04fa5be391a2ec0b1e4b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>m_triggerType</Name>
+                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+                        <Anchor>a7caa82ece6309b6f94b7f40e8c2f1682</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Update.hpp</Name>
+                    <Path>d0/d93/Update_8hpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>UpdateTrigger</Name>
+                      <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>UpdateTrigger</Name>
+                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                        <Anchor>aebc47654f7687ee78a11c512c388808a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~UpdateTrigger</Name>
+                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                        <Anchor>a20e3f836007c56732c8c00650bc26a44</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>update</Name>
+                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                        <Anchor>ad70a9e19677c4692d5c663cc30137143</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>m_currentTime</Name>
+                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                        <Anchor>ae5df86bc9ab669e0d96afb6344c17f72</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>m_updateDelta</Name>
+                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+                        <Anchor>aed858ffd6794bbc9a4c6640fd04f49d8</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
                  <Node>
                   <Name>Actor.hpp</Name>
                   <Path>d3/d1b/Actor_8hpp.html</Path>
@@ -3015,7 +3294,7 @@
                      <Node>
                       <Name>attach</Name>
                       <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-                      <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+                      <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
                      </Node>
                      <Node>
                       <Name>getTransform</Name>
@@ -3967,7 +4246,7 @@
                      <Node>
                       <Name>add</Name>
                       <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                      <Anchor>a577b5dbac22174113cf9ca77f8e38c6b</Anchor>
+                      <Anchor>a5ce13c56ce9f6a37d355c1d3703cfae6</Anchor>
                      </Node>
                      <Node>
                       <Name>onEvent</Name>
@@ -3983,11 +4262,6 @@
                       <Name>onUpdate</Name>
                       <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
                       <Anchor>a3b084a8a7df799ef2fe2541bc502610a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>operator[]</Name>
-                      <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-                      <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>

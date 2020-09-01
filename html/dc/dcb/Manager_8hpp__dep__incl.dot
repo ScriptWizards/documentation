@@ -5,7 +5,9 @@ digraph "include/Small/GameObjects/Manager.hpp"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node1 [label="include/Small/GameObjects\l/Manager.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="include/Small/GameObjects.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da1/GameObjects_8hpp.html",tooltip="Include all the files from the GameObjects folder. "];
-  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="include/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library. "];
+  Node2 [label="include/Small/GameObjects\l/Triggers/Manager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d53/Triggers_2Manager_8hpp.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="include/Small/GameObjects.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da1/GameObjects_8hpp.html",tooltip="Include all the files from the GameObjects folder. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="include/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library. "];
 }

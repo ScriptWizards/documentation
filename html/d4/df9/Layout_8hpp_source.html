@@ -144,60 +144,50 @@ $(document).ready(function(){initNavTree('d4/df9/Layout_8hpp_source.html','../..
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a7d1310aacd06829afb1508a25d29233e">onEvent</a>(<span class="keyword">const</span> sf::Event&amp; event);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">         * @brief Return a pointer to a child widget by its identifer</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">         * @brief Create a new widget in place and add it to the layout</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">         * @param i Identifier of the widget</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">         * @return Base* </span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="../../d3/dd0/classsgl_1_1Widgets_1_1Base.html">Base</a>* <a class="code" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#ab6669e6ba72409528c225316114e58ac">operator[]</a>(<span class="keywordtype">int</span> i) <span class="keyword">const</span> <span class="keyword">final</span>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">         * @brief Create a new widget in place and add it to the layout</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">         * @tparam W Class name of the widget to add</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">         * @tparam </span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">         * @param args Args arguments (other than the identifier and the parent&#39;s pointer)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">         * @return int Unique identifier for the widget</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> W, <span class="keyword">typename</span>... Args&gt;</div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a577b5dbac22174113cf9ca77f8e38c6b">   72</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a577b5dbac22174113cf9ca77f8e38c6b">add</a>(Args&amp;&amp;... args)</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            this-&gt;attach&lt;W&gt;(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="../../dc/dee/classsgl_1_1Graphics_1_1Node.html#a7a5540ef447bd4f661c3e4f09589a9bf">m_children</a>.size()), <span class="keyword">this</span>, std::forward&lt;Args&gt;(args)...);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="../../dc/dee/classsgl_1_1Graphics_1_1Node.html#a7a5540ef447bd4f661c3e4f09589a9bf">m_children</a>.size()) - 1;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">        /**</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">         * @brief Render the widget on screen</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">         * @details This function will be empty because all the nodes are automatically rendered</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">         *          by the base class sgl::Graphics::Node, and because a layout has nothing to show.</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">         * </span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">         * @param screen </span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">         * @param transform Given by parent automatically</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a0221b41de8b635feb33cc1a44e7e70e8">onRender</a>(sf::RenderTarget&amp; screen, <span class="keyword">const</span> sf::Transform&amp; transform);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    };</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">         * @tparam W Class name of the widget to add</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">         * @tparam </span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">         * @param args Args arguments (other than the identifier and the parent&#39;s pointer)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">         * @return W* Raw owned pointer to the widget</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> W, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a5ce13c56ce9f6a37d355c1d3703cfae6">   64</a></span>&#160;        W* <a class="code" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a5ce13c56ce9f6a37d355c1d3703cfae6">add</a>(Args&amp;&amp;... args)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">return</span> this-&gt;attach&lt;W&gt;(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="../../dc/dee/classsgl_1_1Graphics_1_1Node.html#a7a5540ef447bd4f661c3e4f09589a9bf">m_children</a>.size()), <span class="keyword">this</span>, std::forward&lt;Args&gt;(args)...);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">        /**</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">         * @brief Render the widget on screen</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">         * @details This function will be empty because all the nodes are automatically rendered</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">         *          by the base class sgl::Graphics::Node, and because a layout has nothing to show.</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">         * </span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">         * @param screen </span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">         * @param transform Given by parent automatically</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a0221b41de8b635feb33cc1a44e7e70e8">onRender</a>(sf::RenderTarget&amp; screen, <span class="keyword">const</span> sf::Transform&amp; transform);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    };</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_a0221b41de8b635feb33cc1a44e7e70e8"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a0221b41de8b635feb33cc1a44e7e70e8">sgl::Widgets::Layout::onRender</a></div><div class="ttdeci">void onRender(sf::RenderTarget &amp;screen, const sf::Transform &amp;transform)</div><div class="ttdoc">Render the widget on screen. </div></div>
 <div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_a1ebdad7966bea3f28b9442dd74e77ea1"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a1ebdad7966bea3f28b9442dd74e77ea1">sgl::Widgets::Layout::Layout</a></div><div class="ttdeci">Layout(int id, Base::Ptr parent, const sf::IntRect &amp;bounds)</div><div class="ttdoc">Construct a new Layout object. </div></div>
 <div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_a27c07486810a2593972c2f0f7b38c1c9"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a27c07486810a2593972c2f0f7b38c1c9">sgl::Widgets::Layout::~Layout</a></div><div class="ttdeci">virtual ~Layout()</div><div class="ttdoc">Destroy the Layout object. </div></div>
-<div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_a577b5dbac22174113cf9ca77f8e38c6b"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a577b5dbac22174113cf9ca77f8e38c6b">sgl::Widgets::Layout::add</a></div><div class="ttdeci">int add(Args &amp;&amp;...args)</div><div class="ttdoc">Create a new widget in place and add it to the layout. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df9/Layout_8hpp_source.html#l00072">Layout.hpp:72</a></div></div>
 <div class="ttc" id="namespacesgl_1_1Widgets_html"><div class="ttname"><a href="../../dd/dfe/namespacesgl_1_1Widgets.html">sgl::Widgets</a></div><div class="ttdoc">Contain all the base widget classes. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db2/Base_8hpp_source.html#l00021">Base.hpp:21</a></div></div>
 <div class="ttc" id="Base_8hpp_html"><div class="ttname"><a href="../../d3/db2/Base_8hpp.html">Base.hpp</a></div><div class="ttdoc">Contain base classes to create interoperable SFML widgets. </div></div>
-<div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_ab6669e6ba72409528c225316114e58ac"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#ab6669e6ba72409528c225316114e58ac">sgl::Widgets::Layout::operator[]</a></div><div class="ttdeci">virtual Base * operator[](int i) const final</div><div class="ttdoc">Return a pointer to a child widget by its identifer. </div></div>
 <div class="ttc" id="classsgl_1_1Widgets_1_1Base_html"><div class="ttname"><a href="../../d3/dd0/classsgl_1_1Widgets_1_1Base.html">sgl::Widgets::Base</a></div><div class="ttdoc">Base class for all widgets. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db2/Base_8hpp_source.html#l00040">Base.hpp:40</a></div></div>
 <div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_a3b084a8a7df799ef2fe2541bc502610a"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a3b084a8a7df799ef2fe2541bc502610a">sgl::Widgets::Layout::onUpdate</a></div><div class="ttdeci">virtual void onUpdate(const sf::Time dt)</div><div class="ttdoc">Update the layout and its children. </div></div>
 <div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_a7d1310aacd06829afb1508a25d29233e"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a7d1310aacd06829afb1508a25d29233e">sgl::Widgets::Layout::onEvent</a></div><div class="ttdeci">virtual void onEvent(const sf::Event &amp;event)</div><div class="ttdoc">Called when an event is received, dispatching the event to all the children corresponding to the even...</div></div>
-<div class="ttc" id="classsgl_1_1Graphics_1_1Node_html_a7a5540ef447bd4f661c3e4f09589a9bf"><div class="ttname"><a href="../../dc/dee/classsgl_1_1Graphics_1_1Node.html#a7a5540ef447bd4f661c3e4f09589a9bf">sgl::Graphics::Node::m_children</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; Node &gt; &gt; m_children</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc6/Node_8hpp_source.html#l00171">Node.hpp:171</a></div></div>
+<div class="ttc" id="classsgl_1_1Graphics_1_1Node_html_a7a5540ef447bd4f661c3e4f09589a9bf"><div class="ttname"><a href="../../dc/dee/classsgl_1_1Graphics_1_1Node.html#a7a5540ef447bd4f661c3e4f09589a9bf">sgl::Graphics::Node::m_children</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; Node &gt; &gt; m_children</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc6/Node_8hpp_source.html#l00173">Node.hpp:173</a></div></div>
 <div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html">sgl::Widgets::Layout</a></div><div class="ttdoc">A collection of widgets working together, graphically united. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df9/Layout_8hpp_source.html#l00023">Layout.hpp:23</a></div></div>
+<div class="ttc" id="classsgl_1_1Widgets_1_1Layout_html_a5ce13c56ce9f6a37d355c1d3703cfae6"><div class="ttname"><a href="../../df/de0/classsgl_1_1Widgets_1_1Layout.html#a5ce13c56ce9f6a37d355c1d3703cfae6">sgl::Widgets::Layout::add</a></div><div class="ttdeci">W * add(Args &amp;&amp;...args)</div><div class="ttdoc">Create a new widget in place and add it to the layout. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df9/Layout_8hpp_source.html#l00064">Layout.hpp:64</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_8e4a18c814930dece8feb93b1f20a8ba.html">include</a></li><li class="navelem"><a class="el" href="../../dir_bccf9de9576cfd43a752576f669ec707.html">Small</a></li><li class="navelem"><a class="el" href="../../dir_db89475db93d8c9ea59250fb4006acd2.html">Widgets</a></li><li class="navelem"><a class="el" href="../../d4/df9/Layout_8hpp.html">Layout.hpp</a></li>
-    <li class="footer">Generated on Sat May 9 2020 15:34:58 for SmallGameLibrary by
+    <li class="footer">Generated on Tue Sep 1 2020 15:17:32 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

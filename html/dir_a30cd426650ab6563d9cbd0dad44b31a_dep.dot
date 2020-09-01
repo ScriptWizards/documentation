@@ -1,0 +1,9 @@
+digraph "include/Small/GameObjects/Triggers" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_93a9b13fd1faea679b8404f52a1184a5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GameObjects" fontname="Helvetica", fontsize="10", URL="dir_93a9b13fd1faea679b8404f52a1184a5.html"]
+  dir_a30cd426650ab6563d9cbd0dad44b31a [shape=box, label="Triggers", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a30cd426650ab6563d9cbd0dad44b31a.html"];
+  }
+}

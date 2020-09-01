@@ -7,5 +7,5 @@ digraph "include/Small/Widgets" {
   dir_db89475db93d8c9ea59250fb4006acd2 [shape=box, label="Widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_db89475db93d8c9ea59250fb4006acd2.html"];
   }
   dir_1e32cf0ae7c9740a651d31fd7036c32f [shape=box label="Graphics" URL="dir_1e32cf0ae7c9740a651d31fd7036c32f.html"];
-  dir_db89475db93d8c9ea59250fb4006acd2->dir_1e32cf0ae7c9740a651d31fd7036c32f [headlabel="1", labeldistance=1.5 headhref="dir_000009_000005.html"];
+  dir_db89475db93d8c9ea59250fb4006acd2->dir_1e32cf0ae7c9740a651d31fd7036c32f [headlabel="1", labeldistance=1.5 headhref="dir_000010_000006.html"];
 }

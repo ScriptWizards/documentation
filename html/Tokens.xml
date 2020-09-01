@@ -716,6 +716,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>onChange</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a21f0a4ea400a61aea4b0730d02ad644e</Anchor>
+    <Abstract>Method called when the scene manager changes the current scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>setState</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -902,7 +914,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -1050,7 +1062,7 @@
       <Scope>sgl::SceneManager</Scope>
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a2362b32304fd18e0a5409998e9b4aa0d</Anchor>
+    <Anchor>a6a82770b286f523948d03f88e6ed4815</Anchor>
     <Abstract>Set the Current scene. </Abstract>
     <DeclaredIn>SceneManager.hpp</DeclaredIn>
   </Token>
@@ -1675,7 +1687,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -1786,6 +1798,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>m_container</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Manager</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Manager</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1797,13 +1819,444 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_container</Name>
+      <Name>sgl::GameObjects::Trigger</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Abstract>A base trigger class to implement your own type of triggers. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Callback_t</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>aac8fdf213aebd24c6222a3fcd4c094ab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Trigger</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a912e4ccc8e91f0f3b52b33749f8fd140</Anchor>
+    <Abstract>Construct a new Trigger object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Trigger</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a86daf74825c089e420d37fd8aa7560b6</Anchor>
+    <Abstract>Destroy the Trigger object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a9299b415f766ec8ab24dcda58c65c5c3</Anchor>
+    <Abstract>Call the trigger function and decrease repetitions count. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getRepetitions</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a20ecb14da6e1e31c87d0d5329e16ac07</Anchor>
+    <Abstract>Get the Repetitions object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTriggerType</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a96e454fcefdde8f128a71849d030cb5b</Anchor>
+    <Abstract>Get the Trigger Type object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>as</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>ae02ce5e1f18b6576bd412eb30039c824</Anchor>
+    <Abstract>Return the trigger as another type (should be a trigger subclass) </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_active</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>sgl::GameObjects::Manager</Scope>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a242ffdf49c6a03481e22bc0be84fc220</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_repetitions</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>ad0509dd6314f04fa5be391a2ec0b1e4b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_action</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>ad4d5fd62547fbb98f559dd462f19a0be</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_triggerType</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a7caa82ece6309b6f94b7f40e8c2f1682</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::GameObjects::TriggerManager</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::GameObjects::TriggerManager</Scope>
+    </TokenIdentifier>
+    <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+    <Abstract>Specialization of sgl::GameObjects::Manager to handle triggers. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Visitor_t</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects::TriggerManager</Scope>
+    </TokenIdentifier>
+    <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+    <Anchor>a65a73d5dfcce1063dc7c5840873ac8e9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>update</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::TriggerManager</Scope>
+    </TokenIdentifier>
+    <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+    <Anchor>af1422bd8cf04e3c6a41c171ca53c278a</Anchor>
+    <Abstract>Update all the triggers and destroy them if it&amp;#39;s time for them to go. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addVisitor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::TriggerManager</Scope>
+    </TokenIdentifier>
+    <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
+    <Anchor>a3f805a6b24669dc5e754cdd314599fa4</Anchor>
+    <Abstract>Add / replace a visitor for a given trigger type. </Abstract>
+    <DeclaredIn>Manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Manager</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager&lt; Trigger &gt;</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a6e220e5d42e122835dc1c0f3351eaf81</Anchor>
+    <Abstract>Constructor is deleted since this class is a singleton, thus shouldn&amp;#39;t be copied. ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager&lt; Trigger &gt;</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a53b75c8ae3ed279f3f87a2772af52ac2</Anchor>
+    <Abstract>Assignement operator is deleted since this class is a singleton, thus shouldn&amp;#39;t be copied...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>add</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager&lt; Trigger &gt;</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a53bfb6395020dcc5b0415197e2f12361</Anchor>
+    <Abstract>Add an object in the container, with a given name. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>has</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager&lt; Trigger &gt;</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a2e4c3ae9153496a6628af15bccfeccbc</Anchor>
+    <Abstract>Check if the container is holding with a value under a given name. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Manager&lt; Trigger &gt;</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>a215ab4f7e9417681354657e1181ed2ae</Anchor>
+    <Abstract>Return an element by its name. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>clm</Type>
+      <Scope>sgl::GameObjects::Manager&lt; Trigger &gt;</Scope>
+    </TokenIdentifier>
+    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
+    <Anchor>aa432835dfcc1d98599f388c5281d5e42</Anchor>
+    <Abstract>Get the instance of the singleton. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_container</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Manager&lt; Trigger &gt;</Scope>
     </TokenIdentifier>
     <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
     <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::GameObjects::UpdateTrigger</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::GameObjects::UpdateTrigger</Scope>
+    </TokenIdentifier>
+    <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+    <DeclaredIn>Update.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UpdateTrigger</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::UpdateTrigger</Scope>
+    </TokenIdentifier>
+    <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+    <Anchor>aebc47654f7687ee78a11c512c388808a</Anchor>
+    <Abstract>Construct a new Update Trigger object. </Abstract>
+    <DeclaredIn>Update.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~UpdateTrigger</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::UpdateTrigger</Scope>
+    </TokenIdentifier>
+    <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+    <Anchor>a20e3f836007c56732c8c00650bc26a44</Anchor>
+    <Abstract>Destroy the Update Trigger object. </Abstract>
+    <DeclaredIn>Update.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>update</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::UpdateTrigger</Scope>
+    </TokenIdentifier>
+    <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+    <Anchor>ad70a9e19677c4692d5c663cc30137143</Anchor>
+    <DeclaredIn>Update.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Trigger</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a912e4ccc8e91f0f3b52b33749f8fd140</Anchor>
+    <Abstract>Construct a new Trigger object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Trigger</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a86daf74825c089e420d37fd8aa7560b6</Anchor>
+    <Abstract>Destroy the Trigger object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a9299b415f766ec8ab24dcda58c65c5c3</Anchor>
+    <Abstract>Call the trigger function and decrease repetitions count. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getRepetitions</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a20ecb14da6e1e31c87d0d5329e16ac07</Anchor>
+    <Abstract>Get the Repetitions object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTriggerType</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a96e454fcefdde8f128a71849d030cb5b</Anchor>
+    <Abstract>Get the Trigger Type object. </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>as</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>ae02ce5e1f18b6576bd412eb30039c824</Anchor>
+    <Abstract>Return the trigger as another type (should be a trigger subclass) </Abstract>
+    <DeclaredIn>Trigger.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_updateDelta</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::UpdateTrigger</Scope>
+    </TokenIdentifier>
+    <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+    <Anchor>aed858ffd6794bbc9a4c6640fd04f49d8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_currentTime</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::UpdateTrigger</Scope>
+    </TokenIdentifier>
+    <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
+    <Anchor>ae5df86bc9ab669e0d96afb6344c17f72</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_active</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a242ffdf49c6a03481e22bc0be84fc220</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_repetitions</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>ad0509dd6314f04fa5be391a2ec0b1e4b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_action</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>ad4d5fd62547fbb98f559dd462f19a0be</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_triggerType</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>a7caa82ece6309b6f94b7f40e8c2f1682</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Callback_t</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>sgl::GameObjects::Trigger</Scope>
+    </TokenIdentifier>
+    <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
+    <Anchor>aac8fdf213aebd24c6222a3fcd4c094ab</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2545,7 +2998,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -3434,6 +3887,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>onChange</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a21f0a4ea400a61aea4b0730d02ad644e</Anchor>
+    <Abstract>Method called when the scene manager changes the current scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>setState</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -3620,7 +4085,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -3818,6 +4283,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>onChange</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Scene</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+    <Anchor>a21f0a4ea400a61aea4b0730d02ad644e</Anchor>
+    <Abstract>Method called when the scene manager changes the current scene. </Abstract>
+    <DeclaredIn>Scene.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>setState</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -4004,7 +4481,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -4932,7 +5409,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -5506,7 +5983,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -6057,7 +6534,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -6596,7 +7073,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>
@@ -6769,25 +7246,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>sgl::Widgets::Layout</Scope>
-    </TokenIdentifier>
-    <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-    <Anchor>ab6669e6ba72409528c225316114e58ac</Anchor>
-    <Abstract>Return a pointer to a child widget by its identifer. </Abstract>
-    <DeclaredIn>Layout.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>add</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::Widgets::Layout</Scope>
     </TokenIdentifier>
     <Path>df/de0/classsgl_1_1Widgets_1_1Layout.html</Path>
-    <Anchor>a577b5dbac22174113cf9ca77f8e38c6b</Anchor>
+    <Anchor>a5ce13c56ce9f6a37d355c1d3703cfae6</Anchor>
     <Abstract>Create a new widget in place and add it to the layout. </Abstract>
     <DeclaredIn>Layout.hpp</DeclaredIn>
   </Token>
@@ -7147,7 +7612,7 @@
       <Scope>sgl::Graphics::Node</Scope>
     </TokenIdentifier>
     <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
-    <Anchor>af7a2f7a2dfeae1ac5510312a5abdd8d9</Anchor>
+    <Anchor>aa0197cef765b1f8c677b83794919031e</Anchor>
     <Abstract>Attach a child node to this node. </Abstract>
     <DeclaredIn>Node.hpp</DeclaredIn>
   </Token>

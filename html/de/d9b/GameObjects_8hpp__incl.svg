@@ -75,7 +75,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d9/d54/Manager_8hpp.html" target="_top" xlink:title="Providing a basic ressource management throughout the lifetime of the program. ">
+<g id="a_node11"><a xlink:href="../../d9/d54/Manager_8hpp.html" target="_top" xlink:title="Small/GameObjects/Manager.hpp">
 <polygon fill="white" stroke="black" points="1102,-112.5 1102,-131.5 1266,-131.5 1266,-112.5 1102,-112.5"/>
 <text text-anchor="middle" x="1184" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Small/GameObjects/Manager.hpp</text>
 </a>

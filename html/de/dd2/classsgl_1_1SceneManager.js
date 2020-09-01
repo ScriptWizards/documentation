@@ -11,7 +11,7 @@ var classsgl_1_1SceneManager =
     [ "onUpdate", "de/dd2/classsgl_1_1SceneManager.html#afd469f6e27f24ce9990726353a82d48d", null ],
     [ "operator[]", "de/dd2/classsgl_1_1SceneManager.html#a4c40f69aebe9aa2a9820b7c1c9289d66", null ],
     [ "remove", "de/dd2/classsgl_1_1SceneManager.html#a58a2d1e10c1a779799d21bb500da16b9", null ],
-    [ "setCurrent", "de/dd2/classsgl_1_1SceneManager.html#a2362b32304fd18e0a5409998e9b4aa0d", null ],
+    [ "setCurrent", "de/dd2/classsgl_1_1SceneManager.html#a6a82770b286f523948d03f88e6ed4815", null ],
     [ "m_current", "de/dd2/classsgl_1_1SceneManager.html#a73cc649084c69f0682cd8641e9315850", null ],
     [ "m_scenes", "de/dd2/classsgl_1_1SceneManager.html#accaadd112d80ea2ea54b5a4ece73af34", null ],
     [ "m_transform", "de/dd2/classsgl_1_1SceneManager.html#a6a2263d13b260da746721f37a793cd02", null ]

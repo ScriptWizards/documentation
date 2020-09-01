@@ -203,7 +203,7 @@ digraph "include/Small/All.hpp"
   Node70 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node70 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node69 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node71 [label="Small/GameObjects/Manager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d54/Manager_8hpp.html",tooltip="Providing a basic ressource management throughout the lifetime of the program. "];
+  Node71 [label="Small/GameObjects/Manager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d54/Manager_8hpp.html"];
   Node71 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node71 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node71 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

@@ -10,6 +10,9 @@ var hierarchy =
     ] ],
     [ "sgl::internal::Profiler::Entry", "de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html", null ],
     [ "sgl::GameObjects::Manager< T >", "de/dbb/classsgl_1_1GameObjects_1_1Manager.html", null ],
+    [ "sgl::GameObjects::Manager< Trigger >", "de/dbb/classsgl_1_1GameObjects_1_1Manager.html", [
+      [ "sgl::GameObjects::TriggerManager", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html", null ]
+    ] ],
     [ "sgl::Graphics::Node", "dc/dee/classsgl_1_1Graphics_1_1Node.html", [
       [ "sgl::GameObjects::Actor", "d0/d68/classsgl_1_1GameObjects_1_1Actor.html", null ],
       [ "sgl::Scene", "d8/dcf/classsgl_1_1Scene.html", [
@@ -32,5 +35,8 @@ var hierarchy =
     [ "Transformable", null, [
       [ "sgl::Graphics::AnimatedSprite", "d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html", null ],
       [ "sgl::Graphics::Tilemap", "dc/d99/classsgl_1_1Graphics_1_1Tilemap.html", null ]
+    ] ],
+    [ "sgl::GameObjects::Trigger", "d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html", [
+      [ "sgl::GameObjects::UpdateTrigger", "dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html", null ]
     ] ]
 ];

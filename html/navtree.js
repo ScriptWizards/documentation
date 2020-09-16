@@ -35,7 +35,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d8/d82/SFMLtoArk_8hpp_source.html",
-"functions_v.html"
+"functions_s.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

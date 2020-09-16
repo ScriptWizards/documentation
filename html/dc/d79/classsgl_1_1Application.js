@@ -2,7 +2,7 @@ var classsgl_1_1Application =
 [
     [ "Application", "dc/d79/classsgl_1_1Application.html#a3d5363349f6dca4ef824a947c2349730", null ],
     [ "~Application", "dc/d79/classsgl_1_1Application.html#ad970dd7647de3e30e3ec4688d4346b8b", null ],
-    [ "add", "dc/d79/classsgl_1_1Application.html#a2b8c8522bd186569e799f5a42cc0ef74", null ],
+    [ "add", "dc/d79/classsgl_1_1Application.html#a92a3ef2a6e533212ae137cca7b508e7a", null ],
     [ "configureScriptingEngine", "dc/d79/classsgl_1_1Application.html#a850ad76892ca6227dda917c2ce12a563", null ],
     [ "onEvents", "dc/d79/classsgl_1_1Application.html#ab9ca35292b7e7bb6babd16fc5dd85b7a", null ],
     [ "onRender", "dc/d79/classsgl_1_1Application.html#aa38160d37a60f30798a9c783cba40cd5", null ],

@@ -1,9 +1,10 @@
 <map id="sgl::Scenes::ArkScene" name="sgl::Scenes::ArkScene">
-<area shape="rect" id="node2" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. " alt="" coords="1061,145,1145,172"/>
-<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="765,145,903,172"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="149,145,263,172"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="289,216,428,243"/>
-<area shape="rect" id="node7" href="$de/dd2/classsgl_1_1SceneManager.html" title="Scene manager, in charge of creating, handling and destroying scenes. " alt="" coords="1867,164,2001,191"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="1063,76,1143,103"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="771,73,897,114"/>
+<area shape="rect" id="node2" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. " alt="" coords="1155,81,1239,108"/>
+<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="859,89,996,116"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="161,152,275,179"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="149,242,287,283"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="313,53,452,80"/>
+<area shape="rect" id="node7" href="$de/dd2/classsgl_1_1SceneManager.html" title="Scene manager, in charge of creating, handling and destroying scenes. " alt="" coords="2012,165,2147,192"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="1157,153,1237,180"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="864,142,991,183"/>
 </map>

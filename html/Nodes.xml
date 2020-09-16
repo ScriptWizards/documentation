@@ -1454,7 +1454,7 @@
                <Node>
                 <Name>add</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
-                <Anchor>a2b8c8522bd186569e799f5a42cc0ef74</Anchor>
+                <Anchor>a92a3ef2a6e533212ae137cca7b508e7a</Anchor>
                </Node>
                <Node>
                 <Name>configureScriptingEngine</Name>
@@ -1666,12 +1666,17 @@
                <Node>
                 <Name>add</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a5e9645604685462a2815f4d5201e379e</Anchor>
+                <Anchor>aeabfb712e64fd57ef4cbfa1a883101c4</Anchor>
                </Node>
                <Node>
                 <Name>current</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>ab73920a66b9f398afa440b77cbc6a9c7</Anchor>
+               </Node>
+               <Node>
+                <Name>if</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>a54c50cc4dddf92b3f457a4e52faddc87</Anchor>
                </Node>
                <Node>
                 <Name>init</Name>
@@ -1711,12 +1716,22 @@
                <Node>
                 <Name>setCurrent</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a6a82770b286f523948d03f88e6ed4815</Anchor>
+                <Anchor>ad4b62b5b07a0a647a2750011c262f0c0</Anchor>
+               </Node>
+               <Node>
+                <Name>id</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>aa111339fdba2d7c30acd1d643ada2487</Anchor>
                </Node>
                <Node>
                 <Name>m_current</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>a73cc649084c69f0682cd8641e9315850</Anchor>
+               </Node>
+               <Node>
+                <Name>m_hashCodeToSceneId</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>a46048cf2b687909848036eb8211e4839</Anchor>
                </Node>
                <Node>
                 <Name>m_scenes</Name>
@@ -1727,6 +1742,11 @@
                 <Name>m_transform</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
+               </Node>
+               <Node>
+                <Name>this</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>a7c405cbbbbf421cd2150f7d0e1b3c70f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2185,7 +2205,7 @@
                      <Node>
                       <Name>add</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
-                      <Anchor>a2b8c8522bd186569e799f5a42cc0ef74</Anchor>
+                      <Anchor>a92a3ef2a6e533212ae137cca7b508e7a</Anchor>
                      </Node>
                      <Node>
                       <Name>configureScriptingEngine</Name>
@@ -2451,12 +2471,17 @@
                      <Node>
                       <Name>add</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a5e9645604685462a2815f4d5201e379e</Anchor>
+                      <Anchor>aeabfb712e64fd57ef4cbfa1a883101c4</Anchor>
                      </Node>
                      <Node>
                       <Name>current</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>ab73920a66b9f398afa440b77cbc6a9c7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>if</Name>
+                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                      <Anchor>a54c50cc4dddf92b3f457a4e52faddc87</Anchor>
                      </Node>
                      <Node>
                       <Name>init</Name>
@@ -2496,12 +2521,22 @@
                      <Node>
                       <Name>setCurrent</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a6a82770b286f523948d03f88e6ed4815</Anchor>
+                      <Anchor>ad4b62b5b07a0a647a2750011c262f0c0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>id</Name>
+                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                      <Anchor>aa111339fdba2d7c30acd1d643ada2487</Anchor>
                      </Node>
                      <Node>
                       <Name>m_current</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>a73cc649084c69f0682cd8641e9315850</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_hashCodeToSceneId</Name>
+                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                      <Anchor>a46048cf2b687909848036eb8211e4839</Anchor>
                      </Node>
                      <Node>
                       <Name>m_scenes</Name>
@@ -2512,6 +2547,11 @@
                       <Name>m_transform</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>this</Name>
+                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                      <Anchor>a7c405cbbbbf421cd2150f7d0e1b3c70f</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>

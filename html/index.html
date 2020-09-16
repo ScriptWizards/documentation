@@ -154,20 +154,50 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="line">        .setFPSLimit(60)</div>
 <div class="line">        .setDebug(<span class="keyword">true</span>);</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordtype">int</span> <span class="keywordtype">id</span> = app.add&lt;MyScene&gt;(12);</div>
-<div class="line">    app.setCurrentScene(<span class="keywordtype">id</span>);</div>
+<div class="line">    app.add&lt;MyScene&gt;(12);</div>
+<div class="line">    app.setCurrentScene&lt;MyScene&gt;();</div>
 <div class="line"></div>
 <div class="line">    app.run();</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>The <a class="el" href="d4/d9f/structsgl_1_1Settings.html" title="Holding the application settings. ">sgl::Settings</a> can be modified to change the <code>width</code> and <code>height</code> of the window, as well as its <code>style</code> (presence of titlebar, close button...). Some other settings can be modified but are linked to the backend, OpenGL, so modify them only if you know what you are doing. </p>
-</div></div><!-- contents -->
+</div><!-- fragment --><p>The <a class="el" href="d4/d9f/structsgl_1_1Settings.html" title="Holding the application settings. ">sgl::Settings</a> can be modified to change the <code>width</code> and <code>height</code> of the window, as well as its <code>style</code> (presence of titlebar, close button...). Some other settings can be modified but are linked to the backend, OpenGL, so modify them only if you know what you are doing.</p>
+<p>We add and create a new scene to an application by using <code>app.add&lt;Scene&gt;(args)</code>, and set it as the current one by using <code>app.setCurrentScene&lt;MyScene&gt;()</code>. This means that if we want to use the same scene multiple time with different parameters, for example a <code>Level</code> scene, we wouldn't be able to have more than a single level registered at a time since they are selected by the class name and not by their scene id. Thus we can use a workaround with templated classes:</p>
+<div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> T, <span class="keywordtype">int</span> N&gt;</div>
+<div class="line"><span class="keyword">class </span>Wrapper : <span class="keyword">public</span> T</div>
+<div class="line">{</div>
+<div class="line"><span class="keyword">public</span>:</div>
+<div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
+<div class="line">    Wrapper(Args&amp;&amp;... args) :</div>
+<div class="line">        T(<a class="code" href="d8/dcc/namespacestd.html">std</a>::forward&lt;Args&gt;(args)...)</div>
+<div class="line">    {}</div>
+<div class="line">};</div>
+<div class="line"></div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">const</span> <a class="code" href="d4/d9f/structsgl_1_1Settings.html">sgl::Settings</a> settings = {};</div>
+<div class="line">    <a class="code" href="dc/d79/classsgl_1_1Application.html">sgl::Application</a> app(settings);</div>
+<div class="line"></div>
+<div class="line">    app.setTitle(<span class="stringliteral">&quot;Hello world!&quot;</span>)</div>
+<div class="line">        .setVSync(<span class="keyword">false</span>)</div>
+<div class="line">        .setFPSLimit(60)</div>
+<div class="line">        .setDebug(<span class="keyword">true</span>);</div>
+<div class="line"></div>
+<div class="line">    app.add&lt;Wrapper&lt;Level, 1&gt;&gt;(12);</div>
+<div class="line">    app.add&lt;Wrapper&lt;Level, 2&gt;&gt;(15);</div>
+<div class="line">    app.add&lt;Wrapper&lt;Level, 3&gt;&gt;(32);</div>
+<div class="line">    app.setCurrentScene&lt;Wrapper&lt;Level, 1&gt;&gt;();</div>
+<div class="line"></div>
+<div class="line">    app.run();</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 1 2020 15:17:37 for SmallGameLibrary by
+    <li class="footer">Generated on Wed Sep 16 2020 17:25:59 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -457,7 +457,7 @@
       <Scope>sgl::Application</Scope>
     </TokenIdentifier>
     <Path>dc/d79/classsgl_1_1Application.html</Path>
-    <Anchor>a2b8c8522bd186569e799f5a42cc0ef74</Anchor>
+    <Anchor>a92a3ef2a6e533212ae137cca7b508e7a</Anchor>
     <Abstract>Add a scene to the application. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
@@ -1062,8 +1062,19 @@
       <Scope>sgl::SceneManager</Scope>
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a6a82770b286f523948d03f88e6ed4815</Anchor>
+    <Anchor>ad4b62b5b07a0a647a2750011c262f0c0</Anchor>
     <Abstract>Set the Current scene. </Abstract>
+    <DeclaredIn>SceneManager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>if</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::SceneManager</Scope>
+    </TokenIdentifier>
+    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+    <Anchor>a54c50cc4dddf92b3f457a4e52faddc87</Anchor>
     <DeclaredIn>SceneManager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1134,9 +1145,29 @@
       <Scope>sgl::SceneManager</Scope>
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a5e9645604685462a2815f4d5201e379e</Anchor>
+    <Anchor>aeabfb712e64fd57ef4cbfa1a883101c4</Anchor>
     <Abstract>Register a scene and return its identifier. </Abstract>
     <DeclaredIn>SceneManager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::SceneManager</Scope>
+    </TokenIdentifier>
+    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+    <Anchor>aa111339fdba2d7c30acd1d643ada2487</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>this</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::SceneManager</Scope>
+    </TokenIdentifier>
+    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+    <Anchor>a7c405cbbbbf421cd2150f7d0e1b3c70f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1147,6 +1178,16 @@
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
     <Anchor>accaadd112d80ea2ea54b5a4ece73af34</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_hashCodeToSceneId</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::SceneManager</Scope>
+    </TokenIdentifier>
+    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+    <Anchor>a46048cf2b687909848036eb8211e4839</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

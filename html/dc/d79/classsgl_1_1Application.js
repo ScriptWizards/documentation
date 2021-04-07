@@ -8,7 +8,8 @@ var classsgl_1_1Application =
     [ "onRender", "dc/d79/classsgl_1_1Application.html#aa38160d37a60f30798a9c783cba40cd5", null ],
     [ "onUpdate", "dc/d79/classsgl_1_1Application.html#ab1ff34cca2cd77518fbebefeb51f8557", null ],
     [ "run", "dc/d79/classsgl_1_1Application.html#a434acac4ce2084039c2cff948f008fa7", null ],
-    [ "setCurrentScene", "dc/d79/classsgl_1_1Application.html#a8899d8a1ddb98baf8db5723917509167", null ],
+    [ "setCurrentScene", "dc/d79/classsgl_1_1Application.html#a29d93d42396bbd454060367bdb1d0aa8", null ],
+    [ "setCurrentSceneId", "dc/d79/classsgl_1_1Application.html#af03f3f72729336ffdf5d34cb68c96945", null ],
     [ "setDebug", "dc/d79/classsgl_1_1Application.html#a3c2c4c60403326e6f6a4990ad6a50708", null ],
     [ "setFPSLimit", "dc/d79/classsgl_1_1Application.html#ac777ee29fd2ab87f5aa14920c924cb48", null ],
     [ "setScripting", "dc/d79/classsgl_1_1Application.html#a61596a72e49b376dde9c371ff0b11d00", null ],
@@ -24,5 +25,6 @@ var classsgl_1_1Application =
     [ "m_showDebug", "dc/d79/classsgl_1_1Application.html#ab49ff572b0ffeca21aa2ea0cc25c4f4a", null ],
     [ "m_state", "dc/d79/classsgl_1_1Application.html#af03876abcce1c61c805bcac9dda5530a", null ],
     [ "m_vm", "dc/d79/classsgl_1_1Application.html#aae02692871a5ac505ac53b56c864a0c9", null ],
+    [ "m_vsync", "dc/d79/classsgl_1_1Application.html#a352451f2acdbe3b7aeb68980470695b4", null ],
     [ "m_wireframe", "dc/d79/classsgl_1_1Application.html#a68cef8842504087c1c0fc0f60b7afeab", null ]
 ];

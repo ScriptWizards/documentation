@@ -144,12 +144,14 @@ var NAVTREEINDEX0 =
 "d4/d3b/namespacesgl_1_1internal.html":[0,0,0,3],
 "d4/d3b/namespacesgl_1_1internal.html":[1,0,0,2],
 "d4/d9f/structsgl_1_1Settings.html":[1,0,0,9],
-"d4/d9f/structsgl_1_1Settings.html#a16cb44cfad3fb54916e80533662d6b65":[1,0,0,9,4],
+"d4/d9f/structsgl_1_1Settings.html#a16cb44cfad3fb54916e80533662d6b65":[1,0,0,9,6],
+"d4/d9f/structsgl_1_1Settings.html#a37ce2065d7ff90d2e90b545595cc5fad":[1,0,0,9,5],
 "d4/d9f/structsgl_1_1Settings.html#a5f8fd971c422b79509d3aa1624c086d3":[1,0,0,9,2],
 "d4/d9f/structsgl_1_1Settings.html#a65b8c6dfc1b733b88dd2acb808657594":[1,0,0,9,0],
-"d4/d9f/structsgl_1_1Settings.html#a70c1cefd159b246f566cb2942f2e122f":[1,0,0,9,6],
-"d4/d9f/structsgl_1_1Settings.html#a9992f0c2659dea537484b9ca2fb8dd40":[1,0,0,9,5],
+"d4/d9f/structsgl_1_1Settings.html#a70c1cefd159b246f566cb2942f2e122f":[1,0,0,9,8],
+"d4/d9f/structsgl_1_1Settings.html#a9992f0c2659dea537484b9ca2fb8dd40":[1,0,0,9,7],
 "d4/d9f/structsgl_1_1Settings.html#ab3ace63408a1ac000b3210ff8f69d4bb":[1,0,0,9,1],
+"d4/d9f/structsgl_1_1Settings.html#adef35e33ec4554c52134bd77e2281c44":[1,0,0,9,4],
 "d4/d9f/structsgl_1_1Settings.html#ae0da836ce6bc349a0813036606b9c51d":[1,0,0,9,3],
 "d4/da5/SharedLibrary_8hpp.html":[2,0,0,0,6,2],
 "d4/da5/SharedLibrary_8hpp_source.html":[2,0,0,0,6,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "d8/d82/SFMLtoArk_8hpp.html#af4cc81ae2ba6501af4c3ee4acd0990a3a4a77f07c8ad223b71ab4ce78a63841ab":[2,0,0,0,5,3,0,2],
 "d8/d82/SFMLtoArk_8hpp.html#af4cc81ae2ba6501af4c3ee4acd0990a3a7349f643d689997b7c54bf93e4095f5c":[2,0,0,0,5,3,0,4],
 "d8/d82/SFMLtoArk_8hpp.html#af4cc81ae2ba6501af4c3ee4acd0990a3a7584c169de594c27f00084b93186fd7c":[2,0,0,0,5,3,0,5],
-"d8/d82/SFMLtoArk_8hpp.html#af4cc81ae2ba6501af4c3ee4acd0990a3a8ed4d3c0783d6f909907e1592ffe47ac":[2,0,0,0,5,3,0,0],
-"d8/d82/SFMLtoArk_8hpp.html#af4cc81ae2ba6501af4c3ee4acd0990a3a9787e93d7821ce61637e6f9f19ef955b":[2,0,0,0,5,3,0,3],
-"d8/d82/SFMLtoArk_8hpp.html#af4cc81ae2ba6501af4c3ee4acd0990a3ac17e6984c1e5a887a49831beadee6bca":[2,0,0,0,5,3,0,1]
+"d8/d82/SFMLtoArk_8hpp.html#af4cc81ae2ba6501af4c3ee4acd0990a3a8ed4d3c0783d6f909907e1592ffe47ac":[2,0,0,0,5,3,0,0]
 };

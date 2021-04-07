@@ -421,8 +421,20 @@
       <Scope>sgl::Application</Scope>
     </TokenIdentifier>
     <Path>dc/d79/classsgl_1_1Application.html</Path>
-    <Anchor>a8899d8a1ddb98baf8db5723917509167</Anchor>
+    <Anchor>a29d93d42396bbd454060367bdb1d0aa8</Anchor>
     <Abstract>Set the Current Scene. </Abstract>
+    <DeclaredIn>Application.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setCurrentSceneId</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>af03f3f72729336ffdf5d34cb68c96945</Anchor>
+    <Abstract>Set the Current Scene Id object. </Abstract>
     <DeclaredIn>Application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -618,6 +630,16 @@
     </TokenIdentifier>
     <Path>dc/d79/classsgl_1_1Application.html</Path>
     <Anchor>a68cef8842504087c1c0fc0f60b7afeab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_vsync</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>a352451f2acdbe3b7aeb68980470695b4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1068,13 +1090,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>if</Name>
+      <Name>setCurrentId</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::SceneManager</Scope>
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a54c50cc4dddf92b3f457a4e52faddc87</Anchor>
+    <Anchor>abc664029df1887bdb0a5486418d4670c</Anchor>
+    <Abstract>Set the Current Id object. </Abstract>
     <DeclaredIn>SceneManager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1151,26 +1174,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>id</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>sgl::SceneManager</Scope>
-    </TokenIdentifier>
-    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>aa111339fdba2d7c30acd1d643ada2487</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>this</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>sgl::SceneManager</Scope>
-    </TokenIdentifier>
-    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a7c405cbbbbf421cd2150f7d0e1b3c70f</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>m_scenes</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1187,7 +1190,7 @@
       <Scope>sgl::SceneManager</Scope>
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a46048cf2b687909848036eb8211e4839</Anchor>
+    <Anchor>ab0c52de69aca4ae149f5ac551338f696</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1297,6 +1300,28 @@
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>a65b8c6dfc1b733b88dd2acb808657594</Anchor>
     <Abstract>Anti aliasing level. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>major</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Settings</Scope>
+    </TokenIdentifier>
+    <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+    <Anchor>adef35e33ec4554c52134bd77e2281c44</Anchor>
+    <Abstract>Major version for OpenGL. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>minor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Settings</Scope>
+    </TokenIdentifier>
+    <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+    <Anchor>a37ce2065d7ff90d2e90b545595cc5fad</Anchor>
+    <Abstract>Minor version for OpenGL. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

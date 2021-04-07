@@ -8,8 +8,8 @@ digraph "sgl::Application"
   Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_sceneManager" ,fontname="Helvetica"];
   Node2 [label="sgl::SceneManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd2/classsgl_1_1SceneManager.html",tooltip="Scene manager, in charge of creating, handling and destroying scenes. "];
   Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_hashCodeToSceneId" ,fontname="Helvetica"];
-  Node3 [label="std::unordered_map\l\< std::size_t, std::\lsize_t \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node4 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::size_t, std\l::size_t \>" ,fontname="Helvetica"];
+  Node3 [label="std::unordered_map\l\< std::size_t, int \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::size_t, int \>" ,fontname="Helvetica"];
   Node4 [label="std::unordered_map\l\< K, T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
   Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="Helvetica"];
   Node5 [label="K",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];

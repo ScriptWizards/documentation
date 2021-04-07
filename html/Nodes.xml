@@ -1484,7 +1484,12 @@
                <Node>
                 <Name>setCurrentScene</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
-                <Anchor>a8899d8a1ddb98baf8db5723917509167</Anchor>
+                <Anchor>a29d93d42396bbd454060367bdb1d0aa8</Anchor>
+               </Node>
+               <Node>
+                <Name>setCurrentSceneId</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>af03f3f72729336ffdf5d34cb68c96945</Anchor>
                </Node>
                <Node>
                 <Name>setDebug</Name>
@@ -1560,6 +1565,11 @@
                 <Name>m_vm</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
                 <Anchor>aae02692871a5ac505ac53b56c864a0c9</Anchor>
+               </Node>
+               <Node>
+                <Name>m_vsync</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>a352451f2acdbe3b7aeb68980470695b4</Anchor>
                </Node>
                <Node>
                 <Name>m_wireframe</Name>
@@ -1674,11 +1684,6 @@
                 <Anchor>ab73920a66b9f398afa440b77cbc6a9c7</Anchor>
                </Node>
                <Node>
-                <Name>if</Name>
-                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a54c50cc4dddf92b3f457a4e52faddc87</Anchor>
-               </Node>
-               <Node>
                 <Name>init</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>a38ee68abe0753dfe43a5c117338b83a2</Anchor>
@@ -1719,9 +1724,9 @@
                 <Anchor>ad4b62b5b07a0a647a2750011c262f0c0</Anchor>
                </Node>
                <Node>
-                <Name>id</Name>
+                <Name>setCurrentId</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>aa111339fdba2d7c30acd1d643ada2487</Anchor>
+                <Anchor>abc664029df1887bdb0a5486418d4670c</Anchor>
                </Node>
                <Node>
                 <Name>m_current</Name>
@@ -1731,7 +1736,7 @@
                <Node>
                 <Name>m_hashCodeToSceneId</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a46048cf2b687909848036eb8211e4839</Anchor>
+                <Anchor>ab0c52de69aca4ae149f5ac551338f696</Anchor>
                </Node>
                <Node>
                 <Name>m_scenes</Name>
@@ -1742,11 +1747,6 @@
                 <Name>m_transform</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
-               </Node>
-               <Node>
-                <Name>this</Name>
-                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a7c405cbbbbf421cd2150f7d0e1b3c70f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1773,6 +1773,16 @@
                 <Name>height</Name>
                 <Path>d4/d9f/structsgl_1_1Settings.html</Path>
                 <Anchor>ae0da836ce6bc349a0813036606b9c51d</Anchor>
+               </Node>
+               <Node>
+                <Name>major</Name>
+                <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+                <Anchor>adef35e33ec4554c52134bd77e2281c44</Anchor>
+               </Node>
+               <Node>
+                <Name>minor</Name>
+                <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+                <Anchor>a37ce2065d7ff90d2e90b545595cc5fad</Anchor>
                </Node>
                <Node>
                 <Name>stencil</Name>
@@ -2172,6 +2182,16 @@
                       <Anchor>ae0da836ce6bc349a0813036606b9c51d</Anchor>
                      </Node>
                      <Node>
+                      <Name>major</Name>
+                      <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+                      <Anchor>adef35e33ec4554c52134bd77e2281c44</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>minor</Name>
+                      <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+                      <Anchor>a37ce2065d7ff90d2e90b545595cc5fad</Anchor>
+                     </Node>
+                     <Node>
                       <Name>stencil</Name>
                       <Path>d4/d9f/structsgl_1_1Settings.html</Path>
                       <Anchor>a16cb44cfad3fb54916e80533662d6b65</Anchor>
@@ -2235,7 +2255,12 @@
                      <Node>
                       <Name>setCurrentScene</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
-                      <Anchor>a8899d8a1ddb98baf8db5723917509167</Anchor>
+                      <Anchor>a29d93d42396bbd454060367bdb1d0aa8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setCurrentSceneId</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>af03f3f72729336ffdf5d34cb68c96945</Anchor>
                      </Node>
                      <Node>
                       <Name>setDebug</Name>
@@ -2311,6 +2336,11 @@
                       <Name>m_vm</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
                       <Anchor>aae02692871a5ac505ac53b56c864a0c9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_vsync</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>a352451f2acdbe3b7aeb68980470695b4</Anchor>
                      </Node>
                      <Node>
                       <Name>m_wireframe</Name>
@@ -2479,11 +2509,6 @@
                       <Anchor>ab73920a66b9f398afa440b77cbc6a9c7</Anchor>
                      </Node>
                      <Node>
-                      <Name>if</Name>
-                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a54c50cc4dddf92b3f457a4e52faddc87</Anchor>
-                     </Node>
-                     <Node>
                       <Name>init</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>a38ee68abe0753dfe43a5c117338b83a2</Anchor>
@@ -2524,9 +2549,9 @@
                       <Anchor>ad4b62b5b07a0a647a2750011c262f0c0</Anchor>
                      </Node>
                      <Node>
-                      <Name>id</Name>
+                      <Name>setCurrentId</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>aa111339fdba2d7c30acd1d643ada2487</Anchor>
+                      <Anchor>abc664029df1887bdb0a5486418d4670c</Anchor>
                      </Node>
                      <Node>
                       <Name>m_current</Name>
@@ -2536,7 +2561,7 @@
                      <Node>
                       <Name>m_hashCodeToSceneId</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a46048cf2b687909848036eb8211e4839</Anchor>
+                      <Anchor>ab0c52de69aca4ae149f5ac551338f696</Anchor>
                      </Node>
                      <Node>
                       <Name>m_scenes</Name>
@@ -2547,11 +2572,6 @@
                       <Name>m_transform</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>this</Name>
-                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a7c405cbbbbf421cd2150f7d0e1b3c70f</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>

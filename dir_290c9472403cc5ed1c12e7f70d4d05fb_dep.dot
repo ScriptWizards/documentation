@@ -1,0 +1,32 @@
+digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4837a382f798abeaffe18fe1345f6ab2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_4837a382f798abeaffe18fe1345f6ab2.html"]
+  subgraph clusterdir_290c9472403cc5ed1c12e7f70d4d05fb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_290c9472403cc5ed1c12e7f70d4d05fb.html"];
+    dir_290c9472403cc5ed1c12e7f70d4d05fb [shape=plaintext label="Small"];
+    dir_53f09675a63f23c477f13832a6d20a2f [shape=box label="Core" color="black" fillcolor="white" style="filled" URL="dir_53f09675a63f23c477f13832a6d20a2f.html"];
+    dir_6603688a4754880974aacb970dcbaae0 [shape=box label="Debug" color="black" fillcolor="white" style="filled" URL="dir_6603688a4754880974aacb970dcbaae0.html"];
+    dir_219003d5951e0b906e7de8511e0a45e1 [shape=box label="GameObjects" color="red" fillcolor="white" style="filled" URL="dir_219003d5951e0b906e7de8511e0a45e1.html"];
+    dir_818e4b2f1e99744b77701f4af6c4f9dd [shape=box label="Graphics" color="black" fillcolor="white" style="filled" URL="dir_818e4b2f1e99744b77701f4af6c4f9dd.html"];
+    dir_bcdf9cebc25561e4c1b7192e0fcc172f [shape=box label="Scenes" color="black" fillcolor="white" style="filled" URL="dir_bcdf9cebc25561e4c1b7192e0fcc172f.html"];
+    dir_cd0fd4b73ca72f7d7c09733d8ad1472d [shape=box label="Scripting" color="black" fillcolor="white" style="filled" URL="dir_cd0fd4b73ca72f7d7c09733d8ad1472d.html"];
+    dir_6c4dc1535c35e124a9345c6cb3ba862d [shape=box label="System" color="black" fillcolor="white" style="filled" URL="dir_6c4dc1535c35e124a9345c6cb3ba862d.html"];
+    dir_4f25fd52d2579cdf37ca97b3efe1c055 [shape=box label="Widgets" color="black" fillcolor="white" style="filled" URL="dir_4f25fd52d2579cdf37ca97b3efe1c055.html"];
+  }
+  }
+  dir_4f25fd52d2579cdf37ca97b3efe1c055->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000010_000006.html"];
+  dir_290c9472403cc5ed1c12e7f70d4d05fb->dir_4f25fd52d2579cdf37ca97b3efe1c055 [headlabel="7", labeldistance=1.5 headhref="dir_000001_000010.html"];
+  dir_290c9472403cc5ed1c12e7f70d4d05fb->dir_6c4dc1535c35e124a9345c6cb3ba862d [headlabel="3", labeldistance=1.5 headhref="dir_000001_000009.html"];
+  dir_290c9472403cc5ed1c12e7f70d4d05fb->dir_bcdf9cebc25561e4c1b7192e0fcc172f [headlabel="2", labeldistance=1.5 headhref="dir_000001_000007.html"];
+  dir_290c9472403cc5ed1c12e7f70d4d05fb->dir_219003d5951e0b906e7de8511e0a45e1 [headlabel="2", labeldistance=1.5 headhref="dir_000001_000004.html"];
+  dir_53f09675a63f23c477f13832a6d20a2f->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000002_000006.html"];
+  dir_53f09675a63f23c477f13832a6d20a2f->dir_6603688a4754880974aacb970dcbaae0 [headlabel="1", labeldistance=1.5 headhref="dir_000002_000003.html"];
+  dir_53f09675a63f23c477f13832a6d20a2f->dir_cd0fd4b73ca72f7d7c09733d8ad1472d [headlabel="4", labeldistance=1.5 headhref="dir_000002_000008.html"];
+  dir_bcdf9cebc25561e4c1b7192e0fcc172f->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000007_000006.html"];
+  dir_bcdf9cebc25561e4c1b7192e0fcc172f->dir_cd0fd4b73ca72f7d7c09733d8ad1472d [headlabel="1", labeldistance=1.5 headhref="dir_000007_000008.html"];
+  dir_bcdf9cebc25561e4c1b7192e0fcc172f->dir_53f09675a63f23c477f13832a6d20a2f [headlabel="2", labeldistance=1.5 headhref="dir_000007_000002.html"];
+  dir_219003d5951e0b906e7de8511e0a45e1->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000004_000006.html"];
+}

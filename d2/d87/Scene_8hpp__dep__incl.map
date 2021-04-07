@@ -1,9 +1,9 @@
-<map id="include/Small/Core/Scene.hpp" name="include/Small/Core/Scene.hpp">
-<area shape="rect" id="node2" href="$df/d74/SceneManager_8hpp.html" title="Define the scene manager (creating, handling and destroying them) " alt="" coords="48,95,187,136"/>
-<area shape="rect" id="node4" href="$d7/d38/Core_8hpp.html" title="Include all the files from the Core folder. " alt="" coords="121,273,277,300"/>
-<area shape="rect" id="node6" href="$de/de7/ArkScene_8hpp.html" title="Define a scene scriptable through ArkScript. " alt="" coords="262,95,410,136"/>
-<area shape="rect" id="node8" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="434,95,582,136"/>
-<area shape="rect" id="node3" href="$df/d3c/Application_8hpp.html" title="Define the application hosting the scenes for the game. " alt="" coords="5,184,136,225"/>
-<area shape="rect" id="node5" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="192,348,336,375"/>
-<area shape="rect" id="node7" href="$d0/d00/Scenes_8hpp.html" title="Include all the files from the Scenes folder. " alt="" coords="261,191,435,218"/>
+<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Core/Scene.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Core/Scene.hpp">
+<area shape="rect" id="node2" href="$df/d74/SceneManager_8hpp.html" title="Define the scene manager (creating, handling and destroying them) " alt="" coords="32,139,239,224"/>
+<area shape="rect" id="node4" href="$d7/d38/Core_8hpp.html" title="Include all the files from the Core folder. " alt="" coords="162,405,341,491"/>
+<area shape="rect" id="node6" href="$de/de7/ArkScene_8hpp.html" title="Define a scene scriptable through ArkScript. " alt="" coords="315,139,508,224"/>
+<area shape="rect" id="node8" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="533,139,711,224"/>
+<area shape="rect" id="node3" href="$df/d3c/Application_8hpp.html" title="Define the application hosting the scenes for the game. " alt="" coords="5,272,188,357"/>
+<area shape="rect" id="node5" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="233,539,411,624"/>
+<area shape="rect" id="node7" href="$d0/d00/Scenes_8hpp.html" title="Include all the files from the Scenes folder. " alt="" coords="322,272,501,357"/>
 </map>

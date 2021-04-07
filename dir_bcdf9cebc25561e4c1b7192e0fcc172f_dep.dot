@@ -1,0 +1,17 @@
+digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/Scenes" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_290c9472403cc5ed1c12e7f70d4d05fb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Small" fontname="Helvetica", fontsize="10", URL="dir_290c9472403cc5ed1c12e7f70d4d05fb.html"]
+  dir_bcdf9cebc25561e4c1b7192e0fcc172f [shape=box, label="Scenes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_bcdf9cebc25561e4c1b7192e0fcc172f.html"];
+  }
+  dir_818e4b2f1e99744b77701f4af6c4f9dd [shape=box label="Graphics" URL="dir_818e4b2f1e99744b77701f4af6c4f9dd.html"];
+  dir_cd0fd4b73ca72f7d7c09733d8ad1472d [shape=box label="Scripting" URL="dir_cd0fd4b73ca72f7d7c09733d8ad1472d.html"];
+  dir_53f09675a63f23c477f13832a6d20a2f [shape=box label="Core" URL="dir_53f09675a63f23c477f13832a6d20a2f.html"];
+  dir_53f09675a63f23c477f13832a6d20a2f->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000002_000006.html"];
+  dir_53f09675a63f23c477f13832a6d20a2f->dir_cd0fd4b73ca72f7d7c09733d8ad1472d [headlabel="4", labeldistance=1.5 headhref="dir_000002_000008.html"];
+  dir_bcdf9cebc25561e4c1b7192e0fcc172f->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000007_000006.html"];
+  dir_bcdf9cebc25561e4c1b7192e0fcc172f->dir_cd0fd4b73ca72f7d7c09733d8ad1472d [headlabel="1", labeldistance=1.5 headhref="dir_000007_000008.html"];
+  dir_bcdf9cebc25561e4c1b7192e0fcc172f->dir_53f09675a63f23c477f13832a6d20a2f [headlabel="2", labeldistance=1.5 headhref="dir_000007_000002.html"];
+}

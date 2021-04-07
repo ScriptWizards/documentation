@@ -1,6 +1,6 @@
-<map id="include/Small/Scenes/Zone.hpp" name="include/Small/Scenes/Zone.hpp">
-<area shape="rect" id="node2" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="552,95,704,121"/>
-<area shape="rect" id="node15" href="$d8/d67/TileView_8hpp.html" title="Utility to build and manipulate views based on tiles. " alt="" coords="1033,95,1221,121"/>
-<area shape="rect" id="node7" href="$df/db4/Config_8hpp.html" title="Small/Scripting/Config.hpp" alt="" coords="603,169,778,196"/>
-<area shape="rect" id="node8" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="803,169,973,196"/>
+<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Scenes/Zone.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Scenes/Zone.hpp">
+<area shape="rect" id="node2" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="552,139,704,165"/>
+<area shape="rect" id="node15" href="$d8/d67/TileView_8hpp.html" title="Utility to build and manipulate views based on tiles. " alt="" coords="1033,139,1221,165"/>
+<area shape="rect" id="node7" href="$df/db4/Config_8hpp.html" title="Small/Scripting/Config.hpp" alt="" coords="603,213,778,240"/>
+<area shape="rect" id="node8" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="803,213,973,240"/>
 </map>

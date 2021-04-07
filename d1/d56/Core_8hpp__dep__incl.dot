@@ -1,9 +1,9 @@
-digraph "include/Small/Core.hpp"
+digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/Core.hpp"
 {
  // INTERACTIVE_SVG=YES
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="include/Small/Core.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Core.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="include/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library. "];
+  Node2 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library. "];
 }

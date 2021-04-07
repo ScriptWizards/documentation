@@ -1,0 +1,15 @@
+digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_290c9472403cc5ed1c12e7f70d4d05fb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Small" fontname="Helvetica", fontsize="10", URL="dir_290c9472403cc5ed1c12e7f70d4d05fb.html"]
+  subgraph clusterdir_219003d5951e0b906e7de8511e0a45e1 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_219003d5951e0b906e7de8511e0a45e1.html"];
+    dir_219003d5951e0b906e7de8511e0a45e1 [shape=plaintext label="GameObjects"];
+    dir_1a563be2a4c640b8adbaae37eb8849a9 [shape=box label="Triggers" color="black" fillcolor="white" style="filled" URL="dir_1a563be2a4c640b8adbaae37eb8849a9.html"];
+  }
+  }
+  dir_818e4b2f1e99744b77701f4af6c4f9dd [shape=box label="Graphics" URL="dir_818e4b2f1e99744b77701f4af6c4f9dd.html"];
+  dir_219003d5951e0b906e7de8511e0a45e1->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000004_000006.html"];
+}

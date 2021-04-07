@@ -1,0 +1,11 @@
+digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_290c9472403cc5ed1c12e7f70d4d05fb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Small" fontname="Helvetica", fontsize="10", URL="dir_290c9472403cc5ed1c12e7f70d4d05fb.html"]
+  dir_4f25fd52d2579cdf37ca97b3efe1c055 [shape=box, label="Widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4f25fd52d2579cdf37ca97b3efe1c055.html"];
+  }
+  dir_818e4b2f1e99744b77701f4af6c4f9dd [shape=box label="Graphics" URL="dir_818e4b2f1e99744b77701f4af6c4f9dd.html"];
+  dir_4f25fd52d2579cdf37ca97b3efe1c055->dir_818e4b2f1e99744b77701f4af6c4f9dd [headlabel="1", labeldistance=1.5 headhref="dir_000010_000006.html"];
+}

@@ -1,5 +1,0 @@
-warning: source include is not a readable file or directory... skipping.
-warning: source source is not a readable file or directory... skipping.
-warning: source MAINPAGE.md is not a readable file or directory... skipping.
-error: Problems running dot: exit code=-1, command='dot', arguments='"C:/Users/Folaefolc/Documents/Code/Big-Projects/SmallGameLibrary/documentation/documentation/html/graph_legend.dot" -Tsvg -o "C:/Users/Folaefolc/Documents/Code/Big-Projects/SmallGameLibrary/documentation/documentation/html/graph_legend.svg"'
-error: Problem extracting size from SVG file C:/Users/Folaefolc/Documents/Code/Big-Projects/SmallGameLibrary/documentation/documentation/html/graph_legend.svg

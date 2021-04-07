@@ -1,0 +1,9 @@
+digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/System" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_290c9472403cc5ed1c12e7f70d4d05fb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Small" fontname="Helvetica", fontsize="10", URL="dir_290c9472403cc5ed1c12e7f70d4d05fb.html"]
+  dir_6c4dc1535c35e124a9345c6cb3ba862d [shape=box, label="System", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6c4dc1535c35e124a9345c6cb3ba862d.html"];
+  }
+}

@@ -1,8 +1,8 @@
-<map id="include/Small/Scenes.hpp" name="include/Small/Scenes.hpp">
-<area shape="rect" id="node2" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="792,80,952,107"/>
-<area shape="rect" id="node18" href="$de/de7/ArkScene_8hpp.html" title="Define a scene scriptable through ArkScript. " alt="" coords="996,80,1185,107"/>
-<area shape="rect" id="node3" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="796,155,948,181"/>
-<area shape="rect" id="node16" href="$d8/d67/TileView_8hpp.html" title="Utility to build and manipulate views based on tiles. " alt="" coords="119,155,307,181"/>
-<area shape="rect" id="node8" href="$df/db4/Config_8hpp.html" title="Small/Scripting/Config.hpp" alt="" coords="1185,229,1359,256"/>
-<area shape="rect" id="node9" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="453,229,624,256"/>
+<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Scenes.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Scenes.hpp">
+<area shape="rect" id="node2" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="792,139,952,165"/>
+<area shape="rect" id="node18" href="$de/de7/ArkScene_8hpp.html" title="Define a scene scriptable through ArkScript. " alt="" coords="996,139,1185,165"/>
+<area shape="rect" id="node3" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="796,213,948,240"/>
+<area shape="rect" id="node16" href="$d8/d67/TileView_8hpp.html" title="Utility to build and manipulate views based on tiles. " alt="" coords="119,213,307,240"/>
+<area shape="rect" id="node8" href="$df/db4/Config_8hpp.html" title="Small/Scripting/Config.hpp" alt="" coords="1185,288,1359,315"/>
+<area shape="rect" id="node9" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="453,288,624,315"/>
 </map>

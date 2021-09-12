@@ -1,35 +1,35 @@
 <map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/All.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/All.hpp">
-<area shape="rect" id="node2" href="$d7/d38/Core_8hpp.html" title="Include all the files from the Core folder. " alt="" coords="1262,139,1373,165"/>
-<area shape="rect" id="node33" href="$dc/da8/Graphics_8hpp.html" title="Include all the files from the Graphics folder. " alt="" coords="3039,288,3175,315"/>
-<area shape="rect" id="node45" href="$d4/d25/System_8hpp.html" title="Include all the files from the System folder. " alt="" coords="5595,363,5725,389"/>
-<area shape="rect" id="node51" href="$d0/d00/Scenes_8hpp.html" title="Include all the files from the Scenes folder. " alt="" coords="2127,213,2255,240"/>
-<area shape="rect" id="node54" href="$d0/d27/Widgets_8hpp.html" title="Include all the files from the Widgets folder. " alt="" coords="2877,213,3009,240"/>
-<area shape="rect" id="node66" href="$d3/dc8/Scripting_8hpp.html" title="Include all the files from the Scripting folder. " alt="" coords="4503,213,4638,240"/>
-<area shape="rect" id="node70" href="$d2/da1/GameObjects_8hpp.html" title="Include all the files from the GameObjects folder. " alt="" coords="3105,213,3269,240"/>
-<area shape="rect" id="node3" href="$df/d3c/Application_8hpp.html" title="Define the application hosting the scenes for the game. " alt="" coords="780,213,959,240"/>
-<area shape="rect" id="node11" href="$df/d74/SceneManager_8hpp.html" title="Define the scene manager (creating, handling and destroying them) " alt="" coords="1107,288,1309,315"/>
-<area shape="rect" id="node14" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="1307,363,1459,389"/>
-<area shape="rect" id="node15" href="$df/db4/Config_8hpp.html" title="Small/Scripting/Config.hpp" alt="" coords="3969,437,4143,464"/>
-<area shape="rect" id="node24" href="$dc/dbc/Profiler_8hpp.html" title="Profiler from https://github.com/bwrsandman/imgui&#45;flame&#45;graph/ (example/main.cpp), updated for the project needs. " alt="" coords="192,288,357,315"/>
-<area shape="rect" id="node29" href="$d8/d82/SFMLtoArk_8hpp.html" title="Convert SFML values to ArkScript values. " alt="" coords="533,288,739,315"/>
-<area shape="rect" id="node16" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="1489,437,1660,464"/>
-<area shape="rect" id="node34" href="$de/d4d/Tilemap_8hpp.html" title="A tilemap wrapper, to render a lot of sprites in a single draw call. " alt="" coords="2517,363,2702,389"/>
-<area shape="rect" id="node40" href="$d8/d67/TileView_8hpp.html" title="Utility to build and manipulate views based on tiles. " alt="" coords="3051,363,3239,389"/>
-<area shape="rect" id="node42" href="$d0/d36/Animation_8hpp.html" title="Handling animated sprites. " alt="" coords="2726,363,2925,389"/>
-<area shape="rect" id="node46" href="$d5/d40/Platform_8hpp.html" title="Defines to identify the running operating system. " alt="" coords="5417,512,5599,539"/>
-<area shape="rect" id="node47" href="$d4/da5/SharedLibrary_8hpp.html" title="Utility to easily load shared libraries and retrieve their functions. " alt="" coords="5553,437,5767,464"/>
-<area shape="rect" id="node50" href="$d2/dbb/FileSystem_8hpp.html" title="Useful functionalities related to the filesystem. " alt="" coords="4167,437,4366,464"/>
-<area shape="rect" id="node52" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="1912,288,2072,315"/>
-<area shape="rect" id="node53" href="$de/de7/ArkScene_8hpp.html" title="Define a scene scriptable through ArkScript. " alt="" coords="2096,288,2285,315"/>
-<area shape="rect" id="node55" href="$d3/db2/Base_8hpp.html" title="Contain base classes to create interoperable SFML widgets. " alt="" coords="2326,363,2493,389"/>
-<area shape="rect" id="node56" href="$d4/df9/Layout_8hpp.html" title="A widget acting as a collection of widgets. " alt="" coords="2361,288,2535,315"/>
-<area shape="rect" id="node57" href="$d4/db3/Button_8hpp.html" title="Basic button widget. " alt="" coords="3671,288,3846,315"/>
-<area shape="rect" id="node62" href="$d5/d28/CheckBox_8hpp.html" title="Basic checkbox widget. " alt="" coords="2559,288,2755,315"/>
-<area shape="rect" id="node63" href="$d6/dc2/TextBox_8hpp.html" title="Basic textbox widget. " alt="" coords="2831,288,3015,315"/>
-<area shape="rect" id="node64" href="$da/d44/Label_8hpp.html" title="Basic label widget. " alt="" coords="3950,288,4117,315"/>
-<area shape="rect" id="node65" href="$d8/dde/Image_8hpp.html" title="Basic image widget. " alt="" coords="3467,288,3637,315"/>
-<area shape="rect" id="node67" href="$d3/d48/Engine_8hpp.html" title="Easing the use of ArkScript (compiling scripts ahead of time, loading them) " alt="" coords="4667,288,4845,315"/>
-<area shape="rect" id="node68" href="$d2/d12/Bindings_8hpp.html" title="Binding the small game library in ArkScript. " alt="" coords="5141,288,5331,315"/>
-<area shape="rect" id="node71" href="$d3/d1b/Actor_8hpp.html" title="Defines an actor class for your game, to represent a player or NPC for example. " alt="" coords="1598,363,1797,389"/>
-<area shape="rect" id="node72" href="$d9/d54/Manager_8hpp.html" title="Small/GameObjects/Manager.hpp" alt="" coords="4424,288,4643,315"/>
+<area shape="rect" id="node2" href="$d7/d38/Core_8hpp.html" title="Include all the files from the Core folder. " alt="" coords="1954,139,2065,165"/>
+<area shape="rect" id="node34" href="$dc/da8/Graphics_8hpp.html" title="Include all the files from the Graphics folder. " alt="" coords="3188,288,3324,315"/>
+<area shape="rect" id="node46" href="$d4/d25/System_8hpp.html" title="Include all the files from the System folder. " alt="" coords="6106,363,6235,389"/>
+<area shape="rect" id="node52" href="$d0/d00/Scenes_8hpp.html" title="Include all the files from the Scenes folder. " alt="" coords="2425,213,2553,240"/>
+<area shape="rect" id="node55" href="$d0/d27/Widgets_8hpp.html" title="Include all the files from the Widgets folder. " alt="" coords="3897,213,4029,240"/>
+<area shape="rect" id="node67" href="$d3/dc8/Scripting_8hpp.html" title="Include all the files from the Scripting folder. " alt="" coords="229,213,363,240"/>
+<area shape="rect" id="node71" href="$d2/da1/GameObjects_8hpp.html" title="Include all the files from the GameObjects folder. " alt="" coords="4829,213,4993,240"/>
+<area shape="rect" id="node3" href="$df/d3c/Application_8hpp.html" title="Define the application hosting the scenes for the game. " alt="" coords="1164,213,1343,240"/>
+<area shape="rect" id="node12" href="$df/d74/SceneManager_8hpp.html" title="Define the scene manager (creating, handling and destroying them) " alt="" coords="1799,288,2001,315"/>
+<area shape="rect" id="node15" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here. " alt="" coords="2140,363,2292,389"/>
+<area shape="rect" id="node16" href="$df/db4/Config_8hpp.html" title="Small/Scripting/Config.hpp" alt="" coords="1418,437,1593,464"/>
+<area shape="rect" id="node25" href="$dc/dbc/Profiler_8hpp.html" title="Profiler from https://github.com/bwrsandman/imgui&#45;flame&#45;graph/ (example/main.cpp), updated for the project needs. " alt="" coords="523,288,688,315"/>
+<area shape="rect" id="node30" href="$d8/d82/SFMLtoArk_8hpp.html" title="Convert SFML values to ArkScript values. " alt="" coords="1151,288,1356,315"/>
+<area shape="rect" id="node17" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="4651,437,4821,464"/>
+<area shape="rect" id="node35" href="$de/d4d/Tilemap_8hpp.html" title="A tilemap wrapper, to render a lot of sprites in a single draw call. " alt="" coords="3127,363,3313,389"/>
+<area shape="rect" id="node41" href="$d8/d67/TileView_8hpp.html" title="Utility to build and manipulate views based on tiles. " alt="" coords="2526,363,2714,389"/>
+<area shape="rect" id="node43" href="$d0/d36/Animation_8hpp.html" title="Handling animated sprites. " alt="" coords="3489,363,3687,389"/>
+<area shape="rect" id="node47" href="$d5/d40/Platform_8hpp.html" title="Defines to identify the running operating system. " alt="" coords="5928,512,6109,539"/>
+<area shape="rect" id="node48" href="$d4/da5/SharedLibrary_8hpp.html" title="Utility to easily load shared libraries and retrieve their functions. " alt="" coords="6064,437,6277,464"/>
+<area shape="rect" id="node51" href="$d2/dbb/FileSystem_8hpp.html" title="Useful functionalities related to the filesystem. " alt="" coords="4998,437,5197,464"/>
+<area shape="rect" id="node53" href="$d2/d50/Zone_8hpp.html" title="A specialized scene to handle zones and transitions on a tilemap. " alt="" coords="2409,288,2569,315"/>
+<area shape="rect" id="node54" href="$de/de7/ArkScene_8hpp.html" title="Define a scene scriptable through ArkScript. " alt="" coords="2121,288,2311,315"/>
+<area shape="rect" id="node56" href="$d3/db2/Base_8hpp.html" title="Contain base classes to create interoperable SFML widgets. " alt="" coords="3814,363,3981,389"/>
+<area shape="rect" id="node57" href="$d4/df9/Layout_8hpp.html" title="A widget acting as a collection of widgets. " alt="" coords="3386,288,3561,315"/>
+<area shape="rect" id="node58" href="$d4/db3/Button_8hpp.html" title="Basic button widget. " alt="" coords="4255,288,4430,315"/>
+<area shape="rect" id="node63" href="$d5/d28/CheckBox_8hpp.html" title="Basic checkbox widget. " alt="" coords="3585,288,3781,315"/>
+<area shape="rect" id="node64" href="$d6/dc2/TextBox_8hpp.html" title="Basic textbox widget. " alt="" coords="3805,288,3989,315"/>
+<area shape="rect" id="node65" href="$da/d44/Label_8hpp.html" title="Basic label widget. " alt="" coords="4065,288,4231,315"/>
+<area shape="rect" id="node66" href="$d8/dde/Image_8hpp.html" title="Basic image widget. " alt="" coords="4455,288,4625,315"/>
+<area shape="rect" id="node68" href="$d3/d48/Engine_8hpp.html" title="Easing the use of ArkScript (compiling scripts ahead of time, loading them) " alt="" coords="269,288,448,315"/>
+<area shape="rect" id="node69" href="$d2/d12/Bindings_8hpp.html" title="Binding the small game library in ArkScript. " alt="" coords="5,288,195,315"/>
+<area shape="rect" id="node72" href="$d3/d1b/Actor_8hpp.html" title="Defines an actor class for your game, to represent a player or NPC for example. " alt="" coords="4811,363,5010,389"/>
+<area shape="rect" id="node73" href="$d9/d54/Manager_8hpp.html" title="Small/GameObjects/Manager.hpp" alt="" coords="5072,288,5291,315"/>
 </map>

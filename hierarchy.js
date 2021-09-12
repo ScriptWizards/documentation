@@ -9,6 +9,7 @@ var hierarchy =
       [ "sgl::Graphics::Tilemap", "dc/d99/classsgl_1_1Graphics_1_1Tilemap.html", null ]
     ] ],
     [ "sgl::internal::Profiler::Entry", "de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html", null ],
+    [ "sgl::Settings::Keys", "d5/dac/structsgl_1_1Settings_1_1Keys.html", null ],
     [ "sgl::GameObjects::Manager< T >", "de/dbb/classsgl_1_1GameObjects_1_1Manager.html", null ],
     [ "sgl::GameObjects::Manager< Trigger >", "de/dbb/classsgl_1_1GameObjects_1_1Manager.html", [
       [ "sgl::GameObjects::TriggerManager", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html", null ]

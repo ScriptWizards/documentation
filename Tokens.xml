@@ -355,18 +355,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>~Application</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>sgl::Application</Scope>
-    </TokenIdentifier>
-    <Path>dc/d79/classsgl_1_1Application.html</Path>
-    <Anchor>ad970dd7647de3e30e3ec4688d4346b8b</Anchor>
-    <Abstract>Destroy the Application object. </Abstract>
-    <DeclaredIn>Application.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>setTitle</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -523,6 +511,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>m_keys</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>ad547ea9eaacf86a6465b3765c2aceee4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>m_screen</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -530,6 +528,16 @@
     </TokenIdentifier>
     <Path>dc/d79/classsgl_1_1Application.html</Path>
     <Anchor>a43e672f2bd8f0f7f15aa23e245fe3d86</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_transformBase</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Application</Scope>
+    </TokenIdentifier>
+    <Path>dc/d79/classsgl_1_1Application.html</Path>
+    <Anchor>ab7738ec478428ad00f9db045c7510694</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -610,16 +618,6 @@
     </TokenIdentifier>
     <Path>dc/d79/classsgl_1_1Application.html</Path>
     <Anchor>ab49ff572b0ffeca21aa2ea0cc25c4f4a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_debugKey</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>sgl::Application</Scope>
-    </TokenIdentifier>
-    <Path>dc/d79/classsgl_1_1Application.html</Path>
-    <Anchor>afc499fe37945c274033580ba7a7e70ce</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1114,50 +1112,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>onEvent</Name>
+      <Name>operator-&gt;</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>sgl::SceneManager</Scope>
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>ab2bebc9a0571a387b590813d3d88f102</Anchor>
-    <Abstract>Dispatch the event to the active scenes. </Abstract>
-    <DeclaredIn>SceneManager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>onUpdate</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>sgl::SceneManager</Scope>
-    </TokenIdentifier>
-    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>afd469f6e27f24ce9990726353a82d48d</Anchor>
-    <Abstract>Update the active scenes. </Abstract>
-    <DeclaredIn>SceneManager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>onRender</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>sgl::SceneManager</Scope>
-    </TokenIdentifier>
-    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a317d2083027763e9c4fdd53327d40e82</Anchor>
-    <Abstract>Render the active scenes. </Abstract>
-    <DeclaredIn>SceneManager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>onQuit</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>sgl::SceneManager</Scope>
-    </TokenIdentifier>
-    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a679fae9e62d34eb54fb4d6fd0ac0b477</Anchor>
-    <Abstract>Quit all the scenes. </Abstract>
+    <Anchor>a86a66e33a24d7ad5ed3292bdfc3d1035</Anchor>
+    <Abstract>Returns a pointer to the current active scene. </Abstract>
     <DeclaredIn>SceneManager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1201,17 +1163,6 @@
     </TokenIdentifier>
     <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
     <Anchor>a73cc649084c69f0682cd8641e9315850</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_transform</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>sgl::SceneManager</Scope>
-    </TokenIdentifier>
-    <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-    <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
-    <Abstract>This transform never change, we just use it as a base when rendering. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1322,6 +1273,49 @@
     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
     <Anchor>a37ce2065d7ff90d2e90b545595cc5fad</Anchor>
     <Abstract>Minor version for OpenGL. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>keys</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Settings</Scope>
+    </TokenIdentifier>
+    <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+    <Anchor>ad46214392dc0646fd9e3ac8ec5075550</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sgl::Settings::Keys</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>sgl::Settings::Keys</Scope>
+    </TokenIdentifier>
+    <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+    <Abstract>Default keys configuration. </Abstract>
+    <DeclaredIn>Application.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>debug</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Settings::Keys</Scope>
+    </TokenIdentifier>
+    <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+    <Anchor>a9a3ab842680d465d5b27e9d02c287f66</Anchor>
+    <Abstract>Key triggering the debug interface. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>screenshot</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>sgl::Settings::Keys</Scope>
+    </TokenIdentifier>
+    <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+    <Anchor>a12bdc6b5afc37077075edbcb7d920294</Anchor>
+    <Abstract>Trigger a screenshot under screenshot.png. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1538,7 +1532,7 @@
       <Scope>sgl::GameObjects::Actor</Scope>
     </TokenIdentifier>
     <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
-    <Abstract>A class to represent updatable, renderable and event receive entities. </Abstract>
+    <Abstract>A class to represent updatable, renderable and event receiving entities. </Abstract>
     <DeclaredIn>Actor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5585,7 +5579,7 @@
       <Scope>sgl::Widgets::Button</Scope>
     </TokenIdentifier>
     <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-    <Anchor>a1a30d3f308ae78396ed1408f5b561053</Anchor>
+    <Anchor>a0078e11947b15edc6b8147288a03b696</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -106,11 +106,11 @@ $(document).ready(function(){initNavTree('d4/da5/SharedLibrary_8hpp_source.html'
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/d40/Platform_8hpp.html">Small/System/Platform.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#if defined(SGL_SYS_WINDOWS)</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">    #include &lt;Windows.h&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#    include &lt;Windows.h&gt;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#elif defined(SGL_SYS_UNIX) || defined(SGL_SYS_APPLE) || defined(SFL_SYS_ANDROID)</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">    #include &lt;dlfcn.h&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#    include &lt;dlfcn.h&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">    #error &quot;Can not identify the platform on which you are running, aborting&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#    error &quot;Can not identify the platform on which you are running, aborting&quot;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
@@ -178,41 +178,37 @@ $(document).ready(function(){initNavTree('d4/da5/SharedLibrary_8hpp_source.html'
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">if</span> (NULL == (funcptr = reinterpret_cast&lt;T&gt;(GetProcAddress(m_hInstance, procname.c_str()))))</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            {</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                <span class="keywordflow">throw</span> std::system_error(</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    std::error_code(::GetLastError(), std::system_category())</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    , std::string(<span class="stringliteral">&quot;Couldn&#39;t find &quot;</span>) + procname</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                );</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#elif defined(SGL_SYS_UNIX) || defined(SGL_SYS_APPLE) || defined(SFL_SYS_ANDROID)</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">if</span> (NULL == (funcptr = reinterpret_cast&lt;T&gt;(dlsym(m_hInstance, procname.c_str()))))</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordflow">throw</span> std::system_error(</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                    std::error_code(errno, std::system_category())</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    , std::string(<span class="stringliteral">&quot;Couldn&#39;t find &quot;</span>) + procname + <span class="stringliteral">&quot;, &quot;</span> + std::string(dlerror())</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                );</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            }</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">return</span> funcptr;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        }</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#if defined(SGL_SYS_WINDOWS)</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        HINSTANCE m_hInstance;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#elif defined(SGL_SYS_UNIX) || defined(SGL_SYS_APPLE) || defined(SFL_SYS_ANDROID)</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordtype">void</span>* m_hInstance;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="../../db/dd1/classsgl_1_1SharedLibrary.html#aa9b1dcd9627b8d056edea1428821c9ee">  112</a></span>&#160;        std::string <a class="code" href="../../db/dd1/classsgl_1_1SharedLibrary.html#aa9b1dcd9627b8d056edea1428821c9ee">m_path</a>;</div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="../../db/dd1/classsgl_1_1SharedLibrary.html#a041d8ae308c51ba7d2c70bbc44d1a681">  113</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../db/dd1/classsgl_1_1SharedLibrary.html#a041d8ae308c51ba7d2c70bbc44d1a681">m_loaded</a>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    };</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    std::error_code(::GetLastError(), std::system_category()), std::string(<span class="stringliteral">&quot;Couldn&#39;t find &quot;</span>) + procname);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#elif defined(SGL_SYS_UNIX) || defined(SGL_SYS_APPLE) || defined(SFL_SYS_ANDROID)</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordflow">if</span> (NULL == (funcptr = reinterpret_cast&lt;T&gt;(dlsym(m_hInstance, procname.c_str()))))</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                <span class="keywordflow">throw</span> std::system_error(</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                    std::error_code(errno, std::system_category()), std::string(<span class="stringliteral">&quot;Couldn&#39;t find &quot;</span>) + procname + <span class="stringliteral">&quot;, &quot;</span> + std::string(dlerror()));</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="keywordflow">return</span> funcptr;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#if defined(SGL_SYS_WINDOWS)</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        HINSTANCE m_hInstance;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#elif defined(SGL_SYS_UNIX) || defined(SGL_SYS_APPLE) || defined(SFL_SYS_ANDROID)</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordtype">void</span>* m_hInstance;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../db/dd1/classsgl_1_1SharedLibrary.html#aa9b1dcd9627b8d056edea1428821c9ee">  108</a></span>&#160;        std::string <a class="code" href="../../db/dd1/classsgl_1_1SharedLibrary.html#aa9b1dcd9627b8d056edea1428821c9ee">m_path</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../db/dd1/classsgl_1_1SharedLibrary.html#a041d8ae308c51ba7d2c70bbc44d1a681">  109</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../db/dd1/classsgl_1_1SharedLibrary.html#a041d8ae308c51ba7d2c70bbc44d1a681">m_loaded</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    };</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_a531dd1894025f71e17461987527e18b8"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a531dd1894025f71e17461987527e18b8">sgl::SharedLibrary::unload</a></div><div class="ttdeci">void unload()</div><div class="ttdoc">Unload the shared library. </div></div>
 <div class="ttc" id="namespacesgl_html"><div class="ttname"><a href="../../d5/d52/namespacesgl.html">sgl</a></div><div class="ttdoc">Base namespace for the library. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d41/All_8hpp_source.html#l00019">All.hpp:19</a></div></div>
-<div class="ttc" id="classsgl_1_1SharedLibrary_html_a041d8ae308c51ba7d2c70bbc44d1a681"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a041d8ae308c51ba7d2c70bbc44d1a681">sgl::SharedLibrary::m_loaded</a></div><div class="ttdeci">bool m_loaded</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00113">SharedLibrary.hpp:113</a></div></div>
+<div class="ttc" id="classsgl_1_1SharedLibrary_html_a041d8ae308c51ba7d2c70bbc44d1a681"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a041d8ae308c51ba7d2c70bbc44d1a681">sgl::SharedLibrary::m_loaded</a></div><div class="ttdeci">bool m_loaded</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00109">SharedLibrary.hpp:109</a></div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_aefc3ca51f5a6bc06a989676e80f02063"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#aefc3ca51f5a6bc06a989676e80f02063">sgl::SharedLibrary::load</a></div><div class="ttdeci">void load(const std::string &amp;path)</div><div class="ttdoc">Load a shared library from its path. </div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_a99bc0213d0cfa4bdcd015631e6568e12"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a99bc0213d0cfa4bdcd015631e6568e12">sgl::SharedLibrary::SharedLibrary</a></div><div class="ttdeci">SharedLibrary()</div><div class="ttdoc">Construct a new empty Shared Library object. </div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html_a6b4e1b2be2ea885c1a1d9a0493a1c88a"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#a6b4e1b2be2ea885c1a1d9a0493a1c88a">sgl::SharedLibrary::~SharedLibrary</a></div><div class="ttdeci">~SharedLibrary()</div><div class="ttdoc">Destroy the Shared Library object. </div></div>
-<div class="ttc" id="classsgl_1_1SharedLibrary_html_aa9b1dcd9627b8d056edea1428821c9ee"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#aa9b1dcd9627b8d056edea1428821c9ee">sgl::SharedLibrary::m_path</a></div><div class="ttdeci">std::string m_path</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00112">SharedLibrary.hpp:112</a></div></div>
+<div class="ttc" id="classsgl_1_1SharedLibrary_html_aa9b1dcd9627b8d056edea1428821c9ee"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html#aa9b1dcd9627b8d056edea1428821c9ee">sgl::SharedLibrary::m_path</a></div><div class="ttdeci">std::string m_path</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00108">SharedLibrary.hpp:108</a></div></div>
 <div class="ttc" id="classsgl_1_1SharedLibrary_html"><div class="ttname"><a href="../../db/dd1/classsgl_1_1SharedLibrary.html">sgl::SharedLibrary</a></div><div class="ttdoc">Class to load / unload shared library on Windows, Linux, MacOS and Android. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da5/SharedLibrary_8hpp_source.html#l00035">SharedLibrary.hpp:35</a></div></div>
 <div class="ttc" id="Platform_8hpp_html"><div class="ttname"><a href="../../d5/d40/Platform_8hpp.html">Platform.hpp</a></div><div class="ttdoc">Defines to identify the running operating system. </div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -221,7 +217,7 @@ $(document).ready(function(){initNavTree('d4/da5/SharedLibrary_8hpp_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_4837a382f798abeaffe18fe1345f6ab2.html">include</a></li><li class="navelem"><a class="el" href="../../dir_290c9472403cc5ed1c12e7f70d4d05fb.html">Small</a></li><li class="navelem"><a class="el" href="../../dir_6c4dc1535c35e124a9345c6cb3ba862d.html">System</a></li><li class="navelem"><a class="el" href="../../d4/da5/SharedLibrary_8hpp.html">SharedLibrary.hpp</a></li>
-    <li class="footer">Generated on Tue Aug 3 2021 21:46:47 for SmallGameLibrary by
+    <li class="footer">Generated on Sun Sep 12 2021 17:02:10 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

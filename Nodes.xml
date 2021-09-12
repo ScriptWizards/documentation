@@ -1263,7 +1263,7 @@
                  <Node>
                   <Name>Callback_t</Name>
                   <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                  <Anchor>a1a30d3f308ae78396ed1408f5b561053</Anchor>
+                  <Anchor>a0078e11947b15edc6b8147288a03b696</Anchor>
                  </Node>
                  <Node>
                   <Name>Button</Name>
@@ -1447,11 +1447,6 @@
                 <Anchor>a3d5363349f6dca4ef824a947c2349730</Anchor>
                </Node>
                <Node>
-                <Name>~Application</Name>
-                <Path>dc/d79/classsgl_1_1Application.html</Path>
-                <Anchor>ad970dd7647de3e30e3ec4688d4346b8b</Anchor>
-               </Node>
-               <Node>
                 <Name>add</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
                 <Anchor>a92a3ef2a6e533212ae137cca7b508e7a</Anchor>
@@ -1522,9 +1517,9 @@
                 <Anchor>a477319eb78fe738e56df1931223d9429</Anchor>
                </Node>
                <Node>
-                <Name>m_debugKey</Name>
+                <Name>m_keys</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
-                <Anchor>afc499fe37945c274033580ba7a7e70ce</Anchor>
+                <Anchor>ad547ea9eaacf86a6465b3765c2aceee4</Anchor>
                </Node>
                <Node>
                 <Name>m_profiler</Name>
@@ -1560,6 +1555,11 @@
                 <Name>m_state</Name>
                 <Path>dc/d79/classsgl_1_1Application.html</Path>
                 <Anchor>af03876abcce1c61c805bcac9dda5530a</Anchor>
+               </Node>
+               <Node>
+                <Name>m_transformBase</Name>
+                <Path>dc/d79/classsgl_1_1Application.html</Path>
+                <Anchor>ab7738ec478428ad00f9db045c7510694</Anchor>
                </Node>
                <Node>
                 <Name>m_vm</Name>
@@ -1689,24 +1689,9 @@
                 <Anchor>a38ee68abe0753dfe43a5c117338b83a2</Anchor>
                </Node>
                <Node>
-                <Name>onEvent</Name>
+                <Name>operator-&gt;</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>ab2bebc9a0571a387b590813d3d88f102</Anchor>
-               </Node>
-               <Node>
-                <Name>onQuit</Name>
-                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a679fae9e62d34eb54fb4d6fd0ac0b477</Anchor>
-               </Node>
-               <Node>
-                <Name>onRender</Name>
-                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a317d2083027763e9c4fdd53327d40e82</Anchor>
-               </Node>
-               <Node>
-                <Name>onUpdate</Name>
-                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>afd469f6e27f24ce9990726353a82d48d</Anchor>
+                <Anchor>a86a66e33a24d7ad5ed3292bdfc3d1035</Anchor>
                </Node>
                <Node>
                 <Name>operator[]</Name>
@@ -1743,17 +1728,28 @@
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>accaadd112d80ea2ea54b5a4ece73af34</Anchor>
                </Node>
-               <Node>
-                <Name>m_transform</Name>
-                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>Settings</Name>
               <Path>d4/d9f/structsgl_1_1Settings.html</Path>
               <Subnodes>
+               <Node>
+                <Name>Keys</Name>
+                <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>debug</Name>
+                  <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                  <Anchor>a9a3ab842680d465d5b27e9d02c287f66</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>screenshot</Name>
+                  <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                  <Anchor>a12bdc6b5afc37077075edbcb7d920294</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
                <Node>
                 <Name>antiAliasing</Name>
                 <Path>d4/d9f/structsgl_1_1Settings.html</Path>
@@ -1773,6 +1769,11 @@
                 <Name>height</Name>
                 <Path>d4/d9f/structsgl_1_1Settings.html</Path>
                 <Anchor>ae0da836ce6bc349a0813036606b9c51d</Anchor>
+               </Node>
+               <Node>
+                <Name>keys</Name>
+                <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+                <Anchor>ad46214392dc0646fd9e3ac8ec5075550</Anchor>
                </Node>
                <Node>
                 <Name>major</Name>
@@ -1892,6 +1893,10 @@
            <Node>
             <Name>sgl::internal::Profiler::Entry</Name>
             <Path>de/d66/structsgl_1_1internal_1_1Profiler_1_1Entry.html</Path>
+           </Node>
+           <Node>
+            <Name>sgl::Settings::Keys</Name>
+            <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
            </Node>
            <Node>
             <Name>sgl::GameObjects::Manager&lt; T &gt;</Name>
@@ -2052,6 +2057,10 @@
               <Path>functions_i.html</Path>
              </Node>
              <Node>
+              <Name>k</Name>
+              <Path>functions_k.html</Path>
+             </Node>
+             <Node>
               <Name>l</Name>
               <Path>functions_l.html</Path>
              </Node>
@@ -2162,6 +2171,22 @@
                     <Path>d4/d9f/structsgl_1_1Settings.html</Path>
                     <Subnodes>
                      <Node>
+                      <Name>Keys</Name>
+                      <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>debug</Name>
+                        <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                        <Anchor>a9a3ab842680d465d5b27e9d02c287f66</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>screenshot</Name>
+                        <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                        <Anchor>a12bdc6b5afc37077075edbcb7d920294</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
                       <Name>antiAliasing</Name>
                       <Path>d4/d9f/structsgl_1_1Settings.html</Path>
                       <Anchor>a65b8c6dfc1b733b88dd2acb808657594</Anchor>
@@ -2180,6 +2205,11 @@
                       <Name>height</Name>
                       <Path>d4/d9f/structsgl_1_1Settings.html</Path>
                       <Anchor>ae0da836ce6bc349a0813036606b9c51d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>keys</Name>
+                      <Path>d4/d9f/structsgl_1_1Settings.html</Path>
+                      <Anchor>ad46214392dc0646fd9e3ac8ec5075550</Anchor>
                      </Node>
                      <Node>
                       <Name>major</Name>
@@ -2209,6 +2239,22 @@
                     </Subnodes>
                    </Node>
                    <Node>
+                    <Name>Keys</Name>
+                    <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>debug</Name>
+                      <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                      <Anchor>a9a3ab842680d465d5b27e9d02c287f66</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>screenshot</Name>
+                      <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
+                      <Anchor>a12bdc6b5afc37077075edbcb7d920294</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>Application</Name>
                     <Path>dc/d79/classsgl_1_1Application.html</Path>
                     <Subnodes>
@@ -2216,11 +2262,6 @@
                       <Name>Application</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
                       <Anchor>a3d5363349f6dca4ef824a947c2349730</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>~Application</Name>
-                      <Path>dc/d79/classsgl_1_1Application.html</Path>
-                      <Anchor>ad970dd7647de3e30e3ec4688d4346b8b</Anchor>
                      </Node>
                      <Node>
                       <Name>add</Name>
@@ -2293,9 +2334,9 @@
                       <Anchor>a477319eb78fe738e56df1931223d9429</Anchor>
                      </Node>
                      <Node>
-                      <Name>m_debugKey</Name>
+                      <Name>m_keys</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
-                      <Anchor>afc499fe37945c274033580ba7a7e70ce</Anchor>
+                      <Anchor>ad547ea9eaacf86a6465b3765c2aceee4</Anchor>
                      </Node>
                      <Node>
                       <Name>m_profiler</Name>
@@ -2331,6 +2372,11 @@
                       <Name>m_state</Name>
                       <Path>dc/d79/classsgl_1_1Application.html</Path>
                       <Anchor>af03876abcce1c61c805bcac9dda5530a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_transformBase</Name>
+                      <Path>dc/d79/classsgl_1_1Application.html</Path>
+                      <Anchor>ab7738ec478428ad00f9db045c7510694</Anchor>
                      </Node>
                      <Node>
                       <Name>m_vm</Name>
@@ -2514,24 +2560,9 @@
                       <Anchor>a38ee68abe0753dfe43a5c117338b83a2</Anchor>
                      </Node>
                      <Node>
-                      <Name>onEvent</Name>
+                      <Name>operator-&gt;</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>ab2bebc9a0571a387b590813d3d88f102</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>onQuit</Name>
-                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a679fae9e62d34eb54fb4d6fd0ac0b477</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>onRender</Name>
-                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a317d2083027763e9c4fdd53327d40e82</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>onUpdate</Name>
-                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>afd469f6e27f24ce9990726353a82d48d</Anchor>
+                      <Anchor>a86a66e33a24d7ad5ed3292bdfc3d1035</Anchor>
                      </Node>
                      <Node>
                       <Name>operator[]</Name>
@@ -2567,11 +2598,6 @@
                       <Name>m_scenes</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>accaadd112d80ea2ea54b5a4ece73af34</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>m_transform</Name>
-                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
-                      <Anchor>a6a2263d13b260da746721f37a793cd02</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -4131,7 +4157,7 @@
                      <Node>
                       <Name>Callback_t</Name>
                       <Path>dd/dcd/classsgl_1_1Widgets_1_1Button.html</Path>
-                      <Anchor>a1a30d3f308ae78396ed1408f5b561053</Anchor>
+                      <Anchor>a0078e11947b15edc6b8147288a03b696</Anchor>
                      </Node>
                      <Node>
                       <Name>Button</Name>

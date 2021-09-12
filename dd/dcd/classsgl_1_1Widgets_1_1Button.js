@@ -1,6 +1,6 @@
 var classsgl_1_1Widgets_1_1Button =
 [
-    [ "Callback_t", "dd/dcd/classsgl_1_1Widgets_1_1Button.html#a1a30d3f308ae78396ed1408f5b561053", null ],
+    [ "Callback_t", "dd/dcd/classsgl_1_1Widgets_1_1Button.html#a0078e11947b15edc6b8147288a03b696", null ],
     [ "Button", "dd/dcd/classsgl_1_1Widgets_1_1Button.html#a5df8a4a3fc440a2fb6dd8545935aa24e", null ],
     [ "~Button", "dd/dcd/classsgl_1_1Widgets_1_1Button.html#a0db8f961166a68cc102422fff7d47499", null ],
     [ "onMouseButtonPressed", "dd/dcd/classsgl_1_1Widgets_1_1Button.html#a339812149261a3b3de0c786f18f25b42", null ],

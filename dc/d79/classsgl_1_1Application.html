@@ -107,7 +107,8 @@ $(document).ready(function(){initNavTree('dc/d79/classsgl_1_1Application.html','
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/db7/classsgl_1_1Application__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/db7/classsgl_1_1Application__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -115,9 +116,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d5363349f6dca4ef824a947c2349730"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#a3d5363349f6dca4ef824a947c2349730">Application</a> (const <a class="el" href="../../d4/d9f/structsgl_1_1Settings.html">Settings</a> &amp;settings)</td></tr>
 <tr class="memdesc:a3d5363349f6dca4ef824a947c2349730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="../../dc/d79/classsgl_1_1Application.html" title="The main component of the library, handling the scenes and running the app. ">Application</a> object.  <a href="#a3d5363349f6dca4ef824a947c2349730">More...</a><br /></td></tr>
 <tr class="separator:a3d5363349f6dca4ef824a947c2349730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad970dd7647de3e30e3ec4688d4346b8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#ad970dd7647de3e30e3ec4688d4346b8b">~Application</a> ()</td></tr>
-<tr class="memdesc:ad970dd7647de3e30e3ec4688d4346b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="../../dc/d79/classsgl_1_1Application.html" title="The main component of the library, handling the scenes and running the app. ">Application</a> object.  <a href="#ad970dd7647de3e30e3ec4688d4346b8b">More...</a><br /></td></tr>
-<tr class="separator:ad970dd7647de3e30e3ec4688d4346b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32e7ed5655e8cb95b76282aa3afdb200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d79/classsgl_1_1Application.html">Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#a32e7ed5655e8cb95b76282aa3afdb200">setTitle</a> (const std::string &amp;title)</td></tr>
 <tr class="memdesc:a32e7ed5655e8cb95b76282aa3afdb200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Title of the SFML window.  <a href="#a32e7ed5655e8cb95b76282aa3afdb200">More...</a><br /></td></tr>
 <tr class="separator:a32e7ed5655e8cb95b76282aa3afdb200"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,8 +163,12 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:ad547ea9eaacf86a6465b3765c2aceee4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dac/structsgl_1_1Settings_1_1Keys.html">Settings::Keys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#ad547ea9eaacf86a6465b3765c2aceee4">m_keys</a></td></tr>
+<tr class="separator:ad547ea9eaacf86a6465b3765c2aceee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43e672f2bd8f0f7f15aa23e245fe3d86"><td class="memItemLeft" align="right" valign="top">sf::RenderWindow&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#a43e672f2bd8f0f7f15aa23e245fe3d86">m_screen</a></td></tr>
 <tr class="separator:a43e672f2bd8f0f7f15aa23e245fe3d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7738ec478428ad00f9db045c7510694"><td class="memItemLeft" align="right" valign="top">sf::Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#ab7738ec478428ad00f9db045c7510694">m_transformBase</a></td></tr>
+<tr class="separator:ab7738ec478428ad00f9db045c7510694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a477319eb78fe738e56df1931223d9429"><td class="memItemLeft" align="right" valign="top">sf::Clock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#a477319eb78fe738e56df1931223d9429">m_clock</a></td></tr>
 <tr class="separator:a477319eb78fe738e56df1931223d9429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab74babf7a68a0478b38650e99dcb0438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd2/classsgl_1_1SceneManager.html">SceneManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#ab74babf7a68a0478b38650e99dcb0438">m_sceneManager</a></td></tr>
@@ -183,8 +185,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae6283086d429f12cae8d73bd269fd4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab49ff572b0ffeca21aa2ea0cc25c4f4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#ab49ff572b0ffeca21aa2ea0cc25c4f4a">m_showDebug</a></td></tr>
 <tr class="separator:ab49ff572b0ffeca21aa2ea0cc25c4f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc499fe37945c274033580ba7a7e70ce"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#afc499fe37945c274033580ba7a7e70ce">m_debugKey</a> = sf::Keyboard::F4</td></tr>
-<tr class="separator:afc499fe37945c274033580ba7a7e70ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68cef8842504087c1c0fc0f60b7afeab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#a68cef8842504087c1c0fc0f60b7afeab">m_wireframe</a> = false</td></tr>
 <tr class="separator:a68cef8842504087c1c0fc0f60b7afeab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a352451f2acdbe3b7aeb68980470695b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classsgl_1_1Application.html#a352451f2acdbe3b7aeb68980470695b4">m_vsync</a> = false</td></tr>
@@ -199,7 +199,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="preprocessor">     # code executed when closing</span></div>
 <div class="line"><span class="preprocessor">}))</span></div>
 </div><!-- fragment --> 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3d5363349f6dca4ef824a947c2349730"></a>
 <div class="memitem">
@@ -223,23 +223,6 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="ad970dd7647de3e30e3ec4688d4346b8b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">sgl::Application::~Application </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destroy the <a class="el" href="../../dc/d79/classsgl_1_1Application.html" title="The main component of the library, handling the scenes and running the app. ">Application</a> object. </p>
 
 </div>
 </div>
@@ -285,9 +268,9 @@ template&lt;typename S , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dc/d79/classsgl_1_1Application.html" title="The main component of the library, handling the scenes and running the app. ">Application</a>&amp; </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00175">175</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00183">183</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00154">sgl::SceneManager::add()</a>, and <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00192">m_sceneManager</a>.</p>
+<p>References <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00130">sgl::SceneManager::add()</a>, and <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00202">m_sceneManager</a>.</p>
 
 </div>
 </div>
@@ -450,9 +433,9 @@ template&lt;typename S &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dc/d79/classsgl_1_1Application.html" title="The main component of the library, handling the scenes and running the app. ">Application</a>&amp; </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00132">132</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00140">140</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00192">m_sceneManager</a>, and <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00079">sgl::SceneManager::setCurrent()</a>.</p>
+<p>References <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00202">m_sceneManager</a>, and <a class="el" href="../../df/d74/SceneManager_8hpp_source.html#l00079">sgl::SceneManager::setCurrent()</a>.</p>
 
 </div>
 </div>
@@ -628,11 +611,11 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00191">191</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00201">201</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afc499fe37945c274033580ba7a7e70ce"></a>
+<a class="anchor" id="ad547ea9eaacf86a6465b3765c2aceee4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -640,7 +623,7 @@ template&lt;typename S &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int sgl::Application::m_debugKey = sf::Keyboard::F4</td>
+          <td class="memname"><a class="el" href="../../d5/dac/structsgl_1_1Settings_1_1Keys.html">Settings::Keys</a> sgl::Application::m_keys</td>
         </tr>
       </table>
   </td>
@@ -650,7 +633,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00203">203</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00198">198</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -672,7 +655,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00201">201</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00211">211</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -694,9 +677,9 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00192">192</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00202">202</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00175">add()</a>, and <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00132">setCurrentScene()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00183">add()</a>, and <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00140">setCurrentScene()</a>.</p>
 
 </div>
 </div>
@@ -718,7 +701,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00190">190</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00199">199</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -740,7 +723,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00196">196</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00206">206</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -762,7 +745,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00195">195</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00205">205</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -784,7 +767,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00202">202</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00212">212</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -806,7 +789,29 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00197">197</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00207">207</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab7738ec478428ad00f9db045c7510694"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Transform sgl::Application::m_transformBase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00200">200</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -828,7 +833,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00198">198</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00208">208</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -850,7 +855,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00205">205</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00214">214</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -872,7 +877,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00204">204</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d3c/Application_8hpp_source.html#l00213">213</a> of file <a class="el" href="../../df/d3c/Application_8hpp_source.html">Application.hpp</a>.</p>
 
 </div>
 </div>
@@ -885,7 +890,7 @@ template&lt;typename S &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d52/namespacesgl.html">sgl</a></li><li class="navelem"><a class="el" href="../../dc/d79/classsgl_1_1Application.html">Application</a></li>
-    <li class="footer">Generated on Tue Aug 3 2021 21:46:47 for SmallGameLibrary by
+    <li class="footer">Generated on Sun Sep 12 2021 17:02:11 for SmallGameLibrary by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

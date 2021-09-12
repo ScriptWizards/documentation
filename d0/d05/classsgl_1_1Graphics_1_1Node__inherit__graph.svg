@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d0/d68/classsgl_1_1GameObjects_1_1Actor.html" target="_top" xlink:title="A class to represent updatable, renderable and event receive entities. ">
+<g id="a_node2"><a xlink:href="../../d0/d68/classsgl_1_1GameObjects_1_1Actor.html" target="_top" xlink:title="A class to represent updatable, renderable and event receiving entities. ">
 <polygon fill="white" stroke="black" points="139,-190.5 139,-209.5 264,-209.5 264,-190.5 139,-190.5"/>
 <text text-anchor="middle" x="201.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">sgl::GameObjects::Actor</text>
 </a>

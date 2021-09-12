@@ -1,5 +1,5 @@
 <map id="sgl::Graphics::Node" name="sgl::Graphics::Node">
-<area shape="rect" id="node2" href="$d0/d68/classsgl_1_1GameObjects_1_1Actor.html" title="A class to represent updatable, renderable and event receive entities. " alt="" coords="191,5,357,32"/>
+<area shape="rect" id="node2" href="$d0/d68/classsgl_1_1GameObjects_1_1Actor.html" title="A class to represent updatable, renderable and event receiving entities. " alt="" coords="191,5,357,32"/>
 <area shape="rect" id="node3" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. " alt="" coords="232,56,316,83"/>
 <area shape="rect" id="node6" href="$d3/dd0/classsgl_1_1Widgets_1_1Base.html" title="Base class for all widgets. " alt="" coords="207,157,341,184"/>
 <area shape="rect" id="node4" href="$dc/d24/classsgl_1_1Scenes_1_1ArkScene.html" title="Define a scene scriptable through ArkScript. " alt="" coords="405,5,561,32"/>

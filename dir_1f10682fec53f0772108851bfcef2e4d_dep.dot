@@ -1,4 +1,4 @@
-digraph "source/Core" {
+digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/source/Core" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];
@@ -7,5 +7,5 @@ digraph "source/Core" {
   dir_1f10682fec53f0772108851bfcef2e4d [shape=box, label="Core", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1f10682fec53f0772108851bfcef2e4d.html"];
   }
   dir_d44c64559bbebec7f509842c48db8b23 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_d44c64559bbebec7f509842c48db8b23.html"];
-  dir_1f10682fec53f0772108851bfcef2e4d->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="3", labeldistance=1.5 headhref="dir_000004_000000.html"];
+  dir_1f10682fec53f0772108851bfcef2e4d->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="8", labeldistance=1.5 headhref="dir_000013_000001.html"];
 }

@@ -1,11 +1,12 @@
-digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Triggers/Trigger.hpp"
+digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Triggers/Trigger.hpp"
 {
  // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/GameObjects/Triggers\l/Trigger.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/GameObjects/Triggers/Trigger.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Define a base trigger class."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="functional",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 [label="functional",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

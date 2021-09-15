@@ -1,29 +1,40 @@
-digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/Base.hpp"
+digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/Base.hpp"
 {
  // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets/Base.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets/Base.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Contain base classes to create interoperable SFML widgets."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets/Button.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db3/Button_8hpp.html",tooltip="Basic button widget. "];
+  Node2 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d27/Widgets_8hpp.html",tooltip="Include all the files from the Widgets folder."];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d27/Widgets_8hpp.html",tooltip="Include all the files from the Widgets folder. "];
-  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library. "];
-  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets/CheckBox.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d28/CheckBox_8hpp.html",tooltip="Basic checkbox widget. "];
-  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small/All.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d41/All_8hpp.html",tooltip="Include the needed files to start a project using the library."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets/Button.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db3/Button_8hpp.html",tooltip="Basic button widget."];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/source/Widgets\l/Button.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd1/Button_8cpp.html",tooltip=" "];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets/Image.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dde/Image_8hpp.html",tooltip="Basic image widget. "];
-  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets/CheckBox.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d28/CheckBox_8hpp.html",tooltip="Basic checkbox widget."];
+  Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets/Label.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d44/Label_8hpp.html",tooltip="Basic label widget. "];
-  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets/Layout.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df9/Layout_8hpp.html",tooltip="A widget acting as a collection of widgets. "];
-  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets/Image.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dde/Image_8hpp.html",tooltip="Basic image widget."];
+  Node7 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/source/Widgets\l/Image.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d4e/Image_8cpp.html",tooltip=" "];
   Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/Widgets/TextBox.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc2/TextBox_8hpp.html",tooltip="Basic textbox widget. "];
-  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets/Label.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d44/Label_8hpp.html",tooltip="Basic label widget."];
+  Node9 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/source/Widgets\l/Label.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d8a/Label_8cpp.html",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets/Layout.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df9/Layout_8hpp.html",tooltip="A widget acting as a collection of widgets."];
+  Node11 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/source/Widgets\l/Layout.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d08/Layout_8cpp.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/Widgets/TextBox.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc2/TextBox_8hpp.html",tooltip="Basic textbox widget."];
+  Node13 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/source/Widgets/Base.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/db0/Base_8cpp.html",tooltip=" "];
 }

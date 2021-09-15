@@ -1,27 +1,28 @@
-digraph "C:/Users/Folaefolc/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Manager.hpp"
+digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Manager.hpp"
 {
  // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="C:/Users/Folaefolc\l/Documents/Code/Big\l-Projects/ScriptWizards\l/SmallGameLibrary/include\l/Small/GameObjects/Manager.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="C:/Users/folae/Documents\l/Code/Big-Projects/ScriptWizards\l/SmallGameLibrary/include/Small\l/GameObjects/Manager.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Providing a basic ressource management throughout the lifetime of the program."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="unordered_map",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 [label="unordered_map",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="Manager.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 [label="Manager.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="SFML/Graphics/Font.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 [label="SFML/Graphics/Font.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="SFML/Graphics/Image.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 [label="SFML/Graphics/Image.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="SFML/Graphics/Shader.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 [label="SFML/Graphics/Shader.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="SFML/Graphics/Shape.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 [label="SFML/Graphics/Shape.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="SFML/Graphics/Sprite.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 [label="SFML/Graphics/Sprite.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node10 [label="SFML/Graphics/Texture.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 [label="SFML/Graphics/Texture.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node11 [label="SFML/Graphics/Text.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 [label="SFML/Graphics/Text.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

@@ -1,0 +1,9 @@
+digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Triggers" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a8ded999eb2997d5041bf5add73626b0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GameObjects" fontname="Helvetica", fontsize="10", URL="dir_a8ded999eb2997d5041bf5add73626b0.html"]
+  dir_468cd0cd3dcd73acf7efc02cb2d595d1 [shape=box, label="Triggers", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_468cd0cd3dcd73acf7efc02cb2d595d1.html"];
+  }
+}

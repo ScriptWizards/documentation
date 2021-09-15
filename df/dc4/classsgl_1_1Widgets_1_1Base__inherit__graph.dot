@@ -1,17 +1,18 @@
 digraph "sgl::Widgets::Base"
 {
  // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="sgl::Widgets::Base",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="sgl::Widgets::Base",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Base class for all widgets."];
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="sgl::Graphics::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dee/classsgl_1_1Graphics_1_1Node.html",tooltip="Abstract base class for a scene graph node. "];
+  Node2 [label="sgl::Graphics::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dee/classsgl_1_1Graphics_1_1Node.html",tooltip="Abstract base class for a scene graph node."];
   Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="sgl::Widgets::Button",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dcd/classsgl_1_1Widgets_1_1Button.html",tooltip="Basic button widget. "];
+  Node3 [label="sgl::Widgets::Button",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dcd/classsgl_1_1Widgets_1_1Button.html",tooltip="Basic button widget."];
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="sgl::Widgets::Image",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dd4/classsgl_1_1Widgets_1_1Image.html",tooltip="Basic image widget. "];
+  Node4 [label="sgl::Widgets::Image",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dd4/classsgl_1_1Widgets_1_1Image.html",tooltip="Basic image widget."];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="sgl::Widgets::Label",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0f/classsgl_1_1Widgets_1_1Label.html",tooltip="Basic label widget, doesn&#39;t listen to events by default. "];
+  Node5 [label="sgl::Widgets::Label",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0f/classsgl_1_1Widgets_1_1Label.html",tooltip="Basic label widget, doesn't listen to events by default."];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="sgl::Widgets::Layout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/de0/classsgl_1_1Widgets_1_1Layout.html",tooltip="A collection of widgets working together, graphically united. "];
+  Node6 [label="sgl::Widgets::Layout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/de0/classsgl_1_1Widgets_1_1Layout.html",tooltip="A collection of widgets working together, graphically united."];
 }

@@ -1,8 +1,9 @@
 digraph "Graphical Class Hierarchy"
 {
  // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="sgl::Graphics::Animation\lLoader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html",tooltip="Load an animated sprite and its animation from a TOML configuration file. "];
+  Node0 [label="sgl::Graphics::Animation\lLoader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html",tooltip="Load an animated sprite and its animation from a TOML configuration file."];
 }

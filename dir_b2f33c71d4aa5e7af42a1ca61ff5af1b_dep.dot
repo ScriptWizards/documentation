@@ -1,12 +1,24 @@
-digraph "source" {
+digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/source" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];
   subgraph clusterdir_b2f33c71d4aa5e7af42a1ca61ff5af1b {
     graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html"];
     dir_b2f33c71d4aa5e7af42a1ca61ff5af1b [shape=plaintext label="source"];
-    dir_1f10682fec53f0772108851bfcef2e4d [shape=box label="Core" color="black" fillcolor="white" style="filled" URL="dir_1f10682fec53f0772108851bfcef2e4d.html"];
+  dir_1f10682fec53f0772108851bfcef2e4d [shape=box label="Core" fillcolor="white" style="filled" URL="dir_1f10682fec53f0772108851bfcef2e4d.html"];
+  dir_c1636cf3a5cdf19b8523f29150fc01fd [shape=box label="GameObjects" fillcolor="white" style="filled" color="red" URL="dir_c1636cf3a5cdf19b8523f29150fc01fd.html"];
+  dir_0c38eae9d0bfbbcaabb93b75be68a08d [shape=box label="Graphics" fillcolor="white" style="filled" URL="dir_0c38eae9d0bfbbcaabb93b75be68a08d.html"];
+  dir_fb865effb56a20df3ba614bd2f26a7a0 [shape=box label="Scenes" fillcolor="white" style="filled" URL="dir_fb865effb56a20df3ba614bd2f26a7a0.html"];
+  dir_026e206e8da2982416d6f86d6ddf0934 [shape=box label="Scripting" fillcolor="white" style="filled" URL="dir_026e206e8da2982416d6f86d6ddf0934.html"];
+  dir_60fd6fe4baace88c2d6f0c7f797e0799 [shape=box label="System" fillcolor="white" style="filled" URL="dir_60fd6fe4baace88c2d6f0c7f797e0799.html"];
+  dir_0d1264aa250640d99a57ae752fd71494 [shape=box label="Widgets" fillcolor="white" style="filled" URL="dir_0d1264aa250640d99a57ae752fd71494.html"];
   }
   dir_d44c64559bbebec7f509842c48db8b23 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_d44c64559bbebec7f509842c48db8b23.html"];
-  dir_1f10682fec53f0772108851bfcef2e4d->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="3", labeldistance=1.5 headhref="dir_000004_000000.html"];
+  dir_026e206e8da2982416d6f86d6ddf0934->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="5", labeldistance=1.5 headhref="dir_000018_000001.html"];
+  dir_0c38eae9d0bfbbcaabb93b75be68a08d->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="5", labeldistance=1.5 headhref="dir_000016_000001.html"];
+  dir_0d1264aa250640d99a57ae752fd71494->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="5", labeldistance=1.5 headhref="dir_000020_000001.html"];
+  dir_1f10682fec53f0772108851bfcef2e4d->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="8", labeldistance=1.5 headhref="dir_000013_000001.html"];
+  dir_60fd6fe4baace88c2d6f0c7f797e0799->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="2", labeldistance=1.5 headhref="dir_000019_000001.html"];
+  dir_c1636cf3a5cdf19b8523f29150fc01fd->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="4", labeldistance=1.5 headhref="dir_000014_000001.html"];
+  dir_fb865effb56a20df3ba614bd2f26a7a0->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="4", labeldistance=1.5 headhref="dir_000017_000001.html"];
 }

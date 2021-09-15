@@ -1,10 +1,10 @@
-digraph "include" {
+digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibrary/include" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];
   subgraph clusterdir_d44c64559bbebec7f509842c48db8b23 {
     graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d44c64559bbebec7f509842c48db8b23.html"];
     dir_d44c64559bbebec7f509842c48db8b23 [shape=plaintext label="include"];
-    dir_517f7d009caed18d50502f12c0d97ec3 [shape=box label="Small" color="red" fillcolor="white" style="filled" URL="dir_517f7d009caed18d50502f12c0d97ec3.html"];
+  dir_517f7d009caed18d50502f12c0d97ec3 [shape=box label="Small" fillcolor="white" style="filled" color="red" URL="dir_517f7d009caed18d50502f12c0d97ec3.html"];
   }
 }

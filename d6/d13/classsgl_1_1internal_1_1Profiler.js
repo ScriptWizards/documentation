@@ -18,7 +18,7 @@ var classsgl_1_1internal_1_1Profiler =
     [ "Begin", "d6/d13/classsgl_1_1internal_1_1Profiler.html#a9dcf36866bd36eeb9b8d75a8577500ed", null ],
     [ "End", "d6/d13/classsgl_1_1internal_1_1Profiler.html#ac16da545dac041a53aa8c569ad50ed1f", null ],
     [ "Frame", "d6/d13/classsgl_1_1internal_1_1Profiler.html#a119c9440476999a98ec6c0fecdde98d9", null ],
-    [ "GetCurrentEntryIndex", "d6/d13/classsgl_1_1internal_1_1Profiler.html#ab17d115b2974cdaf7bc5d12a983e06d8", null ],
+    [ "GetCurrentEntryIndex", "d6/d13/classsgl_1_1internal_1_1Profiler.html#a1873974a4fde7c989c74cd3fd776162a", null ],
     [ "_bufferSize", "d6/d13/classsgl_1_1internal_1_1Profiler.html#a31145831a434790377cada3ec50bd689", null ],
     [ "_currentEntry", "d6/d13/classsgl_1_1internal_1_1Profiler.html#a3771b344b41b49674cceecd9d17e79c8", null ],
     [ "_currentLevel", "d6/d13/classsgl_1_1internal_1_1Profiler.html#ac69dea5e786cefd82a7a3456651a9400", null ],

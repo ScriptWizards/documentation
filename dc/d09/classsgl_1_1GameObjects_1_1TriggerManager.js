@@ -1,6 +1,6 @@
 var classsgl_1_1GameObjects_1_1TriggerManager =
 [
     [ "Visitor_t", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html#a65a73d5dfcce1063dc7c5840873ac8e9", null ],
-    [ "addVisitor", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html#a3f805a6b24669dc5e754cdd314599fa4", null ],
-    [ "update", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html#af1422bd8cf04e3c6a41c171ca53c278a", null ]
+    [ "addVisitor", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html#a93e3aaf3d5faa8e57b2317ca2721d394", null ],
+    [ "update", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html#ad58ea0ebb9d7a16a037b0ba29fb3b278", null ]
 ];

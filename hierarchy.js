@@ -4,7 +4,7 @@ var hierarchy =
     [ "sgl::Graphics::AnimationLoader", "d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html", null ],
     [ "sgl::Application", "dc/d79/classsgl_1_1Application.html", null ],
     [ "sgl::Scripting::Config", "d3/dcc/structsgl_1_1Scripting_1_1Config.html", null ],
-    [ "Drawable", null, [
+    [ "sf::Drawable", null, [
       [ "sgl::Graphics::AnimatedSprite", "d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html", null ],
       [ "sgl::Graphics::Tilemap", "dc/d99/classsgl_1_1Graphics_1_1Tilemap.html", null ]
     ] ],
@@ -33,7 +33,7 @@ var hierarchy =
     [ "sgl::Settings", "d4/d9f/structsgl_1_1Settings.html", null ],
     [ "sgl::SharedLibrary", "db/dd1/classsgl_1_1SharedLibrary.html", null ],
     [ "sgl::Graphics::TileView", "d2/d2a/classsgl_1_1Graphics_1_1TileView.html", null ],
-    [ "Transformable", null, [
+    [ "sf::Transformable", null, [
       [ "sgl::Graphics::AnimatedSprite", "d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html", null ],
       [ "sgl::Graphics::Tilemap", "dc/d99/classsgl_1_1Graphics_1_1Tilemap.html", null ]
     ] ],

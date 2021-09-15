@@ -1,6 +1,6 @@
 var Manager_8hpp =
 [
-    [ "Manager", "de/dbb/classsgl_1_1GameObjects_1_1Manager.html", "de/dbb/classsgl_1_1GameObjects_1_1Manager" ],
+    [ "sgl::GameObjects::Manager< T >", "de/dbb/classsgl_1_1GameObjects_1_1Manager.html", "de/dbb/classsgl_1_1GameObjects_1_1Manager" ],
     [ "FontManager", "d9/d54/Manager_8hpp.html#a938c7ab0ebc6891ce7eacc53db8bacf4", null ],
     [ "ImageManager", "d9/d54/Manager_8hpp.html#a947b04a372d4a411f18b458c6ee6682b", null ],
     [ "ShaderManager", "d9/d54/Manager_8hpp.html#ac7daf524e8d7e51bd2bf1e5f41510cb8", null ],

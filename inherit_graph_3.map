@@ -1,4 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html" title="A base trigger class to implement your own type of triggers. " alt="" coords="5,13,180,39"/>
-<area shape="rect" id="node2" href="$dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html" title="sgl::GameObjects::Update\lTrigger" alt="" coords="228,5,404,47"/>
+<area shape="rect" id="node1" href="$d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html" title="Load an animated sprite and its animation from a TOML configuration file." alt="" coords="5,5,171,47"/>
 </map>

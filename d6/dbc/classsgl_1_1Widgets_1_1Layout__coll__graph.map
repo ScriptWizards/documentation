@@ -1,5 +1,5 @@
 <map id="sgl::Widgets::Layout" name="sgl::Widgets::Layout">
-<area shape="rect" id="node2" href="$d3/dd0/classsgl_1_1Widgets_1_1Base.html" title="Base class for all widgets. " alt="" coords="36,379,169,405"/>
-<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="34,303,171,329"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="46,95,159,121"/>
+<area shape="rect" id="node1" title="A collection of widgets working together, graphically united." alt="" coords="5,157,148,184"/>
+<area shape="rect" id="node2" href="$d3/dd0/classsgl_1_1Widgets_1_1Base.html" title="Base class for all widgets." alt="" coords="10,81,143,108"/>
+<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node." alt="" coords="8,5,145,32"/>
 </map>

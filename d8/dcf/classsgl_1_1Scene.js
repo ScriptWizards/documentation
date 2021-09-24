@@ -13,6 +13,7 @@ var classsgl_1_1Scene =
     [ "setState", "d8/dcf/classsgl_1_1Scene.html#ae1d59be593c4b05d778042986037b6bc", null ],
     [ "SceneManager", "d8/dcf/classsgl_1_1Scene.html#a284464b0561a6f2915f04b0245b987f0", null ],
     [ "m_id", "d8/dcf/classsgl_1_1Scene.html#a1b75aebba6aa314751706cc970f3cb8f", null ],
+    [ "m_ressources", "d8/dcf/classsgl_1_1Scene.html#a3f49efbbdf4274e8ca00fa0133eacbef", null ],
     [ "m_sceneManager", "d8/dcf/classsgl_1_1Scene.html#a19c7ee884fa72d1d83ea5ced893aebfc", null ],
     [ "m_state", "d8/dcf/classsgl_1_1Scene.html#a998f7fb269b92ee39c1ca20d39cbf1a0", null ]
 ];

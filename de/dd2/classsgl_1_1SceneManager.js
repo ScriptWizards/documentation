@@ -4,6 +4,7 @@ var classsgl_1_1SceneManager =
     [ "~SceneManager", "de/dd2/classsgl_1_1SceneManager.html#a723212f65b64ed18538a69de5c419534", null ],
     [ "add", "de/dd2/classsgl_1_1SceneManager.html#a6646bf2e546ef69a4b082a63b5565c8f", null ],
     [ "current", "de/dd2/classsgl_1_1SceneManager.html#af3be24a7cc965f58ab3409fd92e65f26", null ],
+    [ "forAll", "de/dd2/classsgl_1_1SceneManager.html#a7509ae4e955cba7dbba9de431205418c", null ],
     [ "init", "de/dd2/classsgl_1_1SceneManager.html#a792072f4c33314d2ebbf9333d8a8efa5", null ],
     [ "operator->", "de/dd2/classsgl_1_1SceneManager.html#ad1e515312dafbef530f4c4976f9c4a95", null ],
     [ "operator[]", "de/dd2/classsgl_1_1SceneManager.html#ab01e00f234ea5921c20d58fba7c97959", null ],

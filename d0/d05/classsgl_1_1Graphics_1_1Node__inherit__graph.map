@@ -1,11 +1,13 @@
 <map id="sgl::Graphics::Node" name="sgl::Graphics::Node">
-<area shape="rect" id="node2" href="$d0/d68/classsgl_1_1GameObjects_1_1Actor.html" title="A class to represent updatable, renderable and event receiving entities. " alt="" coords="191,5,357,32"/>
-<area shape="rect" id="node3" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. " alt="" coords="232,56,316,83"/>
-<area shape="rect" id="node6" href="$d3/dd0/classsgl_1_1Widgets_1_1Base.html" title="Base class for all widgets. " alt="" coords="207,157,341,184"/>
-<area shape="rect" id="node4" href="$dc/d24/classsgl_1_1Scenes_1_1ArkScene.html" title="Define a scene scriptable through ArkScript. " alt="" coords="405,5,561,32"/>
-<area shape="rect" id="node5" href="$d7/d29/classsgl_1_1Scenes_1_1Zone.html" title="A scene handling zones and transitions on a tilemap. " alt="" coords="420,56,547,83"/>
-<area shape="rect" id="node7" href="$dd/dcd/classsgl_1_1Widgets_1_1Button.html" title="Basic button widget. " alt="" coords="413,107,554,133"/>
-<area shape="rect" id="node8" href="$d5/dd4/classsgl_1_1Widgets_1_1Image.html" title="Basic image widget. " alt="" coords="414,157,553,184"/>
-<area shape="rect" id="node9" href="$d0/d0f/classsgl_1_1Widgets_1_1Label.html" title="Basic label widget, doesn&#39;t listen to events by default. " alt="" coords="416,208,551,235"/>
-<area shape="rect" id="node10" href="$df/de0/classsgl_1_1Widgets_1_1Layout.html" title="A collection of widgets working together, graphically united. " alt="" coords="412,259,555,285"/>
+<area shape="rect" id="node1" title="Abstract base class for a scene graph node." alt="" coords="5,81,143,108"/>
+<area shape="rect" id="node2" href="$d0/d68/classsgl_1_1GameObjects_1_1Actor.html" title="A class to represent updatable, renderable and event receiving entities." alt="" coords="191,5,357,32"/>
+<area shape="rect" id="node3" href="$d1/dbf/classsgl_1_1Graphics_1_1Sprite.html" title=" " alt="" coords="203,56,345,83"/>
+<area shape="rect" id="node4" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from." alt="" coords="232,107,316,133"/>
+<area shape="rect" id="node7" href="$d3/dd0/classsgl_1_1Widgets_1_1Base.html" title="Base class for all widgets." alt="" coords="207,208,341,235"/>
+<area shape="rect" id="node5" href="$dc/d24/classsgl_1_1Scenes_1_1ArkScene.html" title="Define a scene scriptable through ArkScript." alt="" coords="405,56,561,83"/>
+<area shape="rect" id="node6" href="$d7/d29/classsgl_1_1Scenes_1_1Zone.html" title="A scene handling zones and transitions on a tilemap." alt="" coords="420,107,547,133"/>
+<area shape="rect" id="node8" href="$dd/dcd/classsgl_1_1Widgets_1_1Button.html" title="Basic button widget." alt="" coords="413,157,554,184"/>
+<area shape="rect" id="node9" href="$d5/dd4/classsgl_1_1Widgets_1_1Image.html" title="Basic image widget." alt="" coords="414,208,553,235"/>
+<area shape="rect" id="node10" href="$d0/d0f/classsgl_1_1Widgets_1_1Label.html" title="Basic label widget, doesn&#39;t listen to events by default." alt="" coords="416,259,551,285"/>
+<area shape="rect" id="node11" href="$df/de0/classsgl_1_1Widgets_1_1Layout.html" title="A collection of widgets working together, graphically united." alt="" coords="412,309,555,336"/>
 </map>

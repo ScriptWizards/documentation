@@ -1,0 +1,42 @@
+<map id="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/source/Scripting/Bindings.cpp" name="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/source/Scripting/Bindings.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="395,5,625,76"/>
+<area shape="rect" id="node2" href="$d2/d12/Bindings_8hpp.html" title="Binding the small game library in ArkScript." alt="" coords="311,124,501,151"/>
+<area shape="rect" id="node4" href="$df/d3c/Application_8hpp.html" title="Define the application hosting the scenes for the game." alt="" coords="862,124,1041,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,199,132,225"/>
+<area shape="rect" id="node5" title=" " alt="" coords="1041,497,1096,524"/>
+<area shape="rect" id="node6" title=" " alt="" coords="989,199,1055,225"/>
+<area shape="rect" id="node7" title=" " alt="" coords="462,348,601,375"/>
+<area shape="rect" id="node8" title=" " alt="" coords="625,348,793,375"/>
+<area shape="rect" id="node9" title=" " alt="" coords="817,348,985,375"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1079,199,1143,225"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1168,199,1271,225"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1295,199,1429,225"/>
+<area shape="rect" id="node13" href="$df/d74/SceneManager_8hpp.html" title="Define the scene manager (creating, handling and destroying them)" alt="" coords="1454,199,1657,225"/>
+<area shape="rect" id="node21" href="$df/db4/Config_8hpp.html" title=" " alt="" coords="1009,348,1184,375"/>
+<area shape="rect" id="node32" href="$dc/dbc/Profiler_8hpp.html" title="Profiler from https://github.com/bwrsandman/imgui&#45;flame&#45;graph/ (example/main.cpp),..." alt="" coords="2087,199,2253,225"/>
+<area shape="rect" id="node36" title=" " alt="" coords="258,273,349,300"/>
+<area shape="rect" id="node37" href="$d8/d82/SFMLtoArk_8hpp.html" title="Convert SFML values to ArkScript values." alt="" coords="533,199,738,225"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1681,199,1784,225"/>
+<area shape="rect" id="node14" title=" " alt="" coords="2138,423,2194,449"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1597,423,1666,449"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1862,273,1929,300"/>
+<area shape="rect" id="node17" title=" " alt="" coords="1953,273,2030,300"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1461,423,1572,449"/>
+<area shape="rect" id="node19" title=" " alt="" coords="2219,423,2417,449"/>
+<area shape="rect" id="node20" href="$db/de8/Scene_8hpp.html" title="The base scene class and the scene states are defined here." alt="" coords="1430,273,1582,300"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1091,273,1204,300"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1228,273,1355,300"/>
+<area shape="rect" id="node22" href="$d7/dc6/Node_8hpp.html" title="A scene graph node." alt="" coords="1713,348,1883,375"/>
+<area shape="rect" id="node25" href="$dc/d6f/RessourceManager_8hpp.html" title=" " alt="" coords="1259,348,1486,375"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1511,348,1587,375"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1690,423,1909,449"/>
+<area shape="rect" id="node24" title=" " alt="" coords="1933,423,2113,449"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1141,497,1327,524"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1351,497,1519,524"/>
+<area shape="rect" id="node28" href="$db/d73/Ressource_8hpp.html" title=" " alt="" coords="1157,423,1335,449"/>
+<area shape="rect" id="node33" title=" " alt="" coords="2105,273,2155,300"/>
+<area shape="rect" id="node34" title=" " alt="" coords="2179,273,2241,300"/>
+<area shape="rect" id="node35" title=" " alt="" coords="2265,273,2457,300"/>
+<area shape="rect" id="node38" title=" " alt="" coords="373,273,535,300"/>
+<area shape="rect" id="node39" title=" " alt="" coords="560,273,711,300"/>
+</map>

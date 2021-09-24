@@ -7,5 +7,5 @@ digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibra
   dir_230ebb31a7b473b673878f5d3da6d001 [shape=box label="Graphics" URL="dir_230ebb31a7b473b673878f5d3da6d001.html"];
   dir_eb1ad7c5cdd5fd5975031a9e1391d8c9 [shape=box, label="Widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eb1ad7c5cdd5fd5975031a9e1391d8c9.html"];
   }
-  dir_eb1ad7c5cdd5fd5975031a9e1391d8c9->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000007.html"];
+  dir_eb1ad7c5cdd5fd5975031a9e1391d8c9->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000010_000006.html"];
 }

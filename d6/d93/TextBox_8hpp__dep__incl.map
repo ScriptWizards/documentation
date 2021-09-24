@@ -1,4 +1,5 @@
-<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/TextBox.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/TextBox.hpp">
-<area shape="rect" id="node2" href="$d0/d27/Widgets_8hpp.html" title="Include all the files from the Widgets folder. " alt="" coords="10,139,189,224"/>
-<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="10,272,189,357"/>
+<map id="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/TextBox.hpp" name="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/TextBox.hpp">
+<area shape="rect" id="node1" title="Basic textbox widget." alt="" coords="26,5,243,76"/>
+<area shape="rect" id="node2" href="$d0/d27/Widgets_8hpp.html" title="Include all the files from the Widgets folder." alt="" coords="26,124,243,195"/>
+<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library." alt="" coords="5,243,264,299"/>
 </map>

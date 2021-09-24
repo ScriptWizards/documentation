@@ -1,4 +1,13 @@
-<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/CheckBox.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/CheckBox.hpp">
-<area shape="rect" id="node2" href="$d3/db2/Base_8hpp.html" title="Contain base classes to create interoperable SFML widgets. " alt="" coords="264,139,431,165"/>
-<area shape="rect" id="node7" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="645,213,815,240"/>
+<map id="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/CheckBox.hpp" name="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Widgets/CheckBox.hpp">
+<area shape="rect" id="node1" title="Basic checkbox widget." alt="" coords="239,5,456,76"/>
+<area shape="rect" id="node2" href="$d3/db2/Base_8hpp.html" title="Contain base classes to create interoperable SFML widgets." alt="" coords="264,124,431,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,199,191,225"/>
+<area shape="rect" id="node4" title=" " alt="" coords="146,273,365,300"/>
+<area shape="rect" id="node5" title=" " alt="" coords="266,199,429,225"/>
+<area shape="rect" id="node6" title=" " alt="" coords="453,199,621,225"/>
+<area shape="rect" id="node7" href="$d7/dc6/Node_8hpp.html" title="A scene graph node." alt="" coords="645,199,815,225"/>
+<area shape="rect" id="node8" title=" " alt="" coords="403,273,601,300"/>
+<area shape="rect" id="node9" title=" " alt="" coords="625,273,805,300"/>
+<area shape="rect" id="node10" title=" " alt="" coords="830,273,886,300"/>
+<area shape="rect" id="node11" title=" " alt="" coords="910,273,979,300"/>
 </map>

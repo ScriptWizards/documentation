@@ -87,8 +87,7 @@ $(document).ready(function(){initNavTree('d0/d12/classsgl_1_1Graphics_1_1Animati
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><!-- SVG 0 -->
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/db8/classsgl_1_1Graphics_1_1AnimationLoader__coll__graph.svg" width="176" height="232"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -111,6 +110,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2fca68fe095cebed1852c7cdd68bf2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371649d8fa6389caff321fc37487df4b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html#a371649d8fa6389caff321fc37487df4b">m_textureID</a></td></tr>
 <tr class="separator:a371649d8fa6389caff321fc37487df4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada6805252cc8641e55ad601070c3cc3b"><td class="memItemLeft" align="right" valign="top">sf::Texture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html#ada6805252cc8641e55ad601070c3cc3b">m_spriteSheet</a></td></tr>
+<tr class="separator:ada6805252cc8641e55ad601070c3cc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Load an animated sprite and its animation from a TOML configuration file. </p>
@@ -158,7 +159,7 @@ Private Attributes</h2></td></tr>
 
 <p>Construct a new <a class="el" href="../../d0/db1/classsgl_1_1Graphics_1_1Animation.html" title="Handling animated sprites.">Animation</a> Loader object. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00237">237</a> of file <a class="el" href="../../d3/da9/Animation_8cpp_source.html">Animation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00236">236</a> of file <a class="el" href="../../d3/da9/Animation_8cpp_source.html">Animation.cpp</a>.</p>
 
 </div>
 </div>
@@ -190,9 +191,9 @@ Private Attributes</h2></td></tr>
 <dd>
 false Otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00240">240</a> of file <a class="el" href="../../d3/da9/Animation_8cpp_source.html">Animation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00239">239</a> of file <a class="el" href="../../d3/da9/Animation_8cpp_source.html">Animation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dbb/classsgl_1_1GameObjects_1_1Manager.html#a7120bef0b83dec5f9325bb1007e84fd9">sgl::GameObjects::Manager&lt; T &gt;::get()</a>, <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00328">m_animations</a>, <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00327">m_config</a>, and <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00329">m_textureID</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00328">m_animations</a>, <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00327">m_config</a>, and <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00330">m_spriteSheet</a>.</p>
 
 </div>
 </div>
@@ -221,7 +222,7 @@ false Otherwise </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d0/db1/classsgl_1_1Graphics_1_1Animation.html" title="Handling animated sprites.">Animation</a>&amp; </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00392">392</a> of file <a class="el" href="../../d3/da9/Animation_8cpp_source.html">Animation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00388">388</a> of file <a class="el" href="../../d3/da9/Animation_8cpp_source.html">Animation.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00328">m_animations</a>.</p>
 
@@ -250,7 +251,7 @@ false Otherwise </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00328">328</a> of file <a class="el" href="../../d0/d36/Animation_8hpp_source.html">Animation.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00240">load()</a>, and <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00392">operator[]()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00239">load()</a>, and <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00388">operator[]()</a>.</p>
 
 </div>
 </div>
@@ -276,7 +277,33 @@ false Otherwise </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00327">327</a> of file <a class="el" href="../../d0/d36/Animation_8hpp_source.html">Animation.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00240">load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00239">load()</a>.</p>
+
+</div>
+</div>
+<a id="ada6805252cc8641e55ad601070c3cc3b" name="ada6805252cc8641e55ad601070c3cc3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada6805252cc8641e55ad601070c3cc3b">&#9670;&nbsp;</a></span>m_spriteSheet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Texture sgl::Graphics::AnimationLoader::m_spriteSheet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00330">330</a> of file <a class="el" href="../../d0/d36/Animation_8hpp_source.html">Animation.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00239">load()</a>.</p>
 
 </div>
 </div>
@@ -302,8 +329,6 @@ false Otherwise </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d36/Animation_8hpp_source.html#l00329">329</a> of file <a class="el" href="../../d0/d36/Animation_8hpp_source.html">Animation.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/da9/Animation_8cpp_source.html#l00240">load()</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -316,7 +341,7 @@ false Otherwise </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d52/namespacesgl.html">sgl</a></li><li class="navelem"><a class="el" href="../../d7/d05/namespacesgl_1_1Graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="../../d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html">AnimationLoader</a></li>
-    <li class="footer">Generated on Wed Sep 15 2021 16:32:22 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Sep 24 2021 15:00:11 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

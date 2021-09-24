@@ -2,17 +2,14 @@ var annotated_dup =
 [
     [ "sgl", "d5/d52/namespacesgl.html", [
       [ "GameObjects", "d3/d34/namespacesgl_1_1GameObjects.html", [
-        [ "Actor", "d0/d68/classsgl_1_1GameObjects_1_1Actor.html", "d0/d68/classsgl_1_1GameObjects_1_1Actor" ],
-        [ "Manager", "de/dbb/classsgl_1_1GameObjects_1_1Manager.html", "de/dbb/classsgl_1_1GameObjects_1_1Manager" ],
-        [ "Trigger", "d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html", "d9/d1c/classsgl_1_1GameObjects_1_1Trigger" ],
-        [ "TriggerManager", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html", "dc/d09/classsgl_1_1GameObjects_1_1TriggerManager" ],
-        [ "UpdateTrigger", "dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html", "dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger" ]
+        [ "Actor", "d0/d68/classsgl_1_1GameObjects_1_1Actor.html", "d0/d68/classsgl_1_1GameObjects_1_1Actor" ]
       ] ],
       [ "Graphics", "d7/d05/namespacesgl_1_1Graphics.html", [
         [ "AnimatedSprite", "d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html", "d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite" ],
         [ "Animation", "d0/db1/classsgl_1_1Graphics_1_1Animation.html", "d0/db1/classsgl_1_1Graphics_1_1Animation" ],
         [ "AnimationLoader", "d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html", "d0/d12/classsgl_1_1Graphics_1_1AnimationLoader" ],
         [ "Node", "dc/dee/classsgl_1_1Graphics_1_1Node.html", "dc/dee/classsgl_1_1Graphics_1_1Node" ],
+        [ "Sprite", "d1/dbf/classsgl_1_1Graphics_1_1Sprite.html", "d1/dbf/classsgl_1_1Graphics_1_1Sprite" ],
         [ "Tilemap", "dc/d99/classsgl_1_1Graphics_1_1Tilemap.html", "dc/d99/classsgl_1_1Graphics_1_1Tilemap" ],
         [ "TileView", "d2/d2a/classsgl_1_1Graphics_1_1TileView.html", "d2/d2a/classsgl_1_1Graphics_1_1TileView" ]
       ] ],
@@ -34,9 +31,13 @@ var annotated_dup =
         [ "Layout", "df/de0/classsgl_1_1Widgets_1_1Layout.html", "df/de0/classsgl_1_1Widgets_1_1Layout" ]
       ] ],
       [ "Application", "dc/d79/classsgl_1_1Application.html", "dc/d79/classsgl_1_1Application" ],
+      [ "FontRessource", "d8/d74/classsgl_1_1FontRessource.html", "d8/d74/classsgl_1_1FontRessource" ],
+      [ "Ressource", "d5/d54/classsgl_1_1Ressource.html", "d5/d54/classsgl_1_1Ressource" ],
+      [ "RessourceManager", "df/d2e/classsgl_1_1RessourceManager.html", "df/d2e/classsgl_1_1RessourceManager" ],
       [ "Scene", "d8/dcf/classsgl_1_1Scene.html", "d8/dcf/classsgl_1_1Scene" ],
       [ "SceneManager", "de/dd2/classsgl_1_1SceneManager.html", "de/dd2/classsgl_1_1SceneManager" ],
       [ "Settings", "d4/d9f/structsgl_1_1Settings.html", "d4/d9f/structsgl_1_1Settings" ],
-      [ "SharedLibrary", "db/dd1/classsgl_1_1SharedLibrary.html", "db/dd1/classsgl_1_1SharedLibrary" ]
+      [ "SharedLibrary", "db/dd1/classsgl_1_1SharedLibrary.html", "db/dd1/classsgl_1_1SharedLibrary" ],
+      [ "TextureRessource", "d4/d7b/classsgl_1_1TextureRessource.html", "d4/d7b/classsgl_1_1TextureRessource" ]
     ] ]
 ];

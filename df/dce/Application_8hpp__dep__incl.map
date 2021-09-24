@@ -1,4 +1,7 @@
-<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Core/Application.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Core/Application.hpp">
-<area shape="rect" id="node2" href="$d7/d38/Core_8hpp.html" title="Include all the files from the Core folder. " alt="" coords="7,139,186,224"/>
-<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="7,272,186,357"/>
+<map id="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Core/Application.hpp" name="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/Core/Application.hpp">
+<area shape="rect" id="node1" title="Define the application hosting the scenes for the game." alt="" coords="300,5,517,76"/>
+<area shape="rect" id="node2" href="$d7/d38/Core_8hpp.html" title="Include all the files from the Core folder." alt="" coords="5,131,276,187"/>
+<area shape="rect" id="node4" href="$d2/db6/Application_8cpp.html" title=" " alt="" coords="300,124,517,195"/>
+<area shape="rect" id="node5" href="$db/da3/Bindings_8cpp.html" title=" " alt="" coords="541,124,772,195"/>
+<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library." alt="" coords="11,243,270,299"/>
 </map>

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$de/dbb/classsgl_1_1GameObjects_1_1Manager.html" title="Templated singleton to hold ressources throughout the lifetime of the program. " alt="" coords="5,5,221,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="19,5,113,32"/>
+<area shape="rect" id="node2" href="$d4/db6/classsgl_1_1Graphics_1_1AnimatedSprite.html" title="Animated sprite based on the animation class." alt="" coords="175,5,371,32"/>
+<area shape="rect" id="node3" href="$dc/d99/classsgl_1_1Graphics_1_1Tilemap.html" title="A tilemap wrapper." alt="" coords="197,56,349,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,56,127,83"/>
 </map>

@@ -88,16 +88,14 @@ $(document).ready(function(){initNavTree('dd/dcd/classsgl_1_1Widgets_1_1Button.h
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><!-- SVG 0 -->
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d5c/classsgl_1_1Widgets_1_1Button__inherit__graph.svg" width="152" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sgl::Widgets::Button:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><!-- SVG 1 -->
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/df2/classsgl_1_1Widgets_1_1Button__coll__graph.svg" width="231" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -580,9 +578,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Return a pointer to the sprite to set and modify it. </p>
 <p >Usage example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> button = sgl::Widgets::make&lt;Button&gt;(sf::IntRect(12, 12, 32, 32));</div>
-<div class="line"><a class="code hl_function" href="../../de/dbb/classsgl_1_1GameObjects_1_1Manager.html#a7120bef0b83dec5f9325bb1007e84fd9">sgl::GameObjects::ShapeManager::get</a>().add(<span class="stringliteral">&quot;my_shape&quot;</span>, my_shape);</div>
-<div class="line">button.shape() = &amp;<a class="code hl_function" href="../../de/dbb/classsgl_1_1GameObjects_1_1Manager.html#a7120bef0b83dec5f9325bb1007e84fd9">sgl::GameObjects::ShapeManager::get</a>().[<span class="stringliteral">&quot;my_shape&quot;</span>];</div>
-<div class="ttc" id="aclasssgl_1_1GameObjects_1_1Manager_html_a7120bef0b83dec5f9325bb1007e84fd9"><div class="ttname"><a href="../../de/dbb/classsgl_1_1GameObjects_1_1Manager.html#a7120bef0b83dec5f9325bb1007e84fd9">sgl::GameObjects::Manager::get</a></div><div class="ttdeci">static Manager&lt; T &gt; &amp; get()</div><div class="ttdoc">Get the instance of the singleton.</div></div>
+<div class="line">sgl::GameObjects::ShapeManager::get().add(<span class="stringliteral">&quot;my_shape&quot;</span>, my_shape);</div>
+<div class="line">button.shape() = &amp;sgl::GameObjects::ShapeManager::get().[<span class="stringliteral">&quot;my_shape&quot;</span>];</div>
 </div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>sf::RectangleShape* </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dd1/Button_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../de/dd1/Button_8cpp_source.html">Button.cpp</a>.</p>
@@ -608,8 +605,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Return a pointer to the sprite to set and modify it. </p>
 <p >Usage example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> button = sgl::Widgets::make&lt;Button&gt;(sf::IntRect(12, 12, 32, 32));</div>
-<div class="line"><a class="code hl_function" href="../../de/dbb/classsgl_1_1GameObjects_1_1Manager.html#a7120bef0b83dec5f9325bb1007e84fd9">sgl::GameObjects::SpriteManager::get</a>().add(<span class="stringliteral">&quot;my_sprite&quot;</span>, my_sprite);</div>
-<div class="line">button.sprite() = &amp;<a class="code hl_function" href="../../de/dbb/classsgl_1_1GameObjects_1_1Manager.html#a7120bef0b83dec5f9325bb1007e84fd9">sgl::GameObjects::SpriteManager::get</a>().[<span class="stringliteral">&quot;my_sprite&quot;</span>];</div>
+<div class="line">sgl::GameObjects::SpriteManager::get().add(<span class="stringliteral">&quot;my_sprite&quot;</span>, my_sprite);</div>
+<div class="line">button.sprite() = &amp;sgl::GameObjects::SpriteManager::get().[<span class="stringliteral">&quot;my_sprite&quot;</span>];</div>
 </div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>sf::Sprite* </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dd1/Button_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../de/dd1/Button_8cpp_source.html">Button.cpp</a>.</p>
@@ -791,7 +788,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d52/namespacesgl.html">sgl</a></li><li class="navelem"><a class="el" href="../../dd/dfe/namespacesgl_1_1Widgets.html">Widgets</a></li><li class="navelem"><a class="el" href="../../dd/dcd/classsgl_1_1Widgets_1_1Button.html">Button</a></li>
-    <li class="footer">Generated on Wed Sep 15 2021 16:32:22 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Sep 24 2021 15:00:11 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,8 @@
 <map id="sgl::Widgets::Base" name="sgl::Widgets::Base">
-<area shape="rect" id="node3" href="$dd/dcd/classsgl_1_1Widgets_1_1Button.html" title="Basic button widget. " alt="" coords="5,155,147,181"/>
-<area shape="rect" id="node4" href="$d5/dd4/classsgl_1_1Widgets_1_1Image.html" title="Basic image widget. " alt="" coords="171,155,309,181"/>
-<area shape="rect" id="node5" href="$d0/d0f/classsgl_1_1Widgets_1_1Label.html" title="Basic label widget, doesn&#39;t listen to events by default. " alt="" coords="334,155,469,181"/>
-<area shape="rect" id="node6" href="$df/de0/classsgl_1_1Widgets_1_1Layout.html" title="A collection of widgets working together, graphically united. " alt="" coords="493,155,635,181"/>
-<area shape="rect" id="node2" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="251,5,389,32"/>
+<area shape="rect" id="node1" title="Base class for all widgets." alt="" coords="253,80,387,107"/>
+<area shape="rect" id="node3" href="$dd/dcd/classsgl_1_1Widgets_1_1Button.html" title="Basic button widget." alt="" coords="5,155,147,181"/>
+<area shape="rect" id="node4" href="$d5/dd4/classsgl_1_1Widgets_1_1Image.html" title="Basic image widget." alt="" coords="171,155,309,181"/>
+<area shape="rect" id="node5" href="$d0/d0f/classsgl_1_1Widgets_1_1Label.html" title="Basic label widget, doesn&#39;t listen to events by default." alt="" coords="334,155,469,181"/>
+<area shape="rect" id="node6" href="$df/de0/classsgl_1_1Widgets_1_1Layout.html" title="A collection of widgets working together, graphically united." alt="" coords="493,155,635,181"/>
+<area shape="rect" id="node2" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node." alt="" coords="251,5,389,32"/>
 </map>

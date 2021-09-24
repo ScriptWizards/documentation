@@ -1,4 +1,5 @@
 <map id="sgl::Scripting::Config" name="sgl::Scripting::Config">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="37,96,117,123"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="13,5,140,47"/>
+<area shape="rect" id="node1" title="Host the scripting engine configuration." alt="" coords="5,215,148,241"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,96,117,123"/>
+<area shape="rect" id="node3" title=" " alt="" coords="13,5,140,47"/>
 </map>

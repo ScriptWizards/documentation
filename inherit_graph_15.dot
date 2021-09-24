@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="sgl::Settings::Keys",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dac/structsgl_1_1Settings_1_1Keys.html",tooltip="Default keys configuration."];
+  Node0 [label="sgl::SharedLibrary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dd1/classsgl_1_1SharedLibrary.html",tooltip="Class to load / unload shared library on Windows, Linux, MacOS and Android."];
 }

@@ -60,17 +60,40 @@
            <Node>
             <Name>Squeleton</Name>
             <Path>d8/d3c/scenes.html</Path>
-            <Anchor>autotoc_md6</Anchor>
+            <Anchor>autotoc_md8</Anchor>
            </Node>
            <Node>
             <Name>Scene states</Name>
             <Path>d8/d3c/scenes.html</Path>
-            <Anchor>autotoc_md7</Anchor>
+            <Anchor>autotoc_md9</Anchor>
            </Node>
            <Node>
             <Name>Multiple instances of the same scene class</Name>
             <Path>d8/d3c/scenes.html</Path>
-            <Anchor>autotoc_md8</Anchor>
+            <Anchor>autotoc_md10</Anchor>
+           </Node>
+           <Node>
+            <Name>Using the scene graph</Name>
+            <Path>d8/d3c/scenes.html</Path>
+            <Anchor>autotoc_md11</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Using ressources managers</Name>
+          <Path>d1/d26/ressource_managers.html</Path>
+        <Subnodes>
+           <Node>
+            <Name>Ressources managers</Name>
+            <Path>d1/d26/ressource_managers.html</Path>
+            <Anchor>autotoc_md6</Anchor>
+          <Subnodes>
+             <Node>
+              <Name>How to use them</Name>
+              <Path>d1/d26/ressource_managers.html</Path>
+              <Anchor>autotoc_md7</Anchor>
+             </Node>
+            </Subnodes>
            </Node>
           </Subnodes>
          </Node>
@@ -126,200 +149,6 @@
                   <Anchor>aa2de35db85de3f7b9b230ae33d634d17</Anchor>
                  </Node>
                 </Subnodes>
-               </Node>
-               <Node>
-                <Name>Manager</Name>
-                <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Manager</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a6e220e5d42e122835dc1c0f3351eaf81</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Manager</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a477e741eea6578c7ef2a9d1f743bdb27</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>ad92c56776b1fd004774dad5fd6afade8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>get</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a7120bef0b83dec5f9325bb1007e84fd9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>has</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a415154b978aa8fdd3586d910eb848886</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a47e772a2fbf73eff1b90aaeb3aca9518</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator[]</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>ac61a006e75081a642e19006d403e26d3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_container</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Trigger</Name>
-                <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Callback_t</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>aac8fdf213aebd24c6222a3fcd4c094ab</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Trigger</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a912e4ccc8e91f0f3b52b33749f8fd140</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~Trigger</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a595af1790b4fc6f52aae902603148fd2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>as</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>aab8df942213e9c2ad078b1cf85ed34b3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>getRepetitions</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>afd9240c9c6dbf1ffb76b9bddead8e947</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>getTriggerType</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a449b91d28b5b0f98f47c84a7531557cd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a68f3b8b8fe7f81636196f3df6f6d261c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_action</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>ad4d5fd62547fbb98f559dd462f19a0be</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_active</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a242ffdf49c6a03481e22bc0be84fc220</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_repetitions</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>ad0509dd6314f04fa5be391a2ec0b1e4b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_triggerType</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a7caa82ece6309b6f94b7f40e8c2f1682</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>TriggerManager</Name>
-                <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Visitor_t</Name>
-                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                  <Anchor>a65a73d5dfcce1063dc7c5840873ac8e9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>addVisitor</Name>
-                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                  <Anchor>a93e3aaf3d5faa8e57b2317ca2721d394</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>update</Name>
-                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                  <Anchor>ad58ea0ebb9d7a16a037b0ba29fb3b278</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>UpdateTrigger</Name>
-                <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>UpdateTrigger</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>aebc47654f7687ee78a11c512c388808a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~UpdateTrigger</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>a20e3f836007c56732c8c00650bc26a44</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>update</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>ad70a9e19677c4692d5c663cc30137143</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_currentTime</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>ae5df86bc9ab669e0d96afb6344c17f72</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_updateDelta</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>aed858ffd6794bbc9a4c6640fd04f49d8</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>FontManager</Name>
-                <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
-                <Anchor>a938c7ab0ebc6891ce7eacc53db8bacf4</Anchor>
-               </Node>
-               <Node>
-                <Name>ImageManager</Name>
-                <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
-                <Anchor>a947b04a372d4a411f18b458c6ee6682b</Anchor>
-               </Node>
-               <Node>
-                <Name>ShaderManager</Name>
-                <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
-                <Anchor>ac7daf524e8d7e51bd2bf1e5f41510cb8</Anchor>
-               </Node>
-               <Node>
-                <Name>ShapeManager</Name>
-                <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
-                <Anchor>ad7c319c3f43f93f13b9a0346058ad90e</Anchor>
-               </Node>
-               <Node>
-                <Name>SpriteManager</Name>
-                <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
-                <Anchor>aaa0d065ffddb5c859d950cb0ffcddf54</Anchor>
-               </Node>
-               <Node>
-                <Name>TextManager</Name>
-                <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
-                <Anchor>aa453e23e948af9782e6f321ed332472b</Anchor>
-               </Node>
-               <Node>
-                <Name>TextureManager</Name>
-                <Path>d3/d34/namespacesgl_1_1GameObjects.html</Path>
-                <Anchor>ae487be50d6900a987b875c16f75ffdbe</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -574,6 +403,11 @@
                   <Anchor>a2e7917dc928d6ed4dc85b81c5d05efda</Anchor>
                  </Node>
                  <Node>
+                  <Name>m_spriteSheet</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>ada6805252cc8641e55ad601070c3cc3b</Anchor>
+                 </Node>
+                 <Node>
                   <Name>m_textureID</Name>
                   <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
                   <Anchor>a371649d8fa6389caff321fc37487df4b</Anchor>
@@ -668,6 +502,42 @@
                   <Name>m_transform</Name>
                   <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
                   <Anchor>af183cc79bdd4384bfa61772ea931f669</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Sprite</Name>
+                <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>Sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a4babd6ece1d7458eaa2482152f1f6c1f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a48005a868ec210fc67a3c6471560ee58</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a4337db5d33cb509fd62363884c6be529</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>aa4e0c9c17d4ae4a4b318cbaf36d7598b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setTexture</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a378de768f5cb034b2f03a5b150c275b5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a723bcee2f7345fca6b0163b09b9fc786</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1810,6 +1680,89 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>FontRessource</Name>
+              <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>FontRessource</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>ab3a5834800d6a738b7e72b9c682f3b60</Anchor>
+               </Node>
+               <Node>
+                <Name>fetch</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>a121e101a232bc3c4a2498c426be31c6a</Anchor>
+               </Node>
+               <Node>
+                <Name>load</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>ade49957aa87439efc48ec5528ac83248</Anchor>
+               </Node>
+               <Node>
+                <Name>m_font</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>a9904459dc46c25449f7f6b3894900b13</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Ressource</Name>
+              <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Ressource</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a0b833c555a29d414531c12495ddb4d62</Anchor>
+               </Node>
+               <Node>
+                <Name>~Ressource</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a18a2f672fe50e91bf630be8a1f0291d3</Anchor>
+               </Node>
+               <Node>
+                <Name>fetch</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a6351aa8579f32df9f5ddfd870e83e6c1</Anchor>
+               </Node>
+               <Node>
+                <Name>load</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a36cdfb2896225ae294b8ec8814b24d8a</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>RessourceManager</Name>
+              <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>RessourceManager</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>a682509c248798483c610b5fd00be2ee5</Anchor>
+               </Node>
+               <Node>
+                <Name>RessourceManager</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>a5a49ca7df2b629061757c810caadba88</Anchor>
+               </Node>
+               <Node>
+                <Name>get</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>ac4d91653986889826ad63dd1bf5e6f6d</Anchor>
+               </Node>
+               <Node>
+                <Name>getAs</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>abb3a87941fbd74706e29b177cc03dc98</Anchor>
+               </Node>
+               <Node>
+                <Name>m_ressources</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>a50e3de42377c06b12be74cfddc7f6568</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Scene</Name>
               <Path>d8/dcf/classsgl_1_1Scene.html</Path>
             <Subnodes>
@@ -1879,6 +1832,11 @@
                 <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
                </Node>
                <Node>
+                <Name>m_ressources</Name>
+                <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                <Anchor>a3f49efbbdf4274e8ca00fa0133eacbef</Anchor>
+               </Node>
+               <Node>
                 <Name>m_sceneManager</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                 <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
@@ -1913,6 +1871,11 @@
                 <Name>current</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>af3be24a7cc965f58ab3409fd92e65f26</Anchor>
+               </Node>
+               <Node>
+                <Name>forAll</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>a7509ae4e955cba7dbba9de431205418c</Anchor>
                </Node>
                <Node>
                 <Name>init</Name>
@@ -2080,6 +2043,32 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>TextureRessource</Name>
+              <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>TextureRessource</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>aa9c72412602db5448e9b96d281f130ca</Anchor>
+               </Node>
+               <Node>
+                <Name>fetch</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>affcd46ce6c054c78a6e66ed2fea70b82</Anchor>
+               </Node>
+               <Node>
+                <Name>load</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>a92935e8bb5d3335cec651f46fcbb9609</Anchor>
+               </Node>
+               <Node>
+                <Name>m_texture</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>a8f308ece443380a9a6d808ebd2ae0b5c</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>State</Name>
               <Path>d5/d52/namespacesgl.html</Path>
               <Anchor>a8483720809e42bf8802280383c24f7bf</Anchor>
@@ -2120,10 +2109,6 @@
            <Node>
             <Name>Variables</Name>
             <Path>namespacemembers_vars.html</Path>
-           </Node>
-           <Node>
-            <Name>Typedefs</Name>
-            <Path>namespacemembers_type.html</Path>
            </Node>
            <Node>
             <Name>Enumerations</Name>
@@ -2177,165 +2162,6 @@
                   <Name>onUpdate</Name>
                   <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
                   <Anchor>aa2de35db85de3f7b9b230ae33d634d17</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Manager</Name>
-                <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Manager</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a6e220e5d42e122835dc1c0f3351eaf81</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Manager</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a477e741eea6578c7ef2a9d1f743bdb27</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>ad92c56776b1fd004774dad5fd6afade8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>get</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a7120bef0b83dec5f9325bb1007e84fd9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>has</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a415154b978aa8fdd3586d910eb848886</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a47e772a2fbf73eff1b90aaeb3aca9518</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator[]</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>ac61a006e75081a642e19006d403e26d3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_container</Name>
-                  <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Trigger</Name>
-                <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Callback_t</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>aac8fdf213aebd24c6222a3fcd4c094ab</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Trigger</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a912e4ccc8e91f0f3b52b33749f8fd140</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~Trigger</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a595af1790b4fc6f52aae902603148fd2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>as</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>aab8df942213e9c2ad078b1cf85ed34b3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>getRepetitions</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>afd9240c9c6dbf1ffb76b9bddead8e947</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>getTriggerType</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a449b91d28b5b0f98f47c84a7531557cd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a68f3b8b8fe7f81636196f3df6f6d261c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_action</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>ad4d5fd62547fbb98f559dd462f19a0be</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_active</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a242ffdf49c6a03481e22bc0be84fc220</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_repetitions</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>ad0509dd6314f04fa5be391a2ec0b1e4b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_triggerType</Name>
-                  <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                  <Anchor>a7caa82ece6309b6f94b7f40e8c2f1682</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>TriggerManager</Name>
-                <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Visitor_t</Name>
-                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                  <Anchor>a65a73d5dfcce1063dc7c5840873ac8e9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>addVisitor</Name>
-                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                  <Anchor>a93e3aaf3d5faa8e57b2317ca2721d394</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>update</Name>
-                  <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                  <Anchor>ad58ea0ebb9d7a16a037b0ba29fb3b278</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>UpdateTrigger</Name>
-                <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>UpdateTrigger</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>aebc47654f7687ee78a11c512c388808a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~UpdateTrigger</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>a20e3f836007c56732c8c00650bc26a44</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>update</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>ad70a9e19677c4692d5c663cc30137143</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_currentTime</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>ae5df86bc9ab669e0d96afb6344c17f72</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>m_updateDelta</Name>
-                  <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                  <Anchor>aed858ffd6794bbc9a4c6640fd04f49d8</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2592,6 +2418,11 @@
                   <Anchor>a2e7917dc928d6ed4dc85b81c5d05efda</Anchor>
                  </Node>
                  <Node>
+                  <Name>m_spriteSheet</Name>
+                  <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                  <Anchor>ada6805252cc8641e55ad601070c3cc3b</Anchor>
+                 </Node>
+                 <Node>
                   <Name>m_textureID</Name>
                   <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
                   <Anchor>a371649d8fa6389caff321fc37487df4b</Anchor>
@@ -2686,6 +2517,42 @@
                   <Name>m_transform</Name>
                   <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
                   <Anchor>af183cc79bdd4384bfa61772ea931f669</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Sprite</Name>
+                <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>Sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a4babd6ece1d7458eaa2482152f1f6c1f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a48005a868ec210fc67a3c6471560ee58</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a4337db5d33cb509fd62363884c6be529</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>onRender</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>aa4e0c9c17d4ae4a4b318cbaf36d7598b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setTexture</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a378de768f5cb034b2f03a5b150c275b5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>m_sprite</Name>
+                  <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Anchor>a723bcee2f7345fca6b0163b09b9fc786</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -3627,6 +3494,89 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>FontRessource</Name>
+              <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>FontRessource</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>ab3a5834800d6a738b7e72b9c682f3b60</Anchor>
+               </Node>
+               <Node>
+                <Name>fetch</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>a121e101a232bc3c4a2498c426be31c6a</Anchor>
+               </Node>
+               <Node>
+                <Name>load</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>ade49957aa87439efc48ec5528ac83248</Anchor>
+               </Node>
+               <Node>
+                <Name>m_font</Name>
+                <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                <Anchor>a9904459dc46c25449f7f6b3894900b13</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Ressource</Name>
+              <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Ressource</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a0b833c555a29d414531c12495ddb4d62</Anchor>
+               </Node>
+               <Node>
+                <Name>~Ressource</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a18a2f672fe50e91bf630be8a1f0291d3</Anchor>
+               </Node>
+               <Node>
+                <Name>fetch</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a6351aa8579f32df9f5ddfd870e83e6c1</Anchor>
+               </Node>
+               <Node>
+                <Name>load</Name>
+                <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                <Anchor>a36cdfb2896225ae294b8ec8814b24d8a</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>RessourceManager</Name>
+              <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>RessourceManager</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>a682509c248798483c610b5fd00be2ee5</Anchor>
+               </Node>
+               <Node>
+                <Name>RessourceManager</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>a5a49ca7df2b629061757c810caadba88</Anchor>
+               </Node>
+               <Node>
+                <Name>get</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>ac4d91653986889826ad63dd1bf5e6f6d</Anchor>
+               </Node>
+               <Node>
+                <Name>getAs</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>abb3a87941fbd74706e29b177cc03dc98</Anchor>
+               </Node>
+               <Node>
+                <Name>m_ressources</Name>
+                <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                <Anchor>a50e3de42377c06b12be74cfddc7f6568</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Scene</Name>
               <Path>d8/dcf/classsgl_1_1Scene.html</Path>
             <Subnodes>
@@ -3696,6 +3646,11 @@
                 <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
                </Node>
                <Node>
+                <Name>m_ressources</Name>
+                <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                <Anchor>a3f49efbbdf4274e8ca00fa0133eacbef</Anchor>
+               </Node>
+               <Node>
                 <Name>m_sceneManager</Name>
                 <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                 <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
@@ -3730,6 +3685,11 @@
                 <Name>current</Name>
                 <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                 <Anchor>af3be24a7cc965f58ab3409fd92e65f26</Anchor>
+               </Node>
+               <Node>
+                <Name>forAll</Name>
+                <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                <Anchor>a7509ae4e955cba7dbba9de431205418c</Anchor>
                </Node>
                <Node>
                 <Name>init</Name>
@@ -3896,6 +3856,32 @@
                </Node>
               </Subnodes>
              </Node>
+             <Node>
+              <Name>TextureRessource</Name>
+              <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>TextureRessource</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>aa9c72412602db5448e9b96d281f130ca</Anchor>
+               </Node>
+               <Node>
+                <Name>fetch</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>affcd46ce6c054c78a6e66ed2fea70b82</Anchor>
+               </Node>
+               <Node>
+                <Name>load</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>a92935e8bb5d3335cec651f46fcbb9609</Anchor>
+               </Node>
+               <Node>
+                <Name>m_texture</Name>
+                <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                <Anchor>a8f308ece443380a9a6d808ebd2ae0b5c</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
             </Subnodes>
            </Node>
           </Subnodes>
@@ -3947,26 +3933,16 @@
             <Path>d5/dac/structsgl_1_1Settings_1_1Keys.html</Path>
            </Node>
            <Node>
-            <Name>sgl::GameObjects::Manager&lt; T &gt;</Name>
-            <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-           </Node>
-           <Node>
-            <Name>sgl::GameObjects::Manager&lt; Trigger &gt;</Name>
-            <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-          <Subnodes>
-             <Node>
-              <Name>sgl::GameObjects::TriggerManager</Name>
-              <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>sgl::Graphics::Node</Name>
             <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
           <Subnodes>
              <Node>
               <Name>sgl::GameObjects::Actor</Name>
               <Path>d0/d68/classsgl_1_1GameObjects_1_1Actor.html</Path>
+             </Node>
+             <Node>
+              <Name>sgl::Graphics::Sprite</Name>
+              <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
              </Node>
              <Node>
               <Name>sgl::Scene</Name>
@@ -4011,6 +3987,24 @@
             <Path>d6/d13/classsgl_1_1internal_1_1Profiler.html</Path>
            </Node>
            <Node>
+            <Name>sgl::Ressource</Name>
+            <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>sgl::FontRessource</Name>
+              <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+             </Node>
+             <Node>
+              <Name>sgl::TextureRessource</Name>
+              <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>sgl::RessourceManager</Name>
+            <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+           </Node>
+           <Node>
             <Name>sgl::SceneManager</Name>
             <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
            </Node>
@@ -4041,16 +4035,6 @@
              <Node>
               <Name>sgl::Graphics::Tilemap</Name>
               <Path>dc/d99/classsgl_1_1Graphics_1_1Tilemap.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>sgl::GameObjects::Trigger</Name>
-            <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-          <Subnodes>
-             <Node>
-              <Name>sgl::GameObjects::UpdateTrigger</Name>
-              <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -4143,10 +4127,6 @@
              <Node>
               <Name>u</Name>
               <Path>functions_u.html</Path>
-             </Node>
-             <Node>
-              <Name>v</Name>
-              <Path>functions_v.html</Path>
              </Node>
              <Node>
               <Name>w</Name>
@@ -4466,6 +4446,127 @@
                   </Subnodes>
                  </Node>
                  <Node>
+                  <Name>Ressource.hpp</Name>
+                  <Path>db/d73/Ressource_8hpp.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>sgl::Ressource</Name>
+                    <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>Ressource</Name>
+                      <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                      <Anchor>a0b833c555a29d414531c12495ddb4d62</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Ressource</Name>
+                      <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                      <Anchor>a18a2f672fe50e91bf630be8a1f0291d3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>fetch</Name>
+                      <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                      <Anchor>a6351aa8579f32df9f5ddfd870e83e6c1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>load</Name>
+                      <Path>d5/d54/classsgl_1_1Ressource.html</Path>
+                      <Anchor>a36cdfb2896225ae294b8ec8814b24d8a</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>sgl::TextureRessource</Name>
+                    <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>TextureRessource</Name>
+                      <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                      <Anchor>aa9c72412602db5448e9b96d281f130ca</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>fetch</Name>
+                      <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                      <Anchor>affcd46ce6c054c78a6e66ed2fea70b82</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>load</Name>
+                      <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                      <Anchor>a92935e8bb5d3335cec651f46fcbb9609</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_texture</Name>
+                      <Path>d4/d7b/classsgl_1_1TextureRessource.html</Path>
+                      <Anchor>a8f308ece443380a9a6d808ebd2ae0b5c</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>sgl::FontRessource</Name>
+                    <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>FontRessource</Name>
+                      <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                      <Anchor>ab3a5834800d6a738b7e72b9c682f3b60</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>fetch</Name>
+                      <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                      <Anchor>a121e101a232bc3c4a2498c426be31c6a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>load</Name>
+                      <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                      <Anchor>ade49957aa87439efc48ec5528ac83248</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_font</Name>
+                      <Path>d8/d74/classsgl_1_1FontRessource.html</Path>
+                      <Anchor>a9904459dc46c25449f7f6b3894900b13</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>RessourceManager.hpp</Name>
+                  <Path>dc/d6f/RessourceManager_8hpp.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>sgl::RessourceManager</Name>
+                    <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>RessourceManager</Name>
+                      <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                      <Anchor>a682509c248798483c610b5fd00be2ee5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>RessourceManager</Name>
+                      <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                      <Anchor>a5a49ca7df2b629061757c810caadba88</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>get</Name>
+                      <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                      <Anchor>ac4d91653986889826ad63dd1bf5e6f6d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getAs</Name>
+                      <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                      <Anchor>abb3a87941fbd74706e29b177cc03dc98</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_ressources</Name>
+                      <Path>df/d2e/classsgl_1_1RessourceManager.html</Path>
+                      <Anchor>a50e3de42377c06b12be74cfddc7f6568</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
                   <Name>Scene.hpp</Name>
                   <Path>db/de8/Scene_8hpp.html</Path>
                 <Subnodes>
@@ -4539,6 +4640,11 @@
                       <Anchor>a1b75aebba6aa314751706cc970f3cb8f</Anchor>
                      </Node>
                      <Node>
+                      <Name>m_ressources</Name>
+                      <Path>d8/dcf/classsgl_1_1Scene.html</Path>
+                      <Anchor>a3f49efbbdf4274e8ca00fa0133eacbef</Anchor>
+                     </Node>
+                     <Node>
                       <Name>m_sceneManager</Name>
                       <Path>d8/dcf/classsgl_1_1Scene.html</Path>
                       <Anchor>a19c7ee884fa72d1d83ea5ced893aebfc</Anchor>
@@ -4601,6 +4707,11 @@
                       <Name>current</Name>
                       <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
                       <Anchor>af3be24a7cc965f58ab3409fd92e65f26</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>forAll</Name>
+                      <Path>de/dd2/classsgl_1_1SceneManager.html</Path>
+                      <Anchor>a7509ae4e955cba7dbba9de431205418c</Anchor>
                      </Node>
                      <Node>
                       <Name>init</Name>
@@ -4882,143 +4993,6 @@
                 <Path>dir_a8ded999eb2997d5041bf5add73626b0.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>Triggers</Name>
-                  <Path>dir_468cd0cd3dcd73acf7efc02cb2d595d1.html</Path>
-                <Subnodes>
-                   <Node>
-                    <Name>Manager.hpp</Name>
-                    <Path>de/d53/Triggers_2Manager_8hpp.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>sgl::GameObjects::TriggerManager</Name>
-                      <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>Visitor_t</Name>
-                        <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                        <Anchor>a65a73d5dfcce1063dc7c5840873ac8e9</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>addVisitor</Name>
-                        <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                        <Anchor>a93e3aaf3d5faa8e57b2317ca2721d394</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>update</Name>
-                        <Path>dc/d09/classsgl_1_1GameObjects_1_1TriggerManager.html</Path>
-                        <Anchor>ad58ea0ebb9d7a16a037b0ba29fb3b278</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>Trigger.hpp</Name>
-                    <Path>d2/d29/Trigger_8hpp.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>sgl::GameObjects::Trigger</Name>
-                      <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>Callback_t</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>aac8fdf213aebd24c6222a3fcd4c094ab</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>Trigger</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>a912e4ccc8e91f0f3b52b33749f8fd140</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>~Trigger</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>a595af1790b4fc6f52aae902603148fd2</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>as</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>aab8df942213e9c2ad078b1cf85ed34b3</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>getRepetitions</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>afd9240c9c6dbf1ffb76b9bddead8e947</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>getTriggerType</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>a449b91d28b5b0f98f47c84a7531557cd</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>operator()</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>a68f3b8b8fe7f81636196f3df6f6d261c</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>m_action</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>ad4d5fd62547fbb98f559dd462f19a0be</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>m_active</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>a242ffdf49c6a03481e22bc0be84fc220</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>m_repetitions</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>ad0509dd6314f04fa5be391a2ec0b1e4b</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>m_triggerType</Name>
-                        <Path>d9/d1c/classsgl_1_1GameObjects_1_1Trigger.html</Path>
-                        <Anchor>a7caa82ece6309b6f94b7f40e8c2f1682</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>Update.hpp</Name>
-                    <Path>d0/d93/Update_8hpp.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>sgl::GameObjects::UpdateTrigger</Name>
-                      <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>UpdateTrigger</Name>
-                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                        <Anchor>aebc47654f7687ee78a11c512c388808a</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>~UpdateTrigger</Name>
-                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                        <Anchor>a20e3f836007c56732c8c00650bc26a44</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>update</Name>
-                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                        <Anchor>ad70a9e19677c4692d5c663cc30137143</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>m_currentTime</Name>
-                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                        <Anchor>ae5df86bc9ab669e0d96afb6344c17f72</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>m_updateDelta</Name>
-                        <Path>dc/d9f/classsgl_1_1GameObjects_1_1UpdateTrigger.html</Path>
-                        <Anchor>aed858ffd6794bbc9a4c6640fd04f49d8</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
                   <Name>Actor.hpp</Name>
                   <Path>d3/d1b/Actor_8hpp.html</Path>
                 <Subnodes>
@@ -5052,93 +5026,6 @@
                       <Anchor>aa2de35db85de3f7b9b230ae33d634d17</Anchor>
                      </Node>
                     </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>Manager.hpp</Name>
-                  <Path>d9/d54/Manager_8hpp.html</Path>
-                <Subnodes>
-                   <Node>
-                    <Name>sgl::GameObjects::Manager&lt; T &gt;</Name>
-                    <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>Manager</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>a6e220e5d42e122835dc1c0f3351eaf81</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Manager</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>a477e741eea6578c7ef2a9d1f743bdb27</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>add</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>ad92c56776b1fd004774dad5fd6afade8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>a7120bef0b83dec5f9325bb1007e84fd9</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>has</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>a415154b978aa8fdd3586d910eb848886</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>operator=</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>a47e772a2fbf73eff1b90aaeb3aca9518</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>operator[]</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>ac61a006e75081a642e19006d403e26d3</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>m_container</Name>
-                      <Path>de/dbb/classsgl_1_1GameObjects_1_1Manager.html</Path>
-                      <Anchor>a3539ddfc95f9de769c21ee9405d55a17</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>FontManager</Name>
-                    <Path>d9/d54/Manager_8hpp.html</Path>
-                    <Anchor>a938c7ab0ebc6891ce7eacc53db8bacf4</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ImageManager</Name>
-                    <Path>d9/d54/Manager_8hpp.html</Path>
-                    <Anchor>a947b04a372d4a411f18b458c6ee6682b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ShaderManager</Name>
-                    <Path>d9/d54/Manager_8hpp.html</Path>
-                    <Anchor>ac7daf524e8d7e51bd2bf1e5f41510cb8</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ShapeManager</Name>
-                    <Path>d9/d54/Manager_8hpp.html</Path>
-                    <Anchor>ad7c319c3f43f93f13b9a0346058ad90e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SpriteManager</Name>
-                    <Path>d9/d54/Manager_8hpp.html</Path>
-                    <Anchor>aaa0d065ffddb5c859d950cb0ffcddf54</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>TextManager</Name>
-                    <Path>d9/d54/Manager_8hpp.html</Path>
-                    <Anchor>aa453e23e948af9782e6f321ed332472b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>TextureManager</Name>
-                    <Path>d9/d54/Manager_8hpp.html</Path>
-                    <Anchor>ae487be50d6900a987b875c16f75ffdbe</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -5399,6 +5286,11 @@
                       <Anchor>a2e7917dc928d6ed4dc85b81c5d05efda</Anchor>
                      </Node>
                      <Node>
+                      <Name>m_spriteSheet</Name>
+                      <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
+                      <Anchor>ada6805252cc8641e55ad601070c3cc3b</Anchor>
+                     </Node>
+                     <Node>
                       <Name>m_textureID</Name>
                       <Path>d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html</Path>
                       <Anchor>a371649d8fa6389caff321fc37487df4b</Anchor>
@@ -5499,6 +5391,48 @@
                       <Name>m_transform</Name>
                       <Path>dc/dee/classsgl_1_1Graphics_1_1Node.html</Path>
                       <Anchor>af183cc79bdd4384bfa61772ea931f669</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Sprite.hpp</Name>
+                  <Path>da/da5/Sprite_8hpp.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>sgl::Graphics::Sprite</Name>
+                    <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>Sprite</Name>
+                      <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                      <Anchor>a4babd6ece1d7458eaa2482152f1f6c1f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Sprite</Name>
+                      <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                      <Anchor>a48005a868ec210fc67a3c6471560ee58</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Sprite</Name>
+                      <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                      <Anchor>a4337db5d33cb509fd62363884c6be529</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>onRender</Name>
+                      <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                      <Anchor>aa4e0c9c17d4ae4a4b318cbaf36d7598b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setTexture</Name>
+                      <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                      <Anchor>a378de768f5cb034b2f03a5b150c275b5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>m_sprite</Name>
+                      <Path>d1/dbf/classsgl_1_1Graphics_1_1Sprite.html</Path>
+                      <Anchor>a723bcee2f7345fca6b0163b09b9fc786</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -6462,6 +6396,10 @@
                 <Path>d2/db6/Application_8cpp.html</Path>
                </Node>
                <Node>
+                <Name>Ressource.cpp</Name>
+                <Path>dc/dc0/Ressource_8cpp.html</Path>
+               </Node>
+               <Node>
                 <Name>Scene.cpp</Name>
                 <Path>de/d15/Scene_8cpp.html</Path>
                </Node>
@@ -6475,24 +6413,6 @@
               <Name>GameObjects</Name>
               <Path>dir_c1636cf3a5cdf19b8523f29150fc01fd.html</Path>
             <Subnodes>
-               <Node>
-                <Name>Triggers</Name>
-                <Path>dir_d8a9be83cbe474e235b28054b8485f67.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Manager.cpp</Name>
-                  <Path>df/de9/Manager_8cpp.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>Trigger.cpp</Name>
-                  <Path>db/d9a/Trigger_8cpp.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>Update.cpp</Name>
-                  <Path>de/d65/Update_8cpp.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
                <Node>
                 <Name>Actor.cpp</Name>
                 <Path>d4/d34/Actor_8cpp.html</Path>
@@ -6510,6 +6430,10 @@
                <Node>
                 <Name>Node.cpp</Name>
                 <Path>dc/d73/Node_8cpp.html</Path>
+               </Node>
+               <Node>
+                <Name>Sprite.cpp</Name>
+                <Path>d0/dff/Sprite_8cpp.html</Path>
                </Node>
                <Node>
                 <Name>Tilemap.cpp</Name>

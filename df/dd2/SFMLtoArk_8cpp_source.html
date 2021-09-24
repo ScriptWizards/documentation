@@ -83,45 +83,45 @@ $(document).ready(function(){initNavTree('df/dd2/SFMLtoArk_8cpp_source.html','..
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keywordflow">switch</span> (event.type)</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keywordflow">case</span> sf::Event::TextEntered:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a8ed4d3c0783d6f909907e1592ffe47ac">sfEventType::TextEntered</a>)));</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>            <span class="comment">// TODO</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            <span class="comment">// e.push_back(sf::Utf&lt;8&gt;::decode&lt;std::string&gt;(event.text.unicode));</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>            <span class="keywordflow">case</span> sf::Event::TextEntered:</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a8ed4d3c0783d6f909907e1592ffe47ac">sfEventType::TextEntered</a>)));</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>                <span class="comment">// TODO</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>                <span class="comment">// e.push_back(sf::Utf&lt;8&gt;::decode&lt;std::string&gt;(event.text.unicode));</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keywordflow">case</span> sf::Event::KeyPressed:</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3ac17e6984c1e5a887a49831beadee6bca">sfEventType::KeyPressed</a>)));</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            e.push_back(Ark::Value(event.key.code));</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            <span class="keywordflow">case</span> sf::Event::KeyPressed:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3ac17e6984c1e5a887a49831beadee6bca">sfEventType::KeyPressed</a>)));</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                e.push_back(Ark::Value(event.key.code));</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">case</span> sf::Event::KeyReleased:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a4a77f07c8ad223b71ab4ce78a63841ab">sfEventType::KeyReleased</a>)));</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            e.push_back(Ark::Value(event.key.code));</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="keywordflow">case</span> sf::Event::KeyReleased:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a4a77f07c8ad223b71ab4ce78a63841ab">sfEventType::KeyReleased</a>)));</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                e.push_back(Ark::Value(event.key.code));</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">case</span> sf::Event::MouseWheelScrolled:</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a9787e93d7821ce61637e6f9f19ef955b">sfEventType::MouseWheelScrolled</a>)));</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            e.push_back(Ark::Value(event.mouseWheelScroll.delta));</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            e.push_back(Ark::Value(event.mouseWheelScroll.x));</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            e.push_back(Ark::Value(event.mouseWheelScroll.y));</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <span class="keywordflow">case</span> sf::Event::MouseWheelScrolled:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a9787e93d7821ce61637e6f9f19ef955b">sfEventType::MouseWheelScrolled</a>)));</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                e.push_back(Ark::Value(event.mouseWheelScroll.delta));</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                e.push_back(Ark::Value(event.mouseWheelScroll.x));</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                e.push_back(Ark::Value(event.mouseWheelScroll.y));</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">case</span> sf::Event::MouseButtonPressed:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a7349f643d689997b7c54bf93e4095f5c">sfEventType::MouseButtonPressed</a>)));</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(event.mouseButton.button)));</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            e.push_back(Ark::Value(event.mouseButton.x));</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            e.push_back(Ark::Value(event.mouseButton.y));</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keywordflow">case</span> sf::Event::MouseButtonPressed:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a7349f643d689997b7c54bf93e4095f5c">sfEventType::MouseButtonPressed</a>)));</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(event.mouseButton.button)));</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                e.push_back(Ark::Value(event.mouseButton.x));</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                e.push_back(Ark::Value(event.mouseButton.y));</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">case</span> sf::Event::MouseButtonReleased:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a7584c169de594c27f00084b93186fd7c">sfEventType::MouseButtonReleased</a>)));</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(event.mouseButton.button)));</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            e.push_back(Ark::Value(event.mouseButton.x));</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            e.push_back(Ark::Value(event.mouseButton.y));</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordflow">case</span> sf::Event::MouseButtonReleased:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="../../dc/d51/namespacesgl_1_1Scripting.html#af4cc81ae2ba6501af4c3ee4acd0990a3a7584c169de594c27f00084b93186fd7c">sfEventType::MouseButtonReleased</a>)));</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                e.push_back(Ark::Value(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(event.mouseButton.button)));</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                e.push_back(Ark::Value(event.mouseButton.x));</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                e.push_back(Ark::Value(event.mouseButton.y));</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        }</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">return</span> e;</div>
@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('df/dd2/SFMLtoArk_8cpp_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="../../dir_026e206e8da2982416d6f86d6ddf0934.html">Scripting</a></li><li class="navelem"><a class="el" href="../../df/dd2/SFMLtoArk_8cpp.html">SFMLtoArk.cpp</a></li>
-    <li class="footer">Generated on Wed Sep 15 2021 16:32:21 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Sep 24 2021 15:00:10 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

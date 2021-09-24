@@ -1,5 +1,6 @@
 <map id="sgl::Scene" name="sgl::Scene">
-<area shape="rect" id="node3" href="$dc/d24/classsgl_1_1Scenes_1_1ArkScene.html" title="Define a scene scriptable through ArkScript. " alt="" coords="5,155,161,181"/>
-<area shape="rect" id="node4" href="$d7/d29/classsgl_1_1Scenes_1_1Zone.html" title="A scene handling zones and transitions on a tilemap. " alt="" coords="185,155,312,181"/>
-<area shape="rect" id="node2" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="97,5,235,32"/>
+<area shape="rect" id="node1" title="Base class which every user scene must derive from." alt="" coords="124,80,208,107"/>
+<area shape="rect" id="node3" href="$dc/d24/classsgl_1_1Scenes_1_1ArkScene.html" title="Define a scene scriptable through ArkScript." alt="" coords="5,155,161,181"/>
+<area shape="rect" id="node4" href="$d7/d29/classsgl_1_1Scenes_1_1Zone.html" title="A scene handling zones and transitions on a tilemap." alt="" coords="185,155,312,181"/>
+<area shape="rect" id="node2" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node." alt="" coords="97,5,235,32"/>
 </map>

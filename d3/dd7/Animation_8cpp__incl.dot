@@ -35,23 +35,4 @@ digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibra
   Node15 [label="sstream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node16 [label="fstream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node17 [label="Small/GameObjects/Manager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d54/Manager_8hpp.html",tooltip="Providing a basic ressource management throughout the lifetime of the program."];
-  Node17 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node17 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node18 [label="Manager.inl",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node19 [label="SFML/Graphics/Font.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node17 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node20 [label="SFML/Graphics/Image.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node17 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node21 [label="SFML/Graphics/Shader.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node17 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node22 [label="SFML/Graphics/Shape.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node17 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node23 [label="SFML/Graphics/Sprite.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node17 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node17 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node24 [label="SFML/Graphics/Text.hpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

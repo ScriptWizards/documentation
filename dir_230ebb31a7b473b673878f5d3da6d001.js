@@ -8,6 +8,9 @@ var dir_230ebb31a7b473b673878f5d3da6d001 =
     [ "Node.hpp", "d7/dc6/Node_8hpp.html", [
       [ "sgl::Graphics::Node", "dc/dee/classsgl_1_1Graphics_1_1Node.html", "dc/dee/classsgl_1_1Graphics_1_1Node" ]
     ] ],
+    [ "Sprite.hpp", "da/da5/Sprite_8hpp.html", [
+      [ "sgl::Graphics::Sprite", "d1/dbf/classsgl_1_1Graphics_1_1Sprite.html", "d1/dbf/classsgl_1_1Graphics_1_1Sprite" ]
+    ] ],
     [ "Tilemap.hpp", "de/d4d/Tilemap_8hpp.html", [
       [ "sgl::Graphics::Tilemap", "dc/d99/classsgl_1_1Graphics_1_1Tilemap.html", "dc/d99/classsgl_1_1Graphics_1_1Tilemap" ]
     ] ],

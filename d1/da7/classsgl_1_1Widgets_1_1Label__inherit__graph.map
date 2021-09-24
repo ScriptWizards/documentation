@@ -1,4 +1,5 @@
 <map id="sgl::Widgets::Label" name="sgl::Widgets::Label">
-<area shape="rect" id="node2" href="$d3/dd0/classsgl_1_1Widgets_1_1Base.html" title="Base class for all widgets. " alt="" coords="7,80,141,107"/>
-<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node1" title="Basic label widget, doesn&#39;t listen to events by default." alt="" coords="7,155,141,181"/>
+<area shape="rect" id="node2" href="$d3/dd0/classsgl_1_1Widgets_1_1Base.html" title="Base class for all widgets." alt="" coords="7,80,141,107"/>
+<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node." alt="" coords="5,5,143,32"/>
 </map>

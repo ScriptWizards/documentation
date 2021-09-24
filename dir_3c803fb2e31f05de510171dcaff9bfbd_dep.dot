@@ -9,7 +9,8 @@ digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibra
   dir_ea5275f19dd98e4e16b487795f40b2ea [shape=box label="Debug" URL="dir_ea5275f19dd98e4e16b487795f40b2ea.html"];
   dir_3c803fb2e31f05de510171dcaff9bfbd [shape=box, label="Core", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3c803fb2e31f05de510171dcaff9bfbd.html"];
   }
-  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000007.html"];
-  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_8fb71a89305e8bb79c0790ded867372f [headlabel="4", labeldistance=1.5 headhref="dir_000003_000009.html"];
+  dir_230ebb31a7b473b673878f5d3da6d001->dir_3c803fb2e31f05de510171dcaff9bfbd [headlabel="1", labeldistance=1.5 headhref="dir_000006_000003.html"];
+  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000006.html"];
+  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_8fb71a89305e8bb79c0790ded867372f [headlabel="4", labeldistance=1.5 headhref="dir_000003_000008.html"];
   dir_3c803fb2e31f05de510171dcaff9bfbd->dir_ea5275f19dd98e4e16b487795f40b2ea [headlabel="1", labeldistance=1.5 headhref="dir_000003_000004.html"];
 }

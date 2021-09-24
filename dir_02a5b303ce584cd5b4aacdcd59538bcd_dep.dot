@@ -9,9 +9,10 @@ digraph "C:/Users/folae/Documents/Code/Big-Projects/ScriptWizards/SmallGameLibra
   dir_8fb71a89305e8bb79c0790ded867372f [shape=box label="Scripting" URL="dir_8fb71a89305e8bb79c0790ded867372f.html"];
   dir_02a5b303ce584cd5b4aacdcd59538bcd [shape=box, label="Scenes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_02a5b303ce584cd5b4aacdcd59538bcd.html"];
   }
-  dir_02a5b303ce584cd5b4aacdcd59538bcd->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000008_000007.html"];
-  dir_02a5b303ce584cd5b4aacdcd59538bcd->dir_3c803fb2e31f05de510171dcaff9bfbd [headlabel="2", labeldistance=1.5 headhref="dir_000008_000003.html"];
-  dir_02a5b303ce584cd5b4aacdcd59538bcd->dir_8fb71a89305e8bb79c0790ded867372f [headlabel="1", labeldistance=1.5 headhref="dir_000008_000009.html"];
-  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000007.html"];
-  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_8fb71a89305e8bb79c0790ded867372f [headlabel="4", labeldistance=1.5 headhref="dir_000003_000009.html"];
+  dir_02a5b303ce584cd5b4aacdcd59538bcd->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000006.html"];
+  dir_02a5b303ce584cd5b4aacdcd59538bcd->dir_3c803fb2e31f05de510171dcaff9bfbd [headlabel="2", labeldistance=1.5 headhref="dir_000007_000003.html"];
+  dir_02a5b303ce584cd5b4aacdcd59538bcd->dir_8fb71a89305e8bb79c0790ded867372f [headlabel="1", labeldistance=1.5 headhref="dir_000007_000008.html"];
+  dir_230ebb31a7b473b673878f5d3da6d001->dir_3c803fb2e31f05de510171dcaff9bfbd [headlabel="1", labeldistance=1.5 headhref="dir_000006_000003.html"];
+  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_230ebb31a7b473b673878f5d3da6d001 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000006.html"];
+  dir_3c803fb2e31f05de510171dcaff9bfbd->dir_8fb71a89305e8bb79c0790ded867372f [headlabel="4", labeldistance=1.5 headhref="dir_000003_000008.html"];
 }

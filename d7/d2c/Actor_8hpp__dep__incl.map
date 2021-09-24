@@ -1,4 +1,6 @@
-<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp">
-<area shape="rect" id="node2" href="$d2/da1/GameObjects_8hpp.html" title="Include all the files from the GameObjects folder. " alt="" coords="17,139,196,224"/>
-<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="17,272,196,357"/>
+<map id="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp" name="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp">
+<area shape="rect" id="node1" title="Defines an actor class for your game, to represent a player or NPC for example." alt="" coords="157,5,374,76"/>
+<area shape="rect" id="node2" href="$d2/da1/GameObjects_8hpp.html" title="Include all the files from the GameObjects folder." alt="" coords="26,124,243,195"/>
+<area shape="rect" id="node4" href="$d4/d34/Actor_8cpp.html" title=" " alt="" coords="267,124,527,195"/>
+<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library." alt="" coords="5,243,264,299"/>
 </map>

@@ -9,4 +9,6 @@ digraph "sgl::Scene"
   Node2 [label="sgl::Graphics::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dee/classsgl_1_1Graphics_1_1Node.html",tooltip="Abstract base class for a scene graph node."];
   Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_sceneManager" ,fontname="Helvetica"];
   Node3 [label="sgl::SceneManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd2/classsgl_1_1SceneManager.html",tooltip="Scene manager, in charge of creating, handling and destroying scenes."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ressources" ,fontname="Helvetica"];
+  Node4 [label="sgl::RessourceManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2e/classsgl_1_1RessourceManager.html",tooltip="Holds and loads ressources automatically."];
 }

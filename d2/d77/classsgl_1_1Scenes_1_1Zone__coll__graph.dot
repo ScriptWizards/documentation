@@ -11,6 +11,8 @@ digraph "sgl::Scenes::Zone"
   Node3 [label="sgl::Graphics::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dee/classsgl_1_1Graphics_1_1Node.html",tooltip="Abstract base class for a scene graph node."];
   Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_sceneManager" ,fontname="Helvetica"];
   Node4 [label="sgl::SceneManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd2/classsgl_1_1SceneManager.html",tooltip="Scene manager, in charge of creating, handling and destroying scenes."];
-  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_view" ,fontname="Helvetica"];
-  Node5 [label="sgl::Graphics::TileView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2a/classsgl_1_1Graphics_1_1TileView.html",tooltip="Wrapper around sf::View to manipule views using tiles coordinates."];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ressources" ,fontname="Helvetica"];
+  Node5 [label="sgl::RessourceManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2e/classsgl_1_1RessourceManager.html",tooltip="Holds and loads ressources automatically."];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_view" ,fontname="Helvetica"];
+  Node6 [label="sgl::Graphics::TileView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2a/classsgl_1_1Graphics_1_1TileView.html",tooltip="Wrapper around sf::View to manipule views using tiles coordinates."];
 }

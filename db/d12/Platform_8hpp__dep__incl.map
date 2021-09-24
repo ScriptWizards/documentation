@@ -1,5 +1,7 @@
-<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/System/Platform.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/System/Platform.hpp">
-<area shape="rect" id="node2" href="$d4/da5/SharedLibrary_8hpp.html" title="Utility to easily load shared libraries and retrieve their functions. " alt="" coords="5,139,223,224"/>
-<area shape="rect" id="node3" href="$d4/d25/System_8hpp.html" title="Include all the files from the System folder. " alt="" coords="98,272,277,357"/>
-<area shape="rect" id="node4" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library. " alt="" coords="98,405,277,491"/>
+<map id="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/System/Platform.hpp" name="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/System/Platform.hpp">
+<area shape="rect" id="node1" title="Defines to identify the running operating system." alt="" coords="99,5,317,76"/>
+<area shape="rect" id="node2" href="$d4/d25/System_8hpp.html" title="Include all the files from the System folder." alt="" coords="26,243,243,313"/>
+<area shape="rect" id="node4" href="$d4/da5/SharedLibrary_8hpp.html" title="Utility to easily load shared libraries and retrieve their functions." alt="" coords="173,124,390,195"/>
+<area shape="rect" id="node3" href="$da/d41/All_8hpp.html" title="Include the needed files to start a project using the library." alt="" coords="5,361,264,417"/>
+<area shape="rect" id="node5" href="$da/d0b/SharedLibrary_8cpp.html" title=" " alt="" coords="267,243,493,313"/>
 </map>

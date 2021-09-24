@@ -1,9 +1,8 @@
 <map id="sgl::Scenes::Zone" name="sgl::Scenes::Zone">
-<area shape="rect" id="node2" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from. " alt="" coords="1190,92,1274,119"/>
-<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node. " alt="" coords="859,135,996,161"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="161,164,275,191"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="149,250,287,291"/>
-<area shape="rect" id="node13" title="STL class. " alt="" coords="313,105,452,132"/>
-<area shape="rect" id="node7" href="$de/dd2/classsgl_1_1SceneManager.html" title="Scene manager, in charge of creating, handling and destroying scenes. " alt="" coords="2064,165,2199,192"/>
-<area shape="rect" id="node14" href="$d2/d2a/classsgl_1_1Graphics_1_1TileView.html" title="Wrapper around sf::View to manipule views using tiles coordinates. " alt="" coords="1155,157,1309,184"/>
+<area shape="rect" id="node1" title="A scene handling zones and transitions on a tilemap." alt="" coords="243,184,369,211"/>
+<area shape="rect" id="node2" href="$d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from." alt="" coords="192,95,276,121"/>
+<area shape="rect" id="node3" href="$dc/dee/classsgl_1_1Graphics_1_1Node.html" title="Abstract base class for a scene graph node." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node4" href="$de/dd2/classsgl_1_1SceneManager.html" title="Scene manager, in charge of creating, handling and destroying scenes." alt="" coords="167,5,301,32"/>
+<area shape="rect" id="node5" href="$df/d2e/classsgl_1_1RessourceManager.html" title="Holds and loads ressources automatically." alt="" coords="325,5,484,32"/>
+<area shape="rect" id="node6" href="$d2/d2a/classsgl_1_1Graphics_1_1TileView.html" title="Wrapper around sf::View to manipule views using tiles coordinates." alt="" coords="301,95,455,121"/>
 </map>

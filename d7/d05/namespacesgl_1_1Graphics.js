@@ -4,6 +4,7 @@ var namespacesgl_1_1Graphics =
     [ "Animation", "d0/db1/classsgl_1_1Graphics_1_1Animation.html", "d0/db1/classsgl_1_1Graphics_1_1Animation" ],
     [ "AnimationLoader", "d0/d12/classsgl_1_1Graphics_1_1AnimationLoader.html", "d0/d12/classsgl_1_1Graphics_1_1AnimationLoader" ],
     [ "Node", "dc/dee/classsgl_1_1Graphics_1_1Node.html", "dc/dee/classsgl_1_1Graphics_1_1Node" ],
+    [ "Sprite", "d1/dbf/classsgl_1_1Graphics_1_1Sprite.html", "d1/dbf/classsgl_1_1Graphics_1_1Sprite" ],
     [ "Tilemap", "dc/d99/classsgl_1_1Graphics_1_1Tilemap.html", "dc/d99/classsgl_1_1Graphics_1_1Tilemap" ],
     [ "TileView", "d2/d2a/classsgl_1_1Graphics_1_1TileView.html", "d2/d2a/classsgl_1_1Graphics_1_1TileView" ]
 ];

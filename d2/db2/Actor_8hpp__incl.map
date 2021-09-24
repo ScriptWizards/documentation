@@ -1,3 +1,11 @@
-<map id="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp" name="C:/Users/Folaefolc/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp">
-<area shape="rect" id="node6" href="$d7/dc6/Node_8hpp.html" title="A scene graph node. " alt="" coords="536,139,707,165"/>
+<map id="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp" name="C:/Users/folae/Documents/Code/Big&#45;Projects/ScriptWizards/SmallGameLibrary/include/Small/GameObjects/Actor.hpp">
+<area shape="rect" id="node1" title="Defines an actor class for your game, to represent a player or NPC for example." alt="" coords="289,5,506,76"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,124,168,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="192,124,360,151"/>
+<area shape="rect" id="node4" title=" " alt="" coords="115,199,314,225"/>
+<area shape="rect" id="node5" title=" " alt="" coords="339,199,557,225"/>
+<area shape="rect" id="node6" href="$d7/dc6/Node_8hpp.html" title="A scene graph node." alt="" coords="536,124,707,151"/>
+<area shape="rect" id="node7" title=" " alt="" coords="582,199,762,225"/>
+<area shape="rect" id="node8" title=" " alt="" coords="787,199,843,225"/>
+<area shape="rect" id="node9" title=" " alt="" coords="867,199,936,225"/>
 </map>

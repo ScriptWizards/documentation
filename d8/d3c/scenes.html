@@ -73,7 +73,7 @@ $(document).ready(function(){initNavTree('d8/d3c/scenes.html','../../'); initRes
   <div class="headertitle"><div class="title">Essentials about scenes </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md6"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md8"></a>
 Squeleton</h1>
 <p >User scenes must inherit from <code><a class="el" href="../../d8/dcf/classsgl_1_1Scene.html" title="Base class which every user scene must derive from.">sgl::Scene</a></code>, as in the following example:</p>
 <div class="fragment"><div class="line"><span class="keyword">class </span>MyScene : <span class="keyword">public</span> <a class="code hl_class" href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div>
@@ -93,12 +93,16 @@ Squeleton</h1>
 <div class="line"> </div>
 <div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/dcf/classsgl_1_1Scene.html#aea0fedcf7402d5f4fd5f19c3256c1810">onQuit</a>()</div>
 <div class="line">    {}</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/dcf/classsgl_1_1Scene.html#aef0add76313de433921d0d66bbc0314e">onChange</a>(<span class="keywordtype">void</span>* data)</div>
+<div class="line">    {}</div>
 <div class="line">};</div>
-<div class="ttc" id="aclasssgl_1_1Scene_html"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div><div class="ttdoc">Base class which every user scene must derive from.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00041">Scene.hpp:42</a></div></div>
+<div class="ttc" id="aclasssgl_1_1Scene_html"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html">sgl::Scene</a></div><div class="ttdoc">Base class which every user scene must derive from.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de8/Scene_8hpp_source.html#l00042">Scene.hpp:43</a></div></div>
 <div class="ttc" id="aclasssgl_1_1Scene_html_a2b83715a5365a8edcdcd549db27e471f"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a2b83715a5365a8edcdcd549db27e471f">sgl::Scene::onEvent</a></div><div class="ttdeci">virtual void onEvent(const sf::Event &amp;event)</div><div class="ttdoc">Event handling method.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Scene_8cpp_source.html#l00017">Scene.cpp:17</a></div></div>
 <div class="ttc" id="aclasssgl_1_1Scene_html_a3c2b40ec2128a8cc9d6af6aab2fdf905"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#a3c2b40ec2128a8cc9d6af6aab2fdf905">sgl::Scene::onUpdate</a></div><div class="ttdeci">virtual void onUpdate(const sf::Time dt)</div><div class="ttdoc">Scene updating method, called after having handled the events.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Scene_8cpp_source.html#l00020">Scene.cpp:20</a></div></div>
 <div class="ttc" id="aclasssgl_1_1Scene_html_aa6e0452c8c89b4f6349810c2d1acdd89"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#aa6e0452c8c89b4f6349810c2d1acdd89">sgl::Scene::onRender</a></div><div class="ttdeci">virtual void onRender(sf::RenderTarget &amp;screen, const sf::Transform &amp;transform)</div><div class="ttdoc">Rendering method, called after having updated the scene.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Scene_8cpp_source.html#l00023">Scene.cpp:23</a></div></div>
 <div class="ttc" id="aclasssgl_1_1Scene_html_aea0fedcf7402d5f4fd5f19c3256c1810"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#aea0fedcf7402d5f4fd5f19c3256c1810">sgl::Scene::onQuit</a></div><div class="ttdeci">virtual void onQuit()</div><div class="ttdoc">Method called when the application is closing.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Scene_8cpp_source.html#l00026">Scene.cpp:26</a></div></div>
+<div class="ttc" id="aclasssgl_1_1Scene_html_aef0add76313de433921d0d66bbc0314e"><div class="ttname"><a href="../../d8/dcf/classsgl_1_1Scene.html#aef0add76313de433921d0d66bbc0314e">sgl::Scene::onChange</a></div><div class="ttdeci">virtual void onChange(void *data)</div><div class="ttdoc">Method called when the scene manager changes the current scene.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Scene_8cpp_source.html#l00029">Scene.cpp:29</a></div></div>
 <div class="ttc" id="anamespacesgl_html"><div class="ttname"><a href="../../d5/d52/namespacesgl.html">sgl</a></div><div class="ttdoc">Base namespace for the library.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d41/All_8hpp_source.html#l00019">All.hpp:20</a></div></div>
 </div><!-- fragment --><p >The methods <code>onXXX</code> can be not implemented, by default they won't do anything.</p>
 <p >The call order is:</p><ul>
@@ -107,16 +111,17 @@ Squeleton</h1>
 <li>onEvent</li>
 <li>onUpdate</li>
 <li>onRender</li>
+<li>if the current scene is changed: onChange</li>
 </ul>
 </li>
 <li>onQuit</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 Scene states</h1>
 <p >Each scene has a <code>State</code> handled by the <code>SceneManager</code>, default state is <code>Stopped</code> (not rendered, not updated).</p>
-<p >Only one scene at a time can be in <code>Running</code> state, it will be the first one to be rendered and updated, then the <code>Idle</code> scenes will be rendered and updated. This is useful to implement a widgets layer for example. <br  />
+<p >Only one scene at a time can be in <code>Running</code> state, it will be the only one to be rendered and updated ; if the current scene is <code>Idle</code>, it will only be rendered and updated, but won't handle events. This is useful to implement cutscenes. <br  />
  Scenes can be manually stopped (if you don't want to run your inventory and your fighting system at the same time, since both will receive events).</p>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 Multiple instances of the same scene class</h1>
 <p >We add and create a new scene to an application by using <code>app.add&lt;Scene&gt;(args)</code>, and set it as the current one by using <code>app.setCurrentScene&lt;MyScene&gt;()</code>. This means that if we want to use the same scene multiple times with different parameters, for example a <code>Level</code> scene, we wouldn't be able to have more than a single level registered at a time since they are selected by the class name and not by their scene id. Thus we can use a workaround with templated classes:</p>
 <div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> T, <span class="keywordtype">int</span> N&gt;</div>
@@ -150,6 +155,24 @@ Multiple instances of the same scene class</h1>
 <div class="line">}</div>
 <div class="ttc" id="aclasssgl_1_1Application_html"><div class="ttname"><a href="../../dc/d79/classsgl_1_1Application.html">sgl::Application</a></div><div class="ttdoc">The main component of the library, handling the scenes and running the app.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3c/Application_8hpp_source.html#l00087">Application.hpp:88</a></div></div>
 <div class="ttc" id="astructsgl_1_1Settings_html"><div class="ttname"><a href="../../d4/d9f/structsgl_1_1Settings.html">sgl::Settings</a></div><div class="ttdoc">Holding the application settings.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3c/Application_8hpp_source.html#l00047">Application.hpp:48</a></div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md11"></a>
+Using the scene graph</h1>
+<p >Each scene is itself a node (the root one) of the scene graph, thus the rendering can be done automatically for you if you attach all sprites in the right order (nodes are drawn in the order they were attached).</p>
+<p >You can create sprite nodes as follows:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../da/da5/Sprite_8hpp.html">Small/Graphics/Sprite.hpp</a>&gt;</span></div>
+<div class="line"> </div>
+<div class="line">MyScene::MyScene(<span class="keywordtype">int</span> <span class="keywordtype">id</span>) :</div>
+<div class="line">    <a class="code hl_namespace" href="../../d5/d52/namespacesgl.html">sgl</a>::Scene(id)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">auto</span>&amp; ressource = m_ressources.get&lt;<a class="code hl_class" href="../../d4/d7b/classsgl_1_1TextureRessource.html">sgl::TextureRessource</a>&gt;(<span class="stringliteral">&quot;texture.png&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_class" href="../../d1/dbf/classsgl_1_1Graphics_1_1Sprite.html">sgl::Graphics::Sprite</a>* ptr = attach&lt;sgl::Graphics::Sprite&gt;(ressource, <span class="comment">/* optional sf::IntRect */</span> intRectHere);</div>
+<div class="line">    <span class="comment">// store ptr or reuse it</span></div>
+<div class="line">    <span class="comment">// now that the sprite is attached, even if you discard ptr, it will stay alive</span></div>
+<div class="line">}</div>
+<div class="ttc" id="aSprite_8hpp_html"><div class="ttname"><a href="../../da/da5/Sprite_8hpp.html">Sprite.hpp</a></div></div>
+<div class="ttc" id="aclasssgl_1_1Graphics_1_1Sprite_html"><div class="ttname"><a href="../../d1/dbf/classsgl_1_1Graphics_1_1Sprite.html">sgl::Graphics::Sprite</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/da5/Sprite_8hpp_source.html#l00014">Sprite.hpp:15</a></div></div>
+<div class="ttc" id="aclasssgl_1_1TextureRessource_html"><div class="ttname"><a href="../../d4/d7b/classsgl_1_1TextureRessource.html">sgl::TextureRessource</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d73/Ressource_8hpp_source.html#l00036">Ressource.hpp:37</a></div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
@@ -157,7 +180,7 @@ Multiple instances of the same scene class</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/da0/tutorials.html">Tutorials</a></li>
-    <li class="footer">Generated on Wed Sep 15 2021 16:32:22 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Fri Sep 24 2021 15:00:11 for SmallGameLibrary by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
